@@ -1,0 +1,14 @@
+{
+  "authorization": "User-provided course service and existing key",
+  "base_url": "https://soclaas-api.comp.nus.edu.sg/v1",
+  "formal_token_limit": 1000000,
+  "max_tokens": 1200,
+  "model_requested": "qwen3-coder-next",
+  "monetary_budget": 0,
+  "pilot_token_limit": 200000,
+  "selection": "Explicit code-oriented catalogue entry, selected before live inference and held-out evaluation",
+  "service": "SoCLaaS",
+  "temperature": 0,
+  "transport": "SSH loopback forwarding; original hostname retained for TLS SNI and certificate verification",
+  "weight_version_limit": "Service model identifier is recorded; underlying checkpoint immutability is not guaranteed by the client"
+}

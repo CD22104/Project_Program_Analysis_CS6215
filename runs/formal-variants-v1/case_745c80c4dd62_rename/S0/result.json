@@ -1,0 +1,27 @@
+{
+  "base_sample_id": "case_745c80c4dd62",
+  "command": [
+    "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+    "-m",
+    "src.main",
+    "/home/dchen/workplace/CS6215/leakage-project/runs/formal-variants-v1/case_745c80c4dd62_rename/S0/work/input.py"
+  ],
+  "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+  "diagnostics": [],
+  "elapsed_seconds": 3.347697889432311,
+  "errors": [],
+  "family": "F16",
+  "location_available": false,
+  "method": "S0",
+  "partition": "test",
+  "raw_preprocessing_rows": [],
+  "returncode": 0,
+  "sample_id": "case_745c80c4dd62_rename",
+  "scope_projection": "raw upstream; may include test-only effects",
+  "scope_status": "no_finding",
+  "source_kind": "controlled",
+  "source_sha256": "61dcbd521bf90cebc8b6c821a972fe55040adfec2d78a2ea0428503aedd927ae",
+  "status": "no_finding",
+  "train_affecting_projection": [],
+  "variant": "rename"
+}

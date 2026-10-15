@@ -1,0 +1,27 @@
+{
+  "base_sample_id": "case_33f17c1e6015",
+  "command": [
+    "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+    "-m",
+    "src.main",
+    "/home/dchen/workplace/CS6215/leakage-project/runs/formal-variants-v1/case_33f17c1e6015_wrap2/S0/work/input.py"
+  ],
+  "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+  "diagnostics": [],
+  "elapsed_seconds": 3.651730267331004,
+  "errors": [],
+  "family": "F09",
+  "location_available": false,
+  "method": "S0",
+  "partition": "test",
+  "raw_preprocessing_rows": [],
+  "returncode": 0,
+  "sample_id": "case_33f17c1e6015_wrap2",
+  "scope_projection": "raw upstream; may include test-only effects",
+  "scope_status": "no_finding",
+  "source_kind": "controlled",
+  "source_sha256": "d9cdcda818c12c222f8a44b56c0f792adeb3233d8eeb510a45aa15fcdf6cca0c",
+  "status": "no_finding",
+  "train_affecting_projection": [],
+  "variant": "wrap2"
+}

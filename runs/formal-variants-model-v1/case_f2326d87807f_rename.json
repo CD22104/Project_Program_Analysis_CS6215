@@ -1,0 +1,57 @@
+{
+  "cache_hits": {
+    "881f389d9381cb17dd64260137f8d4cc14b856f3ffd3da6ff009ab129f73f047": false,
+    "cecdd49371f74e8eaeb3c52413c9f6a4520158009ebf60acb21986942483a59d": false
+  },
+  "generation_elapsed_seconds": 4.811850752681494,
+  "model": "qwen3-coder-next",
+  "origin": "live_api",
+  "records": {
+    "881f389d9381cb17dd64260137f8d4cc14b856f3ffd3da6ff009ab129f73f047": "42ed0bf8c23710bf0ca7e843836cffddc55c81f2f681d879f3fe1de25049b8d7",
+    "cecdd49371f74e8eaeb3c52413c9f6a4520158009ebf60acb21986942483a59d": "c8ad5ec0c1388009661a7fc9eff0460ff76b1fd9a63e0149293af5737e817606"
+  },
+  "replicate": 0,
+  "source_sha256": "ab72abe70af320463db3ef19cef6d0a858c42f4bfb67f7f024f00399231aec36",
+  "summaries": {
+    "881f389d9381cb17dd64260137f8d4cc14b856f3ffd3da6ff009ab129f73f047": {
+      "candidate_id": "881f389d9381cb17dd64260137f8d4cc14b856f3ffd3da6ff009ab129f73f047",
+      "context": "[, $invo6]",
+      "effects": [
+        {
+          "evidence_line": 4,
+          "input_index": 1,
+          "kind": "fit_state",
+          "output_index": 0,
+          "primitive": "sklearn.preprocessing.scale",
+          "receiver": null,
+          "state_version": null
+        }
+      ],
+      "invocation": "$invo4",
+      "ir_sha256": "3483850130a6397f35e283cc056c792e82248fb1bfc62adb5737ea9d6e762d81",
+      "primitive_spec_sha256": "235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497",
+      "source_sha256": "ab72abe70af320463db3ef19cef6d0a858c42f4bfb67f7f024f00399231aec36",
+      "unresolved": []
+    },
+    "cecdd49371f74e8eaeb3c52413c9f6a4520158009ebf60acb21986942483a59d": {
+      "candidate_id": "cecdd49371f74e8eaeb3c52413c9f6a4520158009ebf60acb21986942483a59d",
+      "context": "[, $invo6]",
+      "effects": [
+        {
+          "evidence_line": 5,
+          "input_index": 1,
+          "kind": "row_preserving",
+          "output_index": 0,
+          "primitive": "sklearn.preprocessing.scale",
+          "receiver": null,
+          "state_version": null
+        }
+      ],
+      "invocation": "$invo5",
+      "ir_sha256": "3483850130a6397f35e283cc056c792e82248fb1bfc62adb5737ea9d6e762d81",
+      "primitive_spec_sha256": "235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497",
+      "source_sha256": "ab72abe70af320463db3ef19cef6d0a858c42f4bfb67f7f024f00399231aec36",
+      "unresolved": []
+    }
+  }
+}

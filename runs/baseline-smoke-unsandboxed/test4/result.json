@@ -1,0 +1,20 @@
+{
+  "command": [
+    "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+    "-m",
+    "src.main",
+    "/home/dchen/workplace/CS6215/leakage-project/runs/baseline-smoke-unsandboxed/test4/work/input.py"
+  ],
+  "config_sha256": "989041c198c4850fad34ae0e776525bd6e53c37963e4e27333ece53b7117601d",
+  "diagnostics": [],
+  "elapsed_seconds": 3.6298841387033463,
+  "errors": [],
+  "location_available": false,
+  "method": "S0",
+  "raw_preprocessing_rows": [],
+  "returncode": 0,
+  "sample_id": "test4",
+  "scope_projection": "raw upstream; may include test-only effects",
+  "source_sha256": "1ad6677bd8e3dfbc1f634218e8a0f6d1e77ae8147ba9f36167f6f50e5b6e7695",
+  "status": "no_finding"
+}

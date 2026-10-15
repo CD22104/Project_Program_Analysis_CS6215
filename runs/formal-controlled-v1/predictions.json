@@ -1,0 +1,1158 @@
+[
+  {
+    "base_sample_id": null,
+    "command": [
+      "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+      "-m",
+      "src.main",
+      "/home/dchen/workplace/CS6215/leakage-project/runs/formal-controlled-v1/case_ed7bb25ecde0/S0/work/input.py"
+    ],
+    "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+    "diagnostics": [],
+    "elapsed_seconds": 3.371583007276058,
+    "errors": [],
+    "family": "F08",
+    "location_available": false,
+    "method": "S0",
+    "partition": "test",
+    "raw_preprocessing_rows": [
+      [
+        "features",
+        "$invo7",
+        "LogisticRegression.fit",
+        "[, ]"
+      ]
+    ],
+    "returncode": 0,
+    "sample_id": "case_ed7bb25ecde0",
+    "scope_projection": "raw upstream; may include test-only effects",
+    "scope_status": "leak",
+    "source_kind": "controlled",
+    "source_sha256": "85839d5b28aa66f93590f41ef9ff655df7afc59f491bce14161ff30c50f765a9",
+    "status": "leak",
+    "train_affecting_projection": [
+      [
+        "model_0",
+        "a",
+        "$invo7",
+        "LogisticRegression.fit",
+        "[, ]",
+        "model_0",
+        "b",
+        "$invo8",
+        "LogisticRegression.predict",
+        "[, ]",
+        "_var5",
+        "features"
+      ]
+    ],
+    "variant": "base"
+  },
+  {
+    "base_sample_id": null,
+    "command": [
+      "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+      "-m",
+      "src.main",
+      "/home/dchen/workplace/CS6215/leakage-project/runs/formal-controlled-v1/case_0b5b895c8fa0/S0/work/input.py"
+    ],
+    "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+    "diagnostics": [],
+    "elapsed_seconds": 3.6053420025855303,
+    "errors": [],
+    "family": "F08",
+    "location_available": false,
+    "method": "S0",
+    "partition": "test",
+    "raw_preprocessing_rows": [],
+    "returncode": 0,
+    "sample_id": "case_0b5b895c8fa0",
+    "scope_projection": "raw upstream; may include test-only effects",
+    "scope_status": "no_finding",
+    "source_kind": "controlled",
+    "source_sha256": "843a387861d9223640f7348132024bde03039eb918644da59632b4e9e4cb1f24",
+    "status": "no_finding",
+    "train_affecting_projection": [],
+    "variant": "base"
+  },
+  {
+    "base_sample_id": null,
+    "command": [
+      "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+      "-m",
+      "src.main",
+      "/home/dchen/workplace/CS6215/leakage-project/runs/formal-controlled-v1/case_445466d5177f/S0/work/input.py"
+    ],
+    "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+    "diagnostics": [],
+    "elapsed_seconds": 3.5442121997475624,
+    "errors": [],
+    "family": "F09",
+    "location_available": false,
+    "method": "S0",
+    "partition": "test",
+    "raw_preprocessing_rows": [
+      [
+        "features",
+        "$invo7",
+        "LogisticRegression.fit",
+        "[, ]"
+      ]
+    ],
+    "returncode": 0,
+    "sample_id": "case_445466d5177f",
+    "scope_projection": "raw upstream; may include test-only effects",
+    "scope_status": "leak",
+    "source_kind": "controlled",
+    "source_sha256": "b341e773a44249c547a44f6b2b07ba895167c2c52f31cb0c37eef23971a3c3c8",
+    "status": "leak",
+    "train_affecting_projection": [
+      [
+        "model_0",
+        "a",
+        "$invo7",
+        "LogisticRegression.fit",
+        "[, ]",
+        "model_0",
+        "b",
+        "$invo8",
+        "LogisticRegression.predict",
+        "[, ]",
+        "_var5",
+        "features"
+      ]
+    ],
+    "variant": "base"
+  },
+  {
+    "base_sample_id": null,
+    "command": [
+      "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+      "-m",
+      "src.main",
+      "/home/dchen/workplace/CS6215/leakage-project/runs/formal-controlled-v1/case_33f17c1e6015/S0/work/input.py"
+    ],
+    "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+    "diagnostics": [],
+    "elapsed_seconds": 3.645355463027954,
+    "errors": [],
+    "family": "F09",
+    "location_available": false,
+    "method": "S0",
+    "partition": "test",
+    "raw_preprocessing_rows": [],
+    "returncode": 0,
+    "sample_id": "case_33f17c1e6015",
+    "scope_projection": "raw upstream; may include test-only effects",
+    "scope_status": "no_finding",
+    "source_kind": "controlled",
+    "source_sha256": "1695dcf18e3df36807efedaf309aaf1fb484e5a688f4988daf8d2a6966f79f6f",
+    "status": "no_finding",
+    "train_affecting_projection": [],
+    "variant": "base"
+  },
+  {
+    "base_sample_id": null,
+    "command": [
+      "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+      "-m",
+      "src.main",
+      "/home/dchen/workplace/CS6215/leakage-project/runs/formal-controlled-v1/case_9c795b58664d/S0/work/input.py"
+    ],
+    "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+    "diagnostics": [],
+    "elapsed_seconds": 3.593602331355214,
+    "errors": [],
+    "family": "F10",
+    "location_available": false,
+    "method": "S0",
+    "partition": "test",
+    "raw_preprocessing_rows": [
+      [
+        "features",
+        "$invo7",
+        "LogisticRegression.fit",
+        "[, ]"
+      ]
+    ],
+    "returncode": 0,
+    "sample_id": "case_9c795b58664d",
+    "scope_projection": "raw upstream; may include test-only effects",
+    "scope_status": "leak",
+    "source_kind": "controlled",
+    "source_sha256": "1f8c8cc0beeccc4ab8f7fbf9fed9fd86b4c4da60452ac1438775475995d5a362",
+    "status": "leak",
+    "train_affecting_projection": [
+      [
+        "model_0",
+        "a",
+        "$invo7",
+        "LogisticRegression.fit",
+        "[, ]",
+        "model_0",
+        "b",
+        "$invo8",
+        "LogisticRegression.predict",
+        "[, ]",
+        "_var5",
+        "features"
+      ]
+    ],
+    "variant": "base"
+  },
+  {
+    "base_sample_id": null,
+    "command": [
+      "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+      "-m",
+      "src.main",
+      "/home/dchen/workplace/CS6215/leakage-project/runs/formal-controlled-v1/case_b03ecac40a6f/S0/work/input.py"
+    ],
+    "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+    "diagnostics": [],
+    "elapsed_seconds": 3.702242325991392,
+    "errors": [],
+    "family": "F10",
+    "location_available": false,
+    "method": "S0",
+    "partition": "test",
+    "raw_preprocessing_rows": [],
+    "returncode": 0,
+    "sample_id": "case_b03ecac40a6f",
+    "scope_projection": "raw upstream; may include test-only effects",
+    "scope_status": "no_finding",
+    "source_kind": "controlled",
+    "source_sha256": "767c51a6a9ab53f2fa4e8a03096ec2575e07888ba99ef1f160e62f946cd77b63",
+    "status": "no_finding",
+    "train_affecting_projection": [],
+    "variant": "base"
+  },
+  {
+    "base_sample_id": null,
+    "command": [
+      "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+      "-m",
+      "src.main",
+      "/home/dchen/workplace/CS6215/leakage-project/runs/formal-controlled-v1/case_a6fcbcdaecb1/S0/work/input.py"
+    ],
+    "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+    "diagnostics": [],
+    "elapsed_seconds": 3.3420889750123024,
+    "errors": [],
+    "family": "F11",
+    "location_available": false,
+    "method": "S0",
+    "partition": "test",
+    "raw_preprocessing_rows": [
+      [
+        "features",
+        "$invo7",
+        "LogisticRegression.fit",
+        "[, ]"
+      ]
+    ],
+    "returncode": 0,
+    "sample_id": "case_a6fcbcdaecb1",
+    "scope_projection": "raw upstream; may include test-only effects",
+    "scope_status": "leak",
+    "source_kind": "controlled",
+    "source_sha256": "c58a4a8040b0a7556f8b98466148faccc3c8527de7eb648fa0a1beeac8cab7e1",
+    "status": "leak",
+    "train_affecting_projection": [
+      [
+        "model_0",
+        "a",
+        "$invo7",
+        "LogisticRegression.fit",
+        "[, ]",
+        "model_0",
+        "b",
+        "$invo8",
+        "LogisticRegression.predict",
+        "[, ]",
+        "_var5",
+        "features"
+      ]
+    ],
+    "variant": "base"
+  },
+  {
+    "base_sample_id": null,
+    "command": [
+      "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+      "-m",
+      "src.main",
+      "/home/dchen/workplace/CS6215/leakage-project/runs/formal-controlled-v1/case_5fb5a96c66c2/S0/work/input.py"
+    ],
+    "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+    "diagnostics": [],
+    "elapsed_seconds": 3.56183803640306,
+    "errors": [],
+    "family": "F11",
+    "location_available": false,
+    "method": "S0",
+    "partition": "test",
+    "raw_preprocessing_rows": [],
+    "returncode": 0,
+    "sample_id": "case_5fb5a96c66c2",
+    "scope_projection": "raw upstream; may include test-only effects",
+    "scope_status": "no_finding",
+    "source_kind": "controlled",
+    "source_sha256": "f1f867f800478efc8102c0370e7d43d92d1a585fc17c5a515461281cb82cc505",
+    "status": "no_finding",
+    "train_affecting_projection": [],
+    "variant": "base"
+  },
+  {
+    "base_sample_id": null,
+    "command": [
+      "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+      "-m",
+      "src.main",
+      "/home/dchen/workplace/CS6215/leakage-project/runs/formal-controlled-v1/case_a9aeb5f966a1/S0/work/input.py"
+    ],
+    "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+    "diagnostics": [],
+    "elapsed_seconds": 3.4870386086404324,
+    "errors": [],
+    "family": "F12",
+    "location_available": false,
+    "method": "S0",
+    "partition": "test",
+    "raw_preprocessing_rows": [
+      [
+        "features",
+        "$invo7",
+        "LogisticRegression.fit",
+        "[, ]"
+      ]
+    ],
+    "returncode": 0,
+    "sample_id": "case_a9aeb5f966a1",
+    "scope_projection": "raw upstream; may include test-only effects",
+    "scope_status": "leak",
+    "source_kind": "controlled",
+    "source_sha256": "1999f592c19347450517b9c4cbcd17dc98108fa1caf1a9b7faf647da1cc3fc11",
+    "status": "leak",
+    "train_affecting_projection": [
+      [
+        "model_0",
+        "a",
+        "$invo7",
+        "LogisticRegression.fit",
+        "[, ]",
+        "model_0",
+        "b",
+        "$invo8",
+        "LogisticRegression.predict",
+        "[, ]",
+        "_var5",
+        "features"
+      ]
+    ],
+    "variant": "base"
+  },
+  {
+    "base_sample_id": null,
+    "command": [
+      "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+      "-m",
+      "src.main",
+      "/home/dchen/workplace/CS6215/leakage-project/runs/formal-controlled-v1/case_64e55c941f68/S0/work/input.py"
+    ],
+    "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+    "diagnostics": [],
+    "elapsed_seconds": 3.5897798910737038,
+    "errors": [],
+    "family": "F12",
+    "location_available": false,
+    "method": "S0",
+    "partition": "test",
+    "raw_preprocessing_rows": [],
+    "returncode": 0,
+    "sample_id": "case_64e55c941f68",
+    "scope_projection": "raw upstream; may include test-only effects",
+    "scope_status": "no_finding",
+    "source_kind": "controlled",
+    "source_sha256": "947db2bfc59b370455418e599c33d657f5d8886237ba5aeb0cf6f8810ed9a125",
+    "status": "no_finding",
+    "train_affecting_projection": [],
+    "variant": "base"
+  },
+  {
+    "base_sample_id": null,
+    "command": [
+      "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+      "-m",
+      "src.main",
+      "/home/dchen/workplace/CS6215/leakage-project/runs/formal-controlled-v1/case_97addf1be1b9/S0/work/input.py"
+    ],
+    "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+    "diagnostics": [],
+    "elapsed_seconds": 3.7074320558458567,
+    "errors": [],
+    "family": "F13",
+    "location_available": false,
+    "method": "S0",
+    "partition": "test",
+    "raw_preprocessing_rows": [
+      [
+        "features",
+        "$invo7",
+        "LogisticRegression.fit",
+        "[, ]"
+      ]
+    ],
+    "returncode": 0,
+    "sample_id": "case_97addf1be1b9",
+    "scope_projection": "raw upstream; may include test-only effects",
+    "scope_status": "leak",
+    "source_kind": "controlled",
+    "source_sha256": "1161c5c4ea3068ea76a77c3aeee1c29ae49cbb607bab628d5fcc5bb71686abb9",
+    "status": "leak",
+    "train_affecting_projection": [
+      [
+        "model_0",
+        "a",
+        "$invo7",
+        "LogisticRegression.fit",
+        "[, ]",
+        "model_0",
+        "b",
+        "$invo8",
+        "LogisticRegression.predict",
+        "[, ]",
+        "_var5",
+        "features"
+      ]
+    ],
+    "variant": "base"
+  },
+  {
+    "base_sample_id": null,
+    "command": [
+      "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+      "-m",
+      "src.main",
+      "/home/dchen/workplace/CS6215/leakage-project/runs/formal-controlled-v1/case_92db697b2304/S0/work/input.py"
+    ],
+    "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+    "diagnostics": [],
+    "elapsed_seconds": 3.752082172781229,
+    "errors": [],
+    "family": "F13",
+    "location_available": false,
+    "method": "S0",
+    "partition": "test",
+    "raw_preprocessing_rows": [],
+    "returncode": 0,
+    "sample_id": "case_92db697b2304",
+    "scope_projection": "raw upstream; may include test-only effects",
+    "scope_status": "no_finding",
+    "source_kind": "controlled",
+    "source_sha256": "d300aa86c257f7aeafd77e720d9ff77857cf7c3aafbb170a5704640725202514",
+    "status": "no_finding",
+    "train_affecting_projection": [],
+    "variant": "base"
+  },
+  {
+    "base_sample_id": null,
+    "command": [
+      "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+      "-m",
+      "src.main",
+      "/home/dchen/workplace/CS6215/leakage-project/runs/formal-controlled-v1/case_4f079407f4ee/S0/work/input.py"
+    ],
+    "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+    "diagnostics": [],
+    "elapsed_seconds": 3.6587026715278625,
+    "errors": [],
+    "family": "F14",
+    "location_available": false,
+    "method": "S0",
+    "partition": "test",
+    "raw_preprocessing_rows": [
+      [
+        "features",
+        "$invo7",
+        "LogisticRegression.fit",
+        "[, ]"
+      ]
+    ],
+    "returncode": 0,
+    "sample_id": "case_4f079407f4ee",
+    "scope_projection": "raw upstream; may include test-only effects",
+    "scope_status": "leak",
+    "source_kind": "controlled",
+    "source_sha256": "69538ed025152ec85dd8279c91ac441c321befea6b432a0b95e2d2a2f660d6b8",
+    "status": "leak",
+    "train_affecting_projection": [
+      [
+        "model_0",
+        "a",
+        "$invo7",
+        "LogisticRegression.fit",
+        "[, ]",
+        "model_0",
+        "b",
+        "$invo8",
+        "LogisticRegression.predict",
+        "[, ]",
+        "_var5",
+        "features"
+      ]
+    ],
+    "variant": "base"
+  },
+  {
+    "base_sample_id": null,
+    "command": [
+      "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+      "-m",
+      "src.main",
+      "/home/dchen/workplace/CS6215/leakage-project/runs/formal-controlled-v1/case_27297e919d01/S0/work/input.py"
+    ],
+    "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+    "diagnostics": [],
+    "elapsed_seconds": 3.601904936134815,
+    "errors": [],
+    "family": "F14",
+    "location_available": false,
+    "method": "S0",
+    "partition": "test",
+    "raw_preprocessing_rows": [],
+    "returncode": 0,
+    "sample_id": "case_27297e919d01",
+    "scope_projection": "raw upstream; may include test-only effects",
+    "scope_status": "no_finding",
+    "source_kind": "controlled",
+    "source_sha256": "0a94576c67b4137cb6c5fa9cdfa17d40920e6a95b32ce5b0353436142a0e6e3c",
+    "status": "no_finding",
+    "train_affecting_projection": [],
+    "variant": "base"
+  },
+  {
+    "base_sample_id": null,
+    "command": [
+      "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+      "-m",
+      "src.main",
+      "/home/dchen/workplace/CS6215/leakage-project/runs/formal-controlled-v1/case_93bfc19cb919/S0/work/input.py"
+    ],
+    "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+    "diagnostics": [],
+    "elapsed_seconds": 3.798818960785866,
+    "errors": [],
+    "family": "F15",
+    "location_available": false,
+    "method": "S0",
+    "partition": "test",
+    "raw_preprocessing_rows": [
+      [
+        "features",
+        "$invo7",
+        "LogisticRegression.fit",
+        "[, ]"
+      ]
+    ],
+    "returncode": 0,
+    "sample_id": "case_93bfc19cb919",
+    "scope_projection": "raw upstream; may include test-only effects",
+    "scope_status": "leak",
+    "source_kind": "controlled",
+    "source_sha256": "c532b88834f87f5e1f640a5a142edd3c4ece0076ec5d313be719efb8b18b4c11",
+    "status": "leak",
+    "train_affecting_projection": [
+      [
+        "model_0",
+        "a",
+        "$invo7",
+        "LogisticRegression.fit",
+        "[, ]",
+        "model_0",
+        "b",
+        "$invo8",
+        "LogisticRegression.predict",
+        "[, ]",
+        "_var6",
+        "features"
+      ]
+    ],
+    "variant": "base"
+  },
+  {
+    "base_sample_id": null,
+    "command": [
+      "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+      "-m",
+      "src.main",
+      "/home/dchen/workplace/CS6215/leakage-project/runs/formal-controlled-v1/case_7273981d4ca5/S0/work/input.py"
+    ],
+    "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+    "diagnostics": [],
+    "elapsed_seconds": 3.5922138690948486,
+    "errors": [],
+    "family": "F15",
+    "location_available": false,
+    "method": "S0",
+    "partition": "test",
+    "raw_preprocessing_rows": [],
+    "returncode": 0,
+    "sample_id": "case_7273981d4ca5",
+    "scope_projection": "raw upstream; may include test-only effects",
+    "scope_status": "no_finding",
+    "source_kind": "controlled",
+    "source_sha256": "1a40192b0cd4ad502a4e67c4c3d64b3efeb98fd55beb7794b60e43f7e79ba203",
+    "status": "no_finding",
+    "train_affecting_projection": [],
+    "variant": "base"
+  },
+  {
+    "base_sample_id": null,
+    "command": [
+      "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+      "-m",
+      "src.main",
+      "/home/dchen/workplace/CS6215/leakage-project/runs/formal-controlled-v1/case_1f1523f46002/S0/work/input.py"
+    ],
+    "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+    "diagnostics": [],
+    "elapsed_seconds": 3.5079845916479826,
+    "errors": [],
+    "family": "F16",
+    "location_available": false,
+    "method": "S0",
+    "partition": "test",
+    "raw_preprocessing_rows": [],
+    "returncode": 0,
+    "sample_id": "case_1f1523f46002",
+    "scope_projection": "raw upstream; may include test-only effects",
+    "scope_status": "no_finding",
+    "source_kind": "controlled",
+    "source_sha256": "8667831bdc29d97e0a1dc7cf9c92dc5fb9d49e8a4765dc84d539dc73453941b8",
+    "status": "no_finding",
+    "train_affecting_projection": [],
+    "variant": "base"
+  },
+  {
+    "base_sample_id": null,
+    "command": [
+      "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+      "-m",
+      "src.main",
+      "/home/dchen/workplace/CS6215/leakage-project/runs/formal-controlled-v1/case_745c80c4dd62/S0/work/input.py"
+    ],
+    "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+    "diagnostics": [],
+    "elapsed_seconds": 3.5534059051424265,
+    "errors": [],
+    "family": "F16",
+    "location_available": false,
+    "method": "S0",
+    "partition": "test",
+    "raw_preprocessing_rows": [],
+    "returncode": 0,
+    "sample_id": "case_745c80c4dd62",
+    "scope_projection": "raw upstream; may include test-only effects",
+    "scope_status": "no_finding",
+    "source_kind": "controlled",
+    "source_sha256": "672c79bcd34feeae40f966c4f8d6670034231f2072f7526153f6aea3a9a1d43c",
+    "status": "no_finding",
+    "train_affecting_projection": [],
+    "variant": "base"
+  },
+  {
+    "base_sample_id": null,
+    "command": [
+      "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+      "-m",
+      "src.main",
+      "/home/dchen/workplace/CS6215/leakage-project/runs/formal-controlled-v1/case_8bd8f2786d4a/S0/work/input.py"
+    ],
+    "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+    "diagnostics": [],
+    "elapsed_seconds": 3.558343503624201,
+    "errors": [],
+    "family": "F17",
+    "location_available": false,
+    "method": "S0",
+    "partition": "test",
+    "raw_preprocessing_rows": [
+      [
+        "features",
+        "$invo8",
+        "LogisticRegression.fit",
+        "[, ]"
+      ]
+    ],
+    "returncode": 0,
+    "sample_id": "case_8bd8f2786d4a",
+    "scope_projection": "raw upstream; may include test-only effects",
+    "scope_status": "leak",
+    "source_kind": "controlled",
+    "source_sha256": "3cc298fe8180bee910d68b2eeef140f7fd118c67f0bd2f7e6ec86de7d7e8e7b5",
+    "status": "leak",
+    "train_affecting_projection": [
+      [
+        "model_0",
+        "a",
+        "$invo8",
+        "LogisticRegression.fit",
+        "[, ]",
+        "model_0",
+        "b",
+        "$invo9",
+        "LogisticRegression.predict",
+        "[, ]",
+        "selector",
+        "features"
+      ],
+      [
+        "model_0",
+        "a",
+        "$invo8",
+        "LogisticRegression.fit",
+        "[, ]",
+        "model_0",
+        "b",
+        "$invo9",
+        "LogisticRegression.predict",
+        "[, ]",
+        "features_0",
+        "features"
+      ]
+    ],
+    "variant": "base"
+  },
+  {
+    "base_sample_id": null,
+    "command": [
+      "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+      "-m",
+      "src.main",
+      "/home/dchen/workplace/CS6215/leakage-project/runs/formal-controlled-v1/case_0fbb10694559/S0/work/input.py"
+    ],
+    "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+    "diagnostics": [],
+    "elapsed_seconds": 3.706921363249421,
+    "errors": [],
+    "family": "F17",
+    "location_available": false,
+    "method": "S0",
+    "partition": "test",
+    "raw_preprocessing_rows": [],
+    "returncode": 0,
+    "sample_id": "case_0fbb10694559",
+    "scope_projection": "raw upstream; may include test-only effects",
+    "scope_status": "no_finding",
+    "source_kind": "controlled",
+    "source_sha256": "75f764ecb17d7008a25563c08a8c6f2fb162bf54bd9c31f795f892bff6430285",
+    "status": "no_finding",
+    "train_affecting_projection": [],
+    "variant": "base"
+  },
+  {
+    "base_sample_id": null,
+    "command": [
+      "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+      "-m",
+      "src.main",
+      "/home/dchen/workplace/CS6215/leakage-project/runs/formal-controlled-v1/case_da539182d1da/S0/work/input.py"
+    ],
+    "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+    "diagnostics": [],
+    "elapsed_seconds": 3.4537270441651344,
+    "errors": [],
+    "family": "F18",
+    "location_available": false,
+    "method": "S0",
+    "partition": "test",
+    "raw_preprocessing_rows": [],
+    "returncode": 0,
+    "sample_id": "case_da539182d1da",
+    "scope_projection": "raw upstream; may include test-only effects",
+    "scope_status": "no_finding",
+    "source_kind": "controlled",
+    "source_sha256": "7e0990f7948911f858a17b3aba4f8e31c189c43ca41eaebd4b3f3d4328487c0b",
+    "status": "no_finding",
+    "train_affecting_projection": [],
+    "variant": "base"
+  },
+  {
+    "base_sample_id": null,
+    "command": [
+      "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+      "-m",
+      "src.main",
+      "/home/dchen/workplace/CS6215/leakage-project/runs/formal-controlled-v1/case_64edd7f488bb/S0/work/input.py"
+    ],
+    "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+    "diagnostics": [],
+    "elapsed_seconds": 3.4458399899303913,
+    "errors": [],
+    "family": "F18",
+    "location_available": false,
+    "method": "S0",
+    "partition": "test",
+    "raw_preprocessing_rows": [],
+    "returncode": 0,
+    "sample_id": "case_64edd7f488bb",
+    "scope_projection": "raw upstream; may include test-only effects",
+    "scope_status": "no_finding",
+    "source_kind": "controlled",
+    "source_sha256": "d75495e0dc70f2632f56942706407d3560ab50730feeb2cee15203cec9011535",
+    "status": "no_finding",
+    "train_affecting_projection": [],
+    "variant": "base"
+  },
+  {
+    "base_sample_id": null,
+    "command": [
+      "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+      "-m",
+      "src.main",
+      "/home/dchen/workplace/CS6215/leakage-project/runs/formal-controlled-v1/case_c103edfd32a9/S0/work/input.py"
+    ],
+    "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+    "diagnostics": [],
+    "elapsed_seconds": 3.745171431452036,
+    "errors": [],
+    "family": "F19",
+    "location_available": false,
+    "method": "S0",
+    "partition": "test",
+    "raw_preprocessing_rows": [
+      [
+        "features",
+        "$invo9",
+        "LogisticRegression.fit",
+        "[, ]"
+      ]
+    ],
+    "returncode": 0,
+    "sample_id": "case_c103edfd32a9",
+    "scope_projection": "raw upstream; may include test-only effects",
+    "scope_status": "leak",
+    "source_kind": "controlled",
+    "source_sha256": "86bafff6b9756c2e0ed009e6dd262ec0362d57910b5be415a20763e303b52462",
+    "status": "leak",
+    "train_affecting_projection": [
+      [
+        "model_0",
+        "a",
+        "$invo9",
+        "LogisticRegression.fit",
+        "[, ]",
+        "model_0",
+        "b",
+        "$invo10",
+        "LogisticRegression.predict",
+        "[, ]",
+        "_var4",
+        "features"
+      ]
+    ],
+    "variant": "base"
+  },
+  {
+    "base_sample_id": null,
+    "command": [
+      "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+      "-m",
+      "src.main",
+      "/home/dchen/workplace/CS6215/leakage-project/runs/formal-controlled-v1/case_d0c1ea236d94/S0/work/input.py"
+    ],
+    "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+    "diagnostics": [],
+    "elapsed_seconds": 3.7012979965656996,
+    "errors": [],
+    "family": "F19",
+    "location_available": false,
+    "method": "S0",
+    "partition": "test",
+    "raw_preprocessing_rows": [],
+    "returncode": 0,
+    "sample_id": "case_d0c1ea236d94",
+    "scope_projection": "raw upstream; may include test-only effects",
+    "scope_status": "no_finding",
+    "source_kind": "controlled",
+    "source_sha256": "47c96ff9c61c78287222b5c516c9126d15da0d1558aeeae53b6f470392b206fe",
+    "status": "no_finding",
+    "train_affecting_projection": [],
+    "variant": "base"
+  },
+  {
+    "base_sample_id": null,
+    "command": [
+      "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+      "-m",
+      "src.main",
+      "/home/dchen/workplace/CS6215/leakage-project/runs/formal-controlled-v1/case_f2326d87807f/S0/work/input.py"
+    ],
+    "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+    "diagnostics": [],
+    "elapsed_seconds": 3.4108292758464813,
+    "errors": [],
+    "family": "F20",
+    "location_available": false,
+    "method": "S0",
+    "partition": "test",
+    "raw_preprocessing_rows": [],
+    "returncode": 0,
+    "sample_id": "case_f2326d87807f",
+    "scope_projection": "raw upstream; may include test-only effects",
+    "scope_status": "no_finding",
+    "source_kind": "controlled",
+    "source_sha256": "18f820f56edddedc921d61f5ed189db490bdcafd5555b5bfc1d6584e46c98f05",
+    "status": "no_finding",
+    "train_affecting_projection": [],
+    "variant": "base"
+  },
+  {
+    "base_sample_id": null,
+    "command": [
+      "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+      "-m",
+      "src.main",
+      "/home/dchen/workplace/CS6215/leakage-project/runs/formal-controlled-v1/case_69f8e9228ea8/S0/work/input.py"
+    ],
+    "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+    "diagnostics": [],
+    "elapsed_seconds": 3.403679808601737,
+    "errors": [],
+    "family": "F20",
+    "location_available": false,
+    "method": "S0",
+    "partition": "test",
+    "raw_preprocessing_rows": [],
+    "returncode": 0,
+    "sample_id": "case_69f8e9228ea8",
+    "scope_projection": "raw upstream; may include test-only effects",
+    "scope_status": "no_finding",
+    "source_kind": "controlled",
+    "source_sha256": "0d9e28c981c972279254663fea84c8d80ab2e9f298d30618cb0dbc2e5e635d57",
+    "status": "no_finding",
+    "train_affecting_projection": [],
+    "variant": "base"
+  },
+  {
+    "base_sample_id": null,
+    "command": [
+      "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+      "-m",
+      "src.main",
+      "/home/dchen/workplace/CS6215/leakage-project/runs/formal-controlled-v1/case_fb954494afec/S0/work/input.py"
+    ],
+    "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+    "diagnostics": [],
+    "elapsed_seconds": 3.5722065325826406,
+    "errors": [],
+    "family": "F21",
+    "location_available": false,
+    "method": "S0",
+    "partition": "test",
+    "raw_preprocessing_rows": [],
+    "returncode": 0,
+    "sample_id": "case_fb954494afec",
+    "scope_projection": "raw upstream; may include test-only effects",
+    "scope_status": "no_finding",
+    "source_kind": "controlled",
+    "source_sha256": "a97b3b1b930ea7093ff70d2a6d5165fa022315a235761134d21f2b77e003d9f6",
+    "status": "no_finding",
+    "train_affecting_projection": [],
+    "variant": "base"
+  },
+  {
+    "base_sample_id": null,
+    "command": [
+      "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+      "-m",
+      "src.main",
+      "/home/dchen/workplace/CS6215/leakage-project/runs/formal-controlled-v1/case_93d0a8d5662e/S0/work/input.py"
+    ],
+    "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+    "diagnostics": [],
+    "elapsed_seconds": 3.700306683778763,
+    "errors": [],
+    "family": "F21",
+    "location_available": false,
+    "method": "S0",
+    "partition": "test",
+    "raw_preprocessing_rows": [],
+    "returncode": 0,
+    "sample_id": "case_93d0a8d5662e",
+    "scope_projection": "raw upstream; may include test-only effects",
+    "scope_status": "no_finding",
+    "source_kind": "controlled",
+    "source_sha256": "f0dc149a2a163943357fd414adfca12ad7320799f3c77e1a18631dc936cc2a04",
+    "status": "no_finding",
+    "train_affecting_projection": [],
+    "variant": "base"
+  },
+  {
+    "base_sample_id": null,
+    "command": [
+      "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+      "-m",
+      "src.main",
+      "/home/dchen/workplace/CS6215/leakage-project/runs/formal-controlled-v1/case_e9b92f547a24/S0/work/input.py"
+    ],
+    "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+    "diagnostics": [],
+    "elapsed_seconds": 3.4568772986531258,
+    "errors": [],
+    "family": "F22",
+    "location_available": false,
+    "method": "S0",
+    "partition": "test",
+    "raw_preprocessing_rows": [],
+    "returncode": 0,
+    "sample_id": "case_e9b92f547a24",
+    "scope_projection": "raw upstream; may include test-only effects",
+    "scope_status": "no_finding",
+    "source_kind": "controlled",
+    "source_sha256": "72b12ed9edd03854d930c3f51e1e2695bba4b5437860be61cc5f5ee49e6da249",
+    "status": "no_finding",
+    "train_affecting_projection": [],
+    "variant": "base"
+  },
+  {
+    "base_sample_id": null,
+    "command": [
+      "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+      "-m",
+      "src.main",
+      "/home/dchen/workplace/CS6215/leakage-project/runs/formal-controlled-v1/case_555e8a6cbf1b/S0/work/input.py"
+    ],
+    "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+    "diagnostics": [],
+    "elapsed_seconds": 3.7019642554223537,
+    "errors": [],
+    "family": "F22",
+    "location_available": false,
+    "method": "S0",
+    "partition": "test",
+    "raw_preprocessing_rows": [],
+    "returncode": 0,
+    "sample_id": "case_555e8a6cbf1b",
+    "scope_projection": "raw upstream; may include test-only effects",
+    "scope_status": "no_finding",
+    "source_kind": "controlled",
+    "source_sha256": "c3b58af9a436e3bf033ee55e34ee197df8ac98c9c8fd628147fb4452b21031e1",
+    "status": "no_finding",
+    "train_affecting_projection": [],
+    "variant": "base"
+  },
+  {
+    "base_sample_id": null,
+    "command": [
+      "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+      "-m",
+      "src.main",
+      "/home/dchen/workplace/CS6215/leakage-project/runs/formal-controlled-v1/case_709a9bea0169/S0/work/input.py"
+    ],
+    "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+    "diagnostics": [],
+    "elapsed_seconds": 3.399705868214369,
+    "errors": [],
+    "family": "F23",
+    "location_available": false,
+    "method": "S0",
+    "partition": "test",
+    "raw_preprocessing_rows": [
+      [
+        "features",
+        "$invo8",
+        "LogisticRegression.fit",
+        "[, ]"
+      ]
+    ],
+    "returncode": 0,
+    "sample_id": "case_709a9bea0169",
+    "scope_projection": "raw upstream; may include test-only effects",
+    "scope_status": "leak",
+    "source_kind": "controlled",
+    "source_sha256": "6da8f1dd2f6fb4007906c18fafb455fef67aaaf1a41aa2bfba22381f84eb4bc6",
+    "status": "leak",
+    "train_affecting_projection": [
+      [
+        "model_0",
+        "a",
+        "$invo8",
+        "LogisticRegression.fit",
+        "[, ]",
+        "model_0",
+        "b",
+        "$invo9",
+        "LogisticRegression.predict",
+        "[, ]",
+        "state",
+        "features"
+      ],
+      [
+        "model_0",
+        "a",
+        "$invo8",
+        "LogisticRegression.fit",
+        "[, ]",
+        "model_0",
+        "b",
+        "$invo9",
+        "LogisticRegression.predict",
+        "[, ]",
+        "features_0",
+        "features"
+      ]
+    ],
+    "variant": "base"
+  },
+  {
+    "base_sample_id": null,
+    "command": [
+      "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+      "-m",
+      "src.main",
+      "/home/dchen/workplace/CS6215/leakage-project/runs/formal-controlled-v1/case_cb94e4d70763/S0/work/input.py"
+    ],
+    "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+    "diagnostics": [],
+    "elapsed_seconds": 3.5474498216062784,
+    "errors": [],
+    "family": "F23",
+    "location_available": false,
+    "method": "S0",
+    "partition": "test",
+    "raw_preprocessing_rows": [
+      [
+        "b",
+        "$invo9",
+        "LogisticRegression.fit",
+        "[, ]"
+      ]
+    ],
+    "returncode": 0,
+    "sample_id": "case_cb94e4d70763",
+    "scope_projection": "raw upstream; may include test-only effects",
+    "scope_status": "leak",
+    "source_kind": "controlled",
+    "source_sha256": "9160085c99b21d5dd9baf7a747123642564403461c4ac4eee3f014cb1344ba04",
+    "status": "leak",
+    "train_affecting_projection": [
+      [
+        "model_0",
+        "a_0",
+        "$invo9",
+        "LogisticRegression.fit",
+        "[, ]",
+        "model_0",
+        "b_0",
+        "$invo10",
+        "LogisticRegression.predict",
+        "[, ]",
+        "state",
+        "b"
+      ]
+    ],
+    "variant": "base"
+  }
+]

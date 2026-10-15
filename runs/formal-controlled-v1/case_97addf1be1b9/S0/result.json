@@ -1,0 +1,49 @@
+{
+  "base_sample_id": null,
+  "command": [
+    "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+    "-m",
+    "src.main",
+    "/home/dchen/workplace/CS6215/leakage-project/runs/formal-controlled-v1/case_97addf1be1b9/S0/work/input.py"
+  ],
+  "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+  "diagnostics": [],
+  "elapsed_seconds": 3.7074320558458567,
+  "errors": [],
+  "family": "F13",
+  "location_available": false,
+  "method": "S0",
+  "partition": "test",
+  "raw_preprocessing_rows": [
+    [
+      "features",
+      "$invo7",
+      "LogisticRegression.fit",
+      "[, ]"
+    ]
+  ],
+  "returncode": 0,
+  "sample_id": "case_97addf1be1b9",
+  "scope_projection": "raw upstream; may include test-only effects",
+  "scope_status": "leak",
+  "source_kind": "controlled",
+  "source_sha256": "1161c5c4ea3068ea76a77c3aeee1c29ae49cbb607bab628d5fcc5bb71686abb9",
+  "status": "leak",
+  "train_affecting_projection": [
+    [
+      "model_0",
+      "a",
+      "$invo7",
+      "LogisticRegression.fit",
+      "[, ]",
+      "model_0",
+      "b",
+      "$invo8",
+      "LogisticRegression.predict",
+      "[, ]",
+      "_var5",
+      "features"
+    ]
+  ],
+  "variant": "base"
+}

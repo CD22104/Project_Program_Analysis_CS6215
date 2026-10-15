@@ -1,0 +1,74 @@
+No configuration file found.
+No pyproject.toml file found.
+stubPath /home/dchen/workplace/CS6215/leakage-project/third_party/leakage-analysis/typings is not a valid directory.
+Assuming Python platform Linux
+Search paths for /home/dchen/workplace/CS6215/leakage-project/third_party/leakage-analysis
+  /home/dchen/workplace/CS6215/leakage-project/third_party/leakage-analysis/pyright/packages/pyright/dist/typeshed-fallback/stdlib
+  /home/dchen/workplace/CS6215/leakage-project/third_party/leakage-analysis
+  /home/dchen/workplace/CS6215/leakage-project/third_party/leakage-analysis/typings
+  /home/dchen/workplace/CS6215/leakage-project/third_party/leakage-analysis/pyright/packages/pyright/dist/typeshed-fallback/stubs/...
+Searching for source files
+Found 1 source file
+Could not import 'pandas' in file '/home/dchen/workplace/CS6215/leakage-project/runs/baseline-smoke/test0/work/input.py.ir.py'
+  Looking for typeshed stdlib path
+  Attempting to resolve using root path '/home/dchen/workplace/CS6215/leakage-project/third_party/leakage-analysis/pyright/packages/pyright/dist/typeshed-fallback/stdlib'
+  Typeshed path not found
+  Looking in stubPath '/home/dchen/workplace/CS6215/leakage-project/third_party/leakage-analysis/typings'
+  Attempting to resolve stub package using root path '/home/dchen/workplace/CS6215/leakage-project/third_party/leakage-analysis/typings'
+  Attempting to resolve using root path '/home/dchen/workplace/CS6215/leakage-project/third_party/leakage-analysis/typings'
+  Looking in root directory of execution environment '/home/dchen/workplace/CS6215/leakage-project/third_party/leakage-analysis'
+  Attempting to resolve stub package using root path '/home/dchen/workplace/CS6215/leakage-project/third_party/leakage-analysis'
+  Attempting to resolve using root path '/home/dchen/workplace/CS6215/leakage-project/third_party/leakage-analysis'
+  No python interpreter search path
+  Looking for typeshed path
+  Looking for typeshed stubs path
+  Typeshed path not found
+Could not import 'numpy' in file '/home/dchen/workplace/CS6215/leakage-project/runs/baseline-smoke/test0/work/input.py.ir.py'
+  Looking for typeshed stdlib path
+  Attempting to resolve using root path '/home/dchen/workplace/CS6215/leakage-project/third_party/leakage-analysis/pyright/packages/pyright/dist/typeshed-fallback/stdlib'
+  Typeshed path not found
+  Looking in stubPath '/home/dchen/workplace/CS6215/leakage-project/third_party/leakage-analysis/typings'
+  Attempting to resolve stub package using root path '/home/dchen/workplace/CS6215/leakage-project/third_party/leakage-analysis/typings'
+  Attempting to resolve using root path '/home/dchen/workplace/CS6215/leakage-project/third_party/leakage-analysis/typings'
+  Looking in root directory of execution environment '/home/dchen/workplace/CS6215/leakage-project/third_party/leakage-analysis'
+  Attempting to resolve stub package using root path '/home/dchen/workplace/CS6215/leakage-project/third_party/leakage-analysis'
+  Attempting to resolve using root path '/home/dchen/workplace/CS6215/leakage-project/third_party/leakage-analysis'
+  No python interpreter search path
+  Looking for typeshed path
+  Looking for typeshed stubs path
+  Typeshed path not found
+Could not import 'sklearn.model_selection' in file '/home/dchen/workplace/CS6215/leakage-project/runs/baseline-smoke/test0/work/input.py.ir.py'
+  Looking for typeshed stdlib path
+  Attempting to resolve using root path '/home/dchen/workplace/CS6215/leakage-project/third_party/leakage-analysis/pyright/packages/pyright/dist/typeshed-fallback/stdlib'
+  Typeshed path not found
+  Looking in stubPath '/home/dchen/workplace/CS6215/leakage-project/third_party/leakage-analysis/typings'
+  Attempting to resolve stub package using root path '/home/dchen/workplace/CS6215/leakage-project/third_party/leakage-analysis/typings'
+  Attempting to resolve using root path '/home/dchen/workplace/CS6215/leakage-project/third_party/leakage-analysis/typings'
+  Looking in root directory of execution environment '/home/dchen/workplace/CS6215/leakage-project/third_party/leakage-analysis'
+  Attempting to resolve stub package using root path '/home/dchen/workplace/CS6215/leakage-project/third_party/leakage-analysis'
+  Attempting to resolve using root path '/home/dchen/workplace/CS6215/leakage-project/third_party/leakage-analysis'
+  No python interpreter search path
+  Looking for typeshed path
+  Looking for typeshed stubs path
+  Typeshed path not found
+Could not import 'sklearn.linear_model' in file '/home/dchen/workplace/CS6215/leakage-project/runs/baseline-smoke/test0/work/input.py.ir.py'
+  Looking for typeshed stdlib path
+  Attempting to resolve using root path '/home/dchen/workplace/CS6215/leakage-project/third_party/leakage-analysis/pyright/packages/pyright/dist/typeshed-fallback/stdlib'
+  Typeshed path not found
+  Looking in stubPath '/home/dchen/workplace/CS6215/leakage-project/third_party/leakage-analysis/typings'
+  Attempting to resolve stub package using root path '/home/dchen/workplace/CS6215/leakage-project/third_party/leakage-analysis/typings'
+  Attempting to resolve using root path '/home/dchen/workplace/CS6215/leakage-project/third_party/leakage-analysis/typings'
+  Looking in root directory of execution environment '/home/dchen/workplace/CS6215/leakage-project/third_party/leakage-analysis'
+  Attempting to resolve stub package using root path '/home/dchen/workplace/CS6215/leakage-project/third_party/leakage-analysis'
+  Attempting to resolve using root path '/home/dchen/workplace/CS6215/leakage-project/third_party/leakage-analysis'
+  No python interpreter search path
+  Looking for typeshed path
+  Looking for typeshed stubs path
+  Typeshed path not found
+/home/dchen/workplace/CS6215/leakage-project/runs/baseline-smoke/test0/work/input.py.ir.py
+  /home/dchen/workplace/CS6215/leakage-project/runs/baseline-smoke/test0/work/input.py.ir.py:18:8 - error: Import "pandas" could not be resolved (reportMissingImports)
+  /home/dchen/workplace/CS6215/leakage-project/runs/baseline-smoke/test0/work/input.py.ir.py:19:8 - error: Import "numpy" could not be resolved (reportMissingImports)
+  /home/dchen/workplace/CS6215/leakage-project/runs/baseline-smoke/test0/work/input.py.ir.py:37:6 - error: Import "sklearn.model_selection" could not be resolved (reportMissingImports)
+  /home/dchen/workplace/CS6215/leakage-project/runs/baseline-smoke/test0/work/input.py.ir.py:45:6 - error: Import "sklearn.linear_model" could not be resolved (reportMissingImports)
+4 errors, 0 warnings, 0 infos 
+Completed in 0.542sec

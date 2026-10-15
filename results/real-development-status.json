@@ -1,0 +1,20 @@
+{
+  "counts": {
+    "N0": {
+      "no_finding": 5
+    },
+    "N1": {
+      "no_finding": 4,
+      "unknown": 1
+    },
+    "S0": {
+      "no_finding": 5
+    },
+    "S1": {
+      "no_finding": 4,
+      "unknown": 1
+    }
+  },
+  "gold_label_metrics": "not reported; event labels pending review",
+  "run": "runs/neural-real-pilot-v1"
+}

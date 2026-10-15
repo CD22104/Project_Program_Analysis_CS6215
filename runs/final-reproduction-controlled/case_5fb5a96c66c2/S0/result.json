@@ -1,0 +1,27 @@
+{
+  "base_sample_id": null,
+  "command": [
+    "/tmp/cs6215-clean-repro-k1h36sf9/leakage-project/.env-baseline/bin/python",
+    "-m",
+    "src.main",
+    "/tmp/cs6215-clean-repro-k1h36sf9/leakage-project/runs/final-reproduction-controlled/case_5fb5a96c66c2/S0/work/input.py"
+  ],
+  "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+  "diagnostics": [],
+  "elapsed_seconds": 3.531863095238805,
+  "errors": [],
+  "family": "F11",
+  "location_available": false,
+  "method": "S0",
+  "partition": "test",
+  "raw_preprocessing_rows": [],
+  "returncode": 0,
+  "sample_id": "case_5fb5a96c66c2",
+  "scope_projection": "raw upstream; may include test-only effects",
+  "scope_status": "no_finding",
+  "source_kind": "controlled",
+  "source_sha256": "f1f867f800478efc8102c0370e7d43d92d1a585fc17c5a515461281cb82cc505",
+  "status": "no_finding",
+  "train_affecting_projection": [],
+  "variant": "base"
+}

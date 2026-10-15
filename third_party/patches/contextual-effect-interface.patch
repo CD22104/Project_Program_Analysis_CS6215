@@ -1,0 +1,42 @@
+--- a/src/main.dl
++++ b/src/main.dl
+@@ -20,6 +20,13 @@
+ 
+ #define MakePath(ele, path) \
+     cat(cat(cat(cat("[", ele), ", "), path), "]")
++
++
++// CS6215 effect interface: caller context is essential for wrapper constants.
++.decl EffectAtCall(invo:Invocation, ctx:Context, kind:symbol, srcIdx:number, dstIdx:number)
++.input EffectAtCall
++.decl SuppressRowEffect(invo:Invocation, ctx:Context, label:symbol)
++SuppressRowEffect(i, c, "rowset") :- EffectAtCall(i, c, "row_preserving", _, _).
+ 
+ // ---- inputs ----
+ // inner-procedural facts
+@@ -1312,7 +1319,8 @@
+     ParamToRetTaintSourceMethod(toIdx, fromIdx, meth, label), ActualReturn(toIdx, invo, target);
+     ParamToRetCondTaintSourceMethod(toIdx, fromIdx, cond_id, meth, label), TaintCondition(cond_id, srcIdx, srcTaintType),
+     ActualParam(srcIdx, invo, src), FlowFrom(src, callerCtx, src_start, src_start_ctx, _), TaintStarts(src_start, src_start_ctx, srcTaintType), ActualReturn(toIdx, invo, target)),
+-    ActualParam(fromIdx, invo, var).
++    ActualParam(fromIdx, invo, var),
++    !SuppressRowEffect(invo, callerCtx, label).
+ 
+ /* -----------------------------
+ Pre-processing leak detection
+@@ -1467,4 +1475,15 @@
+ .output Telemetry_PreProcessingLeak
+ .output Telemetry_FinalPreProcessingLeak
+ .output Telemetry_OverlapLeak
+-.output Telemetry_MultiUseTestLeak+.output Telemetry_MultiUseTestLeak
++// Add effects independently of original warnings, then re-solve all data flow.
++TaintStarts(var, ctx, "rowset"),
++TaintStartsTarget(target, ctx, var, ctx, invo, meth, "rowset") :-
++    EffectAtCall(invo, ctx, "cross_row_reduce", srcIdx, dstIdx),
++    CallGraphEdge(invo, ctx, meth, _),
++    ActualParam(srcIdx, invo, var), ActualReturn(dstIdx, invo, target).
++TaintStarts(var, ctx, "rowset"),
++TaintStartsTarget(target, ctx, var, ctx, invo, meth, "rowset") :-
++    EffectAtCall(invo, ctx, "fit_state", srcIdx, dstIdx),
++    CallGraphEdge(invo, ctx, meth, _),
++    ActualParam(srcIdx, invo, var), ActualParam(dstIdx, invo, target).

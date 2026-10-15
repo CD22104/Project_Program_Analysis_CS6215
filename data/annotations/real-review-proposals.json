@@ -1,0 +1,421 @@
+[
+  {
+    "events": [
+      {
+        "lines": [
+          48,
+          79,
+          84,
+          87,
+          90,
+          91,
+          107
+        ],
+        "proposal": "positive",
+        "reason": "Full-data Age mean fill at 48, power transform 84 and StandardScaler 87 precede split 90; train fit 91 and held-out predict 107. Author pre=N (due to overlaps) is not a pure negative. S1/N1 unknown due to an unresolved reduction, while baseline/N0 no finding. Review proposed positive without using unknown as negative."
+      }
+    ],
+    "program_label_proposal": true,
+    "proposer": "AI-assisted code inspection, not independent human annotation",
+    "review_date": "2026-10-15",
+    "review_rationale": "Student explicitly confirmed all recorded review results on 2026-10-15. Existing binary proposals are approved; event-only and scope-limited judgments retain null program labels. This does not assert an independent second annotation or complete model-summary audit.",
+    "review_status": "student_reviewed",
+    "reviewed_label": true,
+    "reviewer": "Project author",
+    "sample_id": "real_4aabfe0b5836",
+    "scope_proposal": "numeric tabular with oversampling and extra stateful operations",
+    "source_sha256": "0ef375bd04f1ed919b21d8c21cc41b0c0227e75631918346672f689dcabc91d0"
+  },
+  {
+    "events": [
+      {
+        "lines": [
+          51,
+          52,
+          53,
+          62,
+          65,
+          67
+        ],
+        "proposal": "positive",
+        "reason": "StandardScaler fits/transforms all X at 51-52 before split 53; train fit 62 and held-out score/predict 65/67 use those representations. All methods report leak; human review pending."
+      }
+    ],
+    "program_label_proposal": true,
+    "proposer": "AI-assisted code inspection, not independent human annotation",
+    "review_date": "2026-10-15",
+    "review_rationale": "Student explicitly confirmed all recorded review results on 2026-10-15. Existing binary proposals are approved; event-only and scope-limited judgments retain null program labels. This does not assert an independent second annotation or complete model-summary audit.",
+    "review_status": "student_reviewed",
+    "reviewed_label": true,
+    "reviewer": "Project author",
+    "sample_id": "real_621d7038c43a",
+    "scope_proposal": "numeric tabular",
+    "source_sha256": "1efe230739e64b01a5907d20fe46dcbeacddae90107d058a7dabaffcabff3f2e"
+  },
+  {
+    "events": [
+      {
+        "lines": [
+          8,
+          11,
+          24,
+          31,
+          34,
+          37
+        ],
+        "proposal": "negative for explicit primary dependency",
+        "reason": "Dataset construction precedes split; displayed means compute prediction error after model evaluation, not training features. Proposed primary-task negative, pending student review; runtime availability of load_boston is not tested."
+      }
+    ],
+    "program_label_proposal": false,
+    "proposer": "AI-assisted code inspection, not independent human annotation",
+    "review_date": "2026-10-15",
+    "review_rationale": "Student explicitly confirmed all recorded review results on 2026-10-15. Existing binary proposals are approved; event-only and scope-limited judgments retain null program labels. This does not assert an independent second annotation or complete model-summary audit.",
+    "review_status": "student_reviewed",
+    "reviewed_label": false,
+    "reviewer": "Project author",
+    "sample_id": "real_8e196ed58fbc",
+    "scope_proposal": "tabular; no learned preprocessing event found in inspected code",
+    "source_sha256": "97cbfc9dd7adfde3dad6674753182f13c7fdbc14443878a5d91147d5f04c184a"
+  },
+  {
+    "events": [
+      {
+        "lines": [
+          8,
+          11,
+          13,
+          18,
+          21,
+          28,
+          30,
+          31
+        ],
+        "proposal": "negative for explicit primary dependency",
+        "reason": "Mappings use literal dictionaries rather than learned statistics. value_counts outputs do not flow into the dictionaries. Proposed no cross-sample preprocessing dependency; pending student review."
+      }
+    ],
+    "program_label_proposal": false,
+    "proposer": "AI-assisted code inspection, not independent human annotation",
+    "review_date": "2026-10-15",
+    "review_rationale": "Student explicitly confirmed all recorded review results on 2026-10-15. Existing binary proposals are approved; event-only and scope-limited judgments retain null program labels. This does not assert an independent second annotation or complete model-summary audit.",
+    "review_status": "student_reviewed",
+    "reviewed_label": false,
+    "reviewer": "Project author",
+    "sample_id": "real_7d8893d1a7fe",
+    "scope_proposal": "tabular fixed categorical maps",
+    "source_sha256": "c7016dd74f9da1d6244d77555a9cc1bd984eed809e2e212e3829e18b92aa1509"
+  },
+  {
+    "events": [
+      {
+        "lines": [
+          7,
+          18,
+          25,
+          69,
+          84
+        ],
+        "proposal": "scope/coverage review",
+        "reason": "Image landmark task; fixed zero fill is shown but shape/deep-model semantics exceed initial scope. Frozen baseline errors on missing TensorFlow; do not assign negative from that failure."
+      }
+    ],
+    "program_label_proposal": null,
+    "proposer": "AI-assisted code inspection, not independent human annotation",
+    "review_date": "2026-10-15",
+    "review_rationale": "Student explicitly confirmed all recorded review results on 2026-10-15. Existing binary proposals are approved; event-only and scope-limited judgments retain null program labels. This does not assert an independent second annotation or complete model-summary audit.",
+    "review_status": "student_reviewed",
+    "reviewed_label": null,
+    "reviewer": "Project author",
+    "sample_id": "real_0710295064ec",
+    "scope_proposal": "outside initial numeric-table scope: image tensors and deep network",
+    "source_sha256": "8e31b482e2c7e56206bc79f47171daa5e5371199f94215a311e2fb0a307603c2"
+  },
+  {
+    "events": [
+      {
+        "lines": [
+          13,
+          17,
+          20,
+          23,
+          26,
+          29,
+          33
+        ],
+        "proposal": "negative for explicit primary dependency",
+        "reason": "Split occurs first. Later scaler results replace X, while models use the earlier X_train/X_test. Default scaler calls do not mutate those split outputs. Proposed primary-task negative, pending student review; actual baseline remains error due to google.colab."
+      }
+    ],
+    "program_label_proposal": false,
+    "proposer": "AI-assisted code inspection, not independent human annotation",
+    "review_date": "2026-10-15",
+    "review_rationale": "Student explicitly confirmed all recorded review results on 2026-10-15. Existing binary proposals are approved; event-only and scope-limited judgments retain null program labels. This does not assert an independent second annotation or complete model-summary audit.",
+    "review_status": "student_reviewed",
+    "reviewed_label": false,
+    "reviewer": "Project author",
+    "sample_id": "real_c5640d2ee6a8",
+    "scope_proposal": "tabular; unused full-data scaler contrast",
+    "source_sha256": "44c4ad9b621d8e9707fb6c82b0361e81996311e6c9b2f6c40d8c0736874043a4"
+  },
+  {
+    "events": [
+      {
+        "lines": [
+          40,
+          45,
+          63,
+          66,
+          75,
+          80
+        ],
+        "proposal": "positive",
+        "reason": "StandardScaler fit_transform on full new_data feeds df before split 45, then training x_train at 75 and held-out prediction at 80. Additional whole-data training at 63 is a distinct overlap issue. Positive proposal pending; frozen baseline errors on Keras."
+      }
+    ],
+    "program_label_proposal": true,
+    "proposer": "AI-assisted code inspection, not independent human annotation",
+    "review_date": "2026-10-15",
+    "review_rationale": "Student explicitly confirmed all recorded review results on 2026-10-15. Existing binary proposals are approved; event-only and scope-limited judgments retain null program labels. This does not assert an independent second annotation or complete model-summary audit.",
+    "review_status": "student_reviewed",
+    "reviewed_label": true,
+    "reviewer": "Project author",
+    "sample_id": "real_e21593f60273",
+    "scope_proposal": "numeric preprocessing feeds deep network; extension scope needs review",
+    "source_sha256": "1d0471875e8769efb6d2e699d3c9f9c2d397a971ce07b567432d231a6d698d63"
+  },
+  {
+    "events": [
+      {
+        "lines": [
+          5,
+          8,
+          11,
+          12
+        ],
+        "proposal": "negative for explicit primary dependency",
+        "reason": "Feature/target slicing then split and direct training/evaluation; no preprocessing statistic in this short program. Proposed primary-task negative pending review."
+      }
+    ],
+    "program_label_proposal": false,
+    "proposer": "AI-assisted code inspection, not independent human annotation",
+    "review_date": "2026-10-15",
+    "review_rationale": "Student explicitly confirmed all recorded review results on 2026-10-15. Existing binary proposals are approved; event-only and scope-limited judgments retain null program labels. This does not assert an independent second annotation or complete model-summary audit.",
+    "review_status": "student_reviewed",
+    "reviewed_label": false,
+    "reviewer": "Project author",
+    "sample_id": "real_902530fbf019",
+    "scope_proposal": "tabular; no learned preprocessing found",
+    "source_sha256": "b7273487a3334880c63a5cb5c3161e356166afaabb63bce1d07f3123272a86e5"
+  },
+  {
+    "events": [
+      {
+        "lines": [
+          10,
+          11,
+          14,
+          17,
+          18
+        ],
+        "proposal": "scope/coverage review",
+        "reason": "ColumnTransformer fits OneHotEncoder before splitting; global category discovery needs an explicit task scope decision. Do not convert author N or no candidate to reviewed safety."
+      }
+    ],
+    "program_label_proposal": null,
+    "proposer": "AI-assisted code inspection, not independent human annotation",
+    "review_date": "2026-10-15",
+    "review_rationale": "Student explicitly confirmed all recorded review results on 2026-10-15. Existing binary proposals are approved; event-only and scope-limited judgments retain null program labels. This does not assert an independent second annotation or complete model-summary audit.",
+    "review_status": "student_reviewed",
+    "reviewed_label": null,
+    "reviewer": "Project author",
+    "sample_id": "real_55f763c8904d",
+    "scope_proposal": "categorical vocabulary learning extension",
+    "source_sha256": "4dc3e4b0ec6c0e2e6b74b5934dcf51d7c293cb63f45c65b823bf9b8bdfc8a794"
+  },
+  {
+    "events": [
+      {
+        "lines": [
+          7,
+          23,
+          29,
+          32,
+          34,
+          54,
+          55
+        ],
+        "proposal": "negative for explicit primary dependency",
+        "reason": "Missingness/correlation are displayed; code drops literal columns Fe/Ba without a computed selection edge. Human choice could have been influenced by plots, but that causal intent is not established from the code. Proposed negative for explicit primary dependency, pending review."
+      }
+    ],
+    "program_label_proposal": false,
+    "proposer": "AI-assisted code inspection, not independent human annotation",
+    "review_date": "2026-10-15",
+    "review_rationale": "Student explicitly confirmed all recorded review results on 2026-10-15. Existing binary proposals are approved; event-only and scope-limited judgments retain null program labels. This does not assert an independent second annotation or complete model-summary audit.",
+    "review_status": "student_reviewed",
+    "reviewed_label": false,
+    "reviewer": "Project author",
+    "sample_id": "real_c5a74ce0cdd8",
+    "scope_proposal": "tabular; human feature-choice intent outside static dependency task",
+    "source_sha256": "03f7c8402fdd0696c8db8072e22fa45e6e8021e116d6c32a50d9c1474238ca39"
+  },
+  {
+    "events": [
+      {
+        "lines": [
+          13,
+          18,
+          19,
+          23,
+          24
+        ],
+        "proposal": "negative for scaler event only",
+        "reason": "Split 13 precedes scaler fit on training 18; held-out data uses transform 19, model fit 23/predict 24. Negative for this preprocessing event; whole-program review pending."
+      }
+    ],
+    "program_label_proposal": null,
+    "proposer": "AI-assisted code inspection, not independent human annotation",
+    "review_date": "2026-10-15",
+    "review_rationale": "Student explicitly confirmed all recorded review results on 2026-10-15. Existing binary proposals are approved; event-only and scope-limited judgments retain null program labels. This does not assert an independent second annotation or complete model-summary audit.",
+    "review_status": "student_reviewed",
+    "reviewed_label": null,
+    "reviewer": "Project author",
+    "sample_id": "real_d8a6e6dcf354",
+    "scope_proposal": "numeric tabular",
+    "source_sha256": "3a1af8e2c7dbdf93ff0c03a8e80c76b4ba577cc6dfe9d78eb929c24aca326e09"
+  },
+  {
+    "events": [
+      {
+        "lines": [
+          51,
+          55,
+          58,
+          60,
+          72,
+          74,
+          75
+        ],
+        "proposal": "scope/coverage review",
+        "reason": "Whole-data z-scores filter rows before splitting. This affects sample membership, not merely a fixed transformation. Relation to the narrower training-representation task needs student scope review; repeated test-based model selection is separately excluded."
+      }
+    ],
+    "program_label_proposal": null,
+    "proposer": "AI-assisted code inspection, not independent human annotation",
+    "review_date": "2026-10-15",
+    "review_rationale": "Student explicitly confirmed all recorded review results on 2026-10-15. Existing binary proposals are approved; event-only and scope-limited judgments retain null program labels. This does not assert an independent second annotation or complete model-summary audit.",
+    "review_status": "student_reviewed",
+    "reviewed_label": null,
+    "reviewer": "Project author",
+    "sample_id": "real_66f880594b80",
+    "scope_proposal": "data-dependent sample filtering; scope dispute",
+    "source_sha256": "786eb57406005a9389abfb78ee72e73c69e4cef763e2ef66651cf8517719eb24"
+  },
+  {
+    "events": [
+      {
+        "lines": [
+          8,
+          12,
+          15,
+          17
+        ],
+        "proposal": "negative for explicit primary dependency",
+        "reason": "Feature/target extraction followed by split and RandomForest fitting; no pre-split learned preprocessing found. Proposed primary-task negative pending review."
+      }
+    ],
+    "program_label_proposal": false,
+    "proposer": "AI-assisted code inspection, not independent human annotation",
+    "review_date": "2026-10-15",
+    "review_rationale": "Student explicitly confirmed all recorded review results on 2026-10-15. Existing binary proposals are approved; event-only and scope-limited judgments retain null program labels. This does not assert an independent second annotation or complete model-summary audit.",
+    "review_status": "student_reviewed",
+    "reviewed_label": false,
+    "reviewer": "Project author",
+    "sample_id": "real_23da98eb8655",
+    "scope_proposal": "tabular; no learned preprocessing found",
+    "source_sha256": "0f3cda55492e96a898b2414da1c71a0effc8736bf2227ab0b7690dda7e182fba"
+  },
+  {
+    "events": [
+      {
+        "lines": [
+          47,
+          62,
+          63,
+          69,
+          74,
+          75
+        ],
+        "proposal": "positive",
+        "reason": "Whole-data means fill features at 47 before split 69; training at 74 and held-out prediction at 75 depend on filled data. All methods report leak; human review pending."
+      }
+    ],
+    "program_label_proposal": true,
+    "proposer": "AI-assisted code inspection, not independent human annotation",
+    "review_date": "2026-10-15",
+    "review_rationale": "Student explicitly confirmed all recorded review results on 2026-10-15. Existing binary proposals are approved; event-only and scope-limited judgments retain null program labels. This does not assert an independent second annotation or complete model-summary audit.",
+    "review_status": "student_reviewed",
+    "reviewed_label": true,
+    "reviewer": "Project author",
+    "sample_id": "real_1859b28c0b0f",
+    "scope_proposal": "numeric tabular",
+    "source_sha256": "ffce19a49649ed904d1004954819d48d7e63e50a82e0b2504bdb5acf035ab390"
+  },
+  {
+    "events": [
+      {
+        "lines": [
+          19,
+          23,
+          28,
+          34,
+          35,
+          36,
+          42,
+          46
+        ],
+        "proposal": "scope/coverage review",
+        "reason": "Categorical data is selected from X_train; encoder and ColumnTransformer fits use training only. Proposed negative for this fitted-state event, but categorical scope and whole-program review remain pending."
+      }
+    ],
+    "program_label_proposal": null,
+    "proposer": "AI-assisted code inspection, not independent human annotation",
+    "review_date": "2026-10-15",
+    "review_rationale": "Student explicitly confirmed all recorded review results on 2026-10-15. Existing binary proposals are approved; event-only and scope-limited judgments retain null program labels. This does not assert an independent second annotation or complete model-summary audit.",
+    "review_status": "student_reviewed",
+    "reviewed_label": null,
+    "reviewer": "Project author",
+    "sample_id": "real_ccffc0d68331",
+    "scope_proposal": "categorical pipeline fitted on training; extension scope",
+    "source_sha256": "254f34c99f0b7c6822f10e5265b0389727e3fc9e32a3935f6d74c38b0889cd0a"
+  },
+  {
+    "events": [
+      {
+        "lines": [
+          48,
+          50,
+          65,
+          67,
+          88,
+          95,
+          112,
+          113
+        ],
+        "proposal": "positive",
+        "reason": "After full-data quantile filtering, StandardScaler fits all x at 88; split 95, train fit 112 and held-out prediction 113 use scaled rows. Positive scaler proposal pending student review; frozen run errors on pandas_profiling."
+      }
+    ],
+    "program_label_proposal": true,
+    "proposer": "AI-assisted code inspection, not independent human annotation",
+    "review_date": "2026-10-15",
+    "review_rationale": "Student explicitly confirmed all recorded review results on 2026-10-15. Existing binary proposals are approved; event-only and scope-limited judgments retain null program labels. This does not assert an independent second annotation or complete model-summary audit.",
+    "review_status": "student_reviewed",
+    "reviewed_label": true,
+    "reviewer": "Project author",
+    "sample_id": "real_627ee1a5f69b",
+    "scope_proposal": "numeric tabular with data-dependent row filtering",
+    "source_sha256": "92dd70ca756af8386fa94cb83bbd1e4a1fb041b6f38b5b5884f03e30636978ff"
+  }
+]

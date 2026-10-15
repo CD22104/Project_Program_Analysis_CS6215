@@ -1,0 +1,8 @@
+{
+  "baseline_run": "runs/clean-reproduction-controlled",
+  "replicate": 0,
+  "stage": "pilot",
+  "subjects": [
+    "case_cbb6e7292b60"
+  ]
+}

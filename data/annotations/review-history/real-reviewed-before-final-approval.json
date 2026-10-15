@@ -1,0 +1,128 @@
+[
+  {
+    "basis": "Student explicitly confirmed on 2026-10-15 after review: the listed full-data preprocessing event precedes splitting and evaluation information influences training representations. Positive event implies positive program under this project definition; unrelated events not thereby reviewed.",
+    "label": true,
+    "original_author_pre": "Y (mean)",
+    "review_status": "student_reviewed",
+    "reviewed_events": [
+      {
+        "lines": [
+          33,
+          34,
+          35,
+          70,
+          78,
+          103,
+          111,
+          278,
+          284
+        ],
+        "proposal": "positive",
+        "reason": "Full-data column means fill missing features before the split; filled training features reach model fitting. Separate test-only scaler fitting at line 278 does not explain this primary-task positive."
+      }
+    ],
+    "reviewer": "Project author",
+    "revision_date": "2026-10-15",
+    "sample_id": "real_38101a98cc8f",
+    "source_sha256": "6afb94b664cd649afa95e7878065f8562066d0e73f83750b925380f93e31aef2"
+  },
+  {
+    "basis": "Student explicitly agreed on 2026-10-15 to revise author pre=N to leakage: full-data target-correlation feature selection precedes the split and influences training features. Approval covers this event and positive program label only.",
+    "label": true,
+    "original_author_pre": "N",
+    "review_status": "student_reviewed",
+    "reviewed_events": [
+      {
+        "lines": [
+          35,
+          43,
+          46,
+          48,
+          53,
+          55,
+          59,
+          61
+        ],
+        "proposal": "positive for feature selection; scaler itself uses training only",
+        "reason": "Feature columns are selected using full-data correlation with Win before train_test_split. Evaluation rows and targets influence the representation used for training."
+      }
+    ],
+    "reviewer": "Project author",
+    "revision_date": "2026-10-15",
+    "sample_id": "real_926b37074ebc",
+    "source_sha256": "2533721ef5d28756fda3ca994ec71fad8396c527d613a5a5f9b2f40e5189f392"
+  },
+  {
+    "basis": "Student explicitly confirmed on 2026-10-15 after review: the listed full-data preprocessing event precedes splitting and evaluation information influences training representations. Positive event implies positive program under this project definition; unrelated events not thereby reviewed.",
+    "label": true,
+    "original_author_pre": "N (due to overlaps)",
+    "review_status": "student_reviewed",
+    "reviewed_events": [
+      {
+        "lines": [
+          48,
+          79,
+          84,
+          87,
+          90,
+          91,
+          107
+        ],
+        "proposal": "positive",
+        "reason": "Full-data Age mean fill at 48, power transform 84 and StandardScaler 87 precede split 90; train fit 91 and held-out predict 107. Author pre=N (due to overlaps) is not a pure negative. S1/N1 unknown due to an unresolved reduction, while baseline/N0 no finding. Review proposed positive without using unknown as negative."
+      }
+    ],
+    "reviewer": "Project author",
+    "revision_date": "2026-10-15",
+    "sample_id": "real_4aabfe0b5836",
+    "source_sha256": "0ef375bd04f1ed919b21d8c21cc41b0c0227e75631918346672f689dcabc91d0"
+  },
+  {
+    "basis": "Student explicitly confirmed on 2026-10-15 after review: the listed full-data preprocessing event precedes splitting and evaluation information influences training representations. Positive event implies positive program under this project definition; unrelated events not thereby reviewed.",
+    "label": true,
+    "original_author_pre": "Y",
+    "review_status": "student_reviewed",
+    "reviewed_events": [
+      {
+        "lines": [
+          51,
+          52,
+          53,
+          62,
+          65,
+          67
+        ],
+        "proposal": "positive",
+        "reason": "StandardScaler fits/transforms all X at 51-52 before split 53; train fit 62 and held-out score/predict 65/67 use those representations. All methods report leak; human review pending."
+      }
+    ],
+    "reviewer": "Project author",
+    "revision_date": "2026-10-15",
+    "sample_id": "real_621d7038c43a",
+    "source_sha256": "1efe230739e64b01a5907d20fe46dcbeacddae90107d058a7dabaffcabff3f2e"
+  },
+  {
+    "basis": "Student explicitly confirmed on 2026-10-15 after review: the listed full-data preprocessing event precedes splitting and evaluation information influences training representations. Positive event implies positive program under this project definition; unrelated events not thereby reviewed.",
+    "label": true,
+    "original_author_pre": "Y (mean)",
+    "review_status": "student_reviewed",
+    "reviewed_events": [
+      {
+        "lines": [
+          47,
+          62,
+          63,
+          69,
+          74,
+          75
+        ],
+        "proposal": "positive",
+        "reason": "Whole-data means fill features at 47 before split 69; training at 74 and held-out prediction at 75 depend on filled data. All methods report leak; human review pending."
+      }
+    ],
+    "reviewer": "Project author",
+    "revision_date": "2026-10-15",
+    "sample_id": "real_1859b28c0b0f",
+    "source_sha256": "ffce19a49649ed904d1004954819d48d7e63e50a82e0b2504bdb5acf035ab390"
+  }
+]

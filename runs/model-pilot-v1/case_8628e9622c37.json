@@ -1,0 +1,35 @@
+{
+  "cache_hits": {
+    "3c3af13f4477a4660aebb931b57c6889460d781d3246d26fdff0aa3de1b60c05": false
+  },
+  "generation_elapsed_seconds": 2.3335505593568087,
+  "model": "qwen3-coder-next",
+  "origin": "live_api",
+  "records": {
+    "3c3af13f4477a4660aebb931b57c6889460d781d3246d26fdff0aa3de1b60c05": "7cbb1cc0341c7364664e4fb9226c3fff332db931d309000bbb075e98cc89f6bf"
+  },
+  "replicate": 0,
+  "source_sha256": "5dbf1cdbc3c956300a24f05651053181cc61a6f403569000cf197aed72bbd15c",
+  "summaries": {
+    "3c3af13f4477a4660aebb931b57c6889460d781d3246d26fdff0aa3de1b60c05": {
+      "candidate_id": "3c3af13f4477a4660aebb931b57c6889460d781d3246d26fdff0aa3de1b60c05",
+      "context": "[, $invo6]",
+      "effects": [
+        {
+          "evidence_line": 32,
+          "input_index": 1,
+          "kind": "row_preserving",
+          "output_index": 0,
+          "primitive": "sklearn.preprocessing.scale",
+          "receiver": null,
+          "state_version": null
+        }
+      ],
+      "invocation": "$invo4",
+      "ir_sha256": "6a660092991ac1946ded23188caa7bedafe35c488f87c10f962a32a4ef0cd6e6",
+      "primitive_spec_sha256": "235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497",
+      "source_sha256": "5dbf1cdbc3c956300a24f05651053181cc61a6f403569000cf197aed72bbd15c",
+      "unresolved": []
+    }
+  }
+}

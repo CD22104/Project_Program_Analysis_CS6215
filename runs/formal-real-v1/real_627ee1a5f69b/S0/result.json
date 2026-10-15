@@ -1,0 +1,27 @@
+{
+  "base_sample_id": null,
+  "command": [
+    "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+    "-m",
+    "src.main",
+    "/home/dchen/workplace/CS6215/leakage-project/runs/formal-real-v1/real_627ee1a5f69b/S0/work/input.py"
+  ],
+  "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+  "diagnostics": [],
+  "elapsed_seconds": 6.5086575001478195,
+  "errors": [
+    "Unresolved Python library imports invalidate this baseline run"
+  ],
+  "family": null,
+  "location_available": false,
+  "method": "S0",
+  "partition": "test",
+  "raw_preprocessing_rows": [],
+  "returncode": 0,
+  "sample_id": "real_627ee1a5f69b",
+  "scope_projection": "raw upstream; may include test-only effects",
+  "source_kind": "real",
+  "source_sha256": "92dd70ca756af8386fa94cb83bbd1e4a1fb041b6f38b5b5884f03e30636978ff",
+  "status": "error",
+  "variant": null
+}

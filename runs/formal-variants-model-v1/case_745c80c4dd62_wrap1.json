@@ -1,0 +1,10 @@
+{
+  "cache_hits": {},
+  "generation_elapsed_seconds": 6.064772605895996e-05,
+  "model": "qwen3-coder-next",
+  "origin": "live_api",
+  "records": {},
+  "replicate": 0,
+  "source_sha256": "9bb3d95ec22bfae86d79677589d3606c2a530e3c2309186b77dd662d86f534b5",
+  "summaries": {}
+}

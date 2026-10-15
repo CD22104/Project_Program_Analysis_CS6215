@@ -1,0 +1,41 @@
+[
+  {
+    "candidate_id": "eb9119bb27ecff9f2181208df562fd7ffb6a1f86400101f1da5c18dc248720ab",
+    "canonical_method": "sklearn.preprocessing.scale",
+    "code": "def prepare(x, dimension):\n    _var4 = scale(x, axis=dimension)\n    return _var4",
+    "context": "[, $invo5]",
+    "deterministic_effect": "row_preserving",
+    "evidence": {
+      "axis": 1,
+      "input": "x",
+      "line": 32,
+      "primitive": "sklearn.preprocessing.scale"
+    },
+    "function_id": "prepare",
+    "function_parameter_dependencies": [
+      {
+        "parameter": 1,
+        "target": "function_return"
+      },
+      {
+        "parameter": 2,
+        "target": "function_return"
+      }
+    ],
+    "input_index": 1,
+    "input_rank": 2,
+    "input_variable": "x",
+    "invocation": "$invo4",
+    "ir_line": 32,
+    "ir_sha256": "ea0006a5897ecdf33cd249a5ddf10639dc4789b570dae45139bdda0e0e4b6594",
+    "method": "scale",
+    "primitive_spec_sha256": "9dfa9ded06d317a6f94f927e0c98e2a55fc05d9d03c287e86c4ba1dae61628dc",
+    "proof_reason": "reduction excludes sample axis 0",
+    "receiver": null,
+    "resolved_axis": 1,
+    "return_variable": "_var4",
+    "sample_axis": 0,
+    "source_sha256": "a92b842eb8a0db7ade64fe24412a6b8588e12d13e2cff31c9b9b9a53401df775",
+    "state_version": null
+  }
+]

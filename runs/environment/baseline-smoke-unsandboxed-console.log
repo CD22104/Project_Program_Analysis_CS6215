@@ -1,0 +1,6 @@
+{"sample": "test0.py", "status": "leak", "expected_methods": ["LogisticRegression.fit"], "actual_methods": ["LogisticRegression.fit"], "passed": true, "elapsed_seconds": 3.026397841051221}
+{"sample": "test1.py", "status": "leak", "expected_methods": ["LogisticRegression.fit"], "actual_methods": ["LogisticRegression.fit"], "passed": true, "elapsed_seconds": 3.178321208804846}
+{"sample": "test2.py", "status": "leak", "expected_methods": ["LogisticRegression.fit"], "actual_methods": ["LogisticRegression.fit"], "passed": true, "elapsed_seconds": 3.1422707345336676}
+{"sample": "test3.py", "status": "no_finding", "expected_methods": [], "actual_methods": [], "passed": true, "elapsed_seconds": 3.2785598803311586}
+{"sample": "test4.py", "status": "no_finding", "expected_methods": [], "actual_methods": [], "passed": true, "elapsed_seconds": 3.6298841387033463}
+{"sample": "nb_481597.py", "status": "error", "expected_methods": ["RandomForestRegressor.fit"], "actual_methods": [], "passed": false, "elapsed_seconds": 4.428969381377101}

@@ -1,0 +1,22 @@
+{
+  "command": [
+    "/tmp/cs6215-clean-repro-k1h36sf9/leakage-project/.env-baseline/bin/python",
+    "-m",
+    "src.main",
+    "/tmp/cs6215-clean-repro-k1h36sf9/leakage-project/runs/clean-reproduction-smoke/test3/work/input.py"
+  ],
+  "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+  "diagnostics": [],
+  "elapsed_seconds": 3.5725707076489925,
+  "errors": [],
+  "location_available": false,
+  "method": "S0",
+  "raw_preprocessing_rows": [],
+  "returncode": 0,
+  "sample_id": "test3",
+  "scope_projection": "raw upstream; may include test-only effects",
+  "scope_status": "no_finding",
+  "source_sha256": "cc45652e9fc5c7e3691c5bcbc7025b11ff7bd508f25e786c3f9c59e02b890e8a",
+  "status": "no_finding",
+  "train_affecting_projection": []
+}

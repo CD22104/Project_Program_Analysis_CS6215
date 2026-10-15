@@ -1,0 +1,5 @@
+method,TP,FP,FN,TN,unknown,error,timeout,unlabelled,scheduled,success,labelled_success,coverage,conditional_precision,conditional_recall,conditional_f1,full_set_detection_recall
+S0,6,1,2,7,0,0,0,0,16,16,16,1.0,0.8571428571428571,0.75,0.8,0.75
+S1,8,0,0,8,0,0,0,0,16,16,16,1.0,1.0,1.0,1.0,1.0
+N0,7,1,1,7,0,0,0,0,16,16,16,1.0,0.875,0.875,0.875,0.875
+N1,8,0,0,8,0,0,0,0,16,16,16,1.0,1.0,1.0,1.0,1.0

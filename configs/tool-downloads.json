@@ -1,0 +1,5 @@
+{
+  "souffle_deb_url": "https://github.com/souffle-lang/souffle/releases/download/2.4.1/x86_64-ubuntu-2004-souffle-2.4.1-Linux.deb",
+  "sha512": "a9d300911e7d6900b7b883cb0242f05b2a56a5a9f55dde1a0e817e7f391bb6661f1d9cc45c849ab5f6c7dff22906c97633a16d6b1f93763233c2644e1d20db5f",
+  "verified_against_release_checksum": true
+}

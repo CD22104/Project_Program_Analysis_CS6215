@@ -1,0 +1,52 @@
+{
+  "ai_use_statement_review_status": "student_approved",
+  "approved_negative_programs": [
+    "real_23da98eb8655",
+    "real_7d8893d1a7fe",
+    "real_8e196ed58fbc",
+    "real_902530fbf019",
+    "real_c5640d2ee6a8",
+    "real_c5a74ce0cdd8"
+  ],
+  "approved_nonbinary_programs": [
+    "real_0710295064ec",
+    "real_4df8bde21c84",
+    "real_55f763c8904d",
+    "real_66f880594b80",
+    "real_766491df25c7",
+    "real_c0650c9464b4",
+    "real_ccffc0d68331",
+    "real_d8a6e6dcf354"
+  ],
+  "approved_positive_programs": [
+    "real_1859b28c0b0f",
+    "real_38101a98cc8f",
+    "real_4aabfe0b5836",
+    "real_621d7038c43a",
+    "real_627ee1a5f69b",
+    "real_926b37074ebc",
+    "real_e21593f60273"
+  ],
+  "controlled_labels": "student_approved",
+  "course_submission": "not authorized",
+  "date": "2026-10-15",
+  "final_review_date": "2026-10-15",
+  "final_review_statement": "Student explicitly confirmed all review results and requested a final academic report. Existing judgments are approved; no binary label is inferred for event-only, out-of-scope, or inconclusive records.",
+  "final_review_status": "student_approved",
+  "method_conclusion_boundary": "Student agrees: N1 only accepts S1-provable effects; current results do not support greater accuracy than S1. Focus on model-summary errors, verification, and coverage limitations.",
+  "other_real_labels": "student_approved_as_recorded; event-only and scope-limited program labels remain null",
+  "personal_contribution_approval_date": "2026-10-15",
+  "personal_contribution_review_status": "student_approved",
+  "personal_contribution_statement": "Student explicitly approved on 2026-10-15: topic and comparison constraints, zero-cost requirement, SoCLaaS and tunnel setup, review of five real positive cases, and endorsement of the strict-N1 conclusion boundary. Implementation, prompts, experiment orchestration and initial report drafting are disclosed as AI assistance. The final confirmation additionally approves all recorded label and scope judgments and requests the formal academic report.",
+  "public_identity_policy": "Author name, student identifier, report PDF and report sources are withheld by explicit instruction.",
+  "publication": "Authorized code/evidence publication only; exclude personal name, student ID and report as instructed on 2026-10-15",
+  "publication_authorization_date": "2026-10-15",
+  "publication_constraints": {
+    "exclude_personal_name": true,
+    "exclude_report_pdf_and_sources": true,
+    "exclude_student_identifier": true,
+    "preserve_full_report_locally": true
+  },
+  "publication_status": "Sanitized code and evidence release; full signed report retained privately",
+  "repository": "https://github.com/CD22104/Project_Program_Analysis_CS6215"
+}

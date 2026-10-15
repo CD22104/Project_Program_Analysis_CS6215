@@ -1,0 +1,5 @@
+method,subjects,all_status_agreement,complete_subjects,binary_agreement,binary_agreement_rate_conditional,all_status_agreement_rate
+S0,12,12,12,12,1.0,1.0
+S1,12,12,12,12,1.0,1.0
+N0,12,12,12,12,1.0,1.0
+N1,12,12,12,12,1.0,1.0

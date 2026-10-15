@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object", "additionalProperties": false,
+  "required": ["candidate_id", "source_sha256", "ir_sha256", "invocation", "context", "primitive_spec_sha256", "effects", "unresolved"],
+  "properties": {
+    "candidate_id": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "source_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "ir_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "primitive_spec_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "invocation": {"type": "string"}, "context": {"type": "string"},
+    "unresolved": {"type": "array", "items": {"type": "string"}},
+    "effects": {"type": "array", "minItems": 1, "maxItems": 4,
+      "items": {"type": "object", "additionalProperties": false,
+        "required": ["kind", "input_index", "output_index", "evidence_line", "primitive", "receiver", "state_version"],
+        "properties": {
+          "kind": {"enum": ["row_preserving", "cross_row_reduce", "fit_state", "apply_state", "unknown"]},
+          "input_index": {"type": "integer", "minimum": 0},
+          "output_index": {"type": "integer", "minimum": 0},
+          "evidence_line": {"type": "integer", "minimum": 1},
+          "primitive": {"type": "string"}, "receiver": {"type": ["string", "null"]},
+          "state_version": {"type": ["string", "null"]}
+        }
+      }
+    }
+  }
+}

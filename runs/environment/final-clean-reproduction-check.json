@@ -1,0 +1,20 @@
+{
+  "compared_fields": [
+    "source_sha256",
+    "status",
+    "scope_status",
+    "summary_batch_sha256",
+    "raw_preprocessing_rows",
+    "train_affecting_projection",
+    "checks",
+    "unknown_reasons"
+  ],
+  "differences": [],
+  "four_method_predictions": 128,
+  "fresh_baseline_subjects": 32,
+  "implementation_sha256": "9edcff10256b98989b80158acc38a6c7fbceaf97f735ec6d210621292e9022cf",
+  "installation": "independently bootstrapped conda/pip/node/souffle environment documented by clean-reproduction-check.json; frozen code refreshed",
+  "new_model_requests": 0,
+  "status": "pass",
+  "summary_source": "same saved actual SoCLaaS batches"
+}

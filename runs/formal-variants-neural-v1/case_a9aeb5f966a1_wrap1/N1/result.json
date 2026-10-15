@@ -1,0 +1,55 @@
+{
+  "base_sample_id": "case_a9aeb5f966a1",
+  "checks": [
+    {
+      "accepted": false,
+      "candidate_id": "4555a3383d9160b09934ebdc3bfe25e4b82bbe4380607c84a6b3b3a304b25ed3",
+      "fallback": "S1 deterministic effects; otherwise original baseline",
+      "reason": "effect lacks deterministic proof: reduction includes sample axis 0",
+      "semantic_checked": true
+    }
+  ],
+  "config_sha256": "bcaf9559383a083267fb236449e26d6abfb482b85068f63d4a770b08a2a3171c",
+  "conservative_fallback_status": "leak",
+  "diagnostics": [],
+  "elapsed_seconds": 0.467596223577857,
+  "errors": [],
+  "family": "F12",
+  "frontend_elapsed_seconds": 3.348993983119726,
+  "location_available": false,
+  "method": "N1",
+  "partition": "test",
+  "raw_preprocessing_rows": [
+    [
+      "item_0",
+      "$invo8",
+      "LogisticRegression.fit",
+      "[, ]"
+    ]
+  ],
+  "sample_id": "case_a9aeb5f966a1_wrap1",
+  "scope_projection_limit": "train dependence and evaluation overlap joined with the exact reduction contexts; no safe-program claim",
+  "scope_status": "leak",
+  "source_kind": "controlled",
+  "source_sha256": "5839483a04b5b2a9e7bdfde88f8c0c95d01e87d3abd0b4959ea271cd760aa043",
+  "status": "leak",
+  "summary_batch_sha256": "bc6dc21431e825732efca6fb2921502b3ba35ce68bd4e9f2809be10193e1a346",
+  "train_affecting_projection": [
+    [
+      "model_0",
+      "a",
+      "$invo8",
+      "LogisticRegression.fit",
+      "[, ]",
+      "model_0",
+      "b",
+      "$invo9",
+      "LogisticRegression.predict",
+      "[, ]",
+      "_var0",
+      "item_0"
+    ]
+  ],
+  "unknown_reasons": [],
+  "variant": "wrap1"
+}

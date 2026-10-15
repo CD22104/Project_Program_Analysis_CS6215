@@ -1,0 +1,27 @@
+{
+  "base_sample_id": null,
+  "command": [
+    "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+    "-m",
+    "src.main",
+    "/home/dchen/workplace/CS6215/leakage-project/runs/formal-real-v1/real_c5a74ce0cdd8/S0/work/input.py"
+  ],
+  "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+  "diagnostics": [],
+  "elapsed_seconds": 4.754500318318605,
+  "errors": [],
+  "family": null,
+  "location_available": false,
+  "method": "S0",
+  "partition": "test",
+  "raw_preprocessing_rows": [],
+  "returncode": 0,
+  "sample_id": "real_c5a74ce0cdd8",
+  "scope_projection": "raw upstream; may include test-only effects",
+  "scope_status": "no_finding",
+  "source_kind": "real",
+  "source_sha256": "03f7c8402fdd0696c8db8072e22fa45e6e8021e116d6c32a50d9c1474238ca39",
+  "status": "no_finding",
+  "train_affecting_projection": [],
+  "variant": null
+}

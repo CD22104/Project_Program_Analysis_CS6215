@@ -1,0 +1,44 @@
+{
+  "cache_hits": {
+    "2feeec6c51c58580525fb88534388261a30a8facb3994426ee67efb1428e1034": false
+  },
+  "generation_elapsed_seconds": 2.8341664485633373,
+  "model": "qwen3-coder-next",
+  "origin": "live_api",
+  "records": {
+    "2feeec6c51c58580525fb88534388261a30a8facb3994426ee67efb1428e1034": "6831aada9cbeba26d0c795c6bfc20bd4ffa857872ce4442f58465c24bc9ee57b"
+  },
+  "replicate": 0,
+  "source_sha256": "0fe0899d717f308035dc31e879d48cde1d3b552037fb7677e1305d5c5d18ff0f",
+  "summaries": {
+    "2feeec6c51c58580525fb88534388261a30a8facb3994426ee67efb1428e1034": {
+      "candidate_id": "2feeec6c51c58580525fb88534388261a30a8facb3994426ee67efb1428e1034",
+      "context": "[, ]",
+      "effects": [
+        {
+          "evidence_line": 31,
+          "input_index": 1,
+          "kind": "fit_state",
+          "output_index": 0,
+          "primitive": "StandardScaler.fit_transform",
+          "receiver": "state",
+          "state_version": "$invo5:[, ]"
+        },
+        {
+          "evidence_line": 31,
+          "input_index": 1,
+          "kind": "row_preserving",
+          "output_index": 0,
+          "primitive": "StandardScaler.fit_transform",
+          "receiver": "state",
+          "state_version": "$invo5:[, ]"
+        }
+      ],
+      "invocation": "$invo5",
+      "ir_sha256": "f58f84deca578c17a0c65b453e82cace8ed973adfb311639bfaace2fd548a5c9",
+      "primitive_spec_sha256": "235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497",
+      "source_sha256": "0fe0899d717f308035dc31e879d48cde1d3b552037fb7677e1305d5c5d18ff0f",
+      "unresolved": []
+    }
+  }
+}

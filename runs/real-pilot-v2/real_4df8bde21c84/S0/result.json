@@ -1,0 +1,26 @@
+{
+  "command": [
+    "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+    "-m",
+    "src.main",
+    "/home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v2/real_4df8bde21c84/S0/work/input.py"
+  ],
+  "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+  "diagnostics": [],
+  "elapsed_seconds": 5.2560568153858185,
+  "errors": [],
+  "family": null,
+  "location_available": false,
+  "method": "S0",
+  "partition": "dev",
+  "raw_preprocessing_rows": [],
+  "returncode": 0,
+  "sample_id": "real_4df8bde21c84",
+  "scope_projection": "raw upstream; may include test-only effects",
+  "scope_status": "no_finding",
+  "source_kind": "real",
+  "source_sha256": "d7b36f0db14b5ed3d5b89a8194465549edeeaf787d255efd2a54baa3bf79c74e",
+  "status": "no_finding",
+  "train_affecting_projection": [],
+  "variant": null
+}

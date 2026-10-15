@@ -1,0 +1,88 @@
+{
+  "attempts": [
+    {
+      "attempt": 1,
+      "elapsed_seconds": 2.60637766122818,
+      "model_returned": "qwen3-coder-next",
+      "reservation_tokens": 8050,
+      "response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "annotations": null,
+              "audio": null,
+              "content": "{\n  \"candidate_id\": \"f8d029ab5ea60708f52eb6e4cbb1097911a17037ce06459793c44773322589bd\",\n  \"context\": \"[, ]\",\n  \"effects\": [\n    {\n      \"evidence_line\": 37,\n      \"input_index\": 0,\n      \"kind\": \"cross_row_reduce\",\n      \"output_index\": 0,\n      \"primitive\": \"pandas.DataFrame.var\",\n      \"receiver\": \"a\",\n      \"state_version\": null\n    }\n  ],\n  \"invocation\": \"$invo5\",\n  \"ir_sha256\": \"5fe30fa40238a573a3e8e963c26e52615549c41dbda2370dca14520de689126f\",\n  \"primitive_spec_sha256\": \"235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497\",\n  \"source_sha256\": \"629ac4060e60f59d16c98f2d89299a867addafe4a1ecdd81010ca4a3e4581d33\",\n  \"unresolved\": []\n}",
+              "function_call": null,
+              "reasoning": null,
+              "refusal": null,
+              "role": "assistant"
+            },
+            "routed_experts": null,
+            "stop_reason": null,
+            "token_ids": null
+          }
+        ],
+        "created": 1792043806,
+        "ec_transfer_params": null,
+        "id": "chatcmpl-992d5b25e7539e6e",
+        "kv_transfer_params": null,
+        "metrics": null,
+        "model": "qwen3-coder-next",
+        "object": "chat.completion",
+        "prompt_logprobs": null,
+        "prompt_text": null,
+        "prompt_token_ids": null,
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.26.0-1cf708c9",
+        "usage": {
+          "completion_tokens": 367,
+          "prompt_tokens": 1698,
+          "prompt_tokens_details": null,
+          "total_tokens": 2065
+        }
+      },
+      "success": true,
+      "usage": {
+        "completion_tokens": 367,
+        "prompt_tokens": 1698,
+        "prompt_tokens_details": null,
+        "total_tokens": 2065
+      }
+    }
+  ],
+  "cache_hit": false,
+  "cache_key": "abfcf6b40dc95666f1c7493ba1661eff84ab65565be7a373c2168fa7b0ebba56",
+  "candidate_id": "f8d029ab5ea60708f52eb6e4cbb1097911a17037ce06459793c44773322589bd",
+  "messages_sha256": "a85b8fed5ad78cba9b4ca360efb27ba32a0cebfe6292ddd7da5b004a0923051d",
+  "model_requested": "qwen3-coder-next",
+  "origin": "live_api",
+  "parameters": {
+    "max_tokens": 1200,
+    "temperature": 0
+  },
+  "replicate": 0,
+  "request_body_policy": "Private original retained; reconstruct from source/frontend and versioned prompt. No request code redistributed.",
+  "summary": {
+    "candidate_id": "f8d029ab5ea60708f52eb6e4cbb1097911a17037ce06459793c44773322589bd",
+    "context": "[, ]",
+    "effects": [
+      {
+        "evidence_line": 37,
+        "input_index": 0,
+        "kind": "cross_row_reduce",
+        "output_index": 0,
+        "primitive": "pandas.DataFrame.var",
+        "receiver": "a",
+        "state_version": null
+      }
+    ],
+    "invocation": "$invo5",
+    "ir_sha256": "5fe30fa40238a573a3e8e963c26e52615549c41dbda2370dca14520de689126f",
+    "primitive_spec_sha256": "235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497",
+    "source_sha256": "629ac4060e60f59d16c98f2d89299a867addafe4a1ecdd81010ca4a3e4581d33",
+    "unresolved": []
+  }
+}

@@ -1,0 +1,98 @@
+Looking in indexes: http://pypi.lab.internal:30080/root/lab/+simple/
+Collecting seaborn==0.12.2
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/ebf/15355a4dba460/seaborn-0.12.2-py3-none-any.whl (293 kB)
+Collecting statsmodels==0.14.1
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/a53/2dfe899f8b663/statsmodels-0.14.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (10.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.9/10.9 MB 2.8 MB/s eta 0:00:00
+Collecting plotly==5.24.1
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/f67/073a1e637eb0d/plotly-5.24.1-py3-none-any.whl (19.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 19.1/19.1 MB 2.6 MB/s eta 0:00:00
+Collecting nltk==3.8.1
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/fd5/c9109f976fa86/nltk-3.8.1-py3-none-any.whl (1.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.5/1.5 MB 2.8 MB/s eta 0:00:00
+Collecting wordcloud==1.9.3
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/05a/a3269c5af573c/wordcloud-1.9.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (520 kB)
+Collecting ipython==8.12.3
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/b03/40d46a933d27c/ipython-8.12.3-py3-none-any.whl (798 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 798.3/798.3 kB 2.8 MB/s eta 0:00:00
+Collecting pydotplus==2.0.2
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/91e/85e9ee9b85d23/pydotplus-2.0.2.tar.gz (278 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting graphviz==0.20.3
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/81f/848f2904515d8/graphviz-0.20.3-py3-none-any.whl (47 kB)
+Collecting kaleido==0.2.1
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/aa2/1cf1bf1c78f8f/kaleido-0.2.1-py2.py3-none-manylinux1_x86_64.whl (79.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 79.9/79.9 MB 2.8 MB/s eta 0:00:00
+Collecting xgboost==1.7.6
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/b1d/5db49b199152d/xgboost-1.7.6-py3-none-manylinux2014_x86_64.whl (200.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 200.3/200.3 MB 2.8 MB/s eta 0:00:00
+Requirement already satisfied: numpy!=1.24.0,>=1.17 in ./.env-baseline/lib/python3.8/site-packages (from seaborn==0.12.2) (1.24.4)
+Requirement already satisfied: pandas>=0.25 in ./.env-baseline/lib/python3.8/site-packages (from seaborn==0.12.2) (1.5.3)
+Requirement already satisfied: matplotlib!=3.6.1,>=3.1 in ./.env-baseline/lib/python3.8/site-packages (from seaborn==0.12.2) (3.7.5)
+Requirement already satisfied: scipy!=1.9.2,>=1.4 in ./.env-baseline/lib/python3.8/site-packages (from statsmodels==0.14.1) (1.10.1)
+Collecting patsy>=0.5.4 (from statsmodels==0.14.1)
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/d3d/bebe8fd5f46e2/patsy-1.0.3-py2.py3-none-any.whl (233 kB)
+Requirement already satisfied: packaging>=21.3 in ./.env-baseline/lib/python3.8/site-packages (from statsmodels==0.14.1) (26.2)
+Collecting tenacity>=6.2.0 (from plotly==5.24.1)
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/93d/e0c98785b27fc/tenacity-9.0.0-py3-none-any.whl (28 kB)
+Collecting click (from nltk==3.8.1)
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/63c/132bbbed01578/click-8.1.8-py3-none-any.whl (98 kB)
+Requirement already satisfied: joblib in ./.env-baseline/lib/python3.8/site-packages (from nltk==3.8.1) (1.4.2)
+Collecting regex>=2021.8.3 (from nltk==3.8.1)
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/d1c/ee317bfc014c2/regex-2024.11.6-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (785 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 785.1/785.1 kB 2.8 MB/s eta 0:00:00
+Collecting tqdm (from nltk==3.8.1)
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/c29/3e525e6fef9c2/tqdm-4.70.1-py3-none-any.whl (80 kB)
+Requirement already satisfied: pillow in ./.env-baseline/lib/python3.8/site-packages (from wordcloud==1.9.3) (10.4.0)
+Collecting backcall (from ipython==8.12.3)
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/fbb/ce6a29f263178/backcall-0.2.0-py2.py3-none-any.whl (11 kB)
+Collecting decorator (from ipython==8.12.3)
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/f47/fe6fdbd2edd62/decorator-5.3.1-py3-none-any.whl (10 kB)
+Collecting jedi>=0.16 (from ipython==8.12.3)
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/a8e/f22bde8490f57/jedi-0.19.2-py2.py3-none-any.whl (1.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 3.2 MB/s eta 0:00:00
+Collecting matplotlib-inline (from ipython==8.12.3)
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/df1/92d39a4ff8f21/matplotlib_inline-0.1.7-py3-none-any.whl (9.9 kB)
+Collecting pickleshare (from ipython==8.12.3)
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/964/9af414d74d4df/pickleshare-0.7.5-py2.py3-none-any.whl (6.9 kB)
+Collecting prompt-toolkit!=3.0.37,<3.1.0,>=3.0.30 (from ipython==8.12.3)
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/9aa/c639a3bbd3328/prompt_toolkit-3.0.52-py3-none-any.whl (391 kB)
+Requirement already satisfied: pygments>=2.4.0 in ./.env-baseline/lib/python3.8/site-packages (from ipython==8.12.3) (2.10.0)
+Collecting stack-data (from ipython==8.12.3)
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/d55/58e0c25a4cb08/stack_data-0.6.3-py3-none-any.whl (24 kB)
+Collecting traitlets>=5 (from ipython==8.12.3)
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/b74/e89e397b1ed28/traitlets-5.14.3-py3-none-any.whl (85 kB)
+Requirement already satisfied: typing-extensions in ./.env-baseline/lib/python3.8/site-packages (from ipython==8.12.3) (4.13.2)
+Collecting pexpect>4.3 (from ipython==8.12.3)
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/723/6d1e080e4936b/pexpect-4.9.0-py2.py3-none-any.whl (63 kB)
+Requirement already satisfied: pyparsing>=2.0.1 in ./.env-baseline/lib/python3.8/site-packages (from pydotplus==2.0.2) (3.1.4)
+Collecting parso<0.9.0,>=0.8.4 (from jedi>=0.16->ipython==8.12.3)
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/a89/26eb2a1b91548/parso-0.8.7-py2.py3-none-any.whl (107 kB)
+Requirement already satisfied: contourpy>=1.0.1 in ./.env-baseline/lib/python3.8/site-packages (from matplotlib!=3.6.1,>=3.1->seaborn==0.12.2) (1.1.1)
+Requirement already satisfied: cycler>=0.10 in ./.env-baseline/lib/python3.8/site-packages (from matplotlib!=3.6.1,>=3.1->seaborn==0.12.2) (0.12.1)
+Requirement already satisfied: fonttools>=4.22.0 in ./.env-baseline/lib/python3.8/site-packages (from matplotlib!=3.6.1,>=3.1->seaborn==0.12.2) (4.57.0)
+Requirement already satisfied: kiwisolver>=1.0.1 in ./.env-baseline/lib/python3.8/site-packages (from matplotlib!=3.6.1,>=3.1->seaborn==0.12.2) (1.4.7)
+Requirement already satisfied: python-dateutil>=2.7 in ./.env-baseline/lib/python3.8/site-packages (from matplotlib!=3.6.1,>=3.1->seaborn==0.12.2) (2.9.0.post0)
+Requirement already satisfied: importlib-resources>=3.2.0 in ./.env-baseline/lib/python3.8/site-packages (from matplotlib!=3.6.1,>=3.1->seaborn==0.12.2) (6.4.5)
+Requirement already satisfied: pytz>=2020.1 in ./.env-baseline/lib/python3.8/site-packages (from pandas>=0.25->seaborn==0.12.2) (2026.5)
+Collecting ptyprocess>=0.5 (from pexpect>4.3->ipython==8.12.3)
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/4b4/1f3967fce3af5/ptyprocess-0.7.0-py2.py3-none-any.whl (13 kB)
+Collecting wcwidth (from prompt-toolkit!=3.0.37,<3.1.0,>=3.0.30->ipython==8.12.3)
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/04c/88cff9dc3766f/wcwidth-0.8.5-py3-none-any.whl (299 kB)
+Collecting executing>=1.2.0 (from stack-data->ipython==8.12.3)
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/736/e859c9f8701f1/executing-2.3.0-py3-none-any.whl (29 kB)
+Collecting asttokens>=2.1.0 (from stack-data->ipython==8.12.3)
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/9da/13157f5b28bec/asttokens-3.0.2-py3-none-any.whl (28 kB)
+Collecting pure-eval (from stack-data->ipython==8.12.3)
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/96c/ae060a313cfaa/pure_eval-0.2.4-py3-none-any.whl (11 kB)
+Requirement already satisfied: zipp>=3.1.0 in ./.env-baseline/lib/python3.8/site-packages (from importlib-resources>=3.2.0->matplotlib!=3.6.1,>=3.1->seaborn==0.12.2) (3.20.2)
+Requirement already satisfied: six>=1.5 in ./.env-baseline/lib/python3.8/site-packages (from python-dateutil>=2.7->matplotlib!=3.6.1,>=3.1->seaborn==0.12.2) (1.17.0)
+Building wheels for collected packages: pydotplus
+  Building wheel for pydotplus (setup.py): started
+  Building wheel for pydotplus (setup.py): finished with status 'done'
+  Created wheel for pydotplus: filename=pydotplus-2.0.2-py3-none-any.whl size=24553 sha256=403b33dff855bb9778130d166e2d7d52d3dc0267b60a353abb1ca33a150e8537
+  Stored in directory: /home/dchen/.cache/pip/wheels/39/e8/bb/a6cf68793f251cce2a8dbd98a024c4dbbe25a2f01395edc601
+Successfully built pydotplus
+Installing collected packages: pure-eval, ptyprocess, pickleshare, kaleido, backcall, wcwidth, traitlets, tqdm, tenacity, regex, pydotplus, pexpect, patsy, parso, graphviz, executing, decorator, click, asttokens, xgboost, stack-data, prompt-toolkit, plotly, nltk, matplotlib-inline, jedi, wordcloud, statsmodels, seaborn, ipython
+Successfully installed asttokens-3.0.2 backcall-0.2.0 click-8.1.8 decorator-5.3.1 executing-2.3.0 graphviz-0.20.3 ipython-8.12.3 jedi-0.19.2 kaleido-0.2.1 matplotlib-inline-0.1.7 nltk-3.8.1 parso-0.8.7 patsy-1.0.3 pexpect-4.9.0 pickleshare-0.7.5 plotly-5.24.1 prompt-toolkit-3.0.52 ptyprocess-0.7.0 pure-eval-0.2.4 pydotplus-2.0.2 regex-2024.11.6 seaborn-0.12.2 stack-data-0.6.3 statsmodels-0.14.1 tenacity-9.0.0 tqdm-4.70.1 traitlets-5.14.3 wcwidth-0.8.5 wordcloud-1.9.3 xgboost-1.7.6

@@ -1,0 +1,99 @@
+No configuration file found.
+No pyproject.toml file found.
+stubPath /home/dchen/workplace/CS6215/leakage-project/third_party/leakage-analysis/typings is not a valid directory.
+Assuming Python platform Linux
+Searching for source files
+Found 1 source file
+/home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_38101a98cc8f/S0/work/input.py.ir.py
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_38101a98cc8f/S0/work/input.py.ir.py:23:8 - error: Import "seaborn" could not be resolved (reportMissingImports)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_38101a98cc8f/S0/work/input.py.ir.py:288:8 - error: Import "statsmodels.api" could not be resolved (reportMissingImports)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_38101a98cc8f/S0/work/input.py.ir.py:361:6 - error: Import "statsmodels.stats.outliers_influence" could not be resolved (reportMissingImports)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_38101a98cc8f/S0/work/input.py.ir.py:256:11 - error: No overloads for "drop" match the provided arguments
+    Argument types: (list[str], int) (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_38101a98cc8f/S0/work/input.py.ir.py:299:19 - error: Expected 1 positional argument (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_38101a98cc8f/S0/work/input.py.ir.py:528:32 - error: "y_train_pred_final_4" is possibly unbound (reportUnboundVariable)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_38101a98cc8f/S0/work/input.py.ir.py:539:18 - error: Argument of type "Any | int" cannot be assigned to parameter "__iterable" of type "Iterable[_T@sum]" in function "sum"
+    Type "Any | int" cannot be assigned to type "Iterable[_T@sum]"
+      "int" is incompatible with protocol "Iterable[_T@sum]"
+        "__iter__" is not present (reportGeneralTypeIssues)
+7 errors, 0 warnings, 0 infos 
+Completed in 5.131sec
+Warning: Variable from only occurs once in file main.dl at line 112
+    ParamToParamFlow(to, from, meth).
+-------------------------^------------
+Warning: No rules/facts defined for relation ParamToParamCondTaintSourceMethod in file main.dl at line 454
+.decl ParamToParamCondTaintSourceMethod(to:number, from:number, cond_id:number, method:Method, taintType:symbol)
+------^----------------------------------------------------------------------------------------------------------
+Warning: Variable invo1 only occurs once in file main.dl at line 665
+    callerCtx = [invo1, invo2],
+-----------------^--------------
+Warning: Variable invo1 only occurs once in file main.dl at line 712
+    ctx = [invo1, invo2],
+-----------^--------------
+Warning: Variable index0 only occurs once in file main.dl at line 833
+    c1 = count: {FormalReturn(index, meth, from)},
+------------------------------^--------------------
+Warning: Variable from only occurs once in file main.dl at line 833
+    c1 = count: {FormalReturn(index, meth, from)},
+-------------------------------------------^-------
+Warning: Variable index only occurs once in file main.dl at line 834
+    c2 = count: {ActualReturn(index, invo, to)},
+------------------------------^------------------
+Warning: Variable to only occurs once in file main.dl at line 834
+    c2 = count: {ActualReturn(index, invo, to)},
+-------------------------------------------^-----
+Warning: Variable fld only occurs once in file main.dl at line 872
+    (FieldPointsTo(baseValue, baseHctx, fld, value, hctx); IndexContentPointsTo(baseValue, baseHctx, value, hctx)),
+----------------------------------------^---------------------------------------------------------------------------
+Warning: No rules/facts defined for relation NonDataTransferEdge in file main.dl at line 890
+.decl NonDataTransferEdge(to:Var, from:Var)
+------^-------------------------------------
+Warning: Variable f only occurs once in file main.dl at line 977
+    LoadField(to, from, f).
+------------------------^---
+Warning: Variable invo2 only occurs once in file main.dl at line 1232
+    ValDataWithModel(testModel, val, invo2, meth2, ct2),
+-------------------------------------^-------------------
+Warning: Variable meth2 only occurs once in file main.dl at line 1232
+    ValDataWithModel(testModel, val, invo2, meth2, ct2),
+--------------------------------------------^------------
+Warning: Variable ct2 only occurs once in file main.dl at line 1232
+    ValDataWithModel(testModel, val, invo2, meth2, ct2),
+---------------------------------------------------^-----
+Warning: Variable test0 only occurs once in file main.dl at line 1363
+    c1 = count : { ModelPair(testModel, ctx2, trainModel, ctx1), ValOrTestDataWithModel(testModel, test, invo2, meth2, ctx2)},
+---------------------------------------------------------------------------------------------------^---------------------------
+Warning: Variable invo20 only occurs once in file main.dl at line 1363
+    c1 = count : { ModelPair(testModel, ctx2, trainModel, ctx1), ValOrTestDataWithModel(testModel, test, invo2, meth2, ctx2)},
+---------------------------------------------------------------------------------------------------------^---------------------
+Warning: Variable meth20 only occurs once in file main.dl at line 1363
+    c1 = count : { ModelPair(testModel, ctx2, trainModel, ctx1), ValOrTestDataWithModel(testModel, test, invo2, meth2, ctx2)},
+----------------------------------------------------------------------------------------------------------------^--------------
+Warning: Variable train only occurs once in file main.dl at line 1390
+    TrainingDataWithModel(trainModel, train, _, _, ctx2),
+--------------------------------------^-------------------
+Warning: Variable invo2 only occurs once in file main.dl at line 1392
+    ScoredDataWithModel(scoreModel, data, invo2, meth2, ctx3),
+------------------------------------------^--------------------
+Warning: Variable meth2 only occurs once in file main.dl at line 1392
+    ScoredDataWithModel(scoreModel, data, invo2, meth2, ctx3),
+-------------------------------------------------^-------------
+Warning: Variable test0 only occurs once in file main.dl at line 1403
+    c1 = count : {ModelPair(testModel, ctx1, _, _), TestDataWithModel(testModel, test, invo, meth, ctx1)},
+---------------------------------------------------------------------------------^-------------------------
+Warning: Variable invo0 only occurs once in file main.dl at line 1403
+    c1 = count : {ModelPair(testModel, ctx1, _, _), TestDataWithModel(testModel, test, invo, meth, ctx1)},
+---------------------------------------------------------------------------------------^-------------------
+Warning: Variable meth0 only occurs once in file main.dl at line 1403
+    c1 = count : {ModelPair(testModel, ctx1, _, _), TestDataWithModel(testModel, test, invo, meth, ctx1)},
+---------------------------------------------------------------------------------------------^-------------
+Warning: Variable test only occurs once in file main.dl at line 1404
+    c2 = count : {ModelPair(testModel, ctx1, _, _), FilteredTests(testModel, test, invo, meth, ctx1)},
+-----------------------------------------------------------------------------^-------------------------
+Warning: Variable invo only occurs once in file main.dl at line 1404
+    c2 = count : {ModelPair(testModel, ctx1, _, _), FilteredTests(testModel, test, invo, meth, ctx1)},
+-----------------------------------------------------------------------------------^-------------------
+Warning: Variable meth only occurs once in file main.dl at line 1404
+    c2 = count : {ModelPair(testModel, ctx1, _, _), FilteredTests(testModel, test, invo, meth, ctx1)},
+-----------------------------------------------------------------------------------------^-------------
+Success!	0.05	5.30	1.13	6.48	

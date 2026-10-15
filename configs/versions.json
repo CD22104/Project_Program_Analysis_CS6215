@@ -1,0 +1,10 @@
+{
+  "baseline_url": "https://github.com/malusamayo/leakage-analysis",
+  "baseline_commit": "a7d038bfec6b8ddbe21d87dde54b806aecdd79f7",
+  "pyright_commit": "e3d7d9c44ac69fa6bc66bb8a47377fcec034e503",
+  "evaluation_url": "https://github.com/malusamayo/GitHubAPI-Crawler",
+  "evaluation_commit": "3aec5fa09788d6659c6e1eac79cdc503340d9694",
+  "souffle_version": "2.4.1",
+  "baseline_timeout_seconds": 720,
+  "protocol_status": "development; not frozen"
+}

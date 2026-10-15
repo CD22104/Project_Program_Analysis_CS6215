@@ -1,0 +1,49 @@
+{
+  "base_sample_id": "case_93bfc19cb919",
+  "command": [
+    "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+    "-m",
+    "src.main",
+    "/home/dchen/workplace/CS6215/leakage-project/runs/formal-variants-v1/case_93bfc19cb919_rename/S0/work/input.py"
+  ],
+  "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+  "diagnostics": [],
+  "elapsed_seconds": 3.5588265396654606,
+  "errors": [],
+  "family": "F15",
+  "location_available": false,
+  "method": "S0",
+  "partition": "test",
+  "raw_preprocessing_rows": [
+    [
+      "value_004",
+      "$invo7",
+      "LogisticRegression.fit",
+      "[, ]"
+    ]
+  ],
+  "returncode": 0,
+  "sample_id": "case_93bfc19cb919_rename",
+  "scope_projection": "raw upstream; may include test-only effects",
+  "scope_status": "leak",
+  "source_kind": "controlled",
+  "source_sha256": "87741d8cc83ffca964e740ffe3d48886ef505d7050fadf597c5533a12a5fa7ec",
+  "status": "leak",
+  "train_affecting_projection": [
+    [
+      "value_006_0",
+      "value_000",
+      "$invo7",
+      "LogisticRegression.fit",
+      "[, ]",
+      "value_006_0",
+      "value_001",
+      "$invo8",
+      "LogisticRegression.predict",
+      "[, ]",
+      "_var6",
+      "value_004"
+    ]
+  ],
+  "variant": "rename"
+}

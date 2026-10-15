@@ -1,0 +1,19 @@
+{
+  "baseline_run": "runs/formal-controlled-v1",
+  "replicate": 2,
+  "stage": "formal",
+  "subjects": [
+    "case_0b5b895c8fa0",
+    "case_9c795b58664d",
+    "case_5fb5a96c66c2",
+    "case_64e55c941f68",
+    "case_27297e919d01",
+    "case_7273981d4ca5",
+    "case_1f1523f46002",
+    "case_0fbb10694559",
+    "case_c103edfd32a9",
+    "case_93d0a8d5662e",
+    "case_555e8a6cbf1b",
+    "case_709a9bea0169"
+  ]
+}

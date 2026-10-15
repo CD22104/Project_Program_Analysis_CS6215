@@ -1,0 +1,32 @@
+{
+  "base_sample_id": "case_0b5b895c8fa0",
+  "checks": [
+    {
+      "accepted": true,
+      "candidate_id": "e006632d20532d5b125f8a42856330595744fee50ba3fd20342da87e475a7a85",
+      "reason": "structure and references only",
+      "semantic_checked": false
+    }
+  ],
+  "config_sha256": "4a17f1742d1f8aaa0eb6ec4ee224e8eb865e9b20b037ecf59f8e8d6ffd3c667c",
+  "conservative_fallback_status": "no_finding",
+  "diagnostics": [],
+  "elapsed_seconds": 0.47976542077958584,
+  "errors": [],
+  "family": "F08",
+  "frontend_elapsed_seconds": 3.6513125766068697,
+  "location_available": false,
+  "method": "N0",
+  "partition": "test",
+  "raw_preprocessing_rows": [],
+  "sample_id": "case_0b5b895c8fa0_wrap1",
+  "scope_projection_limit": "train dependence and evaluation overlap joined with the exact reduction contexts; no safe-program claim",
+  "scope_status": "no_finding",
+  "source_kind": "controlled",
+  "source_sha256": "888ed640fed0fbd6b7068e0abb6914b6276e7a8557e2079b879cf8bc2b2f5d1f",
+  "status": "no_finding",
+  "summary_batch_sha256": "39a6e39808a49031062f8df4d7edcb4b0016b34d0a59615afec5a2c3d6570bcc",
+  "train_affecting_projection": [],
+  "unknown_reasons": [],
+  "variant": "wrap1"
+}

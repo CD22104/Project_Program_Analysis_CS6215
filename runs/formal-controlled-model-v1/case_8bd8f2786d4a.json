@@ -1,0 +1,44 @@
+{
+  "cache_hits": {
+    "6d83e25eecc61398ce82d4b244c7ba77add5ce6fa5a7f12315b4f0083b94cc8b": false
+  },
+  "generation_elapsed_seconds": 3.048801826313138,
+  "model": "qwen3-coder-next",
+  "origin": "live_api",
+  "records": {
+    "6d83e25eecc61398ce82d4b244c7ba77add5ce6fa5a7f12315b4f0083b94cc8b": "7ecf28cdf94988176238dc6458bbe9b3f1df86f8de6d9250f3579a723a89ada8"
+  },
+  "replicate": 0,
+  "source_sha256": "3cc298fe8180bee910d68b2eeef140f7fd118c67f0bd2f7e6ec86de7d7e8e7b5",
+  "summaries": {
+    "6d83e25eecc61398ce82d4b244c7ba77add5ce6fa5a7f12315b4f0083b94cc8b": {
+      "candidate_id": "6d83e25eecc61398ce82d4b244c7ba77add5ce6fa5a7f12315b4f0083b94cc8b",
+      "context": "[, ]",
+      "effects": [
+        {
+          "evidence_line": 33,
+          "input_index": 1,
+          "kind": "fit_state",
+          "output_index": 0,
+          "primitive": "SelectKBest.fit_transform",
+          "receiver": "selector",
+          "state_version": "$invo5:[, ]"
+        },
+        {
+          "evidence_line": 33,
+          "input_index": 1,
+          "kind": "row_preserving",
+          "output_index": 0,
+          "primitive": "SelectKBest.fit_transform",
+          "receiver": "selector",
+          "state_version": "$invo5:[, ]"
+        }
+      ],
+      "invocation": "$invo5",
+      "ir_sha256": "edb79a73a967cf1fdff891bc9fe29c8f48baae169372b099ba082042f44b8efb",
+      "primitive_spec_sha256": "235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497",
+      "source_sha256": "3cc298fe8180bee910d68b2eeef140f7fd118c67f0bd2f7e6ec86de7d7e8e7b5",
+      "unresolved": []
+    }
+  }
+}

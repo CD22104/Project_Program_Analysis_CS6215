@@ -1,0 +1,137 @@
+npm WARN old lockfile 
+npm WARN old lockfile The package-lock.json file was created with an old version of npm,
+npm WARN old lockfile so supplemental metadata must be fetched from the registry.
+npm WARN old lockfile 
+npm WARN old lockfile This is a one-time fix-up, please be patient...
+npm WARN old lockfile 
+npm WARN deprecated uid-number@0.0.6: This package is no longer supported.
+npm WARN deprecated uuid@3.4.0: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
+npm WARN deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+npm WARN deprecated readdir-scoped-modules@1.1.0: This functionality has been moved to @npmcli/fs
+npm WARN deprecated read-package-tree@5.3.1: The functionality that this package provided is now in @npmcli/arborist
+npm WARN deprecated read-package-json@2.1.2: This package is no longer supported. Please use @npmcli/package-json instead.
+npm WARN deprecated q@1.5.1: You or someone you depend on is using Q, the JavaScript Promise library that gave JavaScript developers strong feelings about promises. They can almost certainly migrate to the native JavaScript promise now. Thank you literally everyone for joining me in this bet against the odds. Be excellent to each other.
+npm WARN deprecated 
+npm WARN deprecated (For a CapTP with native promises, see @endo/eventual-send and @endo/captp)
+npm WARN deprecated tar@4.4.19: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated osenv@0.1.5: This package is no longer supported.
+npm WARN deprecated npmlog@4.1.2: This package is no longer supported.
+npm WARN deprecated npm-lifecycle@3.1.5: The lifecycle script runner used in npm is now @npmcli/run-script. Please use that module moving forward
+npm WARN deprecated lodash.template@4.5.0: This package is deprecated. Use https://socket.dev/npm/package/eta instead.
+npm WARN deprecated libnpmconfig@1.2.1: This module is not used anymore. npm config is parsed by npm itself and by @npmcli/config
+npm WARN deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated glob@7.2.0: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+npm WARN deprecated git-raw-commits@2.0.10: Deprecated and no longer maintained. Use @conventional-changelog/git-client instead.
+npm WARN deprecated git-semver-tags@4.1.1: Deprecated and no longer maintained. Use @conventional-changelog/git-client instead.
+npm WARN deprecated figgy-pudding@3.5.2: This module is no longer supported.
+npm WARN deprecated gauge@2.7.4: This package is no longer supported.
+npm WARN deprecated debuglog@1.0.1: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated conventional-changelog-core@4.2.4: Deprecated and no longer maintained. Please use conventional-changelog instead.
+npm WARN deprecated are-we-there-yet@1.1.7: This package is no longer supported.
+npm WARN deprecated @npmcli/move-file@1.1.2: This functionality has been moved to @npmcli/fs
+npm WARN deprecated @npmcli/ci-detect@1.4.0: this package has been deprecated, use `ci-info` instead
+npm WARN deprecated @lerna/validation-error@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/symlink-dependencies@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/run-topologically@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/run-lifecycle@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/write-log-file@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/timer@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/symlink-binary@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/profiler@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/prompt@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/rimraf-dir@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/resolve-symlink@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/prerelease-id-from-version@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/project@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/run@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/pulse-till-done@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/package-graph@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/output@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/npm-publish@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/otplease@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/listable@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/npm-install@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/log-packed@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/query-graph@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/npm-dist-tag@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/pack-directory@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/npm-run-script@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/list@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/package@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/init@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/global-options@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/link@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/npm-conf@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/has-npm-version@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/gitlab-client@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/get-packed@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/version@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/import@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/get-npm-exec-opts@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/exec@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/describe-ref@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/info@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/create@4.0.0: This package is an implementation detail of Lerna and is no longer published separately.
+npm WARN deprecated @lerna/command@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/publish@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/conventional-commits@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/create-symlink@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/diff@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/github-client@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/filter-packages@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/check-working-tree@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/changed@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/add@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/cli@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/collect-uncommitted@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/bootstrap@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/clean@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @humanwhocodes/config-array@0.6.0: Use @eslint/config-array instead
+npm WARN deprecated @lerna/collect-updates@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/filter-options@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated glob@7.1.7: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+npm WARN deprecated @humanwhocodes/object-schema@1.2.1: Use @eslint/object-schema instead
+npm WARN deprecated rimraf@2.7.1: Rimraf versions prior to v4 are no longer supported
+npm WARN deprecated read-package-json@4.1.1: This package is no longer supported. Please use @npmcli/package-json instead.
+npm WARN deprecated read-package-json@3.0.1: This package is no longer supported. Please use @npmcli/package-json instead.
+npm WARN deprecated tar@6.1.11: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+npm WARN deprecated tar@6.1.11: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+npm WARN deprecated tar@6.1.11: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+npm WARN deprecated tar@6.1.11: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+npm WARN deprecated tar@6.1.11: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+npm WARN deprecated eslint@8.1.0: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+
+> postinstall
+> npm run bootstrap
+
+
+> bootstrap
+> node ./build/skipBootstrap.js || lerna bootstrap
+
+lerna notice cli v4.0.0
+lerna info Bootstrapping 3 packages
+lerna info Installing external dependencies
+lerna info Symlinking packages and binaries
+lerna success Bootstrapped 3 packages
+
+added 846 packages, and audited 847 packages in 19s
+
+98 packages are looking for funding
+  run `npm fund` for details
+
+79 vulnerabilities (8 low, 20 moderate, 40 high, 11 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+npm notice 
+npm notice New major version of npm available! 8.19.4 -> 12.2.0
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v12.2.0>
+npm notice Run `npm install -g npm@12.2.0` to update!
+npm notice 

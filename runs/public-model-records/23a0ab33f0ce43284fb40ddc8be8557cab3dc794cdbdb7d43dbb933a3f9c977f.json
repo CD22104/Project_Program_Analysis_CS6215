@@ -1,0 +1,91 @@
+{
+  "attempts": [
+    {
+      "attempt": 1,
+      "elapsed_seconds": 2.9514716751873493,
+      "model_returned": "qwen3-coder-next",
+      "reservation_tokens": 8057,
+      "response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "annotations": null,
+              "audio": null,
+              "content": "{\n  \"candidate_id\": \"b5aa5d6a363a8d39818ba8eb9ca2ae8e82514d99fdef78bcce0b94ab65586bcb\",\n  \"context\": \"[, ]\",\n  \"effects\": [\n    {\n      \"evidence_line\": 140,\n      \"input_index\": 0,\n      \"kind\": \"cross_row_reduce\",\n      \"output_index\": 0,\n      \"primitive\": \"Unknown.mean\",\n      \"receiver\": \"_var89\",\n      \"state_version\": null\n    }\n  ],\n  \"invocation\": \"$invo40\",\n  \"ir_sha256\": \"ef99e2343d0dfc1923e79e53b68d1d36ac4d2e57b0f2ff5a70b04e9d1e67cac5\",\n  \"primitive_spec_sha256\": \"235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497\",\n  \"source_sha256\": \"6afb94b664cd649afa95e7878065f8562066d0e73f83750b925380f93e31aef2\",\n  \"unresolved\": [\n    \"axis is not resolved (null); default behavior depends on type (NumPy: all axes, pandas: axis=0)\",\n    \"input_rank is null; cannot determine if axis is valid or whether reduction is row-local\"\n  ]\n}",
+              "function_call": null,
+              "reasoning": null,
+              "refusal": null,
+              "role": "assistant"
+            },
+            "routed_experts": null,
+            "stop_reason": null,
+            "token_ids": null
+          }
+        ],
+        "created": 1792042844,
+        "ec_transfer_params": null,
+        "id": "chatcmpl-bdc02c35564881b3",
+        "kv_transfer_params": null,
+        "metrics": null,
+        "model": "qwen3-coder-next",
+        "object": "chat.completion",
+        "prompt_logprobs": null,
+        "prompt_text": null,
+        "prompt_token_ids": null,
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.26.0-1cf708c9",
+        "usage": {
+          "completion_tokens": 415,
+          "prompt_tokens": 1697,
+          "prompt_tokens_details": null,
+          "total_tokens": 2112
+        }
+      },
+      "success": true,
+      "usage": {
+        "completion_tokens": 415,
+        "prompt_tokens": 1697,
+        "prompt_tokens_details": null,
+        "total_tokens": 2112
+      }
+    }
+  ],
+  "cache_hit": false,
+  "cache_key": "23a0ab33f0ce43284fb40ddc8be8557cab3dc794cdbdb7d43dbb933a3f9c977f",
+  "candidate_id": "b5aa5d6a363a8d39818ba8eb9ca2ae8e82514d99fdef78bcce0b94ab65586bcb",
+  "messages_sha256": "e354f07734ff977b97957a2b807e5688103c39a86d4d538721fa313b3675921c",
+  "model_requested": "qwen3-coder-next",
+  "origin": "live_api",
+  "parameters": {
+    "max_tokens": 1200,
+    "temperature": 0
+  },
+  "replicate": 0,
+  "request_body_policy": "Private original retained; reconstruct from source/frontend and versioned prompt. No request code redistributed.",
+  "summary": {
+    "candidate_id": "b5aa5d6a363a8d39818ba8eb9ca2ae8e82514d99fdef78bcce0b94ab65586bcb",
+    "context": "[, ]",
+    "effects": [
+      {
+        "evidence_line": 140,
+        "input_index": 0,
+        "kind": "cross_row_reduce",
+        "output_index": 0,
+        "primitive": "Unknown.mean",
+        "receiver": "_var89",
+        "state_version": null
+      }
+    ],
+    "invocation": "$invo40",
+    "ir_sha256": "ef99e2343d0dfc1923e79e53b68d1d36ac4d2e57b0f2ff5a70b04e9d1e67cac5",
+    "primitive_spec_sha256": "235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497",
+    "source_sha256": "6afb94b664cd649afa95e7878065f8562066d0e73f83750b925380f93e31aef2",
+    "unresolved": [
+      "axis is not resolved (null); default behavior depends on type (NumPy: all axes, pandas: axis=0)",
+      "input_rank is null; cannot determine if axis is valid or whether reduction is row-local"
+    ]
+  }
+}

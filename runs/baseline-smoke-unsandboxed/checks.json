@@ -1,0 +1,64 @@
+[
+  {
+    "actual_methods": [
+      "LogisticRegression.fit"
+    ],
+    "elapsed_seconds": 3.026397841051221,
+    "expected_methods": [
+      "LogisticRegression.fit"
+    ],
+    "passed": true,
+    "sample": "test0.py",
+    "status": "leak"
+  },
+  {
+    "actual_methods": [
+      "LogisticRegression.fit"
+    ],
+    "elapsed_seconds": 3.178321208804846,
+    "expected_methods": [
+      "LogisticRegression.fit"
+    ],
+    "passed": true,
+    "sample": "test1.py",
+    "status": "leak"
+  },
+  {
+    "actual_methods": [
+      "LogisticRegression.fit"
+    ],
+    "elapsed_seconds": 3.1422707345336676,
+    "expected_methods": [
+      "LogisticRegression.fit"
+    ],
+    "passed": true,
+    "sample": "test2.py",
+    "status": "leak"
+  },
+  {
+    "actual_methods": [],
+    "elapsed_seconds": 3.2785598803311586,
+    "expected_methods": [],
+    "passed": true,
+    "sample": "test3.py",
+    "status": "no_finding"
+  },
+  {
+    "actual_methods": [],
+    "elapsed_seconds": 3.6298841387033463,
+    "expected_methods": [],
+    "passed": true,
+    "sample": "test4.py",
+    "status": "no_finding"
+  },
+  {
+    "actual_methods": [],
+    "elapsed_seconds": 4.428969381377101,
+    "expected_methods": [
+      "RandomForestRegressor.fit"
+    ],
+    "passed": false,
+    "sample": "nb_481597.py",
+    "status": "error"
+  }
+]

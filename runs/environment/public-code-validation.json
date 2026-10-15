@@ -1,0 +1,33 @@
+{
+  "annotation_provenance_hash_only_changes": [
+    "reviewed-real.json"
+  ],
+  "byte_identical_numeric_files": [
+    "real.json",
+    "development.json",
+    "metrics.csv",
+    "integrity-sensitivity.json",
+    "repetition.csv",
+    "controlled.json",
+    "by-family.csv",
+    "repeated-summary-audit.json",
+    "paired-variants.csv",
+    "summary-audit.json",
+    "study.json",
+    "summary-audit-counts.json",
+    "variants.json",
+    "timing.csv",
+    "integrity-sensitivity.csv",
+    "real-development.json",
+    "verification.csv",
+    "costs.csv"
+  ],
+  "dependency_environment": "Previously independently bootstrapped environment reused for public saved-result rebuild",
+  "frozen_implementation_matches": true,
+  "frozen_predictions_identical": true,
+  "identity_matches": [],
+  "label_truth_values_identical": true,
+  "new_model_calls": 0,
+  "numeric_files_compared": 19,
+  "signed_report_absent": true
+}

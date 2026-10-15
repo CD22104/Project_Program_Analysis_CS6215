@@ -1,0 +1,53 @@
+{
+  "baseline_timeout_seconds": 720,
+  "cohort_hashes": {
+    "controlled.json": "9f51fdbed8ff54e1e2ef687bf1d0910dafd51f440aba1bb5725e0aa802971700",
+    "real.json": "7b94db6a8d138b85c1dc5b7449690398fc0ee21a6956e815ad30a6ba26c73b0a",
+    "variants.json": "f6464ae36b922a1f34272b2b347e9aa708512352b22bd20d5acb6e26c953de92"
+  },
+  "frozen_cohort_hashes": {
+    "controlled.json": "379d2ecb0997041ec54e36b30d1daaf947fc68f5d31cab393ee520d88dcd86fe",
+    "real.json": "cb125f32ea667de2846df4b373c4f6a5caf98fc0eea81c94ef3b064e25ac9918",
+    "variants.json": "31b73afa150372be5ee35d3a4e4993e69c587b205110412756c47a5497169e7b"
+  },
+  "implementation_sha256": "9edcff10256b98989b80158acc38a6c7fbceaf97f735ec6d210621292e9022cf",
+  "model": "qwen3-coder-next",
+  "primary_metric": "program-level train-affecting scope projection",
+  "prompt_sha256": "5313162228a0fb6a04356318820b9f8683e527dc1d727ab16071c3bb3c9283d4",
+  "repeat_families": [
+    "F16",
+    "F23",
+    "F08",
+    "F17",
+    "F14",
+    "F19",
+    "F10",
+    "F12",
+    "F22",
+    "F15",
+    "F21",
+    "F11"
+  ],
+  "repeat_subjects": [
+    "case_1f1523f46002",
+    "case_709a9bea0169",
+    "case_0b5b895c8fa0",
+    "case_0fbb10694559",
+    "case_27297e919d01",
+    "case_c103edfd32a9",
+    "case_9c795b58664d",
+    "case_64e55c941f68",
+    "case_555e8a6cbf1b",
+    "case_7273981d4ca5",
+    "case_93d0a8d5662e",
+    "case_5fb5a96c66c2"
+  ],
+  "replicates": [
+    0,
+    1,
+    2
+  ],
+  "reporting": "controlled, real, and paired variants separate; unreviewed labels provisional",
+  "student_label_review": "pending",
+  "student_method_review": "pending"
+}

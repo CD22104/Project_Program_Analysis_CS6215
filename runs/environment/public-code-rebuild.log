@@ -1,0 +1,4 @@
+Rebuilt ['development', 'real-development', 'controlled', 'real', 'variants'] from saved predictions and responses only.
+Post-hoc integrity sensitivity: 28 programs; excluded families ['F22', 'F23']
+Rebuilt robustness, repeat-summary, cost text, family breakdown and saved rule audit counts.
+Final annotation metadata and figures rebuilt; real binary subset: 11 programs, 5 positive; no model requests.

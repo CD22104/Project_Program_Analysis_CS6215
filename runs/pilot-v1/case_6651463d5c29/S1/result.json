@@ -1,0 +1,34 @@
+{
+  "checks": [
+    {
+      "accepted": true,
+      "candidate_id": "9b3970cd876d9a8d2584369314da9b446169809db9ade6a3acd74fb6ac4f83fe",
+      "reason": "verified within declared primitive subset",
+      "semantic_checked": true
+    }
+  ],
+  "config_sha256": "61c8815c97df6a9b233fbd5cdd8819427feab2855003ef8cb0a96702699fb33c",
+  "diagnostics": [],
+  "elapsed_seconds": 0.030451109632849693,
+  "errors": [
+    "Derived solver failed; see solver.log"
+  ],
+  "family": "F04",
+  "frontend_elapsed_seconds": 2.9777193255722523,
+  "location_available": false,
+  "method": "S1",
+  "partition": "dev",
+  "raw_preprocessing_rows": [],
+  "sample_id": "case_6651463d5c29",
+  "source_kind": "controlled",
+  "source_sha256": "9b37d2c5e10fa23322f5afef22ca2bc9ed8b22472e78fd09ac1a6e17a8de3dbf",
+  "status": "error",
+  "summary_batch_sha256": null,
+  "unknown_reasons": [
+    {
+      "candidate_id": "9b3970cd876d9a8d2584369314da9b446169809db9ade6a3acd74fb6ac4f83fe",
+      "reason": "unresolved axis, input rank, or primitive identity"
+    }
+  ],
+  "variant": "base"
+}

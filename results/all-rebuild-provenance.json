@@ -1,0 +1,12 @@
+{
+  "cohorts": {
+    "controlled": "runs/formal-controlled-neural-v1/predictions.json",
+    "development": "runs/neural-pilot-v1/predictions.json",
+    "real": "runs/formal-real-neural-v1/predictions.json",
+    "real-development": "runs/neural-real-pilot-v1/predictions.json",
+    "variants": "runs/formal-variants-neural-v1/predictions.json"
+  },
+  "formal_complete": true,
+  "model_records": "private originals or exported response-only evidence",
+  "model_requests_made": 0
+}

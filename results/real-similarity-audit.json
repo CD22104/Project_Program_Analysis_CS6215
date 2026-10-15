@@ -1,0 +1,34 @@
+{
+  "screen": "Exploratory normalized AST call/assignment/control subtree overlap; identifiers/constants normalized. Threshold .25 flags inspection only, not an independence certificate. Run after protocol freeze; no cohort changes.",
+  "flagged_pairs": [
+    {
+      "a": "real_902530fbf019",
+      "b": "real_55f763c8904d",
+      "partition_a": "test",
+      "partition_b": "test",
+      "normalized_subtree_jaccard": 0.5833333333333334
+    },
+    {
+      "a": "real_55f763c8904d",
+      "b": "real_23da98eb8655",
+      "partition_a": "test",
+      "partition_b": "test",
+      "normalized_subtree_jaccard": 0.2727272727272727
+    },
+    {
+      "a": "real_902530fbf019",
+      "b": "real_23da98eb8655",
+      "partition_a": "test",
+      "partition_b": "test",
+      "normalized_subtree_jaccard": 0.26666666666666666
+    },
+    {
+      "a": "real_c5640d2ee6a8",
+      "b": "real_55f763c8904d",
+      "partition_a": "test",
+      "partition_b": "test",
+      "normalized_subtree_jaccard": 0.25
+    }
+  ],
+  "source_repository_independence": "unconfirmed"
+}

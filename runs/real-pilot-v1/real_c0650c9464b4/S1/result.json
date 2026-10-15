@@ -1,0 +1,23 @@
+{
+  "checks": [],
+  "config_sha256": "61c8815c97df6a9b233fbd5cdd8819427feab2855003ef8cb0a96702699fb33c",
+  "diagnostics": [],
+  "elapsed_seconds": 0.0009498372673988342,
+  "errors": [
+    "Baseline frontend unavailable",
+    "Unresolved Python library imports invalidate this baseline run"
+  ],
+  "family": null,
+  "frontend_elapsed_seconds": 5.786013877019286,
+  "location_available": false,
+  "method": "S1",
+  "partition": "dev",
+  "raw_preprocessing_rows": [],
+  "sample_id": "real_c0650c9464b4",
+  "source_kind": "real",
+  "source_sha256": "210ac476fdfcf75327d53d55fb5c07190ae74548d2cfc7f056d86c90e37da819",
+  "status": "error",
+  "summary_batch_sha256": null,
+  "unknown_reasons": [],
+  "variant": null
+}

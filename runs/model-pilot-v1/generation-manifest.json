@@ -1,0 +1,23 @@
+{
+  "baseline_run": "runs/clean-reproduction-controlled",
+  "replicate": 0,
+  "stage": "pilot",
+  "subjects": [
+    "case_cbb6e7292b60",
+    "case_6f42d857cb15",
+    "case_25f5ea8eb0d5",
+    "case_c725ff5fdbb3",
+    "case_c816f4865b05",
+    "case_09dd1133340b",
+    "case_4e1b8e2dcd98",
+    "case_3852b76a546a",
+    "case_13e1af3f9446",
+    "case_6651463d5c29",
+    "case_b5f9dd1254e4",
+    "case_4f94ee07af41",
+    "case_530be13f2a9d",
+    "case_8628e9622c37",
+    "case_79b29e567dc3",
+    "case_16825d22e3d0"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "base_sample_id": "case_cb94e4d70763",
+  "checks": [
+    {
+      "accepted": false,
+      "candidate_id": "23fae897a382482a1543eff34e1fc7b68276c01522c1c0762f3bf0c2cf4e3199",
+      "fallback": "S1 deterministic effects; otherwise original baseline",
+      "reason": "effect lacks deterministic proof: reviewed stateful API; upstream SSA/pointer propagation retained",
+      "semantic_checked": true
+    },
+    {
+      "accepted": false,
+      "candidate_id": "061a35500eaba961f8586811cbccf6b51504901d6aeb28d4c6b55c46dd65b7fd",
+      "fallback": "S1 deterministic effects; otherwise original baseline",
+      "reason": "effect lacks deterministic proof: reviewed stateful API; upstream SSA/pointer propagation retained",
+      "semantic_checked": true
+    }
+  ],
+  "config_sha256": "bcaf9559383a083267fb236449e26d6abfb482b85068f63d4a770b08a2a3171c",
+  "conservative_fallback_status": "leak",
+  "diagnostics": [],
+  "elapsed_seconds": 0.49537921883165836,
+  "errors": [],
+  "family": "F23",
+  "frontend_elapsed_seconds": 3.4004210755228996,
+  "location_available": false,
+  "method": "N1",
+  "partition": "test",
+  "raw_preprocessing_rows": [
+    [
+      "b",
+      "$invo9",
+      "LogisticRegression.fit",
+      "[, ]"
+    ]
+  ],
+  "sample_id": "case_cb94e4d70763_comments",
+  "scope_projection_limit": "train dependence and evaluation overlap joined with the exact reduction contexts; no safe-program claim",
+  "scope_status": "leak",
+  "source_kind": "controlled",
+  "source_sha256": "93876002cb65b007ab6738a86b0b7a02b6fdfdc292ba25d3ea313bd04f491a4d",
+  "status": "leak",
+  "summary_batch_sha256": "83fb274c04aadfa86b901d6a9fe925d0ce341be6d803f3a9e9584d12a06c8548",
+  "train_affecting_projection": [
+    [
+      "model_0",
+      "a_0",
+      "$invo9",
+      "LogisticRegression.fit",
+      "[, ]",
+      "model_0",
+      "b_0",
+      "$invo10",
+      "LogisticRegression.predict",
+      "[, ]",
+      "state",
+      "b"
+    ]
+  ],
+  "unknown_reasons": [],
+  "variant": "comments"
+}

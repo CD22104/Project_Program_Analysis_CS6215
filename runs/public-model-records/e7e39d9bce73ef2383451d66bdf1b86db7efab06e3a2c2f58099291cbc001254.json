@@ -1,0 +1,92 @@
+{
+  "attempts": [
+    {
+      "attempt": 1,
+      "elapsed_seconds": 2.7898710649460554,
+      "model_returned": "qwen3-coder-next",
+      "reservation_tokens": 8056,
+      "response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "annotations": null,
+              "audio": null,
+              "content": "{\n  \"candidate_id\": \"05c9f94252e8d3d5f956a95b486da13f72a8063dba8366b5ae8862ec344c96d2\",\n  \"context\": \"[, ]\",\n  \"effects\": [\n    {\n      \"evidence_line\": 76,\n      \"input_index\": 0,\n      \"kind\": \"cross_row_reduce\",\n      \"output_index\": 0,\n      \"primitive\": \"Unknown.mean\",\n      \"receiver\": \"_var10\",\n      \"state_version\": null\n    }\n  ],\n  \"invocation\": \"$invo10\",\n  \"ir_sha256\": \"1c0fc8242b8ce8c7b3ce3ee8f9759353bbf2c17d7bb1e3932205295ac35d2e7f\",\n  \"primitive_spec_sha256\": \"235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497\",\n  \"source_sha256\": \"0ef375bd04f1ed919b21d8c21cc41b0c0227e75631918346672f689dcabc91d0\",\n  \"unresolved\": [\n    \"axis is not resolved (None or omitted); default behavior depends on library and rank\",\n    \"input rank is unknown; axis=None reduces all axes, causing cross-row mixing\",\n    \"receiver type (_var10) is unknown; behavior may differ between NumPy and pandas\"\n  ]\n}",
+              "function_call": null,
+              "reasoning": null,
+              "refusal": null,
+              "role": "assistant"
+            },
+            "routed_experts": null,
+            "stop_reason": null,
+            "token_ids": null
+          }
+        ],
+        "created": 1792043414,
+        "ec_transfer_params": null,
+        "id": "chatcmpl-8e542755a48ccf9a",
+        "kv_transfer_params": null,
+        "metrics": null,
+        "model": "qwen3-coder-next",
+        "object": "chat.completion",
+        "prompt_logprobs": null,
+        "prompt_text": null,
+        "prompt_token_ids": null,
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.26.0-1cf708c9",
+        "usage": {
+          "completion_tokens": 429,
+          "prompt_tokens": 1700,
+          "prompt_tokens_details": null,
+          "total_tokens": 2129
+        }
+      },
+      "success": true,
+      "usage": {
+        "completion_tokens": 429,
+        "prompt_tokens": 1700,
+        "prompt_tokens_details": null,
+        "total_tokens": 2129
+      }
+    }
+  ],
+  "cache_hit": false,
+  "cache_key": "e7e39d9bce73ef2383451d66bdf1b86db7efab06e3a2c2f58099291cbc001254",
+  "candidate_id": "05c9f94252e8d3d5f956a95b486da13f72a8063dba8366b5ae8862ec344c96d2",
+  "messages_sha256": "b4b006f44a38e5e237d4a662de939cd41d580052473e63bbedc959adf9f334eb",
+  "model_requested": "qwen3-coder-next",
+  "origin": "live_api",
+  "parameters": {
+    "max_tokens": 1200,
+    "temperature": 0
+  },
+  "replicate": 0,
+  "request_body_policy": "Private original retained; reconstruct from source/frontend and versioned prompt. No request code redistributed.",
+  "summary": {
+    "candidate_id": "05c9f94252e8d3d5f956a95b486da13f72a8063dba8366b5ae8862ec344c96d2",
+    "context": "[, ]",
+    "effects": [
+      {
+        "evidence_line": 76,
+        "input_index": 0,
+        "kind": "cross_row_reduce",
+        "output_index": 0,
+        "primitive": "Unknown.mean",
+        "receiver": "_var10",
+        "state_version": null
+      }
+    ],
+    "invocation": "$invo10",
+    "ir_sha256": "1c0fc8242b8ce8c7b3ce3ee8f9759353bbf2c17d7bb1e3932205295ac35d2e7f",
+    "primitive_spec_sha256": "235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497",
+    "source_sha256": "0ef375bd04f1ed919b21d8c21cc41b0c0227e75631918346672f689dcabc91d0",
+    "unresolved": [
+      "axis is not resolved (None or omitted); default behavior depends on library and rank",
+      "input rank is unknown; axis=None reduces all axes, causing cross-row mixing",
+      "receiver type (_var10) is unknown; behavior may differ between NumPy and pandas"
+    ]
+  }
+}

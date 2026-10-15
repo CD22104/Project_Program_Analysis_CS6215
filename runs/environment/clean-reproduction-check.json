@@ -1,0 +1,20 @@
+{
+  "baseline_smoke_passed": 7,
+  "clean_install_completed": true,
+  "clean_project_path": "/tmp/cs6215-clean-repro-k1h36sf9/leakage-project",
+  "controlled_programs": 16,
+  "first_attempt_failure": "unrelated default Conda channel terms; no terms accepted; fixed by conda-forge override",
+  "implementation_sha256": "3b67ee1d268ad04bc70bf5627f4950d804b28052aaad37fa53e0c415b907ad4a",
+  "model_inference_requests": 0,
+  "pip_lock_matches": true,
+  "program_method_predictions": 32,
+  "pyright_package_lock_matches": {
+    "packages/pyright-internal/package-lock.json": true,
+    "packages/pyright/package-lock.json": true,
+    "packages/vscode-pyright/package-lock.json": true
+  },
+  "report_rebuild_total_pages": 7,
+  "saved_result_rebuild_completed": true,
+  "statuses_and_sources_match_previous": true,
+  "unit_tests_passed": 40
+}

@@ -1,0 +1,26 @@
+.env-*/
+.tools/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+third_party/leakage-analysis/
+data/clean/real/
+data/annotations/raw/
+runs/**/work/
+runs/**/solver/
+runs/**/candidates.json
+runs/model-cache/
+.tools/
+report/*.aux
+report/*.log
+report/*.out
+report/*.bbl
+report/*.blg
+report/*.fls
+report/*.fdb_latexmk
+report/texmf/
+*.key
+.env
+
+# The signed report is intentionally private. Rebuild tables are scratch outputs.
+report/

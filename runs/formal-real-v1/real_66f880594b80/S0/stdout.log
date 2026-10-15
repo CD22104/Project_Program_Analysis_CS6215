@@ -1,0 +1,135 @@
+No configuration file found.
+No pyproject.toml file found.
+stubPath /home/dchen/workplace/CS6215/leakage-project/third_party/leakage-analysis/typings is not a valid directory.
+Assuming Python platform Linux
+Searching for source files
+Found 1 source file
+/home/dchen/workplace/CS6215/leakage-project/runs/formal-real-v1/real_66f880594b80/S0/work/input.py.ir.py
+  /home/dchen/workplace/CS6215/leakage-project/runs/formal-real-v1/real_66f880594b80/S0/work/input.py.ir.py:201:23 - error: "maxrs_0" is possibly unbound (reportUnboundVariable)
+  /home/dchen/workplace/CS6215/leakage-project/runs/formal-real-v1/real_66f880594b80/S0/work/input.py.ir.py:202:24 - error: "minmse_0" is possibly unbound (reportUnboundVariable)
+  /home/dchen/workplace/CS6215/leakage-project/runs/formal-real-v1/real_66f880594b80/S0/work/input.py.ir.py:203:19 - error: "maxrs_1" is possibly unbound (reportUnboundVariable)
+  /home/dchen/workplace/CS6215/leakage-project/runs/formal-real-v1/real_66f880594b80/S0/work/input.py.ir.py:204:20 - error: "minmse_1" is possibly unbound (reportUnboundVariable)
+  /home/dchen/workplace/CS6215/leakage-project/runs/formal-real-v1/real_66f880594b80/S0/work/input.py.ir.py:206:26 - error: "maxacc" is not defined (reportUndefinedVariable)
+  /home/dchen/workplace/CS6215/leakage-project/runs/formal-real-v1/real_66f880594b80/S0/work/input.py.ir.py:245:17 - error: Argument of type "float | Any | Unknown | NDArray[float64] | floating[Any]" cannot be assigned to parameter "number" of type "SupportsRound[_T@round]" in function "round"
+    Type "float | Any | Unknown | NDArray[float64] | floating[Any]" cannot be assigned to type "SupportsRound[_T@round]"
+      "NDArray[float64]" is incompatible with protocol "SupportsRound[_T@round]"
+        "__round__" is not present (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/formal-real-v1/real_66f880594b80/S0/work/input.py.ir.py:268:21 - error: Argument of type "float | Any | Unknown | NDArray[float64] | floating[Any]" cannot be assigned to parameter "number" of type "SupportsRound[_T@round]" in function "round"
+    Type "float | Any | Unknown | NDArray[float64] | floating[Any]" cannot be assigned to type "SupportsRound[_T@round]"
+      "NDArray[float64]" is incompatible with protocol "SupportsRound[_T@round]"
+        "__round__" is not present (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/formal-real-v1/real_66f880594b80/S0/work/input.py.ir.py:271:18 - error: "pred_1" is possibly unbound (reportUnboundVariable)
+  /home/dchen/workplace/CS6215/leakage-project/runs/formal-real-v1/real_66f880594b80/S0/work/input.py.ir.py:298:17 - error: Argument of type "float | Any | Unknown | NDArray[float64] | floating[Any]" cannot be assigned to parameter "number" of type "SupportsRound[_T@round]" in function "round"
+    Type "float | Any | Unknown | NDArray[float64] | floating[Any]" cannot be assigned to type "SupportsRound[_T@round]"
+      "NDArray[float64]" is incompatible with protocol "SupportsRound[_T@round]"
+        "__round__" is not present (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/formal-real-v1/real_66f880594b80/S0/work/input.py.ir.py:304:10 - error: Cannot access member "score" for type "_BaseRidge"
+    Member "score" is unknown (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/formal-real-v1/real_66f880594b80/S0/work/input.py.ir.py:321:21 - error: Argument of type "float | Any | Unknown | NDArray[float64] | floating[Any]" cannot be assigned to parameter "number" of type "SupportsRound[_T@round]" in function "round"
+    Type "float | Any | Unknown | NDArray[float64] | floating[Any]" cannot be assigned to type "SupportsRound[_T@round]"
+      "NDArray[float64]" is incompatible with protocol "SupportsRound[_T@round]"
+        "__round__" is not present (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/formal-real-v1/real_66f880594b80/S0/work/input.py.ir.py:324:18 - error: "pred_4" is possibly unbound (reportUnboundVariable)
+  /home/dchen/workplace/CS6215/leakage-project/runs/formal-real-v1/real_66f880594b80/S0/work/input.py.ir.py:328:13 - error: Cannot access member "score" for type "_BaseRidge"
+    Member "score" is unknown (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/formal-real-v1/real_66f880594b80/S0/work/input.py.ir.py:351:17 - error: Argument of type "float | Any | Unknown | NDArray[float64] | floating[Any]" cannot be assigned to parameter "number" of type "SupportsRound[_T@round]" in function "round"
+    Type "float | Any | Unknown | NDArray[float64] | floating[Any]" cannot be assigned to type "SupportsRound[_T@round]"
+      "NDArray[float64]" is incompatible with protocol "SupportsRound[_T@round]"
+        "__round__" is not present (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/formal-real-v1/real_66f880594b80/S0/work/input.py.ir.py:374:21 - error: Argument of type "float | Any | Unknown | NDArray[float64] | floating[Any]" cannot be assigned to parameter "number" of type "SupportsRound[_T@round]" in function "round"
+    Type "float | Any | Unknown | NDArray[float64] | floating[Any]" cannot be assigned to type "SupportsRound[_T@round]"
+      "NDArray[float64]" is incompatible with protocol "SupportsRound[_T@round]"
+        "__round__" is not present (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/formal-real-v1/real_66f880594b80/S0/work/input.py.ir.py:376:18 - error: "pred_7" is possibly unbound (reportUnboundVariable)
+  /home/dchen/workplace/CS6215/leakage-project/runs/formal-real-v1/real_66f880594b80/S0/work/input.py.ir.py:380:14 - error: Cannot access member "score" for type "BaseLibSVM"
+    Member "score" is unknown (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/formal-real-v1/real_66f880594b80/S0/work/input.py.ir.py:403:17 - error: Argument of type "float | Any | Unknown | NDArray[float64] | floating[Any]" cannot be assigned to parameter "number" of type "SupportsRound[_T@round]" in function "round"
+    Type "float | Any | Unknown | NDArray[float64] | floating[Any]" cannot be assigned to type "SupportsRound[_T@round]"
+      "NDArray[float64]" is incompatible with protocol "SupportsRound[_T@round]"
+        "__round__" is not present (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/formal-real-v1/real_66f880594b80/S0/work/input.py.ir.py:439:81 - error: No parameter named "normalize" (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/formal-real-v1/real_66f880594b80/S0/work/input.py.ir.py:466:17 - error: Argument of type "float | Any | Unknown | NDArray[float64] | floating[Any]" cannot be assigned to parameter "number" of type "SupportsRound[_T@round]" in function "round"
+    Type "float | Any | Unknown | NDArray[float64] | floating[Any]" cannot be assigned to type "SupportsRound[_T@round]"
+      "NDArray[float64]" is incompatible with protocol "SupportsRound[_T@round]"
+        "__round__" is not present (reportGeneralTypeIssues)
+20 errors, 0 warnings, 0 infos 
+Completed in 8.135sec
+Warning: Variable from only occurs once in file main.dl at line 112
+    ParamToParamFlow(to, from, meth).
+-------------------------^------------
+Warning: No rules/facts defined for relation ParamToParamCondTaintSourceMethod in file main.dl at line 454
+.decl ParamToParamCondTaintSourceMethod(to:number, from:number, cond_id:number, method:Method, taintType:symbol)
+------^----------------------------------------------------------------------------------------------------------
+Warning: Variable invo1 only occurs once in file main.dl at line 665
+    callerCtx = [invo1, invo2],
+-----------------^--------------
+Warning: Variable invo1 only occurs once in file main.dl at line 712
+    ctx = [invo1, invo2],
+-----------^--------------
+Warning: Variable index0 only occurs once in file main.dl at line 833
+    c1 = count: {FormalReturn(index, meth, from)},
+------------------------------^--------------------
+Warning: Variable from only occurs once in file main.dl at line 833
+    c1 = count: {FormalReturn(index, meth, from)},
+-------------------------------------------^-------
+Warning: Variable index only occurs once in file main.dl at line 834
+    c2 = count: {ActualReturn(index, invo, to)},
+------------------------------^------------------
+Warning: Variable to only occurs once in file main.dl at line 834
+    c2 = count: {ActualReturn(index, invo, to)},
+-------------------------------------------^-----
+Warning: Variable fld only occurs once in file main.dl at line 872
+    (FieldPointsTo(baseValue, baseHctx, fld, value, hctx); IndexContentPointsTo(baseValue, baseHctx, value, hctx)),
+----------------------------------------^---------------------------------------------------------------------------
+Warning: No rules/facts defined for relation NonDataTransferEdge in file main.dl at line 890
+.decl NonDataTransferEdge(to:Var, from:Var)
+------^-------------------------------------
+Warning: Variable f only occurs once in file main.dl at line 977
+    LoadField(to, from, f).
+------------------------^---
+Warning: Variable invo2 only occurs once in file main.dl at line 1232
+    ValDataWithModel(testModel, val, invo2, meth2, ct2),
+-------------------------------------^-------------------
+Warning: Variable meth2 only occurs once in file main.dl at line 1232
+    ValDataWithModel(testModel, val, invo2, meth2, ct2),
+--------------------------------------------^------------
+Warning: Variable ct2 only occurs once in file main.dl at line 1232
+    ValDataWithModel(testModel, val, invo2, meth2, ct2),
+---------------------------------------------------^-----
+Warning: Variable test0 only occurs once in file main.dl at line 1363
+    c1 = count : { ModelPair(testModel, ctx2, trainModel, ctx1), ValOrTestDataWithModel(testModel, test, invo2, meth2, ctx2)},
+---------------------------------------------------------------------------------------------------^---------------------------
+Warning: Variable invo20 only occurs once in file main.dl at line 1363
+    c1 = count : { ModelPair(testModel, ctx2, trainModel, ctx1), ValOrTestDataWithModel(testModel, test, invo2, meth2, ctx2)},
+---------------------------------------------------------------------------------------------------------^---------------------
+Warning: Variable meth20 only occurs once in file main.dl at line 1363
+    c1 = count : { ModelPair(testModel, ctx2, trainModel, ctx1), ValOrTestDataWithModel(testModel, test, invo2, meth2, ctx2)},
+----------------------------------------------------------------------------------------------------------------^--------------
+Warning: Variable train only occurs once in file main.dl at line 1390
+    TrainingDataWithModel(trainModel, train, _, _, ctx2),
+--------------------------------------^-------------------
+Warning: Variable invo2 only occurs once in file main.dl at line 1392
+    ScoredDataWithModel(scoreModel, data, invo2, meth2, ctx3),
+------------------------------------------^--------------------
+Warning: Variable meth2 only occurs once in file main.dl at line 1392
+    ScoredDataWithModel(scoreModel, data, invo2, meth2, ctx3),
+-------------------------------------------------^-------------
+Warning: Variable test0 only occurs once in file main.dl at line 1403
+    c1 = count : {ModelPair(testModel, ctx1, _, _), TestDataWithModel(testModel, test, invo, meth, ctx1)},
+---------------------------------------------------------------------------------^-------------------------
+Warning: Variable invo0 only occurs once in file main.dl at line 1403
+    c1 = count : {ModelPair(testModel, ctx1, _, _), TestDataWithModel(testModel, test, invo, meth, ctx1)},
+---------------------------------------------------------------------------------------^-------------------
+Warning: Variable meth0 only occurs once in file main.dl at line 1403
+    c1 = count : {ModelPair(testModel, ctx1, _, _), TestDataWithModel(testModel, test, invo, meth, ctx1)},
+---------------------------------------------------------------------------------------------^-------------
+Warning: Variable test only occurs once in file main.dl at line 1404
+    c2 = count : {ModelPair(testModel, ctx1, _, _), FilteredTests(testModel, test, invo, meth, ctx1)},
+-----------------------------------------------------------------------------^-------------------------
+Warning: Variable invo only occurs once in file main.dl at line 1404
+    c2 = count : {ModelPair(testModel, ctx1, _, _), FilteredTests(testModel, test, invo, meth, ctx1)},
+-----------------------------------------------------------------------------------^-------------------
+Warning: Variable meth only occurs once in file main.dl at line 1404
+    c2 = count : {ModelPair(testModel, ctx1, _, _), FilteredTests(testModel, test, invo, meth, ctx1)},
+-----------------------------------------------------------------------------------------^-------------
+Success!	0.03	8.34	0.50	8.88	

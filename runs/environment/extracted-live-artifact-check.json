@@ -1,0 +1,15 @@
+{
+  "file_count": 8271,
+  "forbidden_files": [],
+  "frozen_implementation_matches": true,
+  "generated_tables_identical": true,
+  "main_text_pages": 8,
+  "manifest_mismatches": [],
+  "private_data_required_for_saved_rebuild": false,
+  "reference_pages": 1,
+  "report_compile": "pass",
+  "report_pages": 9,
+  "saved_rebuild": "pass; all 18 numerical JSON/CSV files identical",
+  "secret_matches": 0,
+  "sha256": "3918f6613e2d881d72097a7dc6b203826d1c2faa7677f111e5ff9292f83a468d"
+}

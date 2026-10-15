@@ -1,0 +1,33 @@
+[
+  {
+    "candidate_id": "fdcf763b8bce35311d6ffd6a59c74c091f9455b301e1471a1b6723944cebb567",
+    "canonical_method": "pandas.DataFrame.mean",
+    "code": "features.mean(axis=_var4)",
+    "context": "[, ]",
+    "deterministic_effect": "row_preserving",
+    "evidence": {
+      "axis": 1,
+      "input": "features",
+      "line": 31,
+      "primitive": "pandas.DataFrame.mean"
+    },
+    "function_id": "<module>",
+    "function_parameter_dependencies": [],
+    "input_index": 0,
+    "input_rank": 2,
+    "input_variable": "features",
+    "invocation": "$invo4",
+    "ir_line": 31,
+    "ir_sha256": "a1768dc6a145254b7c97f994bc25526696d539df6e45b6132dfc75bb4ecbaab6",
+    "method": "pandas.DataFrame.mean",
+    "primitive_spec_sha256": "235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497",
+    "proof_reason": "reduction excludes sample axis 0",
+    "receiver": "features",
+    "resolved_axis": 1,
+    "resolved_parameters": {},
+    "return_variable": "_var5",
+    "sample_axis": 0,
+    "source_sha256": "bc905e74140bfbed75c044026c451c30f53915180d20ef8b3b6cefdb2949d2a4",
+    "state_version": null
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "version": "2",
+  "libraries": {"numpy": "1.24.4", "pandas": "1.5.3", "scikit-learn": "1.3.2"},
+  "sample_axis": 0,
+  "reducers": ["mean", "std", "var", "min", "max", "median", "sum", "prod", "quantile", "nanmean", "nanstd", "nanvar"],
+  "stateful_classes": ["StandardScaler", "MinMaxScaler", "MaxAbsScaler", "RobustScaler", "SelectKBest", "VarianceThreshold"],
+  "parameter_rules": {
+    "numpy": "axis=None reduces all axes; a literal integer must be in [-rank,rank). Negative integers wrap. Other axis expressions are unsupported.",
+    "pandas_1_5": "axis defaults to 0. Negative integers are invalid. index/rows mean 0 and columns means 1 when rank is 2. None follows the axis-0 reducer default.",
+    "quantile": "q precedes axis in the positional signature. This subset requires scalar literal q in [0,1]; pandas defaults q to 0.5. NumPy q is required.",
+    "scale_1_3": "axis must be integer 0 or 1 and less than rank. with_mean/with_std default True, copy defaults True. Both statistics disabled means row_preserving. Unresolved flags, copy=False, or unsupported arguments yield unknown.",
+    "optional_arguments": "Only axis and scalar q are reviewed on reducers. Other explicit options and positional tails, including out, where and overwrite_input, yield unknown. scale additionally supports its three boolean flags."
+  },
+  "unsupported": ["dynamic rank", "transpose without rank proof", "arbitrary side effects", "SimpleImputer constant column policy", "unknown reductions", "complex mutable object aliases"],
+  "sources": [
+    "https://numpy.org/doc/1.24/reference/generated/numpy.mean.html",
+    "https://pandas.pydata.org/pandas-docs/version/1.5/reference/api/pandas.DataFrame.mean.html",
+    "https://scikit-learn.org/1.3/modules/generated/sklearn.preprocessing.scale.html",
+    "https://scikit-learn.org/1.3/modules/generated/sklearn.preprocessing.StandardScaler.html"
+  ]
+}

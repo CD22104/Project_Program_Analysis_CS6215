@@ -1,0 +1,20 @@
+{
+  "command": [
+    "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+    "-m",
+    "src.main",
+    "/home/dchen/workplace/CS6215/leakage-project/runs/controlled-probe/case_25f5ea8eb0d5/work/input.py"
+  ],
+  "config_sha256": "989041c198c4850fad34ae0e776525bd6e53c37963e4e27333ece53b7117601d",
+  "diagnostics": [],
+  "elapsed_seconds": 2.9758607633411884,
+  "errors": [],
+  "location_available": false,
+  "method": "S0",
+  "raw_preprocessing_rows": [],
+  "returncode": 0,
+  "sample_id": "case_25f5ea8eb0d5",
+  "scope_projection": "raw upstream; may include test-only effects",
+  "source_sha256": "60a5d1fa45df5d1db264dc22889f80bedd7b9e98131196768ceaf877903106a0",
+  "status": "no_finding"
+}

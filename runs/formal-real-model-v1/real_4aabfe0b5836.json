@@ -1,0 +1,79 @@
+{
+  "cache_hits": {
+    "05c9f94252e8d3d5f956a95b486da13f72a8063dba8366b5ae8862ec344c96d2": false,
+    "0f5e3d2a083a53cf517821e83731cacb95a8f5ccac63998d13b8a7595eab3a31": false
+  },
+  "generation_elapsed_seconds": 5.955849077552557,
+  "model": "qwen3-coder-next",
+  "origin": "live_api",
+  "records": {
+    "05c9f94252e8d3d5f956a95b486da13f72a8063dba8366b5ae8862ec344c96d2": "e7e39d9bce73ef2383451d66bdf1b86db7efab06e3a2c2f58099291cbc001254",
+    "0f5e3d2a083a53cf517821e83731cacb95a8f5ccac63998d13b8a7595eab3a31": "b3191737fa75e02b467c05cc03bb546eeef6bbda4892149d599f25c9b17e1a35"
+  },
+  "replicate": 0,
+  "source_sha256": "0ef375bd04f1ed919b21d8c21cc41b0c0227e75631918346672f689dcabc91d0",
+  "summaries": {
+    "05c9f94252e8d3d5f956a95b486da13f72a8063dba8366b5ae8862ec344c96d2": {
+      "candidate_id": "05c9f94252e8d3d5f956a95b486da13f72a8063dba8366b5ae8862ec344c96d2",
+      "context": "[, ]",
+      "effects": [
+        {
+          "evidence_line": 76,
+          "input_index": 0,
+          "kind": "cross_row_reduce",
+          "output_index": 0,
+          "primitive": "Unknown.mean",
+          "receiver": "_var10",
+          "state_version": null
+        }
+      ],
+      "invocation": "$invo10",
+      "ir_sha256": "1c0fc8242b8ce8c7b3ce3ee8f9759353bbf2c17d7bb1e3932205295ac35d2e7f",
+      "primitive_spec_sha256": "235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497",
+      "source_sha256": "0ef375bd04f1ed919b21d8c21cc41b0c0227e75631918346672f689dcabc91d0",
+      "unresolved": [
+        "axis is not resolved (None or omitted); default behavior depends on library and rank",
+        "input rank is unknown; axis=None reduces all axes, causing cross-row mixing",
+        "receiver type (_var10) is unknown; behavior may differ between NumPy and pandas"
+      ]
+    },
+    "0f5e3d2a083a53cf517821e83731cacb95a8f5ccac63998d13b8a7595eab3a31": {
+      "candidate_id": "0f5e3d2a083a53cf517821e83731cacb95a8f5ccac63998d13b8a7595eab3a31",
+      "context": "[, ]",
+      "effects": [
+        {
+          "evidence_line": 180,
+          "input_index": 1,
+          "kind": "fit_state",
+          "output_index": 0,
+          "primitive": "StandardScaler.fit_transform",
+          "receiver": "sc",
+          "state_version": "$invo39:[, ]"
+        },
+        {
+          "evidence_line": 180,
+          "input_index": 1,
+          "kind": "apply_state",
+          "output_index": 0,
+          "primitive": "StandardScaler.fit_transform",
+          "receiver": "sc",
+          "state_version": "$invo39:[, ]"
+        },
+        {
+          "evidence_line": 180,
+          "input_index": 1,
+          "kind": "row_preserving",
+          "output_index": 0,
+          "primitive": "StandardScaler.fit_transform",
+          "receiver": "sc",
+          "state_version": "$invo39:[, ]"
+        }
+      ],
+      "invocation": "$invo39",
+      "ir_sha256": "1c0fc8242b8ce8c7b3ce3ee8f9759353bbf2c17d7bb1e3932205295ac35d2e7f",
+      "primitive_spec_sha256": "235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497",
+      "source_sha256": "0ef375bd04f1ed919b21d8c21cc41b0c0227e75631918346672f689dcabc91d0",
+      "unresolved": []
+    }
+  }
+}

@@ -1,0 +1,450 @@
+[
+  {
+    "assumptions": {
+      "input_rank": 2,
+      "sample_axis": 0
+    },
+    "family": "F08",
+    "label_review_status": "pending_student_review",
+    "partition": "test",
+    "sample_id": "case_ed7bb25ecde0",
+    "source_kind": "controlled",
+    "source_path": "data/clean/controlled/case_ed7bb25ecde0.py",
+    "source_sha256": "85839d5b28aa66f93590f41ef9ff655df7afc59f491bce14161ff30c50f765a9",
+    "variant": "base"
+  },
+  {
+    "assumptions": {
+      "input_rank": 2,
+      "sample_axis": 0
+    },
+    "family": "F08",
+    "label_review_status": "pending_student_review",
+    "partition": "test",
+    "sample_id": "case_0b5b895c8fa0",
+    "source_kind": "controlled",
+    "source_path": "data/clean/controlled/case_0b5b895c8fa0.py",
+    "source_sha256": "843a387861d9223640f7348132024bde03039eb918644da59632b4e9e4cb1f24",
+    "variant": "base"
+  },
+  {
+    "assumptions": {
+      "input_rank": 2,
+      "sample_axis": 0
+    },
+    "family": "F09",
+    "label_review_status": "pending_student_review",
+    "partition": "test",
+    "sample_id": "case_445466d5177f",
+    "source_kind": "controlled",
+    "source_path": "data/clean/controlled/case_445466d5177f.py",
+    "source_sha256": "b341e773a44249c547a44f6b2b07ba895167c2c52f31cb0c37eef23971a3c3c8",
+    "variant": "base"
+  },
+  {
+    "assumptions": {
+      "input_rank": 2,
+      "sample_axis": 0
+    },
+    "family": "F09",
+    "label_review_status": "pending_student_review",
+    "partition": "test",
+    "sample_id": "case_33f17c1e6015",
+    "source_kind": "controlled",
+    "source_path": "data/clean/controlled/case_33f17c1e6015.py",
+    "source_sha256": "1695dcf18e3df36807efedaf309aaf1fb484e5a688f4988daf8d2a6966f79f6f",
+    "variant": "base"
+  },
+  {
+    "assumptions": {
+      "input_rank": 2,
+      "sample_axis": 0
+    },
+    "family": "F10",
+    "label_review_status": "pending_student_review",
+    "partition": "test",
+    "sample_id": "case_9c795b58664d",
+    "source_kind": "controlled",
+    "source_path": "data/clean/controlled/case_9c795b58664d.py",
+    "source_sha256": "1f8c8cc0beeccc4ab8f7fbf9fed9fd86b4c4da60452ac1438775475995d5a362",
+    "variant": "base"
+  },
+  {
+    "assumptions": {
+      "input_rank": 2,
+      "sample_axis": 0
+    },
+    "family": "F10",
+    "label_review_status": "pending_student_review",
+    "partition": "test",
+    "sample_id": "case_b03ecac40a6f",
+    "source_kind": "controlled",
+    "source_path": "data/clean/controlled/case_b03ecac40a6f.py",
+    "source_sha256": "767c51a6a9ab53f2fa4e8a03096ec2575e07888ba99ef1f160e62f946cd77b63",
+    "variant": "base"
+  },
+  {
+    "assumptions": {
+      "input_rank": 2,
+      "sample_axis": 0
+    },
+    "family": "F11",
+    "label_review_status": "pending_student_review",
+    "partition": "test",
+    "sample_id": "case_a6fcbcdaecb1",
+    "source_kind": "controlled",
+    "source_path": "data/clean/controlled/case_a6fcbcdaecb1.py",
+    "source_sha256": "c58a4a8040b0a7556f8b98466148faccc3c8527de7eb648fa0a1beeac8cab7e1",
+    "variant": "base"
+  },
+  {
+    "assumptions": {
+      "input_rank": 2,
+      "sample_axis": 0
+    },
+    "family": "F11",
+    "label_review_status": "pending_student_review",
+    "partition": "test",
+    "sample_id": "case_5fb5a96c66c2",
+    "source_kind": "controlled",
+    "source_path": "data/clean/controlled/case_5fb5a96c66c2.py",
+    "source_sha256": "f1f867f800478efc8102c0370e7d43d92d1a585fc17c5a515461281cb82cc505",
+    "variant": "base"
+  },
+  {
+    "assumptions": {
+      "input_rank": 2,
+      "sample_axis": 0
+    },
+    "family": "F12",
+    "label_review_status": "pending_student_review",
+    "partition": "test",
+    "sample_id": "case_a9aeb5f966a1",
+    "source_kind": "controlled",
+    "source_path": "data/clean/controlled/case_a9aeb5f966a1.py",
+    "source_sha256": "1999f592c19347450517b9c4cbcd17dc98108fa1caf1a9b7faf647da1cc3fc11",
+    "variant": "base"
+  },
+  {
+    "assumptions": {
+      "input_rank": 2,
+      "sample_axis": 0
+    },
+    "family": "F12",
+    "label_review_status": "pending_student_review",
+    "partition": "test",
+    "sample_id": "case_64e55c941f68",
+    "source_kind": "controlled",
+    "source_path": "data/clean/controlled/case_64e55c941f68.py",
+    "source_sha256": "947db2bfc59b370455418e599c33d657f5d8886237ba5aeb0cf6f8810ed9a125",
+    "variant": "base"
+  },
+  {
+    "assumptions": {
+      "input_rank": 2,
+      "sample_axis": 0
+    },
+    "family": "F13",
+    "label_review_status": "pending_student_review",
+    "partition": "test",
+    "sample_id": "case_97addf1be1b9",
+    "source_kind": "controlled",
+    "source_path": "data/clean/controlled/case_97addf1be1b9.py",
+    "source_sha256": "1161c5c4ea3068ea76a77c3aeee1c29ae49cbb607bab628d5fcc5bb71686abb9",
+    "variant": "base"
+  },
+  {
+    "assumptions": {
+      "input_rank": 2,
+      "sample_axis": 0
+    },
+    "family": "F13",
+    "label_review_status": "pending_student_review",
+    "partition": "test",
+    "sample_id": "case_92db697b2304",
+    "source_kind": "controlled",
+    "source_path": "data/clean/controlled/case_92db697b2304.py",
+    "source_sha256": "d300aa86c257f7aeafd77e720d9ff77857cf7c3aafbb170a5704640725202514",
+    "variant": "base"
+  },
+  {
+    "assumptions": {
+      "input_rank": 2,
+      "sample_axis": 0
+    },
+    "family": "F14",
+    "label_review_status": "pending_student_review",
+    "partition": "test",
+    "sample_id": "case_4f079407f4ee",
+    "source_kind": "controlled",
+    "source_path": "data/clean/controlled/case_4f079407f4ee.py",
+    "source_sha256": "69538ed025152ec85dd8279c91ac441c321befea6b432a0b95e2d2a2f660d6b8",
+    "variant": "base"
+  },
+  {
+    "assumptions": {
+      "input_rank": 2,
+      "sample_axis": 0
+    },
+    "family": "F14",
+    "label_review_status": "pending_student_review",
+    "partition": "test",
+    "sample_id": "case_27297e919d01",
+    "source_kind": "controlled",
+    "source_path": "data/clean/controlled/case_27297e919d01.py",
+    "source_sha256": "0a94576c67b4137cb6c5fa9cdfa17d40920e6a95b32ce5b0353436142a0e6e3c",
+    "variant": "base"
+  },
+  {
+    "assumptions": {
+      "input_rank": 2,
+      "sample_axis": 0
+    },
+    "family": "F15",
+    "label_review_status": "pending_student_review",
+    "partition": "test",
+    "sample_id": "case_93bfc19cb919",
+    "source_kind": "controlled",
+    "source_path": "data/clean/controlled/case_93bfc19cb919.py",
+    "source_sha256": "c532b88834f87f5e1f640a5a142edd3c4ece0076ec5d313be719efb8b18b4c11",
+    "variant": "base"
+  },
+  {
+    "assumptions": {
+      "input_rank": 2,
+      "sample_axis": 0
+    },
+    "family": "F15",
+    "label_review_status": "pending_student_review",
+    "partition": "test",
+    "sample_id": "case_7273981d4ca5",
+    "source_kind": "controlled",
+    "source_path": "data/clean/controlled/case_7273981d4ca5.py",
+    "source_sha256": "1a40192b0cd4ad502a4e67c4c3d64b3efeb98fd55beb7794b60e43f7e79ba203",
+    "variant": "base"
+  },
+  {
+    "assumptions": {
+      "input_rank": 2,
+      "sample_axis": 0
+    },
+    "family": "F16",
+    "label_review_status": "pending_student_review",
+    "partition": "test",
+    "sample_id": "case_1f1523f46002",
+    "source_kind": "controlled",
+    "source_path": "data/clean/controlled/case_1f1523f46002.py",
+    "source_sha256": "8667831bdc29d97e0a1dc7cf9c92dc5fb9d49e8a4765dc84d539dc73453941b8",
+    "variant": "base"
+  },
+  {
+    "assumptions": {
+      "input_rank": 2,
+      "sample_axis": 0
+    },
+    "family": "F16",
+    "label_review_status": "pending_student_review",
+    "partition": "test",
+    "sample_id": "case_745c80c4dd62",
+    "source_kind": "controlled",
+    "source_path": "data/clean/controlled/case_745c80c4dd62.py",
+    "source_sha256": "672c79bcd34feeae40f966c4f8d6670034231f2072f7526153f6aea3a9a1d43c",
+    "variant": "base"
+  },
+  {
+    "assumptions": {
+      "input_rank": 2,
+      "sample_axis": 0
+    },
+    "family": "F17",
+    "label_review_status": "pending_student_review",
+    "partition": "test",
+    "sample_id": "case_8bd8f2786d4a",
+    "source_kind": "controlled",
+    "source_path": "data/clean/controlled/case_8bd8f2786d4a.py",
+    "source_sha256": "3cc298fe8180bee910d68b2eeef140f7fd118c67f0bd2f7e6ec86de7d7e8e7b5",
+    "variant": "base"
+  },
+  {
+    "assumptions": {
+      "input_rank": 2,
+      "sample_axis": 0
+    },
+    "family": "F17",
+    "label_review_status": "pending_student_review",
+    "partition": "test",
+    "sample_id": "case_0fbb10694559",
+    "source_kind": "controlled",
+    "source_path": "data/clean/controlled/case_0fbb10694559.py",
+    "source_sha256": "75f764ecb17d7008a25563c08a8c6f2fb162bf54bd9c31f795f892bff6430285",
+    "variant": "base"
+  },
+  {
+    "assumptions": {
+      "input_rank": 2,
+      "sample_axis": 0
+    },
+    "family": "F18",
+    "label_review_status": "pending_student_review",
+    "partition": "test",
+    "sample_id": "case_da539182d1da",
+    "source_kind": "controlled",
+    "source_path": "data/clean/controlled/case_da539182d1da.py",
+    "source_sha256": "7e0990f7948911f858a17b3aba4f8e31c189c43ca41eaebd4b3f3d4328487c0b",
+    "variant": "base"
+  },
+  {
+    "assumptions": {
+      "input_rank": 2,
+      "sample_axis": 0
+    },
+    "family": "F18",
+    "label_review_status": "pending_student_review",
+    "partition": "test",
+    "sample_id": "case_64edd7f488bb",
+    "source_kind": "controlled",
+    "source_path": "data/clean/controlled/case_64edd7f488bb.py",
+    "source_sha256": "d75495e0dc70f2632f56942706407d3560ab50730feeb2cee15203cec9011535",
+    "variant": "base"
+  },
+  {
+    "assumptions": {
+      "input_rank": 2,
+      "sample_axis": 0
+    },
+    "family": "F19",
+    "label_review_status": "pending_student_review",
+    "partition": "test",
+    "sample_id": "case_c103edfd32a9",
+    "source_kind": "controlled",
+    "source_path": "data/clean/controlled/case_c103edfd32a9.py",
+    "source_sha256": "86bafff6b9756c2e0ed009e6dd262ec0362d57910b5be415a20763e303b52462",
+    "variant": "base"
+  },
+  {
+    "assumptions": {
+      "input_rank": 2,
+      "sample_axis": 0
+    },
+    "family": "F19",
+    "label_review_status": "pending_student_review",
+    "partition": "test",
+    "sample_id": "case_d0c1ea236d94",
+    "source_kind": "controlled",
+    "source_path": "data/clean/controlled/case_d0c1ea236d94.py",
+    "source_sha256": "47c96ff9c61c78287222b5c516c9126d15da0d1558aeeae53b6f470392b206fe",
+    "variant": "base"
+  },
+  {
+    "assumptions": {
+      "input_rank": 2,
+      "sample_axis": 0
+    },
+    "family": "F20",
+    "label_review_status": "pending_student_review",
+    "partition": "test",
+    "sample_id": "case_f2326d87807f",
+    "source_kind": "controlled",
+    "source_path": "data/clean/controlled/case_f2326d87807f.py",
+    "source_sha256": "18f820f56edddedc921d61f5ed189db490bdcafd5555b5bfc1d6584e46c98f05",
+    "variant": "base"
+  },
+  {
+    "assumptions": {
+      "input_rank": 2,
+      "sample_axis": 0
+    },
+    "family": "F20",
+    "label_review_status": "pending_student_review",
+    "partition": "test",
+    "sample_id": "case_69f8e9228ea8",
+    "source_kind": "controlled",
+    "source_path": "data/clean/controlled/case_69f8e9228ea8.py",
+    "source_sha256": "0d9e28c981c972279254663fea84c8d80ab2e9f298d30618cb0dbc2e5e635d57",
+    "variant": "base"
+  },
+  {
+    "assumptions": {
+      "input_rank": 2,
+      "sample_axis": 0
+    },
+    "family": "F21",
+    "label_review_status": "pending_student_review",
+    "partition": "test",
+    "sample_id": "case_fb954494afec",
+    "source_kind": "controlled",
+    "source_path": "data/clean/controlled/case_fb954494afec.py",
+    "source_sha256": "a97b3b1b930ea7093ff70d2a6d5165fa022315a235761134d21f2b77e003d9f6",
+    "variant": "base"
+  },
+  {
+    "assumptions": {
+      "input_rank": 2,
+      "sample_axis": 0
+    },
+    "family": "F21",
+    "label_review_status": "pending_student_review",
+    "partition": "test",
+    "sample_id": "case_93d0a8d5662e",
+    "source_kind": "controlled",
+    "source_path": "data/clean/controlled/case_93d0a8d5662e.py",
+    "source_sha256": "f0dc149a2a163943357fd414adfca12ad7320799f3c77e1a18631dc936cc2a04",
+    "variant": "base"
+  },
+  {
+    "assumptions": {
+      "input_rank": 2,
+      "sample_axis": 0
+    },
+    "family": "F22",
+    "label_review_status": "pending_student_review",
+    "partition": "test",
+    "sample_id": "case_e9b92f547a24",
+    "source_kind": "controlled",
+    "source_path": "data/clean/controlled/case_e9b92f547a24.py",
+    "source_sha256": "72b12ed9edd03854d930c3f51e1e2695bba4b5437860be61cc5f5ee49e6da249",
+    "variant": "base"
+  },
+  {
+    "assumptions": {
+      "input_rank": 2,
+      "sample_axis": 0
+    },
+    "family": "F22",
+    "label_review_status": "pending_student_review",
+    "partition": "test",
+    "sample_id": "case_555e8a6cbf1b",
+    "source_kind": "controlled",
+    "source_path": "data/clean/controlled/case_555e8a6cbf1b.py",
+    "source_sha256": "c3b58af9a436e3bf033ee55e34ee197df8ac98c9c8fd628147fb4452b21031e1",
+    "variant": "base"
+  },
+  {
+    "assumptions": {
+      "input_rank": 2,
+      "sample_axis": 0
+    },
+    "family": "F23",
+    "label_review_status": "pending_student_review",
+    "partition": "test",
+    "sample_id": "case_709a9bea0169",
+    "source_kind": "controlled",
+    "source_path": "data/clean/controlled/case_709a9bea0169.py",
+    "source_sha256": "6da8f1dd2f6fb4007906c18fafb455fef67aaaf1a41aa2bfba22381f84eb4bc6",
+    "variant": "base"
+  },
+  {
+    "assumptions": {
+      "input_rank": 2,
+      "sample_axis": 0
+    },
+    "family": "F23",
+    "label_review_status": "pending_student_review",
+    "partition": "test",
+    "sample_id": "case_cb94e4d70763",
+    "source_kind": "controlled",
+    "source_path": "data/clean/controlled/case_cb94e4d70763.py",
+    "source_sha256": "9160085c99b21d5dd9baf7a747123642564403461c4ac4eee3f014cb1344ba04",
+    "variant": "base"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "candidate_id": "48add8ff3dd45dcbe73ea94345601e58d4900f13303f491adc47d665eeba91e6",
+    "canonical_method": "pandas.DataFrame.mean",
+    "code": "features.mean(axis=_var4)",
+    "context": "[, ]",
+    "deterministic_effect": "cross_row_reduce",
+    "evidence": {
+      "axis": 0,
+      "input": "features",
+      "line": 31,
+      "primitive": "pandas.DataFrame.mean"
+    },
+    "function_id": "<module>",
+    "function_parameter_dependencies": [],
+    "input_index": 0,
+    "input_rank": 2,
+    "input_variable": "features",
+    "invocation": "$invo4",
+    "ir_line": 31,
+    "ir_sha256": "08bbb03e314746bd137aa8b3ec84e8d769419a8a5b3e603c23c95e56bb48b070",
+    "method": "pandas.DataFrame.mean",
+    "primitive_spec_sha256": "235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497",
+    "proof_reason": "reduction includes sample axis 0",
+    "receiver": "features",
+    "resolved_axis": 0,
+    "resolved_parameters": {},
+    "return_variable": "_var5",
+    "sample_axis": 0,
+    "source_sha256": "ddc54542cfc1291aa083d37559023e6c22340f4abdc9ae5ba818dbdd079cab37",
+    "state_version": null
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "checks": [
+    {
+      "accepted": true,
+      "candidate_id": "7b5b0cd9757bf0f1a72dd03f2874745e34448605cd5d39f1e3aa4c94c494b071",
+      "reason": "verified within declared primitive subset",
+      "semantic_checked": true
+    }
+  ],
+  "config_sha256": "61c8815c97df6a9b233fbd5cdd8819427feab2855003ef8cb0a96702699fb33c",
+  "diagnostics": [],
+  "elapsed_seconds": 0.43231066316366196,
+  "errors": [],
+  "family": "F05",
+  "frontend_elapsed_seconds": 2.9780470449477434,
+  "location_available": false,
+  "method": "S1",
+  "partition": "dev",
+  "raw_preprocessing_rows": [],
+  "sample_id": "case_4f94ee07af41",
+  "scope_projection_limit": "train dependence and evaluation overlap joined with the exact reduction contexts; no safe-program claim",
+  "scope_status": "unknown",
+  "source_kind": "controlled",
+  "source_sha256": "151ed2c83f3b45973d0a6fcac15c3999fa1a211e1c46787aadada0cb1b74e986",
+  "status": "unknown",
+  "summary_batch_sha256": null,
+  "train_affecting_projection": [],
+  "unknown_reasons": [
+    {
+      "candidate_id": "7b5b0cd9757bf0f1a72dd03f2874745e34448605cd5d39f1e3aa4c94c494b071",
+      "reason": "unresolved axis, input rank, or primitive identity"
+    }
+  ],
+  "variant": "base"
+}

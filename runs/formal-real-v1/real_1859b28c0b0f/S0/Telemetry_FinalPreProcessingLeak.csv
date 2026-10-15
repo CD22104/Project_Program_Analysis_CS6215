@@ -1,0 +1,2 @@
+model_0	xtrain	$invo42	LogisticRegressionCV.fit	[, ]	model_0	xtest	$invo43	LogisticRegressionCV.predict	[, ]	_var28	data_5
+model_0	xtrain	$invo42	LogisticRegressionCV.fit	[, ]	model_0	xtest	$invo45	LogisticRegressionCV.score	[, ]	_var28	data_5

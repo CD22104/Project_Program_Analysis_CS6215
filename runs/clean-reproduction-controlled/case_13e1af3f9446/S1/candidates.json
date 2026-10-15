@@ -1,0 +1,38 @@
+[
+  {
+    "candidate_id": "169ae7f51e8a28e0ba8096eb224fc37e6b0a7c0f0dc4ac988ffdb43f80c557fd",
+    "canonical_method": "DataFrame.mean",
+    "code": "def statistics(x):\n    _var4 = 0\n    _var5 = x.mean(axis=_var4)\n    return _var5",
+    "context": "[, $invo5]",
+    "deterministic_effect": "cross_row_reduce",
+    "evidence": {
+      "axis": 0,
+      "input": "x",
+      "line": 33,
+      "primitive": "DataFrame.mean"
+    },
+    "function_id": "statistics",
+    "function_parameter_dependencies": [
+      {
+        "parameter": 1,
+        "target": "function_return"
+      }
+    ],
+    "input_index": 0,
+    "input_rank": 2,
+    "input_variable": "x",
+    "invocation": "$invo4",
+    "ir_line": 33,
+    "ir_sha256": "ded18df0f3a9ebb13046e02f1c2ea30e3b2ca033ff3303bd34265aa3e9c48f7d",
+    "method": "Unknown.mean",
+    "primitive_spec_sha256": "235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497",
+    "proof_reason": "reduction includes sample axis 0",
+    "receiver": "x",
+    "resolved_axis": 0,
+    "resolved_parameters": {},
+    "return_variable": "_var5",
+    "sample_axis": 0,
+    "source_sha256": "780499f1b852e0de12416df221b80d0a3555cb61eb513a7efd45845ea44ae397",
+    "state_version": null
+  }
+]

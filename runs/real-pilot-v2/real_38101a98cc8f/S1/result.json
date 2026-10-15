@@ -1,0 +1,174 @@
+{
+  "checks": [
+    {
+      "accepted": true,
+      "candidate_id": "618c74fad90a1224b3f6de192cde3b89b0b635ba0a947fb4527d929d42b444b5",
+      "reason": "verified within declared primitive subset",
+      "semantic_checked": true
+    },
+    {
+      "accepted": true,
+      "candidate_id": "5d1d25dcd5edeb85328422de71abfd7b61a583ca54f0428230b14ff5f9ec49f8",
+      "reason": "verified within declared primitive subset",
+      "semantic_checked": true
+    },
+    {
+      "accepted": true,
+      "candidate_id": "1a7d82561de7a0a61d2c2794123f0845e95ac7c7d83628dfd36fd1ea7a0f48f7",
+      "reason": "verified within declared primitive subset",
+      "semantic_checked": true
+    },
+    {
+      "accepted": true,
+      "candidate_id": "20e6695a30c6d79c8d0a189c610c641fff115544437899cceadde4e5362beb90",
+      "reason": "verified within declared primitive subset",
+      "semantic_checked": true
+    },
+    {
+      "accepted": true,
+      "candidate_id": "029cbaac579694bbebf7ab6c027cb6aa747bff1e2bf0d533f5562f66d77e7ac5",
+      "reason": "verified within declared primitive subset",
+      "semantic_checked": true
+    },
+    {
+      "accepted": true,
+      "candidate_id": "2b1a5028005807124999ccd3f5c947f1f8254aeefa100dc7d970d86c2ca7d09e",
+      "reason": "verified within declared primitive subset",
+      "semantic_checked": true
+    },
+    {
+      "accepted": true,
+      "candidate_id": "b57bbfdfbcb14a95f91e23bde34d61e8c565fa5cd4ac5fde492860feb53f0648",
+      "reason": "verified within declared primitive subset",
+      "semantic_checked": true
+    },
+    {
+      "accepted": true,
+      "candidate_id": "943f3f6db9f4ad907ac38e46a5cd855fe8281a1eb423d28d7b8c280bbb86f9a2",
+      "reason": "verified within declared primitive subset",
+      "semantic_checked": true
+    },
+    {
+      "accepted": true,
+      "candidate_id": "e6a5f5979fa35e1b31a52443fe14adcdc9c166fe69b48e1da1ab6bd61a5ed873",
+      "reason": "verified within declared primitive subset",
+      "semantic_checked": true
+    },
+    {
+      "accepted": true,
+      "candidate_id": "c0e1bef1808af0023dd47c407c0c1db4fe44cd5fe2e20d236068ad12e09913ae",
+      "reason": "verified within declared primitive subset",
+      "semantic_checked": true
+    },
+    {
+      "accepted": true,
+      "candidate_id": "12b881784a6180db01a065fd7050cf9470d3a96337341d5c476dc8657955dfc1",
+      "reason": "verified within declared primitive subset",
+      "semantic_checked": true
+    },
+    {
+      "accepted": true,
+      "candidate_id": "ae1578123d63dbf8c855b333beeb4ae1bd3e5f2bf647865d68a96f533d912d54",
+      "reason": "verified within declared primitive subset",
+      "semantic_checked": true
+    },
+    {
+      "accepted": true,
+      "candidate_id": "51743bf573dc84cd530c1f40f109cd3d3a63cdf177b013f18e412d4f782a4cc8",
+      "reason": "verified within declared primitive subset",
+      "semantic_checked": true
+    },
+    {
+      "accepted": true,
+      "candidate_id": "5ee8a4a51fab70c8f0b14d41199d00bc45e17c4f27d92b0f39b3bec43e93dd8e",
+      "reason": "verified within declared primitive subset",
+      "semantic_checked": true
+    },
+    {
+      "accepted": true,
+      "candidate_id": "aa05ce5535b38c0dd54a9a19fc01a61a72a18de99b412adff483671015a7fcd9",
+      "reason": "verified within declared primitive subset",
+      "semantic_checked": true
+    },
+    {
+      "accepted": true,
+      "candidate_id": "3cf802c01e810e6eac96661a2242172b2f5c3b3fdaaee06a6c7f67d5b7205a24",
+      "reason": "verified within declared primitive subset",
+      "semantic_checked": true
+    }
+  ],
+  "config_sha256": "8248908eff1351640acffbea3a051f170f856da1e6ef0c522771c4a0b7854d4f",
+  "conservative_fallback_status": "no_finding",
+  "diagnostics": [],
+  "elapsed_seconds": 2.3515077512711287,
+  "errors": [],
+  "family": null,
+  "frontend_elapsed_seconds": 8.171443451195955,
+  "location_available": false,
+  "method": "S1",
+  "partition": "dev",
+  "raw_preprocessing_rows": [],
+  "sample_id": "real_38101a98cc8f",
+  "scope_projection_limit": "train dependence and evaluation overlap joined with the exact reduction contexts; no safe-program claim",
+  "scope_status": "unknown",
+  "source_kind": "real",
+  "source_sha256": "6afb94b664cd649afa95e7878065f8562066d0e73f83750b925380f93e31aef2",
+  "status": "unknown",
+  "summary_batch_sha256": null,
+  "train_affecting_projection": [],
+  "unknown_reasons": [
+    {
+      "candidate_id": "1a7d82561de7a0a61d2c2794123f0845e95ac7c7d83628dfd36fd1ea7a0f48f7",
+      "reason": "unresolved axis, input rank, or primitive identity"
+    },
+    {
+      "candidate_id": "20e6695a30c6d79c8d0a189c610c641fff115544437899cceadde4e5362beb90",
+      "reason": "unresolved axis, input rank, or primitive identity"
+    },
+    {
+      "candidate_id": "029cbaac579694bbebf7ab6c027cb6aa747bff1e2bf0d533f5562f66d77e7ac5",
+      "reason": "unresolved axis, input rank, or primitive identity"
+    },
+    {
+      "candidate_id": "2b1a5028005807124999ccd3f5c947f1f8254aeefa100dc7d970d86c2ca7d09e",
+      "reason": "unresolved axis, input rank, or primitive identity"
+    },
+    {
+      "candidate_id": "b57bbfdfbcb14a95f91e23bde34d61e8c565fa5cd4ac5fde492860feb53f0648",
+      "reason": "unresolved axis, input rank, or primitive identity"
+    },
+    {
+      "candidate_id": "943f3f6db9f4ad907ac38e46a5cd855fe8281a1eb423d28d7b8c280bbb86f9a2",
+      "reason": "unresolved axis, input rank, or primitive identity"
+    },
+    {
+      "candidate_id": "e6a5f5979fa35e1b31a52443fe14adcdc9c166fe69b48e1da1ab6bd61a5ed873",
+      "reason": "unresolved axis, input rank, or primitive identity"
+    },
+    {
+      "candidate_id": "c0e1bef1808af0023dd47c407c0c1db4fe44cd5fe2e20d236068ad12e09913ae",
+      "reason": "unresolved axis, input rank, or primitive identity"
+    },
+    {
+      "candidate_id": "12b881784a6180db01a065fd7050cf9470d3a96337341d5c476dc8657955dfc1",
+      "reason": "unresolved axis, input rank, or primitive identity"
+    },
+    {
+      "candidate_id": "ae1578123d63dbf8c855b333beeb4ae1bd3e5f2bf647865d68a96f533d912d54",
+      "reason": "unresolved axis, input rank, or primitive identity"
+    },
+    {
+      "candidate_id": "51743bf573dc84cd530c1f40f109cd3d3a63cdf177b013f18e412d4f782a4cc8",
+      "reason": "unresolved axis, input rank, or primitive identity"
+    },
+    {
+      "candidate_id": "5ee8a4a51fab70c8f0b14d41199d00bc45e17c4f27d92b0f39b3bec43e93dd8e",
+      "reason": "unresolved axis, input rank, or primitive identity"
+    },
+    {
+      "candidate_id": "aa05ce5535b38c0dd54a9a19fc01a61a72a18de99b412adff483671015a7fcd9",
+      "reason": "unresolved axis, input rank, or primitive identity"
+    }
+  ],
+  "variant": null
+}

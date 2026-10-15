@@ -1,0 +1,42 @@
+{
+  "platform": "Linux-6.5.0-1023-oem-x86_64-with-glibc2.35",
+  "python": "3.10.12",
+  "cpu_count": 64,
+  "disk": {
+    "total": 15240754356224,
+    "used": 13224778133504,
+    "free": 1247809875968
+  },
+  "credential_variable_names": [],
+  "tools": {
+    "node": null,
+    "npm": null,
+    "souffle": null,
+    "docker": "/usr/bin/docker",
+    "pdflatex": "/usr/bin/pdflatex"
+  },
+  "checks": [
+    {
+      "command": [
+        "git",
+        "-C",
+        "/home/dchen/workplace/CS6215/leakage-project/third_party/leakage-analysis",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "output": "a7d038bfec6b8ddbe21d87dde54b806aecdd79f7\n"
+    },
+    {
+      "command": [
+        "git",
+        "-C",
+        "/home/dchen/workplace/CS6215/leakage-project/third_party/leakage-analysis/pyright",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "output": "e3d7d9c44ac69fa6bc66bb8a47377fcec034e503\n"
+    }
+  ]
+}

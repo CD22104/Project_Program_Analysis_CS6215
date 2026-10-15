@@ -1,0 +1,57 @@
+{
+  "checks": [
+    {
+      "accepted": true,
+      "candidate_id": "4714a5ad476da03688aa68d83657dda314d3b76eac80015767fca28caf86d6e9",
+      "reason": "verified within declared primitive subset",
+      "semantic_checked": true
+    }
+  ],
+  "config_sha256": "61c8815c97df6a9b233fbd5cdd8819427feab2855003ef8cb0a96702699fb33c",
+  "diagnostics": [],
+  "elapsed_seconds": 0.38273383490741253,
+  "errors": [],
+  "family": "F04",
+  "frontend_elapsed_seconds": 2.977478414773941,
+  "location_available": false,
+  "method": "S1",
+  "partition": "dev",
+  "raw_preprocessing_rows": [
+    [
+      "x",
+      "$invo8",
+      "LogisticRegression.fit",
+      "[, ]"
+    ]
+  ],
+  "sample_id": "case_13e1af3f9446",
+  "scope_projection_limit": "train dependence and evaluation overlap joined with the exact reduction contexts; no safe-program claim",
+  "scope_status": "leak",
+  "source_kind": "controlled",
+  "source_sha256": "780499f1b852e0de12416df221b80d0a3555cb61eb513a7efd45845ea44ae397",
+  "status": "leak",
+  "summary_batch_sha256": null,
+  "train_affecting_projection": [
+    [
+      "model_0",
+      "a",
+      "$invo8",
+      "LogisticRegression.fit",
+      "[, ]",
+      "model_0",
+      "b",
+      "$invo9",
+      "LogisticRegression.predict",
+      "[, ]",
+      "_var5",
+      "x"
+    ]
+  ],
+  "unknown_reasons": [
+    {
+      "candidate_id": "4714a5ad476da03688aa68d83657dda314d3b76eac80015767fca28caf86d6e9",
+      "reason": "unresolved axis, input rank, or primitive identity"
+    }
+  ],
+  "variant": "base"
+}

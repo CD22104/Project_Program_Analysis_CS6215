@@ -1,0 +1,67 @@
+[
+  {
+    "archive_member": "sample_notebooks/2021-09-04-nb_2749.ipynb",
+    "exclusion_reason": null,
+    "license": "unconfirmed; download only; do not redistribute",
+    "partition": "dev",
+    "raw_sha256": "38ddb024078e8fea7d466e69fe234cb9ad8b37bb803331f88a333b8033f1cae7",
+    "review_status": "pending_student_review",
+    "sample_id": "real_c0650c9464b4",
+    "source_kind": "real",
+    "source_path": "data/clean/real/real_c0650c9464b4.py",
+    "source_repository": null,
+    "source_sha256": "210ac476fdfcf75327d53d55fb5c07190ae74548d2cfc7f056d86c90e37da819"
+  },
+  {
+    "archive_member": "sample_notebooks/2021-09-12-nb_677.ipynb",
+    "exclusion_reason": null,
+    "license": "unconfirmed; download only; do not redistribute",
+    "partition": "dev",
+    "raw_sha256": "a60afbe005552a22f2a5b364564a1a7f61d040c27a4ff48c2b14bde7d5670daa",
+    "review_status": "pending_student_review",
+    "sample_id": "real_4df8bde21c84",
+    "source_kind": "real",
+    "source_path": "data/clean/real/real_4df8bde21c84.py",
+    "source_repository": null,
+    "source_sha256": "d7b36f0db14b5ed3d5b89a8194465549edeeaf787d255efd2a54baa3bf79c74e"
+  },
+  {
+    "archive_member": "sample_notebooks/2021-09-20-nb_1743.ipynb",
+    "exclusion_reason": null,
+    "license": "unconfirmed; download only; do not redistribute",
+    "partition": "dev",
+    "raw_sha256": "1768beb151bd0c27b027b7d007cd7f7df81d255caad3bd2676a90340180a47b0",
+    "review_status": "pending_student_review",
+    "sample_id": "real_766491df25c7",
+    "source_kind": "real",
+    "source_path": "data/clean/real/real_766491df25c7.py",
+    "source_repository": null,
+    "source_sha256": "6a7d064cfa437949ba7b766478bddc9488f8030887ad73cf8c703466308ca643"
+  },
+  {
+    "archive_member": "sample_notebooks/2021-09-26-nb_1094.ipynb",
+    "exclusion_reason": null,
+    "license": "unconfirmed; download only; do not redistribute",
+    "partition": "dev",
+    "raw_sha256": "6301a84506c2e301842c6303caccafe6a5170a63f1713025a58181bbbc9bac83",
+    "review_status": "pending_student_review",
+    "sample_id": "real_38101a98cc8f",
+    "source_kind": "real",
+    "source_path": "data/clean/real/real_38101a98cc8f.py",
+    "source_repository": null,
+    "source_sha256": "6afb94b664cd649afa95e7878065f8562066d0e73f83750b925380f93e31aef2"
+  },
+  {
+    "archive_member": "sample_notebooks/2021-09-30-nb_3336.ipynb",
+    "exclusion_reason": null,
+    "license": "unconfirmed; download only; do not redistribute",
+    "partition": "dev",
+    "raw_sha256": "c456beea1c67fb975e9a5ffca9f4ef7a029c76c8b47c4b2dc3af463e3bf97912",
+    "review_status": "pending_student_review",
+    "sample_id": "real_926b37074ebc",
+    "source_kind": "real",
+    "source_path": "data/clean/real/real_926b37074ebc.py",
+    "source_repository": null,
+    "source_sha256": "2533721ef5d28756fda3ca994ec71fad8396c527d613a5a5f9b2f40e5189f392"
+  }
+]

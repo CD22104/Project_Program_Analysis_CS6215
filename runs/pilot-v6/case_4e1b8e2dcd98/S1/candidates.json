@@ -1,0 +1,33 @@
+[
+  {
+    "candidate_id": "6df0e9029754ef2c291ae9d71d1e285705d9d7ec12bdabbd0a1dd532a2ce7fbf",
+    "canonical_method": "StandardScaler.fit_transform",
+    "code": "state.fit_transform(features)",
+    "context": "[, ]",
+    "deterministic_effect": "fit_state",
+    "evidence": {
+      "axis": 0,
+      "input": "features",
+      "line": 31,
+      "primitive": "StandardScaler.fit_transform"
+    },
+    "function_id": "<module>",
+    "function_parameter_dependencies": [],
+    "input_index": 1,
+    "input_rank": 2,
+    "input_variable": "features",
+    "invocation": "$invo5",
+    "ir_line": 31,
+    "ir_sha256": "f58f84deca578c17a0c65b453e82cace8ed973adfb311639bfaace2fd548a5c9",
+    "method": "StandardScaler.fit_transform",
+    "primitive_spec_sha256": "235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497",
+    "proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "receiver": "state",
+    "resolved_axis": 0,
+    "resolved_parameters": {},
+    "return_variable": "features_0",
+    "sample_axis": 0,
+    "source_sha256": "6da8f1dd2f6fb4007906c18fafb455fef67aaaf1a41aa2bfba22381f84eb4bc6",
+    "state_version": "$invo5:[, ]"
+  }
+]

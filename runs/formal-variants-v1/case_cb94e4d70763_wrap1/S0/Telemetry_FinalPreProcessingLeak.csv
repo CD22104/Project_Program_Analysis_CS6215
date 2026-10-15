@@ -1,0 +1,2 @@
+model_0	a_0	$invo9	LogisticRegression.fit	[, ]	model_0	b_0	$invo10	LogisticRegression.predict	[, ]	state	b
+model_0	a_0	$invo9	LogisticRegression.fit	[, ]	model_0	b_0	$invo10	LogisticRegression.predict	[, ]	b_0	b

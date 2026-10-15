@@ -1,0 +1,75 @@
+{
+  "cache_hits": {
+    "09daa6f816d6f2a5278051f8caee21bb8b7a5989a02c5be1e014c437f1c7d3aa": false,
+    "b822b74abe76b5da174bfe3bc408518f0926b187b20d982f8b917dfb3e0c780f": false
+  },
+  "generation_elapsed_seconds": 5.857429686933756,
+  "model": "qwen3-coder-next",
+  "origin": "live_api",
+  "records": {
+    "09daa6f816d6f2a5278051f8caee21bb8b7a5989a02c5be1e014c437f1c7d3aa": "2df243c26ab08ae60155d5ed98dfe7c2a85b9d41e80a708a4dfa32ea8e1d20f9",
+    "b822b74abe76b5da174bfe3bc408518f0926b187b20d982f8b917dfb3e0c780f": "1120e808cafbb6d3eaab29dc98c9bcdbfbdb0933a2bb8bbcac1392b05eca7ab5"
+  },
+  "replicate": 0,
+  "source_sha256": "175113ec3238199e3c93d2e952ac2bb4f5614a8f2950e5f0a2c36053cb758832",
+  "summaries": {
+    "09daa6f816d6f2a5278051f8caee21bb8b7a5989a02c5be1e014c437f1c7d3aa": {
+      "candidate_id": "09daa6f816d6f2a5278051f8caee21bb8b7a5989a02c5be1e014c437f1c7d3aa",
+      "context": "[, ]",
+      "effects": [
+        {
+          "evidence_line": 37,
+          "input_index": 1,
+          "kind": "fit_state",
+          "output_index": 0,
+          "primitive": "StandardScaler.fit_transform",
+          "receiver": "state",
+          "state_version": "$invo6:[, ]"
+        },
+        {
+          "evidence_line": 37,
+          "input_index": 1,
+          "kind": "row_preserving",
+          "output_index": 0,
+          "primitive": "StandardScaler.fit_transform",
+          "receiver": "state",
+          "state_version": "$invo6:[, ]"
+        }
+      ],
+      "invocation": "$invo6",
+      "ir_sha256": "57c71afafb08f9c919f56b35279f822b69b0e2c59c53a9943715cc947bc27a45",
+      "primitive_spec_sha256": "235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497",
+      "source_sha256": "175113ec3238199e3c93d2e952ac2bb4f5614a8f2950e5f0a2c36053cb758832",
+      "unresolved": []
+    },
+    "b822b74abe76b5da174bfe3bc408518f0926b187b20d982f8b917dfb3e0c780f": {
+      "candidate_id": "b822b74abe76b5da174bfe3bc408518f0926b187b20d982f8b917dfb3e0c780f",
+      "context": "[, ]",
+      "effects": [
+        {
+          "evidence_line": 38,
+          "input_index": 1,
+          "kind": "fit_state",
+          "output_index": 0,
+          "primitive": "StandardScaler.fit_transform",
+          "receiver": "state",
+          "state_version": "$invo7:[, ]"
+        },
+        {
+          "evidence_line": 38,
+          "input_index": 1,
+          "kind": "row_preserving",
+          "output_index": 0,
+          "primitive": "StandardScaler.fit_transform",
+          "receiver": "state",
+          "state_version": "$invo7:[, ]"
+        }
+      ],
+      "invocation": "$invo7",
+      "ir_sha256": "57c71afafb08f9c919f56b35279f822b69b0e2c59c53a9943715cc947bc27a45",
+      "primitive_spec_sha256": "235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497",
+      "source_sha256": "175113ec3238199e3c93d2e952ac2bb4f5614a8f2950e5f0a2c36053cb758832",
+      "unresolved": []
+    }
+  }
+}

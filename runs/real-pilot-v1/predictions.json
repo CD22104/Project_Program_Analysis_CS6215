@@ -1,0 +1,247 @@
+[
+  {
+    "command": [
+      "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+      "-m",
+      "src.main",
+      "/home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_c0650c9464b4/S0/work/input.py"
+    ],
+    "config_sha256": "989041c198c4850fad34ae0e776525bd6e53c37963e4e27333ece53b7117601d",
+    "diagnostics": [],
+    "elapsed_seconds": 5.786013877019286,
+    "errors": [
+      "Unresolved Python library imports invalidate this baseline run"
+    ],
+    "family": null,
+    "location_available": false,
+    "method": "S0",
+    "partition": "dev",
+    "raw_preprocessing_rows": [],
+    "returncode": 0,
+    "sample_id": "real_c0650c9464b4",
+    "scope_projection": "raw upstream; may include test-only effects",
+    "source_kind": "real",
+    "source_sha256": "210ac476fdfcf75327d53d55fb5c07190ae74548d2cfc7f056d86c90e37da819",
+    "status": "error",
+    "variant": null
+  },
+  {
+    "checks": [],
+    "config_sha256": "61c8815c97df6a9b233fbd5cdd8819427feab2855003ef8cb0a96702699fb33c",
+    "diagnostics": [],
+    "elapsed_seconds": 0.0009498372673988342,
+    "errors": [
+      "Baseline frontend unavailable",
+      "Unresolved Python library imports invalidate this baseline run"
+    ],
+    "family": null,
+    "frontend_elapsed_seconds": 5.786013877019286,
+    "location_available": false,
+    "method": "S1",
+    "partition": "dev",
+    "raw_preprocessing_rows": [],
+    "sample_id": "real_c0650c9464b4",
+    "source_kind": "real",
+    "source_sha256": "210ac476fdfcf75327d53d55fb5c07190ae74548d2cfc7f056d86c90e37da819",
+    "status": "error",
+    "summary_batch_sha256": null,
+    "unknown_reasons": [],
+    "variant": null
+  },
+  {
+    "command": [
+      "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+      "-m",
+      "src.main",
+      "/home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_4df8bde21c84/S0/work/input.py"
+    ],
+    "config_sha256": "989041c198c4850fad34ae0e776525bd6e53c37963e4e27333ece53b7117601d",
+    "diagnostics": [],
+    "elapsed_seconds": 4.894260795786977,
+    "errors": [
+      "Unresolved Python library imports invalidate this baseline run"
+    ],
+    "family": null,
+    "location_available": false,
+    "method": "S0",
+    "partition": "dev",
+    "raw_preprocessing_rows": [],
+    "returncode": 0,
+    "sample_id": "real_4df8bde21c84",
+    "scope_projection": "raw upstream; may include test-only effects",
+    "source_kind": "real",
+    "source_sha256": "d7b36f0db14b5ed3d5b89a8194465549edeeaf787d255efd2a54baa3bf79c74e",
+    "status": "error",
+    "variant": null
+  },
+  {
+    "checks": [],
+    "config_sha256": "61c8815c97df6a9b233fbd5cdd8819427feab2855003ef8cb0a96702699fb33c",
+    "diagnostics": [],
+    "elapsed_seconds": 0.0005306322127580643,
+    "errors": [
+      "Baseline frontend unavailable",
+      "Unresolved Python library imports invalidate this baseline run"
+    ],
+    "family": null,
+    "frontend_elapsed_seconds": 4.894260795786977,
+    "location_available": false,
+    "method": "S1",
+    "partition": "dev",
+    "raw_preprocessing_rows": [],
+    "sample_id": "real_4df8bde21c84",
+    "source_kind": "real",
+    "source_sha256": "d7b36f0db14b5ed3d5b89a8194465549edeeaf787d255efd2a54baa3bf79c74e",
+    "status": "error",
+    "summary_batch_sha256": null,
+    "unknown_reasons": [],
+    "variant": null
+  },
+  {
+    "command": [
+      "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+      "-m",
+      "src.main",
+      "/home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py"
+    ],
+    "config_sha256": "989041c198c4850fad34ae0e776525bd6e53c37963e4e27333ece53b7117601d",
+    "diagnostics": [],
+    "elapsed_seconds": 7.745296126231551,
+    "errors": [
+      "Unresolved Python library imports invalidate this baseline run"
+    ],
+    "family": null,
+    "location_available": false,
+    "method": "S0",
+    "partition": "dev",
+    "raw_preprocessing_rows": [],
+    "returncode": 0,
+    "sample_id": "real_766491df25c7",
+    "scope_projection": "raw upstream; may include test-only effects",
+    "source_kind": "real",
+    "source_sha256": "6a7d064cfa437949ba7b766478bddc9488f8030887ad73cf8c703466308ca643",
+    "status": "error",
+    "variant": null
+  },
+  {
+    "checks": [],
+    "config_sha256": "61c8815c97df6a9b233fbd5cdd8819427feab2855003ef8cb0a96702699fb33c",
+    "diagnostics": [],
+    "elapsed_seconds": 0.00030521489679813385,
+    "errors": [
+      "Baseline frontend unavailable",
+      "Unresolved Python library imports invalidate this baseline run"
+    ],
+    "family": null,
+    "frontend_elapsed_seconds": 7.745296126231551,
+    "location_available": false,
+    "method": "S1",
+    "partition": "dev",
+    "raw_preprocessing_rows": [],
+    "sample_id": "real_766491df25c7",
+    "source_kind": "real",
+    "source_sha256": "6a7d064cfa437949ba7b766478bddc9488f8030887ad73cf8c703466308ca643",
+    "status": "error",
+    "summary_batch_sha256": null,
+    "unknown_reasons": [],
+    "variant": null
+  },
+  {
+    "command": [
+      "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+      "-m",
+      "src.main",
+      "/home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_38101a98cc8f/S0/work/input.py"
+    ],
+    "config_sha256": "989041c198c4850fad34ae0e776525bd6e53c37963e4e27333ece53b7117601d",
+    "diagnostics": [],
+    "elapsed_seconds": 6.851710017770529,
+    "errors": [
+      "Unresolved Python library imports invalidate this baseline run"
+    ],
+    "family": null,
+    "location_available": false,
+    "method": "S0",
+    "partition": "dev",
+    "raw_preprocessing_rows": [],
+    "returncode": 0,
+    "sample_id": "real_38101a98cc8f",
+    "scope_projection": "raw upstream; may include test-only effects",
+    "source_kind": "real",
+    "source_sha256": "6afb94b664cd649afa95e7878065f8562066d0e73f83750b925380f93e31aef2",
+    "status": "error",
+    "variant": null
+  },
+  {
+    "checks": [],
+    "config_sha256": "61c8815c97df6a9b233fbd5cdd8819427feab2855003ef8cb0a96702699fb33c",
+    "diagnostics": [],
+    "elapsed_seconds": 0.0003059282898902893,
+    "errors": [
+      "Baseline frontend unavailable",
+      "Unresolved Python library imports invalidate this baseline run"
+    ],
+    "family": null,
+    "frontend_elapsed_seconds": 6.851710017770529,
+    "location_available": false,
+    "method": "S1",
+    "partition": "dev",
+    "raw_preprocessing_rows": [],
+    "sample_id": "real_38101a98cc8f",
+    "source_kind": "real",
+    "source_sha256": "6afb94b664cd649afa95e7878065f8562066d0e73f83750b925380f93e31aef2",
+    "status": "error",
+    "summary_batch_sha256": null,
+    "unknown_reasons": [],
+    "variant": null
+  },
+  {
+    "command": [
+      "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+      "-m",
+      "src.main",
+      "/home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_926b37074ebc/S0/work/input.py"
+    ],
+    "config_sha256": "989041c198c4850fad34ae0e776525bd6e53c37963e4e27333ece53b7117601d",
+    "diagnostics": [],
+    "elapsed_seconds": 7.891604674980044,
+    "errors": [
+      "Unresolved Python library imports invalidate this baseline run"
+    ],
+    "family": null,
+    "location_available": false,
+    "method": "S0",
+    "partition": "dev",
+    "raw_preprocessing_rows": [],
+    "returncode": 0,
+    "sample_id": "real_926b37074ebc",
+    "scope_projection": "raw upstream; may include test-only effects",
+    "source_kind": "real",
+    "source_sha256": "2533721ef5d28756fda3ca994ec71fad8396c527d613a5a5f9b2f40e5189f392",
+    "status": "error",
+    "variant": null
+  },
+  {
+    "checks": [],
+    "config_sha256": "61c8815c97df6a9b233fbd5cdd8819427feab2855003ef8cb0a96702699fb33c",
+    "diagnostics": [],
+    "elapsed_seconds": 0.0007863137871026993,
+    "errors": [
+      "Baseline frontend unavailable",
+      "Unresolved Python library imports invalidate this baseline run"
+    ],
+    "family": null,
+    "frontend_elapsed_seconds": 7.891604674980044,
+    "location_available": false,
+    "method": "S1",
+    "partition": "dev",
+    "raw_preprocessing_rows": [],
+    "sample_id": "real_926b37074ebc",
+    "source_kind": "real",
+    "source_sha256": "2533721ef5d28756fda3ca994ec71fad8396c527d613a5a5f9b2f40e5189f392",
+    "status": "error",
+    "summary_batch_sha256": null,
+    "unknown_reasons": [],
+    "variant": null
+  }
+]

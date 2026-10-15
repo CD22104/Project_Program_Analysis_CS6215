@@ -1,0 +1,97 @@
+{
+  "attempts": [
+    {
+      "attempt": 1,
+      "elapsed_seconds": 2.903933122754097,
+      "model_returned": "qwen3-coder-next",
+      "reservation_tokens": 8108,
+      "response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "annotations": null,
+              "audio": null,
+              "content": "{\n  \"candidate_id\": \"1a9d81e0ba182f2b7b3fb7f49c9cf54618c51e3cd23055bfab473891890c3ac1\",\n  \"context\": \"[, ]\",\n  \"effects\": [\n    {\n      \"evidence_line\": 33,\n      \"input_index\": 1,\n      \"kind\": \"fit_state\",\n      \"output_index\": 0,\n      \"primitive\": \"SelectKBest.fit_transform\",\n      \"receiver\": \"selector\",\n      \"state_version\": \"$invo5:[, ]\"\n    },\n    {\n      \"evidence_line\": 33,\n      \"input_index\": 1,\n      \"kind\": \"row_preserving\",\n      \"output_index\": 0,\n      \"primitive\": \"SelectKBest.fit_transform\",\n      \"receiver\": \"selector\",\n      \"state_version\": \"$invo5:[, ]\"\n    }\n  ],\n  \"invocation\": \"$invo5\",\n  \"ir_sha256\": \"edb79a73a967cf1fdff891bc9fe29c8f48baae169372b099ba082042f44b8efb\",\n  \"primitive_spec_sha256\": \"235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497\",\n  \"source_sha256\": \"b3a1a92216b08988f6ac5117c6507c47a7380edc246de3183260786e94c9e412\",\n  \"unresolved\": []\n}",
+              "function_call": null,
+              "reasoning": null,
+              "refusal": null,
+              "role": "assistant"
+            },
+            "routed_experts": null,
+            "stop_reason": null,
+            "token_ids": null
+          }
+        ],
+        "created": 1792043932,
+        "ec_transfer_params": null,
+        "id": "chatcmpl-a03783430194f39b",
+        "kv_transfer_params": null,
+        "metrics": null,
+        "model": "qwen3-coder-next",
+        "object": "chat.completion",
+        "prompt_logprobs": null,
+        "prompt_text": null,
+        "prompt_token_ids": null,
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.26.0-1cf708c9",
+        "usage": {
+          "completion_tokens": 442,
+          "prompt_tokens": 1706,
+          "prompt_tokens_details": null,
+          "total_tokens": 2148
+        }
+      },
+      "success": true,
+      "usage": {
+        "completion_tokens": 442,
+        "prompt_tokens": 1706,
+        "prompt_tokens_details": null,
+        "total_tokens": 2148
+      }
+    }
+  ],
+  "cache_hit": false,
+  "cache_key": "55f64582873cef93dc14995ac61dcbdc3fdad08ec2a4eda16d74614aec58127b",
+  "candidate_id": "1a9d81e0ba182f2b7b3fb7f49c9cf54618c51e3cd23055bfab473891890c3ac1",
+  "messages_sha256": "175ac74fbf9cb84778d2810f53ff8e4a89c55000ab43bf87644fdd85ccbcbe5f",
+  "model_requested": "qwen3-coder-next",
+  "origin": "live_api",
+  "parameters": {
+    "max_tokens": 1200,
+    "temperature": 0
+  },
+  "replicate": 0,
+  "request_body_policy": "Private original retained; reconstruct from source/frontend and versioned prompt. No request code redistributed.",
+  "summary": {
+    "candidate_id": "1a9d81e0ba182f2b7b3fb7f49c9cf54618c51e3cd23055bfab473891890c3ac1",
+    "context": "[, ]",
+    "effects": [
+      {
+        "evidence_line": 33,
+        "input_index": 1,
+        "kind": "fit_state",
+        "output_index": 0,
+        "primitive": "SelectKBest.fit_transform",
+        "receiver": "selector",
+        "state_version": "$invo5:[, ]"
+      },
+      {
+        "evidence_line": 33,
+        "input_index": 1,
+        "kind": "row_preserving",
+        "output_index": 0,
+        "primitive": "SelectKBest.fit_transform",
+        "receiver": "selector",
+        "state_version": "$invo5:[, ]"
+      }
+    ],
+    "invocation": "$invo5",
+    "ir_sha256": "edb79a73a967cf1fdff891bc9fe29c8f48baae169372b099ba082042f44b8efb",
+    "primitive_spec_sha256": "235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497",
+    "source_sha256": "b3a1a92216b08988f6ac5117c6507c47a7380edc246de3183260786e94c9e412",
+    "unresolved": []
+  }
+}

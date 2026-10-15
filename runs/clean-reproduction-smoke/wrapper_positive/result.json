@@ -1,0 +1,44 @@
+{
+  "command": [
+    "/tmp/cs6215-clean-repro-k1h36sf9/leakage-project/.env-baseline/bin/python",
+    "-m",
+    "src.main",
+    "/tmp/cs6215-clean-repro-k1h36sf9/leakage-project/runs/clean-reproduction-smoke/wrapper_positive/work/input.py"
+  ],
+  "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+  "diagnostics": [],
+  "elapsed_seconds": 3.6223087031394243,
+  "errors": [],
+  "location_available": false,
+  "method": "S0",
+  "raw_preprocessing_rows": [
+    [
+      "_var7",
+      "$invo10",
+      "LogisticRegression.fit",
+      "[, ]"
+    ]
+  ],
+  "returncode": 0,
+  "sample_id": "wrapper_positive",
+  "scope_projection": "raw upstream; may include test-only effects",
+  "scope_status": "leak",
+  "source_sha256": "8e9108241c2672c925af591e941249408348d9d74d964a2e8e9ab4b3cd777685",
+  "status": "leak",
+  "train_affecting_projection": [
+    [
+      "clf_0",
+      "X_train",
+      "$invo10",
+      "LogisticRegression.fit",
+      "[, ]",
+      "clf_0",
+      "X_test",
+      "$invo11",
+      "LogisticRegression.predict",
+      "[, ]",
+      "_var8",
+      "_var7"
+    ]
+  ]
+}

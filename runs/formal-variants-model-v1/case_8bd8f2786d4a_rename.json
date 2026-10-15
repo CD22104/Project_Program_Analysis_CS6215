@@ -1,0 +1,44 @@
+{
+  "cache_hits": {
+    "ababcac87863726ad07f0859bc18d0b64f5b103e1230fe668cf0429d008cd5cb": false
+  },
+  "generation_elapsed_seconds": 2.9666497353464365,
+  "model": "qwen3-coder-next",
+  "origin": "live_api",
+  "records": {
+    "ababcac87863726ad07f0859bc18d0b64f5b103e1230fe668cf0429d008cd5cb": "cabb3d1d315c8ab619851d3d25eedc4ae87c313c723c4422ea7a3a0db0a1992b"
+  },
+  "replicate": 0,
+  "source_sha256": "ae142021d7683cd60a16fe5f75dd67bb23ff9c5ffac25b5076c57a56a1fb1824",
+  "summaries": {
+    "ababcac87863726ad07f0859bc18d0b64f5b103e1230fe668cf0429d008cd5cb": {
+      "candidate_id": "ababcac87863726ad07f0859bc18d0b64f5b103e1230fe668cf0429d008cd5cb",
+      "context": "[, ]",
+      "effects": [
+        {
+          "evidence_line": 33,
+          "input_index": 1,
+          "kind": "fit_state",
+          "output_index": 0,
+          "primitive": "SelectKBest.fit_transform",
+          "receiver": "value_007",
+          "state_version": "$invo5:[, ]"
+        },
+        {
+          "evidence_line": 33,
+          "input_index": 1,
+          "kind": "row_preserving",
+          "output_index": 0,
+          "primitive": "SelectKBest.fit_transform",
+          "receiver": "value_007",
+          "state_version": "$invo5:[, ]"
+        }
+      ],
+      "invocation": "$invo5",
+      "ir_sha256": "fab821284c6e31efe0f31490d758ad55f73da92e694da42242c57b70686b77df",
+      "primitive_spec_sha256": "235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497",
+      "source_sha256": "ae142021d7683cd60a16fe5f75dd67bb23ff9c5ffac25b5076c57a56a1fb1824",
+      "unresolved": []
+    }
+  }
+}

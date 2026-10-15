@@ -1,0 +1,35 @@
+{
+  "cache_hits": {
+    "d78198f3126ddaa6bf644d57a9abb822fba316620291910feadfd37d7799b1a7": false
+  },
+  "generation_elapsed_seconds": 2.4865158200263977,
+  "model": "qwen3-coder-next",
+  "origin": "live_api",
+  "records": {
+    "d78198f3126ddaa6bf644d57a9abb822fba316620291910feadfd37d7799b1a7": "4d22f582f897be9ba71c629d160ecd066525b5d1485b30c4b40e167eae10e454"
+  },
+  "replicate": 0,
+  "source_sha256": "ffccc11da45ee838bc557b302efc69dac405cb4d429d86dbf3b85b5e9069b20d",
+  "summaries": {
+    "d78198f3126ddaa6bf644d57a9abb822fba316620291910feadfd37d7799b1a7": {
+      "candidate_id": "d78198f3126ddaa6bf644d57a9abb822fba316620291910feadfd37d7799b1a7",
+      "context": "[, $invo7]",
+      "effects": [
+        {
+          "evidence_line": 24,
+          "input_index": 0,
+          "kind": "cross_row_reduce",
+          "output_index": 0,
+          "primitive": "DataFrame.median",
+          "receiver": "item_0_0",
+          "state_version": null
+        }
+      ],
+      "invocation": "$invo3",
+      "ir_sha256": "aca0ae7e1410ff0a6e0fb818efa98e5755ea906905e6f22c95a5058361198bac",
+      "primitive_spec_sha256": "235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497",
+      "source_sha256": "ffccc11da45ee838bc557b302efc69dac405cb4d429d86dbf3b85b5e9069b20d",
+      "unresolved": []
+    }
+  }
+}

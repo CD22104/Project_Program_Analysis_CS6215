@@ -1,0 +1,32 @@
+[
+  {
+    "candidate_id": "36686730703c1b120c35de0566569e44b155dcc5d690ebac6b5deab845275e87",
+    "canonical_method": "StandardScaler.fit",
+    "code": "state_0.fit(features)",
+    "context": "[, ]",
+    "deterministic_effect": "fit_state",
+    "evidence": {
+      "axis": 0,
+      "input": "features",
+      "line": 35,
+      "primitive": "StandardScaler.fit"
+    },
+    "function_id": "<module>",
+    "function_parameter_dependencies": [],
+    "input_index": 1,
+    "input_rank": 2,
+    "input_variable": "features",
+    "invocation": "$invo6",
+    "ir_line": 35,
+    "ir_sha256": "073e762a2a61f4bac1ab2c22bc5b743b7ffa07cf782b64a5c2e463ade4eea5dc",
+    "method": "StandardScaler.fit",
+    "primitive_spec_sha256": "9dfa9ded06d317a6f94f927e0c98e2a55fc05d9d03c287e86c4ba1dae61628dc",
+    "proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "receiver": "state_0",
+    "resolved_axis": 0,
+    "return_variable": "state_1",
+    "sample_axis": 0,
+    "source_sha256": "8da6d4577f0aa1a020898fe6c0c6755b06d7f1c28d175d9af6a9b84981b859b2",
+    "state_version": "$invo6:[, ]"
+  }
+]

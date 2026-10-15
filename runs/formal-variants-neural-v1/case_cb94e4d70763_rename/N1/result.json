@@ -1,0 +1,62 @@
+{
+  "base_sample_id": "case_cb94e4d70763",
+  "checks": [
+    {
+      "accepted": false,
+      "candidate_id": "5267b537ec9cd2a2b001252d58b4f6560a7627314d70a245ba6c9a69dfa80dc8",
+      "fallback": "S1 deterministic effects; otherwise original baseline",
+      "reason": "effect lacks deterministic proof: reviewed stateful API; upstream SSA/pointer propagation retained",
+      "semantic_checked": true
+    },
+    {
+      "accepted": false,
+      "candidate_id": "e8713bfafb2cc31d92f9b6e58776fccf83053643f07e3a32e1d89b63a5bf68a8",
+      "fallback": "S1 deterministic effects; otherwise original baseline",
+      "reason": "effect lacks deterministic proof: reviewed stateful API; upstream SSA/pointer propagation retained",
+      "semantic_checked": true
+    }
+  ],
+  "config_sha256": "bcaf9559383a083267fb236449e26d6abfb482b85068f63d4a770b08a2a3171c",
+  "conservative_fallback_status": "leak",
+  "diagnostics": [],
+  "elapsed_seconds": 0.4485871773213148,
+  "errors": [],
+  "family": "F23",
+  "frontend_elapsed_seconds": 3.395575786009431,
+  "location_available": false,
+  "method": "N1",
+  "partition": "test",
+  "raw_preprocessing_rows": [
+    [
+      "value_001",
+      "$invo9",
+      "LogisticRegression.fit",
+      "[, ]"
+    ]
+  ],
+  "sample_id": "case_cb94e4d70763_rename",
+  "scope_projection_limit": "train dependence and evaluation overlap joined with the exact reduction contexts; no safe-program claim",
+  "scope_status": "leak",
+  "source_kind": "controlled",
+  "source_sha256": "13cc2d9facd4356b1478fef1a9c3a7316404d731400c8828b180a8379b7e9dd7",
+  "status": "leak",
+  "summary_batch_sha256": "366c5ea0cd6ad35b01b368a16041ae820b92872bac0ad2f63724bd060eaf3035",
+  "train_affecting_projection": [
+    [
+      "value_006_0",
+      "value_000_0",
+      "$invo9",
+      "LogisticRegression.fit",
+      "[, ]",
+      "value_006_0",
+      "value_001_0",
+      "$invo10",
+      "LogisticRegression.predict",
+      "[, ]",
+      "value_007",
+      "value_001"
+    ]
+  ],
+  "unknown_reasons": [],
+  "variant": "rename"
+}

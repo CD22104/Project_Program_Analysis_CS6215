@@ -1,0 +1,47 @@
+Channels:
+ - conda-forge
+Platform: linux-64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /home/dchen/workplace/CS6215/leakage-project/.env-ffi
+
+  added / updated specs:
+    - libffi=3.3
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    libffi-3.3                 |       h58526e2_2          51 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:          51 KB
+
+The following NEW packages will be INSTALLED:
+
+  _openmp_mutex      conda-forge/linux-64::_openmp_mutex-4.5-20_gnu 
+  libffi             conda-forge/linux-64::libffi-3.3-h58526e2_2 
+  libgcc             conda-forge/linux-64::libgcc-16.2.0-ha9f2e26_7 
+  libgcc-ng          conda-forge/linux-64::libgcc-ng-16.2.0-h69a702a_7 
+  libgomp            conda-forge/linux-64::libgomp-16.2.0-he0feb66_7 
+  libstdcxx          conda-forge/linux-64::libstdcxx-16.2.0-h934c35e_7 
+  libstdcxx-ng       conda-forge/linux-64::libstdcxx-ng-16.2.0-hdf11a46_7 
+
+
+
+Downloading and Extracting Packages: ...working... done
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+#
+# To activate this environment, use
+#
+#     $ conda activate /home/dchen/workplace/CS6215/leakage-project/.env-ffi
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+

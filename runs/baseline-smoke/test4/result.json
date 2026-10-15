@@ -1,0 +1,22 @@
+{
+  "command": [
+    "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+    "-m",
+    "src.main",
+    "/home/dchen/workplace/CS6215/leakage-project/runs/baseline-smoke/test4/work/input.py"
+  ],
+  "config_sha256": "989041c198c4850fad34ae0e776525bd6e53c37963e4e27333ece53b7117601d",
+  "diagnostics": [],
+  "elapsed_seconds": 1.4269611574709415,
+  "errors": [
+    "Retrospective environment audit: sandbox blocked Node spawnSync python3 with EPERM; required imports unresolved. Raw artifacts retained; invalid for metrics."
+  ],
+  "location_available": false,
+  "method": "S0",
+  "raw_preprocessing_rows": [],
+  "returncode": 0,
+  "sample_id": "test4",
+  "scope_projection": "raw upstream; may include test-only effects",
+  "source_sha256": "1ad6677bd8e3dfbc1f634218e8a0f6d1e77ae8147ba9f36167f6f50e5b6e7695",
+  "status": "error"
+}

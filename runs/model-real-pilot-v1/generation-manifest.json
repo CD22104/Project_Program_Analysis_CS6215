@@ -1,0 +1,12 @@
+{
+  "baseline_run": "runs/real-pilot-v2",
+  "replicate": 0,
+  "stage": "pilot",
+  "subjects": [
+    "real_c0650c9464b4",
+    "real_4df8bde21c84",
+    "real_766491df25c7",
+    "real_38101a98cc8f",
+    "real_926b37074ebc"
+  ]
+}

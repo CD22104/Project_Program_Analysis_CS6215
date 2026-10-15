@@ -1,0 +1,26 @@
+{
+  "command": [
+    "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+    "-m",
+    "src.main",
+    "/home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_c0650c9464b4/S0/work/input.py"
+  ],
+  "config_sha256": "989041c198c4850fad34ae0e776525bd6e53c37963e4e27333ece53b7117601d",
+  "diagnostics": [],
+  "elapsed_seconds": 5.786013877019286,
+  "errors": [
+    "Unresolved Python library imports invalidate this baseline run"
+  ],
+  "family": null,
+  "location_available": false,
+  "method": "S0",
+  "partition": "dev",
+  "raw_preprocessing_rows": [],
+  "returncode": 0,
+  "sample_id": "real_c0650c9464b4",
+  "scope_projection": "raw upstream; may include test-only effects",
+  "source_kind": "real",
+  "source_sha256": "210ac476fdfcf75327d53d55fb5c07190ae74548d2cfc7f056d86c90e37da819",
+  "status": "error",
+  "variant": null
+}

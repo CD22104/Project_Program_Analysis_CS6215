@@ -1,0 +1,45 @@
+{
+  "base_sample_id": null,
+  "checks": [
+    {
+      "accepted": false,
+      "candidate_id": "05c9f94252e8d3d5f956a95b486da13f72a8063dba8366b5ae8862ec344c96d2",
+      "fallback": "S1 deterministic effects; otherwise original baseline",
+      "reason": "effect lacks deterministic proof: unresolved input rank or primitive identity",
+      "semantic_checked": true
+    },
+    {
+      "accepted": false,
+      "candidate_id": "0f5e3d2a083a53cf517821e83731cacb95a8f5ccac63998d13b8a7595eab3a31",
+      "fallback": "S1 deterministic effects; otherwise original baseline",
+      "reason": "effect lacks deterministic proof: reviewed stateful API; upstream SSA/pointer propagation retained",
+      "semantic_checked": true
+    }
+  ],
+  "config_sha256": "bcaf9559383a083267fb236449e26d6abfb482b85068f63d4a770b08a2a3171c",
+  "conservative_fallback_status": "no_finding",
+  "diagnostics": [],
+  "elapsed_seconds": 0.6048449277877808,
+  "errors": [],
+  "family": null,
+  "frontend_elapsed_seconds": 7.822534881532192,
+  "location_available": false,
+  "method": "N1",
+  "partition": "test",
+  "raw_preprocessing_rows": [],
+  "sample_id": "real_4aabfe0b5836",
+  "scope_projection_limit": "train dependence and evaluation overlap joined with the exact reduction contexts; no safe-program claim",
+  "scope_status": "unknown",
+  "source_kind": "real",
+  "source_sha256": "0ef375bd04f1ed919b21d8c21cc41b0c0227e75631918346672f689dcabc91d0",
+  "status": "unknown",
+  "summary_batch_sha256": "0ea65fc46b0bf940480772670d3b3540e3447b7e4887deab973dba1bb4a1c6f0",
+  "train_affecting_projection": [],
+  "unknown_reasons": [
+    {
+      "candidate_id": "05c9f94252e8d3d5f956a95b486da13f72a8063dba8366b5ae8862ec344c96d2",
+      "reason": "unresolved input rank or primitive identity"
+    }
+  ],
+  "variant": null
+}

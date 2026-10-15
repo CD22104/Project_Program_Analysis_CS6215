@@ -1,0 +1,32 @@
+[
+  {
+    "candidate_id": "091e9ead4d325084fdf81d078242c030a29491d7b0f912895076fb1c30d40193",
+    "canonical_method": "pandas.DataFrame.mean",
+    "code": "features.mean()",
+    "context": "[, ]",
+    "deterministic_effect": "cross_row_reduce",
+    "evidence": {
+      "axis": 0,
+      "input": "features",
+      "line": 30,
+      "primitive": "pandas.DataFrame.mean"
+    },
+    "function_id": "<module>",
+    "function_parameter_dependencies": [],
+    "input_index": 0,
+    "input_rank": 2,
+    "input_variable": "features",
+    "invocation": "$invo4",
+    "ir_line": 30,
+    "ir_sha256": "26296ce15427e1bca1a120750dcd4dc334f5345cea2e4e828232e57b4bf1a51f",
+    "method": "pandas.DataFrame.mean",
+    "primitive_spec_sha256": "9dfa9ded06d317a6f94f927e0c98e2a55fc05d9d03c287e86c4ba1dae61628dc",
+    "proof_reason": "reduction includes sample axis 0",
+    "receiver": "features",
+    "resolved_axis": 0,
+    "return_variable": "_var4",
+    "sample_axis": 0,
+    "source_sha256": "052e2ac8077742b5b76406082b957d7b6f807403a475094869320aa71dcd23a9",
+    "state_version": null
+  }
+]

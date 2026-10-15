@@ -1,0 +1,254 @@
+[
+  {
+    "N1_accepted": true,
+    "cohort": "controlled",
+    "count": 2,
+    "proposed_effects": "apply_state",
+    "rule_effect": "apply_state"
+  },
+  {
+    "N1_accepted": true,
+    "cohort": "controlled",
+    "count": 19,
+    "proposed_effects": "cross_row_reduce",
+    "rule_effect": "cross_row_reduce"
+  },
+  {
+    "N1_accepted": false,
+    "cohort": "controlled",
+    "count": 1,
+    "proposed_effects": "cross_row_reduce,fit_state",
+    "rule_effect": "cross_row_reduce"
+  },
+  {
+    "N1_accepted": false,
+    "cohort": "controlled",
+    "count": 2,
+    "proposed_effects": "fit_state",
+    "rule_effect": "cross_row_reduce"
+  },
+  {
+    "N1_accepted": false,
+    "cohort": "controlled",
+    "count": 1,
+    "proposed_effects": "apply_state,fit_state,row_preserving",
+    "rule_effect": "fit_state"
+  },
+  {
+    "N1_accepted": true,
+    "cohort": "controlled",
+    "count": 3,
+    "proposed_effects": "fit_state",
+    "rule_effect": "fit_state"
+  },
+  {
+    "N1_accepted": false,
+    "cohort": "controlled",
+    "count": 3,
+    "proposed_effects": "fit_state,row_preserving",
+    "rule_effect": "fit_state"
+  },
+  {
+    "N1_accepted": false,
+    "cohort": "controlled",
+    "count": 2,
+    "proposed_effects": "cross_row_reduce",
+    "rule_effect": "row_preserving"
+  },
+  {
+    "N1_accepted": true,
+    "cohort": "controlled",
+    "count": 1,
+    "proposed_effects": "row_preserving",
+    "rule_effect": "row_preserving"
+  },
+  {
+    "N1_accepted": false,
+    "cohort": "development",
+    "count": 1,
+    "proposed_effects": "cross_row_reduce",
+    "rule_effect": "cross_row_reduce"
+  },
+  {
+    "N1_accepted": true,
+    "cohort": "development",
+    "count": 5,
+    "proposed_effects": "cross_row_reduce",
+    "rule_effect": "cross_row_reduce"
+  },
+  {
+    "N1_accepted": false,
+    "cohort": "development",
+    "count": 1,
+    "proposed_effects": "fit_state",
+    "rule_effect": "cross_row_reduce"
+  },
+  {
+    "N1_accepted": true,
+    "cohort": "development",
+    "count": 3,
+    "proposed_effects": "fit_state",
+    "rule_effect": "fit_state"
+  },
+  {
+    "N1_accepted": false,
+    "cohort": "development",
+    "count": 1,
+    "proposed_effects": "fit_state,row_preserving",
+    "rule_effect": "fit_state"
+  },
+  {
+    "N1_accepted": false,
+    "cohort": "development",
+    "count": 1,
+    "proposed_effects": "cross_row_reduce",
+    "rule_effect": "row_preserving"
+  },
+  {
+    "N1_accepted": true,
+    "cohort": "development",
+    "count": 2,
+    "proposed_effects": "row_preserving",
+    "rule_effect": "row_preserving"
+  },
+  {
+    "N1_accepted": false,
+    "cohort": "real",
+    "count": 1,
+    "proposed_effects": "apply_state,row_preserving",
+    "rule_effect": "apply_state"
+  },
+  {
+    "N1_accepted": true,
+    "cohort": "real",
+    "count": 1,
+    "proposed_effects": "cross_row_reduce",
+    "rule_effect": "cross_row_reduce"
+  },
+  {
+    "N1_accepted": false,
+    "cohort": "real",
+    "count": 3,
+    "proposed_effects": "apply_state,fit_state,row_preserving",
+    "rule_effect": "fit_state"
+  },
+  {
+    "N1_accepted": false,
+    "cohort": "real",
+    "count": 1,
+    "proposed_effects": "cross_row_reduce",
+    "rule_effect": "unknown"
+  },
+  {
+    "N1_accepted": true,
+    "cohort": "real-development",
+    "count": 1,
+    "proposed_effects": "apply_state",
+    "rule_effect": "apply_state"
+  },
+  {
+    "N1_accepted": true,
+    "cohort": "real-development",
+    "count": 1,
+    "proposed_effects": "fit_state",
+    "rule_effect": "fit_state"
+  },
+  {
+    "N1_accepted": false,
+    "cohort": "real-development",
+    "count": 4,
+    "proposed_effects": "fit_state,row_preserving",
+    "rule_effect": "fit_state"
+  },
+  {
+    "N1_accepted": false,
+    "cohort": "real-development",
+    "count": 13,
+    "proposed_effects": "cross_row_reduce",
+    "rule_effect": "unknown"
+  },
+  {
+    "N1_accepted": true,
+    "cohort": "variants",
+    "count": 8,
+    "proposed_effects": "apply_state",
+    "rule_effect": "apply_state"
+  },
+  {
+    "N1_accepted": false,
+    "cohort": "variants",
+    "count": 1,
+    "proposed_effects": "apply_state,cross_row_reduce,fit_state",
+    "rule_effect": "cross_row_reduce"
+  },
+  {
+    "N1_accepted": false,
+    "cohort": "variants",
+    "count": 3,
+    "proposed_effects": "cross_row_reduce",
+    "rule_effect": "cross_row_reduce"
+  },
+  {
+    "N1_accepted": true,
+    "cohort": "variants",
+    "count": 71,
+    "proposed_effects": "cross_row_reduce",
+    "rule_effect": "cross_row_reduce"
+  },
+  {
+    "N1_accepted": false,
+    "cohort": "variants",
+    "count": 2,
+    "proposed_effects": "fit_state",
+    "rule_effect": "cross_row_reduce"
+  },
+  {
+    "N1_accepted": false,
+    "cohort": "variants",
+    "count": 5,
+    "proposed_effects": "row_preserving",
+    "rule_effect": "cross_row_reduce"
+  },
+  {
+    "N1_accepted": false,
+    "cohort": "variants",
+    "count": 1,
+    "proposed_effects": "apply_state,fit_state,row_preserving",
+    "rule_effect": "fit_state"
+  },
+  {
+    "N1_accepted": true,
+    "cohort": "variants",
+    "count": 12,
+    "proposed_effects": "fit_state",
+    "rule_effect": "fit_state"
+  },
+  {
+    "N1_accepted": false,
+    "cohort": "variants",
+    "count": 15,
+    "proposed_effects": "fit_state,row_preserving",
+    "rule_effect": "fit_state"
+  },
+  {
+    "N1_accepted": false,
+    "cohort": "variants",
+    "count": 2,
+    "proposed_effects": "cross_row_reduce",
+    "rule_effect": "row_preserving"
+  },
+  {
+    "N1_accepted": false,
+    "cohort": "variants",
+    "count": 3,
+    "proposed_effects": "row_preserving",
+    "rule_effect": "row_preserving"
+  },
+  {
+    "N1_accepted": true,
+    "cohort": "variants",
+    "count": 1,
+    "proposed_effects": "row_preserving",
+    "rule_effect": "row_preserving"
+  }
+]

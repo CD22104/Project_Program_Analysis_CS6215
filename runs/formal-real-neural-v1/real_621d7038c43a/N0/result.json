@@ -1,0 +1,170 @@
+{
+  "base_sample_id": null,
+  "checks": [
+    {
+      "accepted": true,
+      "candidate_id": "46d1b44a5e50caa5852ca3dc6c593049f58309e2b10173fcd411c789caa92f18",
+      "reason": "structure and references only",
+      "semantic_checked": false
+    }
+  ],
+  "config_sha256": "4a17f1742d1f8aaa0eb6ec4ee224e8eb865e9b20b037ecf59f8e8d6ffd3c667c",
+  "conservative_fallback_status": "leak",
+  "diagnostics": [],
+  "elapsed_seconds": 0.5771199576556683,
+  "errors": [],
+  "family": null,
+  "frontend_elapsed_seconds": 4.894194021821022,
+  "location_available": false,
+  "method": "N0",
+  "partition": "test",
+  "raw_preprocessing_rows": [
+    [
+      "X",
+      "$invo20",
+      "GridSearchCV.fit",
+      "[, ]"
+    ],
+    [
+      "X",
+      "$invo30",
+      "GridSearchCV.fit",
+      "[, ]"
+    ],
+    [
+      "X",
+      "$invo38",
+      "GridSearchCV.fit",
+      "[, ]"
+    ],
+    [
+      "X",
+      "$invo46",
+      "GridSearchCV.fit",
+      "[, ]"
+    ]
+  ],
+  "sample_id": "real_621d7038c43a",
+  "scope_projection_limit": "train dependence and evaluation overlap joined with the exact reduction contexts; no safe-program claim",
+  "scope_status": "leak",
+  "source_kind": "real",
+  "source_sha256": "1efe230739e64b01a5907d20fe46dcbeacddae90107d058a7dabaffcabff3f2e",
+  "status": "leak",
+  "summary_batch_sha256": "e68c2ec2d2fe002ea76f60490f349b09f072422b57ba2180507b6de3c60234c2",
+  "train_affecting_projection": [
+    [
+      "logreg_cv_0",
+      "X_train",
+      "$invo20",
+      "GridSearchCV.fit",
+      "[, ]",
+      "logreg_cv_0",
+      "X_test",
+      "$invo23",
+      "BaseSearchCV.score",
+      "[, ]",
+      "transform",
+      "X"
+    ],
+    [
+      "logreg_cv_0",
+      "X_train",
+      "$invo20",
+      "GridSearchCV.fit",
+      "[, ]",
+      "logreg_cv_0",
+      "X_test",
+      "$invo24",
+      "BaseSearchCV.predict",
+      "[, ]",
+      "transform",
+      "X"
+    ],
+    [
+      "svm_cv_0",
+      "X_train",
+      "$invo30",
+      "GridSearchCV.fit",
+      "[, ]",
+      "svm_cv_0",
+      "X_test",
+      "$invo33",
+      "BaseSearchCV.score",
+      "[, ]",
+      "transform",
+      "X"
+    ],
+    [
+      "svm_cv_0",
+      "X_train",
+      "$invo30",
+      "GridSearchCV.fit",
+      "[, ]",
+      "svm_cv_0",
+      "X_test",
+      "$invo34",
+      "BaseSearchCV.predict",
+      "[, ]",
+      "transform",
+      "X"
+    ],
+    [
+      "svm_cv_0",
+      "X_train",
+      "$invo30",
+      "GridSearchCV.fit",
+      "[, ]",
+      "svm_cv_0",
+      "X_test",
+      "$invo42",
+      "BaseSearchCV.predict",
+      "[, ]",
+      "transform",
+      "X"
+    ],
+    [
+      "tree_cv_0",
+      "X_train",
+      "$invo38",
+      "GridSearchCV.fit",
+      "[, ]",
+      "tree_cv_0",
+      "X_test",
+      "$invo41",
+      "BaseSearchCV.score",
+      "[, ]",
+      "transform",
+      "X"
+    ],
+    [
+      "knn_cv_0",
+      "X_train",
+      "$invo46",
+      "GridSearchCV.fit",
+      "[, ]",
+      "knn_cv_0",
+      "X_test",
+      "$invo49",
+      "BaseSearchCV.score",
+      "[, ]",
+      "transform",
+      "X"
+    ],
+    [
+      "knn_cv_0",
+      "X_train",
+      "$invo46",
+      "GridSearchCV.fit",
+      "[, ]",
+      "knn_cv_0",
+      "X_test",
+      "$invo50",
+      "BaseSearchCV.predict",
+      "[, ]",
+      "transform",
+      "X"
+    ]
+  ],
+  "unknown_reasons": [],
+  "variant": null
+}

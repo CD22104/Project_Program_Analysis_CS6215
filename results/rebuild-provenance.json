@@ -1,0 +1,5 @@
+{
+  "controlled_predictions": "runs/neural-pilot-v1/predictions.json",
+  "model_requests_made": 0,
+  "real_predictions": "runs/neural-real-pilot-v1/predictions.json"
+}

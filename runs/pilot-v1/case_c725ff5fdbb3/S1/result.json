@@ -1,0 +1,29 @@
+{
+  "checks": [
+    {
+      "accepted": true,
+      "candidate_id": "eb9119bb27ecff9f2181208df562fd7ffb6a1f86400101f1da5c18dc248720ab",
+      "reason": "verified within declared primitive subset",
+      "semantic_checked": true
+    }
+  ],
+  "config_sha256": "61c8815c97df6a9b233fbd5cdd8819427feab2855003ef8cb0a96702699fb33c",
+  "diagnostics": [],
+  "elapsed_seconds": 0.034846724942326546,
+  "errors": [
+    "Derived solver failed; see solver.log"
+  ],
+  "family": "F01",
+  "frontend_elapsed_seconds": 3.179786467924714,
+  "location_available": false,
+  "method": "S1",
+  "partition": "dev",
+  "raw_preprocessing_rows": [],
+  "sample_id": "case_c725ff5fdbb3",
+  "source_kind": "controlled",
+  "source_sha256": "a92b842eb8a0db7ade64fe24412a6b8588e12d13e2cff31c9b9b9a53401df775",
+  "status": "error",
+  "summary_batch_sha256": null,
+  "unknown_reasons": [],
+  "variant": "base"
+}

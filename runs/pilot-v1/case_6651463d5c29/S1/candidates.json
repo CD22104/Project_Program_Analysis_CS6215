@@ -1,0 +1,37 @@
+[
+  {
+    "candidate_id": "9b3970cd876d9a8d2584369314da9b446169809db9ade6a3acd74fb6ac4f83fe",
+    "canonical_method": "Unknown.mean",
+    "code": "def statistics(x):\n    _var4 = 0\n    _var5 = x.mean(axis=_var4)\n    return _var5",
+    "context": "[, $invo6]",
+    "deterministic_effect": "unknown",
+    "evidence": {
+      "axis": 0,
+      "input": "x",
+      "line": 33,
+      "primitive": "Unknown.mean"
+    },
+    "function_id": "statistics",
+    "function_parameter_dependencies": [
+      {
+        "parameter": 1,
+        "target": "function_return"
+      }
+    ],
+    "input_index": 0,
+    "input_rank": 2,
+    "input_variable": "x",
+    "invocation": "$invo4",
+    "ir_line": 33,
+    "ir_sha256": "d5b55bfe1771e0eff5885c46d26146e324d770e6d9b2c7926856f82c40eeac1b",
+    "method": "Unknown.mean",
+    "primitive_spec_sha256": "9dfa9ded06d317a6f94f927e0c98e2a55fc05d9d03c287e86c4ba1dae61628dc",
+    "proof_reason": "unresolved axis, input rank, or primitive identity",
+    "receiver": "x",
+    "resolved_axis": 0,
+    "return_variable": "_var5",
+    "sample_axis": 0,
+    "source_sha256": "9b37d2c5e10fa23322f5afef22ca2bc9ed8b22472e78fd09ac1a6e17a8de3dbf",
+    "state_version": null
+  }
+]

@@ -1,0 +1,66 @@
+{"cache_key": "0eaf0bf7539335a8ff95db4a4cef2cc297cd94a49f48d95251e2c0c5e8d9fc77", "reserved_tokens": 8073, "time_unix": 1792042715.1949816}
+{"cache_key": "0eaf0bf7539335a8ff95db4a4cef2cc297cd94a49f48d95251e2c0c5e8d9fc77", "reserved_tokens": -6023, "actual_tokens": 2050, "kind": "settlement", "time_unix": 1792042717.7218726}
+{"cache_key": "243c01493a1c514311e5e4a1f49e2c0d47d15f22d1490478b2de46dcf746155b", "reserved_tokens": 8073, "time_unix": 1792042770.1160276}
+{"cache_key": "243c01493a1c514311e5e4a1f49e2c0d47d15f22d1490478b2de46dcf746155b", "reserved_tokens": -6013, "actual_tokens": 2060, "kind": "settlement", "time_unix": 1792042772.5031545}
+{"cache_key": "d329e47c583d4b0c020fee6c385a1654b60f22e8e65591acf96209d468c053b0", "reserved_tokens": 8232, "time_unix": 1792042772.5081484}
+{"cache_key": "d329e47c583d4b0c020fee6c385a1654b60f22e8e65591acf96209d468c053b0", "reserved_tokens": -6125, "actual_tokens": 2107, "kind": "settlement", "time_unix": 1792042774.8852742}
+{"cache_key": "63c9fa1fbcc2f54fff7e1a07a7308fdb183b4d5c07924f0c7de37126ae878a1d", "reserved_tokens": 8232, "time_unix": 1792042774.891041}
+{"cache_key": "63c9fa1fbcc2f54fff7e1a07a7308fdb183b4d5c07924f0c7de37126ae878a1d", "reserved_tokens": -6135, "actual_tokens": 2097, "kind": "settlement", "time_unix": 1792042777.6159182}
+{"cache_key": "45f5ab197b0ad71b417a6f4272b1251c5812c300c9d666de2eb980bffa6bd56f", "reserved_tokens": 8063, "time_unix": 1792042777.6295328}
+{"cache_key": "45f5ab197b0ad71b417a6f4272b1251c5812c300c9d666de2eb980bffa6bd56f", "reserved_tokens": -5997, "actual_tokens": 2066, "kind": "settlement", "time_unix": 1792042780.0513835}
+{"cache_key": "ac6f37acbbd11a8aab19542f4dd2e8ef0dbcca3c0cec1a7d2be7a7fb2bdc43c3", "reserved_tokens": 8097, "time_unix": 1792042780.0739048}
+{"cache_key": "ac6f37acbbd11a8aab19542f4dd2e8ef0dbcca3c0cec1a7d2be7a7fb2bdc43c3", "reserved_tokens": -5982, "actual_tokens": 2115, "kind": "settlement", "time_unix": 1792042782.8646176}
+{"cache_key": "b20719f579d5b73ad8c44a34a604424d585299f8e0460ab2b3562d017e477d1c", "reserved_tokens": 8060, "time_unix": 1792042782.8703756}
+{"cache_key": "b20719f579d5b73ad8c44a34a604424d585299f8e0460ab2b3562d017e477d1c", "reserved_tokens": -5993, "actual_tokens": 2067, "kind": "settlement", "time_unix": 1792042785.298329}
+{"cache_key": "5ac059b44c02af601bcdd71639c81abbf883c4f478c5e38790bf47e070862a21", "reserved_tokens": 8172, "time_unix": 1792042785.3027167}
+{"cache_key": "5ac059b44c02af601bcdd71639c81abbf883c4f478c5e38790bf47e070862a21", "reserved_tokens": -6080, "actual_tokens": 2092, "kind": "settlement", "time_unix": 1792042787.7197325}
+{"cache_key": "1d669b2ed702498541e2b5825399ebbaf819ca01ac532b49dc634fa4038c3714", "reserved_tokens": 8172, "time_unix": 1792042787.72412}
+{"cache_key": "1d669b2ed702498541e2b5825399ebbaf819ca01ac532b49dc634fa4038c3714", "reserved_tokens": -6066, "actual_tokens": 2106, "kind": "settlement", "time_unix": 1792042790.144518}
+{"cache_key": "60d63aba2209c88fc4e3bccc661f1cdf992910dfa348cf7eb4f1d26f78b07c6c", "reserved_tokens": 8204, "time_unix": 1792042790.1593347}
+{"cache_key": "60d63aba2209c88fc4e3bccc661f1cdf992910dfa348cf7eb4f1d26f78b07c6c", "reserved_tokens": -6094, "actual_tokens": 2110, "kind": "settlement", "time_unix": 1792042792.4921665}
+{"cache_key": "281e4db77a2bc6ae91cb36481d491f6ab60c991d46feb91556d8eb5b3dbbced1", "reserved_tokens": 8232, "time_unix": 1792042792.5186005}
+{"cache_key": "281e4db77a2bc6ae91cb36481d491f6ab60c991d46feb91556d8eb5b3dbbced1", "reserved_tokens": -6134, "actual_tokens": 2098, "kind": "settlement", "time_unix": 1792042794.942091}
+{"cache_key": "7cbb1cc0341c7364664e4fb9226c3fff332db931d309000bbb075e98cc89f6bf", "reserved_tokens": 8232, "time_unix": 1792042794.959305}
+{"cache_key": "7cbb1cc0341c7364664e4fb9226c3fff332db931d309000bbb075e98cc89f6bf", "reserved_tokens": -6129, "actual_tokens": 2103, "kind": "settlement", "time_unix": 1792042797.2877572}
+{"cache_key": "3ee917839b435c7d71614e5550ce1ec01fdb934d26b0770e1cdcd76c489645a4", "reserved_tokens": 8078, "time_unix": 1792042797.3044116}
+{"cache_key": "3ee917839b435c7d71614e5550ce1ec01fdb934d26b0770e1cdcd76c489645a4", "reserved_tokens": -6011, "actual_tokens": 2067, "kind": "settlement", "time_unix": 1792042799.8248892}
+{"cache_key": "c30e5ce919424c2f18934469a365da9be381c84671f2e4a4d6d8498fc2d59b58", "reserved_tokens": 8064, "time_unix": 1792042799.8426092}
+{"cache_key": "c30e5ce919424c2f18934469a365da9be381c84671f2e4a4d6d8498fc2d59b58", "reserved_tokens": -5987, "actual_tokens": 2077, "kind": "settlement", "time_unix": 1792042802.2413733}
+{"cache_key": "7bf491b5ffc4ee83446376bafb1c1b0d550c7df7437a97cdd009150efe4a5bf2", "reserved_tokens": 8091, "time_unix": 1792042825.4300032}
+{"cache_key": "7bf491b5ffc4ee83446376bafb1c1b0d550c7df7437a97cdd009150efe4a5bf2", "reserved_tokens": -6014, "actual_tokens": 2077, "kind": "settlement", "time_unix": 1792042827.7765462}
+{"cache_key": "cb20fa176dc03dd5b810826dd76bb81672d2a7e3cc321b3141be15da81c72d12", "reserved_tokens": 8098, "time_unix": 1792042827.778131}
+{"cache_key": "cb20fa176dc03dd5b810826dd76bb81672d2a7e3cc321b3141be15da81c72d12", "reserved_tokens": -5948, "actual_tokens": 2150, "kind": "settlement", "time_unix": 1792042830.6468234}
+{"cache_key": "27c65a2c021a9d9ee783f54c8ae4174347462fe3d78d75965289f574bfdfc547", "reserved_tokens": 8102, "time_unix": 1792042832.5566}
+{"cache_key": "27c65a2c021a9d9ee783f54c8ae4174347462fe3d78d75965289f574bfdfc547", "reserved_tokens": -5935, "actual_tokens": 2167, "kind": "settlement", "time_unix": 1792042835.5322433}
+{"cache_key": "1c486b599f38e478d7efa3a591807899f62914b28c2cb660760cd5485e352648", "reserved_tokens": 8102, "time_unix": 1792042835.534496}
+{"cache_key": "1c486b599f38e478d7efa3a591807899f62914b28c2cb660760cd5485e352648", "reserved_tokens": -5931, "actual_tokens": 2171, "kind": "settlement", "time_unix": 1792042838.397798}
+{"cache_key": "dfc979d118da34d28ebbbaf68fe326aab667e8af6b5e3cab22a23247a8c7ede0", "reserved_tokens": 8057, "time_unix": 1792042838.4002588}
+{"cache_key": "dfc979d118da34d28ebbbaf68fe326aab667e8af6b5e3cab22a23247a8c7ede0", "reserved_tokens": -5939, "actual_tokens": 2118, "kind": "settlement", "time_unix": 1792042841.3955493}
+{"cache_key": "b472c19bdae45f6c3caf0a6c8cbab2e9c38cbd3c3a75ce363b1ec324acc093ac", "reserved_tokens": 8057, "time_unix": 1792042841.3971484}
+{"cache_key": "b472c19bdae45f6c3caf0a6c8cbab2e9c38cbd3c3a75ce363b1ec324acc093ac", "reserved_tokens": -5955, "actual_tokens": 2102, "kind": "settlement", "time_unix": 1792042844.044887}
+{"cache_key": "23a0ab33f0ce43284fb40ddc8be8557cab3dc794cdbdb7d43dbb933a3f9c977f", "reserved_tokens": 8057, "time_unix": 1792042844.046418}
+{"cache_key": "23a0ab33f0ce43284fb40ddc8be8557cab3dc794cdbdb7d43dbb933a3f9c977f", "reserved_tokens": -5945, "actual_tokens": 2112, "kind": "settlement", "time_unix": 1792042846.9973998}
+{"cache_key": "5b9c7f636c9254cd013e22e913b07b047b16fe9a367f9a327947efbab1fd6185", "reserved_tokens": 8057, "time_unix": 1792042846.9996488}
+{"cache_key": "5b9c7f636c9254cd013e22e913b07b047b16fe9a367f9a327947efbab1fd6185", "reserved_tokens": -5959, "actual_tokens": 2098, "kind": "settlement", "time_unix": 1792042849.7865849}
+{"cache_key": "6a70d0773ce2265e047c550fea5924c6d69eb85d0c11ae040b60bc19b9c246f4", "reserved_tokens": 8061, "time_unix": 1792042849.792533}
+{"cache_key": "6a70d0773ce2265e047c550fea5924c6d69eb85d0c11ae040b60bc19b9c246f4", "reserved_tokens": -5934, "actual_tokens": 2127, "kind": "settlement", "time_unix": 1792042852.6300557}
+{"cache_key": "ba0c333ac33009c37c4eba6504adf78c530bef45a9d2c09d7ec2a7b763b4b2cb", "reserved_tokens": 8061, "time_unix": 1792042852.632302}
+{"cache_key": "ba0c333ac33009c37c4eba6504adf78c530bef45a9d2c09d7ec2a7b763b4b2cb", "reserved_tokens": -5945, "actual_tokens": 2116, "kind": "settlement", "time_unix": 1792042855.5116208}
+{"cache_key": "f018a529de5ed9aa843a3535f6a08fe52e765a2db3ae22859cf6a5c08bdd4f63", "reserved_tokens": 8061, "time_unix": 1792042855.5157442}
+{"cache_key": "f018a529de5ed9aa843a3535f6a08fe52e765a2db3ae22859cf6a5c08bdd4f63", "reserved_tokens": -5929, "actual_tokens": 2132, "kind": "settlement", "time_unix": 1792042858.2053463}
+{"cache_key": "3c54d53e4ab44648d60d41e9c660ad65e2bd4c5d087a0661b1727ada395684d8", "reserved_tokens": 8061, "time_unix": 1792042858.2098038}
+{"cache_key": "3c54d53e4ab44648d60d41e9c660ad65e2bd4c5d087a0661b1727ada395684d8", "reserved_tokens": -5930, "actual_tokens": 2131, "kind": "settlement", "time_unix": 1792042860.8509912}
+{"cache_key": "795cac6a1c669d27831fd09ba8f385114d826e0a800eb611a6ca5ee6a3c25e5a", "reserved_tokens": 8061, "time_unix": 1792042860.8553753}
+{"cache_key": "795cac6a1c669d27831fd09ba8f385114d826e0a800eb611a6ca5ee6a3c25e5a", "reserved_tokens": -5954, "actual_tokens": 2107, "kind": "settlement", "time_unix": 1792042863.4159255}
+{"cache_key": "a27444fe2e8f38bf77ab770801388508ab997bc775ab9a3e96a3b54b78b0c5f2", "reserved_tokens": 8061, "time_unix": 1792042863.4205744}
+{"cache_key": "a27444fe2e8f38bf77ab770801388508ab997bc775ab9a3e96a3b54b78b0c5f2", "reserved_tokens": -5926, "actual_tokens": 2135, "kind": "settlement", "time_unix": 1792042866.1929004}
+{"cache_key": "9dc151905490f92eb828ace49b4d39e8ac6ab7735c9a1966a4eac0dd3f1300c9", "reserved_tokens": 8061, "time_unix": 1792042866.1976988}
+{"cache_key": "9dc151905490f92eb828ace49b4d39e8ac6ab7735c9a1966a4eac0dd3f1300c9", "reserved_tokens": -5940, "actual_tokens": 2121, "kind": "settlement", "time_unix": 1792042868.774696}
+{"cache_key": "f7602149024fa0415562e5328c7df027314d3a0a5f7eb6e6835e454a84be01a3", "reserved_tokens": 8061, "time_unix": 1792042868.7806149}
+{"cache_key": "f7602149024fa0415562e5328c7df027314d3a0a5f7eb6e6835e454a84be01a3", "reserved_tokens": -5930, "actual_tokens": 2131, "kind": "settlement", "time_unix": 1792042871.6528518}
+{"cache_key": "9611382b06f9db89117d307881671b815b7598bd472b8b465cec1e2c2c6507e8", "reserved_tokens": 8061, "time_unix": 1792042871.655053}
+{"cache_key": "9611382b06f9db89117d307881671b815b7598bd472b8b465cec1e2c2c6507e8", "reserved_tokens": -5969, "actual_tokens": 2092, "kind": "settlement", "time_unix": 1792042874.1122422}
+{"cache_key": "cbb8742a9c808045e777d21bcee63359eced919ae1aedfbf134ffd35a28c005f", "reserved_tokens": 8100, "time_unix": 1792042874.1137202}
+{"cache_key": "cbb8742a9c808045e777d21bcee63359eced919ae1aedfbf134ffd35a28c005f", "reserved_tokens": -5932, "actual_tokens": 2168, "kind": "settlement", "time_unix": 1792042876.9114687}
+{"cache_key": "b88eae3480325f1311cd8a6206d76d35ad953443e78080a330b698e76765191b", "reserved_tokens": 8071, "time_unix": 1792042877.0343158}
+{"cache_key": "b88eae3480325f1311cd8a6206d76d35ad953443e78080a330b698e76765191b", "reserved_tokens": -5997, "actual_tokens": 2074, "kind": "settlement", "time_unix": 1792042879.3483665}

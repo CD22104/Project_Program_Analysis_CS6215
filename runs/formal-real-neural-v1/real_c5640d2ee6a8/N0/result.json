@@ -1,0 +1,24 @@
+{
+  "base_sample_id": null,
+  "checks": [],
+  "config_sha256": "4a17f1742d1f8aaa0eb6ec4ee224e8eb865e9b20b037ecf59f8e8d6ffd3c667c",
+  "diagnostics": [],
+  "elapsed_seconds": 0.003474852070212364,
+  "errors": [
+    "Baseline frontend unavailable",
+    "Unresolved Python library imports invalidate this baseline run"
+  ],
+  "family": null,
+  "frontend_elapsed_seconds": 4.548684008419514,
+  "location_available": false,
+  "method": "N0",
+  "partition": "test",
+  "raw_preprocessing_rows": [],
+  "sample_id": "real_c5640d2ee6a8",
+  "source_kind": "real",
+  "source_sha256": "44c4ad9b621d8e9707fb6c82b0361e81996311e6c9b2f6c40d8c0736874043a4",
+  "status": "error",
+  "summary_batch_sha256": null,
+  "unknown_reasons": [],
+  "variant": null
+}

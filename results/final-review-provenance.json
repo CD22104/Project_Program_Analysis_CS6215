@@ -1,0 +1,16 @@
+{
+  "annotations": {
+    "controlled": "97529fb59f578d3fedda891435a2b7ebcc4968e7acbf7ee90bb11522b9e77815",
+    "real-reviewed": "08b943271f6c4d6234c5c677cfdfc96588fdb6c0095e7a954d4a707f082b1d84",
+    "variants": "3b2af5519c4a001b04f56721cb545a94e5af7e639bb784a74163c7af2a3102b2"
+  },
+  "judgment_scope": "Approval retains event-only and scope-limited null labels; it does not supply an independent second annotation or a human audit of all model summaries",
+  "model_requests_made": 0,
+  "review_date": "2026-10-15",
+  "source_predictions": {
+    "controlled": "657a89c49b97be74770e5a7bf80aec49713bbff821b7638fe53fc858b2826d1e",
+    "real": "feb0e0e3765aa87bf92a423789ed767a117478ae9d5f9ec73140969ff7dd06f1",
+    "variants": "8ca1a8b50a4740b86a3d65c65960c3437d27a87ef12e8965f64c10315d1b75ca"
+  },
+  "stage": "Final author confirmation and reporting, after frozen inference"
+}

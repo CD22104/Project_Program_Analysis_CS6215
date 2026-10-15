@@ -1,0 +1,188 @@
+No configuration file found.
+No pyproject.toml file found.
+stubPath /home/dchen/workplace/CS6215/leakage-project/third_party/leakage-analysis/typings is not a valid directory.
+Assuming Python platform Linux
+Searching for source files
+Found 1 source file
+/home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:24:8 - error: Import "seaborn" could not be resolved (reportMissingImports)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:25:8 - error: Import "plotly.graph_objs" could not be resolved (reportMissingImports)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:28:8 - error: Import "nltk" could not be resolved (reportMissingImports)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:31:6 - error: Import "nltk.corpus" could not be resolved (reportMissingImports)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:32:6 - error: Import "nltk.tokenize" could not be resolved (reportMissingImports)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:33:6 - error: Import "nltk.stem" could not be resolved (reportMissingImports)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:34:6 - error: Import "nltk.stem.porter" could not be resolved (reportMissingImports)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:35:6 - error: Import "nltk.tokenize" could not be resolved (reportMissingImports)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:36:6 - error: Import "wordcloud" could not be resolved (reportMissingImports)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:45:6 - error: Import "IPython.display" could not be resolved (reportMissingImports)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:46:8 - error: Import "kaleido" could not be resolved (reportMissingImports)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:528:31 - error: "x" is not defined (reportUndefinedVariable)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:538:31 - error: "x" is not defined (reportUndefinedVariable)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:548:31 - error: "x" is not defined (reportUndefinedVariable)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:558:31 - error: "x" is not defined (reportUndefinedVariable)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:568:36 - error: "x" is not defined (reportUndefinedVariable)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:578:36 - error: "x" is not defined (reportUndefinedVariable)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:608:31 - error: "x" is not defined (reportUndefinedVariable)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:618:31 - error: "x" is not defined (reportUndefinedVariable)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:628:31 - error: "x" is not defined (reportUndefinedVariable)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:638:31 - error: "x" is not defined (reportUndefinedVariable)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:648:31 - error: "x" is not defined (reportUndefinedVariable)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:658:31 - error: "x" is not defined (reportUndefinedVariable)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:755:20 - error: "df_0" is possibly unbound (reportUnboundVariable)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:756:16 - error: "df_1" is possibly unbound (reportUnboundVariable)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:756:22 - error: "df" is unbound (reportUnboundVariable)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:769:33 - error: "x" is not defined (reportUndefinedVariable)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:779:33 - error: "x" is not defined (reportUndefinedVariable)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:835:51 - error: "text" is not defined (reportUndefinedVariable)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:839:59 - error: "text" is not defined (reportUndefinedVariable)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:983:23 - error: Cannot access member "toarray" for type "tuple[Unknown, Unbound | Any | float | generic | bool | int | complex | str | bytes | memoryview | ndarray[Unknown, Unknown] | None]"
+    Member "toarray" is unknown (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:983:23 - error: Cannot access member "toarray" for type "NDArray[floating[Any]]"
+    Member "toarray" is unknown (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:983:23 - error: Cannot access member "toarray" for type "NDArray[bool_]"
+    Member "toarray" is unknown (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:983:23 - error: Cannot access member "toarray" for type "str"
+    Member "toarray" is unknown (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:983:23 - error: Cannot access member "toarray" for type "tuple[Unknown | str, str]"
+    Member "toarray" is unknown (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:983:23 - error: Cannot access member "toarray" for type "NDArray[_ScalarType@astype]"
+    Member "toarray" is unknown (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:983:23 - error: Cannot access member "toarray" for type "NDArray[_SCT@array]"
+    Member "toarray" is unknown (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:983:23 - error: Cannot access member "toarray" for type "tuple[Unknown, Unknown | NDArray[_ScalarType@astype] | Any | NDArray[_SCT@array]]"
+    Member "toarray" is unknown (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:1024:25 - error: Cannot access member "toarray" for type "tuple[Unknown, Unbound | Any | float | generic | bool | int | complex | str | bytes | memoryview | ndarray[Unknown, Unknown] | None]"
+    Member "toarray" is unknown (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:1024:25 - error: Cannot access member "toarray" for type "NDArray[floating[Any]]"
+    Member "toarray" is unknown (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:1024:25 - error: Cannot access member "toarray" for type "NDArray[bool_]"
+    Member "toarray" is unknown (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:1024:25 - error: Cannot access member "toarray" for type "str"
+    Member "toarray" is unknown (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:1024:25 - error: Cannot access member "toarray" for type "tuple[Unknown | str, str]"
+    Member "toarray" is unknown (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:1024:25 - error: Cannot access member "toarray" for type "NDArray[_ScalarType@astype]"
+    Member "toarray" is unknown (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:1024:25 - error: Cannot access member "toarray" for type "NDArray[_SCT@array]"
+    Member "toarray" is unknown (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:1024:25 - error: Cannot access member "toarray" for type "tuple[Unknown, Unknown | NDArray[_ScalarType@astype] | Any | NDArray[_SCT@array]]"
+    Member "toarray" is unknown (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:1040:28 - error: Cannot access member "predict" for type "BaseForest"
+    Member "predict" is unknown (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:1041:24 - error: Cannot access member "predict" for type "BaseForest"
+    Member "predict" is unknown (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:1062:25 - error: Cannot access member "toarray" for type "tuple[Unknown, Unbound | Any | float | generic | bool | int | complex | str | bytes | memoryview | ndarray[Unknown, Unknown] | None]"
+    Member "toarray" is unknown (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:1062:25 - error: Cannot access member "toarray" for type "NDArray[floating[Any]]"
+    Member "toarray" is unknown (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:1062:25 - error: Cannot access member "toarray" for type "NDArray[bool_]"
+    Member "toarray" is unknown (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:1062:25 - error: Cannot access member "toarray" for type "str"
+    Member "toarray" is unknown (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:1062:25 - error: Cannot access member "toarray" for type "tuple[Unknown | str, str]"
+    Member "toarray" is unknown (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:1062:25 - error: Cannot access member "toarray" for type "NDArray[_ScalarType@astype]"
+    Member "toarray" is unknown (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:1062:25 - error: Cannot access member "toarray" for type "NDArray[_SCT@array]"
+    Member "toarray" is unknown (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:1062:25 - error: Cannot access member "toarray" for type "tuple[Unknown, Unknown | NDArray[_ScalarType@astype] | Any | NDArray[_SCT@array]]"
+    Member "toarray" is unknown (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:1063:29 - error: Cannot access member "predict" for type "BaseForest"
+    Member "predict" is unknown (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:1106:25 - error: Cannot access member "toarray" for type "tuple[Unknown, Unbound | Any | float | generic | bool | int | complex | str | bytes | memoryview | ndarray[Unknown, Unknown] | None]"
+    Member "toarray" is unknown (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:1106:25 - error: Cannot access member "toarray" for type "NDArray[floating[Any]]"
+    Member "toarray" is unknown (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:1106:25 - error: Cannot access member "toarray" for type "NDArray[bool_]"
+    Member "toarray" is unknown (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:1106:25 - error: Cannot access member "toarray" for type "str"
+    Member "toarray" is unknown (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:1106:25 - error: Cannot access member "toarray" for type "tuple[Unknown | str, str]"
+    Member "toarray" is unknown (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:1106:25 - error: Cannot access member "toarray" for type "NDArray[_ScalarType@astype]"
+    Member "toarray" is unknown (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:1106:25 - error: Cannot access member "toarray" for type "NDArray[_SCT@array]"
+    Member "toarray" is unknown (reportGeneralTypeIssues)
+  /home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v1/real_766491df25c7/S0/work/input.py.ir.py:1106:25 - error: Cannot access member "toarray" for type "tuple[Unknown, Unknown | NDArray[_ScalarType@astype] | Any | NDArray[_SCT@array]]"
+    Member "toarray" is unknown (reportGeneralTypeIssues)
+65 errors, 0 warnings, 0 infos 
+Completed in 6.33sec
+Warning: Variable from only occurs once in file main.dl at line 112
+    ParamToParamFlow(to, from, meth).
+-------------------------^------------
+Warning: No rules/facts defined for relation ParamToParamCondTaintSourceMethod in file main.dl at line 454
+.decl ParamToParamCondTaintSourceMethod(to:number, from:number, cond_id:number, method:Method, taintType:symbol)
+------^----------------------------------------------------------------------------------------------------------
+Warning: Variable invo1 only occurs once in file main.dl at line 665
+    callerCtx = [invo1, invo2],
+-----------------^--------------
+Warning: Variable invo1 only occurs once in file main.dl at line 712
+    ctx = [invo1, invo2],
+-----------^--------------
+Warning: Variable index0 only occurs once in file main.dl at line 833
+    c1 = count: {FormalReturn(index, meth, from)},
+------------------------------^--------------------
+Warning: Variable from only occurs once in file main.dl at line 833
+    c1 = count: {FormalReturn(index, meth, from)},
+-------------------------------------------^-------
+Warning: Variable index only occurs once in file main.dl at line 834
+    c2 = count: {ActualReturn(index, invo, to)},
+------------------------------^------------------
+Warning: Variable to only occurs once in file main.dl at line 834
+    c2 = count: {ActualReturn(index, invo, to)},
+-------------------------------------------^-----
+Warning: Variable fld only occurs once in file main.dl at line 872
+    (FieldPointsTo(baseValue, baseHctx, fld, value, hctx); IndexContentPointsTo(baseValue, baseHctx, value, hctx)),
+----------------------------------------^---------------------------------------------------------------------------
+Warning: No rules/facts defined for relation NonDataTransferEdge in file main.dl at line 890
+.decl NonDataTransferEdge(to:Var, from:Var)
+------^-------------------------------------
+Warning: Variable f only occurs once in file main.dl at line 977
+    LoadField(to, from, f).
+------------------------^---
+Warning: Variable invo2 only occurs once in file main.dl at line 1232
+    ValDataWithModel(testModel, val, invo2, meth2, ct2),
+-------------------------------------^-------------------
+Warning: Variable meth2 only occurs once in file main.dl at line 1232
+    ValDataWithModel(testModel, val, invo2, meth2, ct2),
+--------------------------------------------^------------
+Warning: Variable ct2 only occurs once in file main.dl at line 1232
+    ValDataWithModel(testModel, val, invo2, meth2, ct2),
+---------------------------------------------------^-----
+Warning: Variable test0 only occurs once in file main.dl at line 1363
+    c1 = count : { ModelPair(testModel, ctx2, trainModel, ctx1), ValOrTestDataWithModel(testModel, test, invo2, meth2, ctx2)},
+---------------------------------------------------------------------------------------------------^---------------------------
+Warning: Variable invo20 only occurs once in file main.dl at line 1363
+    c1 = count : { ModelPair(testModel, ctx2, trainModel, ctx1), ValOrTestDataWithModel(testModel, test, invo2, meth2, ctx2)},
+---------------------------------------------------------------------------------------------------------^---------------------
+Warning: Variable meth20 only occurs once in file main.dl at line 1363
+    c1 = count : { ModelPair(testModel, ctx2, trainModel, ctx1), ValOrTestDataWithModel(testModel, test, invo2, meth2, ctx2)},
+----------------------------------------------------------------------------------------------------------------^--------------
+Warning: Variable train only occurs once in file main.dl at line 1390
+    TrainingDataWithModel(trainModel, train, _, _, ctx2),
+--------------------------------------^-------------------
+Warning: Variable invo2 only occurs once in file main.dl at line 1392
+    ScoredDataWithModel(scoreModel, data, invo2, meth2, ctx3),
+------------------------------------------^--------------------
+Warning: Variable meth2 only occurs once in file main.dl at line 1392
+    ScoredDataWithModel(scoreModel, data, invo2, meth2, ctx3),
+-------------------------------------------------^-------------
+Warning: Variable test0 only occurs once in file main.dl at line 1403
+    c1 = count : {ModelPair(testModel, ctx1, _, _), TestDataWithModel(testModel, test, invo, meth, ctx1)},
+---------------------------------------------------------------------------------^-------------------------
+Warning: Variable invo0 only occurs once in file main.dl at line 1403
+    c1 = count : {ModelPair(testModel, ctx1, _, _), TestDataWithModel(testModel, test, invo, meth, ctx1)},
+---------------------------------------------------------------------------------------^-------------------
+Warning: Variable meth0 only occurs once in file main.dl at line 1403
+    c1 = count : {ModelPair(testModel, ctx1, _, _), TestDataWithModel(testModel, test, invo, meth, ctx1)},
+---------------------------------------------------------------------------------------------^-------------
+Warning: Variable test only occurs once in file main.dl at line 1404
+    c2 = count : {ModelPair(testModel, ctx1, _, _), FilteredTests(testModel, test, invo, meth, ctx1)},
+-----------------------------------------------------------------------------^-------------------------
+Warning: Variable invo only occurs once in file main.dl at line 1404
+    c2 = count : {ModelPair(testModel, ctx1, _, _), FilteredTests(testModel, test, invo, meth, ctx1)},
+-----------------------------------------------------------------------------------^-------------------
+Warning: Variable meth only occurs once in file main.dl at line 1404
+    c2 = count : {ModelPair(testModel, ctx1, _, _), FilteredTests(testModel, test, invo, meth, ctx1)},
+-----------------------------------------------------------------------------------------^-------------
+Success!	0.06	6.53	0.77	7.36	

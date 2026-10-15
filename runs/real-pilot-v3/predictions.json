@@ -1,0 +1,427 @@
+[
+  {
+    "command": [
+      "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+      "-m",
+      "src.main",
+      "/home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v2/real_c0650c9464b4/S0/work/input.py"
+    ],
+    "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+    "diagnostics": [],
+    "elapsed_seconds": 6.883989572525024,
+    "errors": [],
+    "evidence_run": "runs/real-pilot-v2/real_c0650c9464b4/S0",
+    "family": null,
+    "location_available": false,
+    "method": "S0",
+    "partition": "dev",
+    "raw_preprocessing_rows": [],
+    "returncode": 0,
+    "sample_id": "real_c0650c9464b4",
+    "scope_projection": "raw upstream; may include test-only effects",
+    "scope_status": "no_finding",
+    "source_kind": "real",
+    "source_sha256": "210ac476fdfcf75327d53d55fb5c07190ae74548d2cfc7f056d86c90e37da819",
+    "status": "no_finding",
+    "train_affecting_projection": [],
+    "variant": null
+  },
+  {
+    "checks": [
+      {
+        "accepted": true,
+        "candidate_id": "cafbafeb0d70ad01e9f8e8bc685d7c05708acae050245705d0bed62a511233d9",
+        "reason": "verified within declared primitive subset",
+        "semantic_checked": true
+      },
+      {
+        "accepted": true,
+        "candidate_id": "5b2ff8f6a8c4b6afed0d56c04cabfa8bc26af9f498e3266d4cac409d6648ce89",
+        "reason": "verified within declared primitive subset",
+        "semantic_checked": true
+      }
+    ],
+    "config_sha256": "3c82db5ac47805803abcec1266298117b39ec96639bb3ab4ea7659623aa40560",
+    "conservative_fallback_status": "no_finding",
+    "diagnostics": [],
+    "elapsed_seconds": 1.0533518847078085,
+    "errors": [],
+    "family": null,
+    "frontend_elapsed_seconds": 6.883989572525024,
+    "location_available": false,
+    "method": "S1",
+    "partition": "dev",
+    "raw_preprocessing_rows": [],
+    "sample_id": "real_c0650c9464b4",
+    "scope_projection_limit": "train dependence and evaluation overlap joined with the exact reduction contexts; no safe-program claim",
+    "scope_status": "no_finding",
+    "source_kind": "real",
+    "source_sha256": "210ac476fdfcf75327d53d55fb5c07190ae74548d2cfc7f056d86c90e37da819",
+    "status": "no_finding",
+    "summary_batch_sha256": null,
+    "train_affecting_projection": [],
+    "unknown_reasons": [],
+    "variant": null
+  },
+  {
+    "command": [
+      "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+      "-m",
+      "src.main",
+      "/home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v2/real_4df8bde21c84/S0/work/input.py"
+    ],
+    "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+    "diagnostics": [],
+    "elapsed_seconds": 5.2560568153858185,
+    "errors": [],
+    "evidence_run": "runs/real-pilot-v2/real_4df8bde21c84/S0",
+    "family": null,
+    "location_available": false,
+    "method": "S0",
+    "partition": "dev",
+    "raw_preprocessing_rows": [],
+    "returncode": 0,
+    "sample_id": "real_4df8bde21c84",
+    "scope_projection": "raw upstream; may include test-only effects",
+    "scope_status": "no_finding",
+    "source_kind": "real",
+    "source_sha256": "d7b36f0db14b5ed3d5b89a8194465549edeeaf787d255efd2a54baa3bf79c74e",
+    "status": "no_finding",
+    "train_affecting_projection": [],
+    "variant": null
+  },
+  {
+    "checks": [],
+    "config_sha256": "3c82db5ac47805803abcec1266298117b39ec96639bb3ab4ea7659623aa40560",
+    "conservative_fallback_status": "no_finding",
+    "diagnostics": [],
+    "elapsed_seconds": 0.48909630067646503,
+    "errors": [],
+    "family": null,
+    "frontend_elapsed_seconds": 5.2560568153858185,
+    "location_available": false,
+    "method": "S1",
+    "partition": "dev",
+    "raw_preprocessing_rows": [],
+    "sample_id": "real_4df8bde21c84",
+    "scope_projection_limit": "train dependence and evaluation overlap joined with the exact reduction contexts; no safe-program claim",
+    "scope_status": "no_finding",
+    "source_kind": "real",
+    "source_sha256": "d7b36f0db14b5ed3d5b89a8194465549edeeaf787d255efd2a54baa3bf79c74e",
+    "status": "no_finding",
+    "summary_batch_sha256": null,
+    "train_affecting_projection": [],
+    "unknown_reasons": [],
+    "variant": null
+  },
+  {
+    "command": [
+      "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+      "-m",
+      "src.main",
+      "/home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v2/real_766491df25c7/S0/work/input.py"
+    ],
+    "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+    "diagnostics": [],
+    "elapsed_seconds": 10.17252398096025,
+    "errors": [],
+    "evidence_run": "runs/real-pilot-v2/real_766491df25c7/S0",
+    "family": null,
+    "location_available": false,
+    "method": "S0",
+    "partition": "dev",
+    "raw_preprocessing_rows": [],
+    "returncode": 0,
+    "sample_id": "real_766491df25c7",
+    "scope_projection": "raw upstream; may include test-only effects",
+    "scope_status": "no_finding",
+    "source_kind": "real",
+    "source_sha256": "6a7d064cfa437949ba7b766478bddc9488f8030887ad73cf8c703466308ca643",
+    "status": "no_finding",
+    "train_affecting_projection": [],
+    "variant": null
+  },
+  {
+    "checks": [],
+    "config_sha256": "3c82db5ac47805803abcec1266298117b39ec96639bb3ab4ea7659623aa40560",
+    "conservative_fallback_status": "no_finding",
+    "diagnostics": [],
+    "elapsed_seconds": 1.9291126802563667,
+    "errors": [],
+    "family": null,
+    "frontend_elapsed_seconds": 10.17252398096025,
+    "location_available": false,
+    "method": "S1",
+    "partition": "dev",
+    "raw_preprocessing_rows": [],
+    "sample_id": "real_766491df25c7",
+    "scope_projection_limit": "train dependence and evaluation overlap joined with the exact reduction contexts; no safe-program claim",
+    "scope_status": "no_finding",
+    "source_kind": "real",
+    "source_sha256": "6a7d064cfa437949ba7b766478bddc9488f8030887ad73cf8c703466308ca643",
+    "status": "no_finding",
+    "summary_batch_sha256": null,
+    "train_affecting_projection": [],
+    "unknown_reasons": [],
+    "variant": null
+  },
+  {
+    "command": [
+      "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+      "-m",
+      "src.main",
+      "/home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v2/real_38101a98cc8f/S0/work/input.py"
+    ],
+    "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+    "diagnostics": [],
+    "elapsed_seconds": 8.171443451195955,
+    "errors": [],
+    "evidence_run": "runs/real-pilot-v2/real_38101a98cc8f/S0",
+    "family": null,
+    "location_available": false,
+    "method": "S0",
+    "partition": "dev",
+    "raw_preprocessing_rows": [],
+    "returncode": 0,
+    "sample_id": "real_38101a98cc8f",
+    "scope_projection": "raw upstream; may include test-only effects",
+    "scope_status": "no_finding",
+    "source_kind": "real",
+    "source_sha256": "6afb94b664cd649afa95e7878065f8562066d0e73f83750b925380f93e31aef2",
+    "status": "no_finding",
+    "train_affecting_projection": [],
+    "variant": null
+  },
+  {
+    "checks": [
+      {
+        "accepted": true,
+        "candidate_id": "4dcb1a4ef086e13fbc3588b34eda55fbfcf47097a6991d4141aa3a9bda81a2a7",
+        "reason": "verified within declared primitive subset",
+        "semantic_checked": true
+      },
+      {
+        "accepted": true,
+        "candidate_id": "f43a27890fca96ab68c02b9ef7ec48b2acd3d451be879667a14c0b3b06d539b4",
+        "reason": "verified within declared primitive subset",
+        "semantic_checked": true
+      },
+      {
+        "accepted": true,
+        "candidate_id": "ffc6e148d9bbd1486564fdaab22e225149a2870dd53d5d26cc0f34498d454592",
+        "reason": "verified within declared primitive subset",
+        "semantic_checked": true
+      },
+      {
+        "accepted": true,
+        "candidate_id": "b22a903a0852ec6c720e59967a3ffca7feb134b23eacd88e1d307516030b8963",
+        "reason": "verified within declared primitive subset",
+        "semantic_checked": true
+      },
+      {
+        "accepted": true,
+        "candidate_id": "b5aa5d6a363a8d39818ba8eb9ca2ae8e82514d99fdef78bcce0b94ab65586bcb",
+        "reason": "verified within declared primitive subset",
+        "semantic_checked": true
+      },
+      {
+        "accepted": true,
+        "candidate_id": "1fc70c6279b613de90f87d7e6b97ef06db7abf87b9f07a4cf7b256f94887ed37",
+        "reason": "verified within declared primitive subset",
+        "semantic_checked": true
+      },
+      {
+        "accepted": true,
+        "candidate_id": "6cd478102ee99b5b1c77f20b1ba1e6609efad3e514e58867d40cf691686954db",
+        "reason": "verified within declared primitive subset",
+        "semantic_checked": true
+      },
+      {
+        "accepted": true,
+        "candidate_id": "c5ff1a67923b5c16c6a3119ee619e99b842f93184f40b51f5771589cc6a38019",
+        "reason": "verified within declared primitive subset",
+        "semantic_checked": true
+      },
+      {
+        "accepted": true,
+        "candidate_id": "a68e99871279d848b61728e124d8ff9377355d2c21743da45addba9142c034e0",
+        "reason": "verified within declared primitive subset",
+        "semantic_checked": true
+      },
+      {
+        "accepted": true,
+        "candidate_id": "13e293fb1e1ac7e7c56fbc30974d4f63e92a8b9394aef10de2b818628f92a1b4",
+        "reason": "verified within declared primitive subset",
+        "semantic_checked": true
+      },
+      {
+        "accepted": true,
+        "candidate_id": "79839611978ff7d1187d88eb64deb8af7fb403107d0a2dce084849651d3da0c8",
+        "reason": "verified within declared primitive subset",
+        "semantic_checked": true
+      },
+      {
+        "accepted": true,
+        "candidate_id": "660ea29ec7d7792ad4dd33a1d070611dbde07d49a3b370762a1f7e17d9355773",
+        "reason": "verified within declared primitive subset",
+        "semantic_checked": true
+      },
+      {
+        "accepted": true,
+        "candidate_id": "a588b2a9937a61c502a471cc6e9a028851c4496b3de597ea209226366ba7ad8f",
+        "reason": "verified within declared primitive subset",
+        "semantic_checked": true
+      },
+      {
+        "accepted": true,
+        "candidate_id": "4f0cec0e8e7a9d9229d0d6e3d7106a39ca97f462542af8e3f68d170c6e4c4bd2",
+        "reason": "verified within declared primitive subset",
+        "semantic_checked": true
+      },
+      {
+        "accepted": true,
+        "candidate_id": "4f0b4a07bdbe8836c2e8d146456d3af402aa7afaf1a9ab2ee280f93ea799f3d3",
+        "reason": "verified within declared primitive subset",
+        "semantic_checked": true
+      },
+      {
+        "accepted": true,
+        "candidate_id": "df3026ba88d248ae80f0133ae274b10675aeb68e7c20c31224a1e0b49c2cbb4a",
+        "reason": "verified within declared primitive subset",
+        "semantic_checked": true
+      }
+    ],
+    "config_sha256": "3c82db5ac47805803abcec1266298117b39ec96639bb3ab4ea7659623aa40560",
+    "conservative_fallback_status": "no_finding",
+    "diagnostics": [],
+    "elapsed_seconds": 2.6269655600190163,
+    "errors": [],
+    "family": null,
+    "frontend_elapsed_seconds": 8.171443451195955,
+    "location_available": false,
+    "method": "S1",
+    "partition": "dev",
+    "raw_preprocessing_rows": [],
+    "sample_id": "real_38101a98cc8f",
+    "scope_projection_limit": "train dependence and evaluation overlap joined with the exact reduction contexts; no safe-program claim",
+    "scope_status": "unknown",
+    "source_kind": "real",
+    "source_sha256": "6afb94b664cd649afa95e7878065f8562066d0e73f83750b925380f93e31aef2",
+    "status": "unknown",
+    "summary_batch_sha256": null,
+    "train_affecting_projection": [],
+    "unknown_reasons": [
+      {
+        "candidate_id": "ffc6e148d9bbd1486564fdaab22e225149a2870dd53d5d26cc0f34498d454592",
+        "reason": "unresolved input rank or primitive identity"
+      },
+      {
+        "candidate_id": "b22a903a0852ec6c720e59967a3ffca7feb134b23eacd88e1d307516030b8963",
+        "reason": "unresolved input rank or primitive identity"
+      },
+      {
+        "candidate_id": "b5aa5d6a363a8d39818ba8eb9ca2ae8e82514d99fdef78bcce0b94ab65586bcb",
+        "reason": "unresolved input rank or primitive identity"
+      },
+      {
+        "candidate_id": "1fc70c6279b613de90f87d7e6b97ef06db7abf87b9f07a4cf7b256f94887ed37",
+        "reason": "unresolved input rank or primitive identity"
+      },
+      {
+        "candidate_id": "6cd478102ee99b5b1c77f20b1ba1e6609efad3e514e58867d40cf691686954db",
+        "reason": "unresolved input rank or primitive identity"
+      },
+      {
+        "candidate_id": "c5ff1a67923b5c16c6a3119ee619e99b842f93184f40b51f5771589cc6a38019",
+        "reason": "unresolved input rank or primitive identity"
+      },
+      {
+        "candidate_id": "a68e99871279d848b61728e124d8ff9377355d2c21743da45addba9142c034e0",
+        "reason": "unresolved input rank or primitive identity"
+      },
+      {
+        "candidate_id": "13e293fb1e1ac7e7c56fbc30974d4f63e92a8b9394aef10de2b818628f92a1b4",
+        "reason": "unresolved input rank or primitive identity"
+      },
+      {
+        "candidate_id": "79839611978ff7d1187d88eb64deb8af7fb403107d0a2dce084849651d3da0c8",
+        "reason": "unresolved input rank or primitive identity"
+      },
+      {
+        "candidate_id": "660ea29ec7d7792ad4dd33a1d070611dbde07d49a3b370762a1f7e17d9355773",
+        "reason": "unresolved input rank or primitive identity"
+      },
+      {
+        "candidate_id": "a588b2a9937a61c502a471cc6e9a028851c4496b3de597ea209226366ba7ad8f",
+        "reason": "unresolved input rank or primitive identity"
+      },
+      {
+        "candidate_id": "4f0cec0e8e7a9d9229d0d6e3d7106a39ca97f462542af8e3f68d170c6e4c4bd2",
+        "reason": "unresolved input rank or primitive identity"
+      },
+      {
+        "candidate_id": "4f0b4a07bdbe8836c2e8d146456d3af402aa7afaf1a9ab2ee280f93ea799f3d3",
+        "reason": "unresolved input rank or primitive identity"
+      }
+    ],
+    "variant": null
+  },
+  {
+    "command": [
+      "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+      "-m",
+      "src.main",
+      "/home/dchen/workplace/CS6215/leakage-project/runs/real-pilot-v2/real_926b37074ebc/S0/work/input.py"
+    ],
+    "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+    "diagnostics": [],
+    "elapsed_seconds": 8.809944866225123,
+    "errors": [],
+    "evidence_run": "runs/real-pilot-v2/real_926b37074ebc/S0",
+    "family": null,
+    "location_available": false,
+    "method": "S0",
+    "partition": "dev",
+    "raw_preprocessing_rows": [],
+    "returncode": 0,
+    "sample_id": "real_926b37074ebc",
+    "scope_projection": "raw upstream; may include test-only effects",
+    "scope_status": "no_finding",
+    "source_kind": "real",
+    "source_sha256": "2533721ef5d28756fda3ca994ec71fad8396c527d613a5a5f9b2f40e5189f392",
+    "status": "no_finding",
+    "train_affecting_projection": [],
+    "variant": null
+  },
+  {
+    "checks": [
+      {
+        "accepted": true,
+        "candidate_id": "f7737912438dcfbbbefcaac497330399072307cf7fdb44ce72ac27d389baddd4",
+        "reason": "verified within declared primitive subset",
+        "semantic_checked": true
+      }
+    ],
+    "config_sha256": "3c82db5ac47805803abcec1266298117b39ec96639bb3ab4ea7659623aa40560",
+    "conservative_fallback_status": "no_finding",
+    "diagnostics": [],
+    "elapsed_seconds": 0.4831213168799877,
+    "errors": [],
+    "family": null,
+    "frontend_elapsed_seconds": 8.809944866225123,
+    "location_available": false,
+    "method": "S1",
+    "partition": "dev",
+    "raw_preprocessing_rows": [],
+    "sample_id": "real_926b37074ebc",
+    "scope_projection_limit": "train dependence and evaluation overlap joined with the exact reduction contexts; no safe-program claim",
+    "scope_status": "no_finding",
+    "source_kind": "real",
+    "source_sha256": "2533721ef5d28756fda3ca994ec71fad8396c527d613a5a5f9b2f40e5189f392",
+    "status": "no_finding",
+    "summary_batch_sha256": null,
+    "train_affecting_projection": [],
+    "unknown_reasons": [],
+    "variant": null
+  }
+]

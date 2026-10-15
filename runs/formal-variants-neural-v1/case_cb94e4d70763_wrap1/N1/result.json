@@ -1,0 +1,62 @@
+{
+  "base_sample_id": "case_cb94e4d70763",
+  "checks": [
+    {
+      "accepted": false,
+      "candidate_id": "09daa6f816d6f2a5278051f8caee21bb8b7a5989a02c5be1e014c437f1c7d3aa",
+      "fallback": "S1 deterministic effects; otherwise original baseline",
+      "reason": "effect lacks deterministic proof: reviewed stateful API; upstream SSA/pointer propagation retained",
+      "semantic_checked": true
+    },
+    {
+      "accepted": false,
+      "candidate_id": "b822b74abe76b5da174bfe3bc408518f0926b187b20d982f8b917dfb3e0c780f",
+      "fallback": "S1 deterministic effects; otherwise original baseline",
+      "reason": "effect lacks deterministic proof: reviewed stateful API; upstream SSA/pointer propagation retained",
+      "semantic_checked": true
+    }
+  ],
+  "config_sha256": "bcaf9559383a083267fb236449e26d6abfb482b85068f63d4a770b08a2a3171c",
+  "conservative_fallback_status": "leak",
+  "diagnostics": [],
+  "elapsed_seconds": 0.4971274044364691,
+  "errors": [],
+  "family": "F23",
+  "frontend_elapsed_seconds": 3.501493886113167,
+  "location_available": false,
+  "method": "N1",
+  "partition": "test",
+  "raw_preprocessing_rows": [
+    [
+      "b",
+      "$invo9",
+      "LogisticRegression.fit",
+      "[, ]"
+    ]
+  ],
+  "sample_id": "case_cb94e4d70763_wrap1",
+  "scope_projection_limit": "train dependence and evaluation overlap joined with the exact reduction contexts; no safe-program claim",
+  "scope_status": "leak",
+  "source_kind": "controlled",
+  "source_sha256": "175113ec3238199e3c93d2e952ac2bb4f5614a8f2950e5f0a2c36053cb758832",
+  "status": "leak",
+  "summary_batch_sha256": "0d29de5842d3c79018962eba870f6f6f2871cd73c7e5f7d1cd4618f2ee7e91a1",
+  "train_affecting_projection": [
+    [
+      "model_0",
+      "a_0",
+      "$invo9",
+      "LogisticRegression.fit",
+      "[, ]",
+      "model_0",
+      "b_0",
+      "$invo10",
+      "LogisticRegression.predict",
+      "[, ]",
+      "state",
+      "b"
+    ]
+  ],
+  "unknown_reasons": [],
+  "variant": "wrap1"
+}

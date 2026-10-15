@@ -1,0 +1,23 @@
+{
+  "baseline_run": "runs/formal-real-v1",
+  "replicate": 0,
+  "stage": "formal",
+  "subjects": [
+    "real_4aabfe0b5836",
+    "real_621d7038c43a",
+    "real_8e196ed58fbc",
+    "real_7d8893d1a7fe",
+    "real_0710295064ec",
+    "real_c5640d2ee6a8",
+    "real_e21593f60273",
+    "real_902530fbf019",
+    "real_55f763c8904d",
+    "real_c5a74ce0cdd8",
+    "real_d8a6e6dcf354",
+    "real_66f880594b80",
+    "real_23da98eb8655",
+    "real_1859b28c0b0f",
+    "real_ccffc0d68331",
+    "real_627ee1a5f69b"
+  ]
+}

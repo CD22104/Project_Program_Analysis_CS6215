@@ -1,0 +1,3191 @@
+[
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "169ae7f51e8a28e0ba8096eb224fc37e6b0a7c0f0dc4ac988ffdb43f80c557fd",
+    "canonical_method": "DataFrame.mean",
+    "cohort": "development",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_13e1af3f9446"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "57dcfea9c2f67fd4c655a716ab130934e31d677d19e24903947e221e3286187e",
+    "canonical_method": "StandardScaler.fit",
+    "cohort": "development",
+    "proposed_effects": [
+      "fit_state"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_16825d22e3d0"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "2282bebc6d8cc1f4a78314384729191057b6c3da515bf321af55e2933db5208f",
+    "canonical_method": "sklearn.preprocessing.scale",
+    "cohort": "development",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_25f5ea8eb0d5"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "7cf1e83214671d217bdec2ab42841df3944fcd390fb1b61e6103b776c5ab03a4",
+    "canonical_method": "StandardScaler.fit",
+    "cohort": "development",
+    "proposed_effects": [
+      "fit_state"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_3852b76a546a"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: reviewed stateful API; upstream SSA/pointer propagation retained",
+    "candidate_id": "6df0e9029754ef2c291ae9d71d1e285705d9d7ec12bdabbd0a1dd532a2ce7fbf",
+    "canonical_method": "StandardScaler.fit_transform",
+    "cohort": "development",
+    "proposed_effects": [
+      "fit_state",
+      "row_preserving"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": true,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_4e1b8e2dcd98"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: reduction includes sample axis 0",
+    "candidate_id": "2a056b3843453d160384c078eca734c06354143cba186189cb09d7e2d452daf4",
+    "canonical_method": "sklearn.preprocessing.scale",
+    "cohort": "development",
+    "proposed_effects": [
+      "fit_state"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_530be13f2a9d"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "813c0e885f3f18eb334dfd2287c37533cc5e2b49ce858126b9d248a570a3173b",
+    "canonical_method": "DataFrame.mean",
+    "cohort": "development",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_6651463d5c29"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "fdcf763b8bce35311d6ffd6a59c74c091f9455b301e1471a1b6723944cebb567",
+    "canonical_method": "pandas.DataFrame.mean",
+    "cohort": "development",
+    "proposed_effects": [
+      "row_preserving"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "row_preserving",
+    "rule_proof_reason": "reduction excludes sample axis 0",
+    "sample_id": "case_6f42d857cb15"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "f9cfee7f86d038d1e212347aade337658355eb863189fc0f247ca9bbe0b0db59",
+    "canonical_method": "StandardScaler.fit",
+    "cohort": "development",
+    "proposed_effects": [
+      "fit_state"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_79b29e567dc3"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "3c3af13f4477a4660aebb931b57c6889460d781d3246d26fdff0aa3de1b60c05",
+    "canonical_method": "sklearn.preprocessing.scale",
+    "cohort": "development",
+    "proposed_effects": [
+      "row_preserving"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "row_preserving",
+    "rule_proof_reason": "reduction excludes sample axis 0",
+    "sample_id": "case_8628e9622c37"
+  },
+  {
+    "N0_accepted": false,
+    "N1_accepted": false,
+    "N1_reason": "code evidence does not match candidate",
+    "candidate_id": "76af28fb0fa6dea0a15e3006f1213827c0f015608c75d7cf590478fd41a1e7f9",
+    "canonical_method": "DataFrame.mean",
+    "cohort": "development",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_b5f9dd1254e4"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: reduction excludes sample axis 0",
+    "candidate_id": "974303f98ff1c232ed5a6e8b0a1f6cdfa7adad3dd8c0946e5bf95662c2910ecd",
+    "canonical_method": "sklearn.preprocessing.scale",
+    "cohort": "development",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "row_preserving",
+    "rule_proof_reason": "reduction excludes sample axis 0",
+    "sample_id": "case_c725ff5fdbb3"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "720e3cb347b3cefff02f03e03443194739fc542ae2dc6050b0db4e4f21a83d0f",
+    "canonical_method": "pandas.DataFrame.mean",
+    "cohort": "development",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_c816f4865b05"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "48add8ff3dd45dcbe73ea94345601e58d4900f13303f491adc47d665eeba91e6",
+    "canonical_method": "pandas.DataFrame.mean",
+    "cohort": "development",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_cbb6e7292b60"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: reviewed stateful API; upstream SSA/pointer propagation retained",
+    "candidate_id": "4dcb1a4ef086e13fbc3588b34eda55fbfcf47097a6991d4141aa3a9bda81a2a7",
+    "canonical_method": "StandardScaler.fit_transform",
+    "cohort": "real-development",
+    "proposed_effects": [
+      "fit_state",
+      "row_preserving"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": true,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "real_38101a98cc8f"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: reviewed stateful API; upstream SSA/pointer propagation retained",
+    "candidate_id": "f43a27890fca96ab68c02b9ef7ec48b2acd3d451be879667a14c0b3b06d539b4",
+    "canonical_method": "StandardScaler.fit_transform",
+    "cohort": "real-development",
+    "proposed_effects": [
+      "fit_state",
+      "row_preserving"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": true,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "real_38101a98cc8f"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: unresolved input rank or primitive identity",
+    "candidate_id": "ffc6e148d9bbd1486564fdaab22e225149a2870dd53d5d26cc0f34498d454592",
+    "canonical_method": "Unknown.mean",
+    "cohort": "real-development",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "unknown",
+    "rule_proof_reason": "unresolved input rank or primitive identity",
+    "sample_id": "real_38101a98cc8f"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: unresolved input rank or primitive identity",
+    "candidate_id": "b22a903a0852ec6c720e59967a3ffca7feb134b23eacd88e1d307516030b8963",
+    "canonical_method": "Unknown.mean",
+    "cohort": "real-development",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "unknown",
+    "rule_proof_reason": "unresolved input rank or primitive identity",
+    "sample_id": "real_38101a98cc8f"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: unresolved input rank or primitive identity",
+    "candidate_id": "b5aa5d6a363a8d39818ba8eb9ca2ae8e82514d99fdef78bcce0b94ab65586bcb",
+    "canonical_method": "Unknown.mean",
+    "cohort": "real-development",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "unknown",
+    "rule_proof_reason": "unresolved input rank or primitive identity",
+    "sample_id": "real_38101a98cc8f"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: unresolved input rank or primitive identity",
+    "candidate_id": "1fc70c6279b613de90f87d7e6b97ef06db7abf87b9f07a4cf7b256f94887ed37",
+    "canonical_method": "Unknown.mean",
+    "cohort": "real-development",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "unknown",
+    "rule_proof_reason": "unresolved input rank or primitive identity",
+    "sample_id": "real_38101a98cc8f"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: unresolved input rank or primitive identity",
+    "candidate_id": "6cd478102ee99b5b1c77f20b1ba1e6609efad3e514e58867d40cf691686954db",
+    "canonical_method": "Unknown.mean",
+    "cohort": "real-development",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "unknown",
+    "rule_proof_reason": "unresolved input rank or primitive identity",
+    "sample_id": "real_38101a98cc8f"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: unresolved input rank or primitive identity",
+    "candidate_id": "c5ff1a67923b5c16c6a3119ee619e99b842f93184f40b51f5771589cc6a38019",
+    "canonical_method": "Unknown.mean",
+    "cohort": "real-development",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "unknown",
+    "rule_proof_reason": "unresolved input rank or primitive identity",
+    "sample_id": "real_38101a98cc8f"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: unresolved input rank or primitive identity",
+    "candidate_id": "a68e99871279d848b61728e124d8ff9377355d2c21743da45addba9142c034e0",
+    "canonical_method": "Unknown.mean",
+    "cohort": "real-development",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "unknown",
+    "rule_proof_reason": "unresolved input rank or primitive identity",
+    "sample_id": "real_38101a98cc8f"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: unresolved input rank or primitive identity",
+    "candidate_id": "13e293fb1e1ac7e7c56fbc30974d4f63e92a8b9394aef10de2b818628f92a1b4",
+    "canonical_method": "Unknown.mean",
+    "cohort": "real-development",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "unknown",
+    "rule_proof_reason": "unresolved input rank or primitive identity",
+    "sample_id": "real_38101a98cc8f"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: unresolved input rank or primitive identity",
+    "candidate_id": "79839611978ff7d1187d88eb64deb8af7fb403107d0a2dce084849651d3da0c8",
+    "canonical_method": "Unknown.mean",
+    "cohort": "real-development",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "unknown",
+    "rule_proof_reason": "unresolved input rank or primitive identity",
+    "sample_id": "real_38101a98cc8f"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: unresolved input rank or primitive identity",
+    "candidate_id": "660ea29ec7d7792ad4dd33a1d070611dbde07d49a3b370762a1f7e17d9355773",
+    "canonical_method": "Unknown.mean",
+    "cohort": "real-development",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "unknown",
+    "rule_proof_reason": "unresolved input rank or primitive identity",
+    "sample_id": "real_38101a98cc8f"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: unresolved input rank or primitive identity",
+    "candidate_id": "a588b2a9937a61c502a471cc6e9a028851c4496b3de597ea209226366ba7ad8f",
+    "canonical_method": "Unknown.mean",
+    "cohort": "real-development",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "unknown",
+    "rule_proof_reason": "unresolved input rank or primitive identity",
+    "sample_id": "real_38101a98cc8f"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: unresolved input rank or primitive identity",
+    "candidate_id": "4f0cec0e8e7a9d9229d0d6e3d7106a39ca97f462542af8e3f68d170c6e4c4bd2",
+    "canonical_method": "Unknown.mean",
+    "cohort": "real-development",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "unknown",
+    "rule_proof_reason": "unresolved input rank or primitive identity",
+    "sample_id": "real_38101a98cc8f"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: unresolved input rank or primitive identity",
+    "candidate_id": "4f0b4a07bdbe8836c2e8d146456d3af402aa7afaf1a9ab2ee280f93ea799f3d3",
+    "canonical_method": "Unknown.mean",
+    "cohort": "real-development",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "unknown",
+    "rule_proof_reason": "unresolved input rank or primitive identity",
+    "sample_id": "real_38101a98cc8f"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: reviewed stateful API; upstream SSA/pointer propagation retained",
+    "candidate_id": "df3026ba88d248ae80f0133ae274b10675aeb68e7c20c31224a1e0b49c2cbb4a",
+    "canonical_method": "StandardScaler.fit_transform",
+    "cohort": "real-development",
+    "proposed_effects": [
+      "fit_state",
+      "row_preserving"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": true,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "real_38101a98cc8f"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "f7737912438dcfbbbefcaac497330399072307cf7fdb44ce72ac27d389baddd4",
+    "canonical_method": "StandardScaler.fit",
+    "cohort": "real-development",
+    "proposed_effects": [
+      "fit_state"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "real_926b37074ebc"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "cafbafeb0d70ad01e9f8e8bc685d7c05708acae050245705d0bed62a511233d9",
+    "canonical_method": "MinMaxScaler.transform",
+    "cohort": "real-development",
+    "proposed_effects": [
+      "apply_state"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "apply_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "real_c0650c9464b4"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: reviewed stateful API; upstream SSA/pointer propagation retained",
+    "candidate_id": "5b2ff8f6a8c4b6afed0d56c04cabfa8bc26af9f498e3266d4cac409d6648ce89",
+    "canonical_method": "MinMaxScaler.fit_transform",
+    "cohort": "real-development",
+    "proposed_effects": [
+      "fit_state",
+      "row_preserving"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": true,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "real_c0650c9464b4"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "51bc6daf52019ecd6914ccccd443240cb695af31234e6379a39e479b56e94f42",
+    "canonical_method": "pandas.DataFrame.std",
+    "cohort": "controlled",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_0b5b895c8fa0"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "3ac83e85fd8873c1ea8ab183a777442a670eea69c9ba0e98c4e316ac46380ae5",
+    "canonical_method": "SelectKBest.fit",
+    "cohort": "controlled",
+    "proposed_effects": [
+      "fit_state"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_0fbb10694559"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "162788c36ce0e014432a7edd73338097ef05a32bcf196af6b31f60978a86a331",
+    "canonical_method": "SelectKBest.transform",
+    "cohort": "controlled",
+    "proposed_effects": [
+      "apply_state"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "apply_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_0fbb10694559"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "c246e912677161cfde04d4726e2a347013049563c96e50fde5698a75a0f61cb3",
+    "canonical_method": "SelectKBest.transform",
+    "cohort": "controlled",
+    "proposed_effects": [
+      "apply_state"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "apply_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_0fbb10694559"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "30794a54af1d5d76ceaeaaf38cd173d39a3ca503a46ca67c097e5236c553e1da",
+    "canonical_method": "pandas.DataFrame.prod",
+    "cohort": "controlled",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_27297e919d01"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "a9c0d46780c24fd1e3d0fdd5ce30d503f1bda241b34d30a60ed3e565e5de8161",
+    "canonical_method": "pandas.DataFrame.var",
+    "cohort": "controlled",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_33f17c1e6015"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "8d1d843b2379ace7563eaacc3d761400dc870097010a8d539753f85ef72518f6",
+    "canonical_method": "pandas.DataFrame.var",
+    "cohort": "controlled",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_445466d5177f"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "613be6ece60448193cd9a0e850f19fc42cce25e390d231949e6a88e163efaf19",
+    "canonical_method": "pandas.DataFrame.prod",
+    "cohort": "controlled",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_4f079407f4ee"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "7cf1e83214671d217bdec2ab42841df3944fcd390fb1b61e6103b776c5ab03a4",
+    "canonical_method": "StandardScaler.fit",
+    "cohort": "controlled",
+    "proposed_effects": [
+      "fit_state"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_555e8a6cbf1b"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "aa3411252b644f32d8ecf36bc8aaa425246c65e87b0b4f0204f3737067656cd5",
+    "canonical_method": "pandas.DataFrame.max",
+    "cohort": "controlled",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_5fb5a96c66c2"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "fcc66fcdd1b26f959a799b040ee2244e2813cbd687420efd41f8edd39a9fbfa2",
+    "canonical_method": "pandas.DataFrame.median",
+    "cohort": "controlled",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_64e55c941f68"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "9605b5eefd85723041e52c13946d1ac776b4d7f19053f5c9bd58bdeb74dcb363",
+    "canonical_method": "sklearn.preprocessing.scale",
+    "cohort": "controlled",
+    "proposed_effects": [
+      "row_preserving"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "row_preserving",
+    "rule_proof_reason": "reduction excludes sample axis 0",
+    "sample_id": "case_64edd7f488bb"
+  },
+  {
+    "N0_accepted": false,
+    "N1_accepted": false,
+    "N1_reason": "code evidence does not match candidate",
+    "candidate_id": "7360d61ef63a2700ef98e0d3957040c8f80f059a3705728b115abf0e7f488690",
+    "canonical_method": "sklearn.preprocessing.scale",
+    "cohort": "controlled",
+    "proposed_effects": [
+      "fit_state"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_69f8e9228ea8"
+  },
+  {
+    "N0_accepted": false,
+    "N1_accepted": false,
+    "N1_reason": "code evidence does not match candidate",
+    "candidate_id": "ad10c313c7fc1dc3bc2b410eccdaacf80c77a547dc32f271d037fcaa94bdb107",
+    "canonical_method": "sklearn.preprocessing.scale",
+    "cohort": "controlled",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "row_preserving",
+    "rule_proof_reason": "reduction excludes sample axis 0",
+    "sample_id": "case_69f8e9228ea8"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: reviewed stateful API; upstream SSA/pointer propagation retained",
+    "candidate_id": "6df0e9029754ef2c291ae9d71d1e285705d9d7ec12bdabbd0a1dd532a2ce7fbf",
+    "canonical_method": "StandardScaler.fit_transform",
+    "cohort": "controlled",
+    "proposed_effects": [
+      "fit_state",
+      "row_preserving"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": true,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_709a9bea0169"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "e555a6cf98ce1fd63865856d8f1df7b5bc960012afa5f23d616c91b82d45cc12",
+    "canonical_method": "pandas.DataFrame.quantile",
+    "cohort": "controlled",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_7273981d4ca5"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: reviewed stateful API; upstream SSA/pointer propagation retained",
+    "candidate_id": "6d83e25eecc61398ce82d4b244c7ba77add5ce6fa5a7f12315b4f0083b94cc8b",
+    "canonical_method": "SelectKBest.fit_transform",
+    "cohort": "controlled",
+    "proposed_effects": [
+      "fit_state",
+      "row_preserving"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": true,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_8bd8f2786d4a"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "d7859a0c12f1275853054347986b511a8fb102a51b9f3d1841194dff8772eea7",
+    "canonical_method": "pandas.DataFrame.sum",
+    "cohort": "controlled",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_92db697b2304"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "2ea68014b1e6f44c591c574d1cc2d99edb3289f9b35f18f77e015097dc4bcea4",
+    "canonical_method": "pandas.DataFrame.quantile",
+    "cohort": "controlled",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_93bfc19cb919"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "8a61f7baf86e62f5fb956ec5db05760a8c1c1429a26cccd611735d097c866e2e",
+    "canonical_method": "pandas.DataFrame.mean",
+    "cohort": "controlled",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_93d0a8d5662e"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "e5042dca4ca938ead4227da645aa7ae6ca94fdfd33053f6f65a4d6692e89c993",
+    "canonical_method": "pandas.DataFrame.sum",
+    "cohort": "controlled",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_97addf1be1b9"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "3d2151b846516968b2a023d006855a804115e7da21dfe88470c5bf0883088b32",
+    "canonical_method": "pandas.DataFrame.min",
+    "cohort": "controlled",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_9c795b58664d"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "19f76d7bdff55a90698910c2c93a11c4f315bae33537e9d13ce97f01c0786228",
+    "canonical_method": "pandas.DataFrame.max",
+    "cohort": "controlled",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_a6fcbcdaecb1"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "a7b30004dd9ba79927a649064b2af7aa498a2b60a597b0e0d65de85a4ebc62d4",
+    "canonical_method": "pandas.DataFrame.median",
+    "cohort": "controlled",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_a9aeb5f966a1"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "7513d8132728acd039f174715125a4791ee04e3f1b7447f3ca153e2c0980a7de",
+    "canonical_method": "pandas.DataFrame.min",
+    "cohort": "controlled",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_b03ecac40a6f"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "00758144232b9153d7ef8d89e478dd5968a835d003b10b3d36fb641c93778f58",
+    "canonical_method": "pandas.DataFrame.median",
+    "cohort": "controlled",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_c103edfd32a9"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: reviewed stateful API; upstream SSA/pointer propagation retained",
+    "candidate_id": "6029a210e42c1e99953634b14a716c9cf643caba9dabbc7a9802603bbac7ddca",
+    "canonical_method": "StandardScaler.fit_transform",
+    "cohort": "controlled",
+    "proposed_effects": [
+      "apply_state",
+      "fit_state",
+      "row_preserving"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": true,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_cb94e4d70763"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: reviewed stateful API; upstream SSA/pointer propagation retained",
+    "candidate_id": "63accb821fe2835d904ebe0c7a9c03f8cb5fcad8754ee40f202dd695448e7c6d",
+    "canonical_method": "StandardScaler.fit_transform",
+    "cohort": "controlled",
+    "proposed_effects": [
+      "fit_state",
+      "row_preserving"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": true,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_cb94e4d70763"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: reduction includes sample axis 0",
+    "candidate_id": "e8231207152e0ad7ae2a9479fdbb61f83304119639f0b97b68635223be0d45ec",
+    "canonical_method": "sklearn.preprocessing.scale",
+    "cohort": "controlled",
+    "proposed_effects": [
+      "fit_state"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_da539182d1da"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "2cdc94f3c59a5339bb5356ba7495609e962baa586078e94e13b79c5cd8fbe361",
+    "canonical_method": "StandardScaler.fit",
+    "cohort": "controlled",
+    "proposed_effects": [
+      "fit_state"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_e9b92f547a24"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "e1ee8d9e44a13a36a7e2ca1e9e7b44aa42217d6fff547fd91d8640b3b3636f8d",
+    "canonical_method": "pandas.DataFrame.std",
+    "cohort": "controlled",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_ed7bb25ecde0"
+  },
+  {
+    "N0_accepted": false,
+    "N1_accepted": false,
+    "N1_reason": "code evidence does not match candidate",
+    "candidate_id": "f942ae64fd56333488c6a9359e070011e56c03a72350cbca5861150a9a44350a",
+    "canonical_method": "sklearn.preprocessing.scale",
+    "cohort": "controlled",
+    "proposed_effects": [
+      "cross_row_reduce",
+      "fit_state"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_f2326d87807f"
+  },
+  {
+    "N0_accepted": false,
+    "N1_accepted": false,
+    "N1_reason": "code evidence does not match candidate",
+    "candidate_id": "2059b05ce94a05787ea428697e8fffab2d568103713aa15fd87d6f09aa6bf6a7",
+    "canonical_method": "sklearn.preprocessing.scale",
+    "cohort": "controlled",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "row_preserving",
+    "rule_proof_reason": "reduction excludes sample axis 0",
+    "sample_id": "case_f2326d87807f"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "f6460ad947ee58dae54a8daf8323abc76569a21e5e91eb1aebacb6e5e99dee55",
+    "canonical_method": "pandas.DataFrame.mean",
+    "cohort": "controlled",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_fb954494afec"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "208ff6cc3ffcae9036308d6a6e1e3b4ee3fb60591c286ea67b22e78a8db6c303",
+    "canonical_method": "pandas.DataFrame.mean",
+    "cohort": "real",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "real_1859b28c0b0f"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: unresolved input rank or primitive identity",
+    "candidate_id": "05c9f94252e8d3d5f956a95b486da13f72a8063dba8366b5ae8862ec344c96d2",
+    "canonical_method": "Unknown.mean",
+    "cohort": "real",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "unknown",
+    "rule_proof_reason": "unresolved input rank or primitive identity",
+    "sample_id": "real_4aabfe0b5836"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: reviewed stateful API; upstream SSA/pointer propagation retained",
+    "candidate_id": "0f5e3d2a083a53cf517821e83731cacb95a8f5ccac63998d13b8a7595eab3a31",
+    "canonical_method": "StandardScaler.fit_transform",
+    "cohort": "real",
+    "proposed_effects": [
+      "apply_state",
+      "fit_state",
+      "row_preserving"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": true,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "real_4aabfe0b5836"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: reviewed stateful API; upstream SSA/pointer propagation retained",
+    "candidate_id": "46d1b44a5e50caa5852ca3dc6c593049f58309e2b10173fcd411c789caa92f18",
+    "canonical_method": "StandardScaler.fit_transform",
+    "cohort": "real",
+    "proposed_effects": [
+      "apply_state",
+      "fit_state",
+      "row_preserving"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": true,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "real_621d7038c43a"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: reviewed stateful API; upstream SSA/pointer propagation retained",
+    "candidate_id": "8ec13bd78914920f2c7570c5819064ebf8e6ea8bf8a55c5b65da5ad0b2c918f0",
+    "canonical_method": "StandardScaler.fit_transform",
+    "cohort": "real",
+    "proposed_effects": [
+      "apply_state",
+      "fit_state",
+      "row_preserving"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": true,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "real_d8a6e6dcf354"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: reviewed stateful API; upstream SSA/pointer propagation retained",
+    "candidate_id": "f0de1cb35bd154f0b0ac0a44c5367a8579b06afe08f79b7439d67c11fbaeb059",
+    "canonical_method": "StandardScaler.transform",
+    "cohort": "real",
+    "proposed_effects": [
+      "apply_state",
+      "row_preserving"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "apply_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "real_d8a6e6dcf354"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "22719676fbfd3a682a30c1fed8affc7da11ea917d32e3a8f93266b4e53e0f2ff",
+    "canonical_method": "pandas.DataFrame.std",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_0b5b895c8fa0_comments"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "d9dce7e1467447a1f2cb885f57c991fc485f374e55a3711cb41bedc36c9421ba",
+    "canonical_method": "pandas.DataFrame.std",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_0b5b895c8fa0_rename"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "e006632d20532d5b125f8a42856330595744fee50ba3fd20342da87e475a7a85",
+    "canonical_method": "DataFrame.std",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_0b5b895c8fa0_wrap1"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "9a0015a1a7ba29773539a40d0786e1b028ffbafecbc622737112f5c2e6b7a5d8",
+    "canonical_method": "DataFrame.std",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_0b5b895c8fa0_wrap2"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "4068018a3d8bb45e61edbaa0b930c9b3dd5908e8297e408d78ac439da976e0a2",
+    "canonical_method": "SelectKBest.fit",
+    "cohort": "variants",
+    "proposed_effects": [
+      "fit_state"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_0fbb10694559_comments"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "91855c5a9a186d95ca1412bbf2f2c675dcf2f4a4e8c4d9ed8bf005609261e114",
+    "canonical_method": "SelectKBest.transform",
+    "cohort": "variants",
+    "proposed_effects": [
+      "apply_state"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "apply_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_0fbb10694559_comments"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "9b86907111f31ad24e7c5c86f7e2c96117c3b9946eaf88b86f1591e38f056399",
+    "canonical_method": "SelectKBest.transform",
+    "cohort": "variants",
+    "proposed_effects": [
+      "apply_state"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "apply_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_0fbb10694559_comments"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "029c1c981655b43aacfe965c9c5fd9d0ac670bae6913cabae040e9b86ca91a3a",
+    "canonical_method": "SelectKBest.fit",
+    "cohort": "variants",
+    "proposed_effects": [
+      "fit_state"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_0fbb10694559_rename"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "c4e9dbf4413614e5d0a00787dff0d68feb06e81e37b1885a7e8879a7f35b44a5",
+    "canonical_method": "SelectKBest.transform",
+    "cohort": "variants",
+    "proposed_effects": [
+      "apply_state"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "apply_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_0fbb10694559_rename"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "fea52da2940348e4fb09f74155c53ca24692d3dc70c77e78a56ac671e0faa332",
+    "canonical_method": "SelectKBest.transform",
+    "cohort": "variants",
+    "proposed_effects": [
+      "apply_state"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "apply_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_0fbb10694559_rename"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "9a25c02fb6d4c321b17fef1f042971f1c20bfc3a00815548ebb6fd99975f1a8e",
+    "canonical_method": "SelectKBest.fit",
+    "cohort": "variants",
+    "proposed_effects": [
+      "fit_state"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_0fbb10694559_wrap1"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "9d31357c6c03484214abeaf15ed01322761fb8c0ae9b9e119846e9b2d290c599",
+    "canonical_method": "SelectKBest.transform",
+    "cohort": "variants",
+    "proposed_effects": [
+      "apply_state"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "apply_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_0fbb10694559_wrap1"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "1ebc98809f262fe68f720525c6476fa518f737612b4f3e7a9b46da2b0352a492",
+    "canonical_method": "SelectKBest.transform",
+    "cohort": "variants",
+    "proposed_effects": [
+      "apply_state"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "apply_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_0fbb10694559_wrap1"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "9a25c02fb6d4c321b17fef1f042971f1c20bfc3a00815548ebb6fd99975f1a8e",
+    "canonical_method": "SelectKBest.fit",
+    "cohort": "variants",
+    "proposed_effects": [
+      "fit_state"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_0fbb10694559_wrap2"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "9d31357c6c03484214abeaf15ed01322761fb8c0ae9b9e119846e9b2d290c599",
+    "canonical_method": "SelectKBest.transform",
+    "cohort": "variants",
+    "proposed_effects": [
+      "apply_state"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "apply_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_0fbb10694559_wrap2"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "1ebc98809f262fe68f720525c6476fa518f737612b4f3e7a9b46da2b0352a492",
+    "canonical_method": "SelectKBest.transform",
+    "cohort": "variants",
+    "proposed_effects": [
+      "apply_state"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "apply_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_0fbb10694559_wrap2"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "5f16627764f3bb9a7e5c051dcc5e34732f158786b833832422bbc60fbf46695a",
+    "canonical_method": "pandas.DataFrame.prod",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_27297e919d01_comments"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "37068e96cc51c27789045ed1e050ed7f25e59f9cacc20ca1637ae4d3ad836403",
+    "canonical_method": "pandas.DataFrame.prod",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_27297e919d01_rename"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "8279f65f408abcdc932bf25283820723cce98ab84e50a7f92a7240d34bf21538",
+    "canonical_method": "DataFrame.prod",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_27297e919d01_wrap1"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "63ec6780cce2f46bc7309c0e8ff59fab9fa309decc599320fc2fdec0230a170e",
+    "canonical_method": "DataFrame.prod",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_27297e919d01_wrap2"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "f8d029ab5ea60708f52eb6e4cbb1097911a17037ce06459793c44773322589bd",
+    "canonical_method": "pandas.DataFrame.var",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_33f17c1e6015_comments"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "77f129ba577d3c9ede2499354aa94b95923ac9a9d6d972f0550b996e3416a3c5",
+    "canonical_method": "pandas.DataFrame.var",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_33f17c1e6015_rename"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "23f61a87dfcc49b2c959c4153dadc7f2328d13030cea31eb621a7d99833a8fbf",
+    "canonical_method": "DataFrame.var",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_33f17c1e6015_wrap1"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "ec9d8c25fba6e1ae72f0c1fea328ce1a59db54cd1c8b25421045bc7ca696bad6",
+    "canonical_method": "DataFrame.var",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_33f17c1e6015_wrap2"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "c1a066ae15d7861fdf903a2f3beca3832281cda1d37dad23b25b741dc0a58cf2",
+    "canonical_method": "pandas.DataFrame.var",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_445466d5177f_comments"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "652658b7e88b3f161dc7b5820b942c32724bdc3d38e312bd1d22c69c132fbd11",
+    "canonical_method": "pandas.DataFrame.var",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_445466d5177f_rename"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "8ad9390aae40b954814cfeaf00c865bcf7b01ae04a0e7f13dd183152b2bbc859",
+    "canonical_method": "DataFrame.var",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_445466d5177f_wrap1"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "07bba0c07f9b445a16f1536261f788753fbeae18796f182ccd97bb0c46f7d500",
+    "canonical_method": "DataFrame.var",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_445466d5177f_wrap2"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "85f269747b3464606779e40a7d0019bf8d67dc32771f0f370d669437a3bee12c",
+    "canonical_method": "pandas.DataFrame.prod",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_4f079407f4ee_comments"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "e5361fba070080364864e21aa9226048f9ab510fff2f9638f80bc28d77191ef6",
+    "canonical_method": "pandas.DataFrame.prod",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_4f079407f4ee_rename"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "450ceaf9e59517fa7c3c725e3fe2081e23c177d09a228371178c1d6db3514e20",
+    "canonical_method": "DataFrame.prod",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_4f079407f4ee_wrap1"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "0f360a476b1872ae7ce35e1f7fa029e344be21e638f13779665330050265da8b",
+    "canonical_method": "DataFrame.prod",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_4f079407f4ee_wrap2"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "492f7ec5001c241808cfb6197f546a5b4bc48fb4a5931eb6d9babe6682c7c8f4",
+    "canonical_method": "StandardScaler.fit",
+    "cohort": "variants",
+    "proposed_effects": [
+      "fit_state"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_555e8a6cbf1b_comments"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "8db7770e925364d3c969f40a88ef81362e3ad47f1b120372c0117b6be4da84ad",
+    "canonical_method": "StandardScaler.fit",
+    "cohort": "variants",
+    "proposed_effects": [
+      "fit_state"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_555e8a6cbf1b_rename"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "1c91817c73abe28aaa7a8fbd36382cccc5eda36e425d8a1d83261230c303bd23",
+    "canonical_method": "StandardScaler.fit",
+    "cohort": "variants",
+    "proposed_effects": [
+      "fit_state"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_555e8a6cbf1b_wrap1"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "1c91817c73abe28aaa7a8fbd36382cccc5eda36e425d8a1d83261230c303bd23",
+    "canonical_method": "StandardScaler.fit",
+    "cohort": "variants",
+    "proposed_effects": [
+      "fit_state"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_555e8a6cbf1b_wrap2"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "636428fc8e901128e0bca3e4f0f0fee012ae510e562bc587575320d03d3ec94a",
+    "canonical_method": "pandas.DataFrame.max",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_5fb5a96c66c2_comments"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "908f89e85b0260f8154c6480109dd3b7bcb6543cfe40773161c8033120ed5063",
+    "canonical_method": "pandas.DataFrame.max",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_5fb5a96c66c2_rename"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "e950a94869933e6aff1db3ce086ca4260859d78e326a1d12c7e149700bdf06b7",
+    "canonical_method": "DataFrame.max",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_5fb5a96c66c2_wrap1"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "a002e599bbaa40043019328db16d688cad06170e88c9260905386b09273ae1da",
+    "canonical_method": "DataFrame.max",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_5fb5a96c66c2_wrap2"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "88f8d0b395ae7e90a28ae1e27fed4d6fff4bac6d771f65501c906186b04ebe0a",
+    "canonical_method": "pandas.DataFrame.median",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_64e55c941f68_comments"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "2a0b40a0fbd9a277bc75f68eb12bcad376ff1bb10842f036ce41ce33bb7d75e9",
+    "canonical_method": "pandas.DataFrame.median",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_64e55c941f68_rename"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: reduction includes sample axis 0",
+    "candidate_id": "64a17054783718ceaea559ffacc290625fbd1a6bb751f5662c603af5f024902e",
+    "canonical_method": "DataFrame.median",
+    "cohort": "variants",
+    "proposed_effects": [
+      "row_preserving"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": true,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_64e55c941f68_wrap1"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: reduction includes sample axis 0",
+    "candidate_id": "5141d3efd87e0bbbc9e67860d97aef7f8ddcc4ebb9fd28be82bc11520d5e5ee6",
+    "canonical_method": "DataFrame.median",
+    "cohort": "variants",
+    "proposed_effects": [
+      "row_preserving"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": true,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_64e55c941f68_wrap2"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "85a21eacddf01e8534375572a1e131c15babbb3f5f814337f9634cbdfc82e4cb",
+    "canonical_method": "sklearn.preprocessing.scale",
+    "cohort": "variants",
+    "proposed_effects": [
+      "row_preserving"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "row_preserving",
+    "rule_proof_reason": "reduction excludes sample axis 0",
+    "sample_id": "case_64edd7f488bb_comments"
+  },
+  {
+    "N0_accepted": false,
+    "N1_accepted": false,
+    "N1_reason": "'08da6b7324e5161f4ef73f2d0ff87e75837e7583767b3a94c2eef2888187d9afa19e81' does not match '^[a-f0-9]{64}$'",
+    "candidate_id": "08da6b7324e5161f4ef73f2d0ff87e7583767b3a94c2eef2888187d9afa19e81",
+    "canonical_method": "sklearn.preprocessing.scale",
+    "cohort": "variants",
+    "proposed_effects": [
+      "row_preserving"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "row_preserving",
+    "rule_proof_reason": "reduction excludes sample axis 0",
+    "sample_id": "case_64edd7f488bb_rename"
+  },
+  {
+    "N0_accepted": false,
+    "N1_accepted": false,
+    "N1_reason": "code evidence does not match candidate",
+    "candidate_id": "dcce3a2791d22d14a02bb79194a9a61e9fb76f76117ba34ef07b729d29cca91f",
+    "canonical_method": "sklearn.preprocessing.scale",
+    "cohort": "variants",
+    "proposed_effects": [
+      "apply_state",
+      "cross_row_reduce",
+      "fit_state"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_69f8e9228ea8_comments"
+  },
+  {
+    "N0_accepted": false,
+    "N1_accepted": false,
+    "N1_reason": "code evidence does not match candidate",
+    "candidate_id": "a9cf7b8449fe7c005a64a82fc24cca09c022ef3054555020432720744c1ccc29",
+    "canonical_method": "sklearn.preprocessing.scale",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "row_preserving",
+    "rule_proof_reason": "reduction excludes sample axis 0",
+    "sample_id": "case_69f8e9228ea8_comments"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: reduction includes sample axis 0",
+    "candidate_id": "a65f566cb916b066f01d95c447d5757fcf01c91b53783083925127be4b867bd4",
+    "canonical_method": "sklearn.preprocessing.scale",
+    "cohort": "variants",
+    "proposed_effects": [
+      "fit_state"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_69f8e9228ea8_rename"
+  },
+  {
+    "N0_accepted": false,
+    "N1_accepted": false,
+    "N1_reason": "code evidence does not match candidate",
+    "candidate_id": "e3fad5ba6c4ef69cbb8243f825409beafe152e18ea0121151d3224fa1c8124cd",
+    "canonical_method": "sklearn.preprocessing.scale",
+    "cohort": "variants",
+    "proposed_effects": [
+      "row_preserving"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "row_preserving",
+    "rule_proof_reason": "reduction excludes sample axis 0",
+    "sample_id": "case_69f8e9228ea8_rename"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: reviewed stateful API; upstream SSA/pointer propagation retained",
+    "candidate_id": "39ad6ffabb2494c6c6abf3b368e8c2ab711bd3c0fa03a9f934b6ba4ccde7c91d",
+    "canonical_method": "StandardScaler.fit_transform",
+    "cohort": "variants",
+    "proposed_effects": [
+      "fit_state",
+      "row_preserving"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": true,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_709a9bea0169_comments"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: reviewed stateful API; upstream SSA/pointer propagation retained",
+    "candidate_id": "9292f46c62a51bd6509fa841f6ef6fe83f0474422d878bdcd9965278bc1772ba",
+    "canonical_method": "StandardScaler.fit_transform",
+    "cohort": "variants",
+    "proposed_effects": [
+      "fit_state",
+      "row_preserving"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": true,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_709a9bea0169_rename"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: reviewed stateful API; upstream SSA/pointer propagation retained",
+    "candidate_id": "2feeec6c51c58580525fb88534388261a30a8facb3994426ee67efb1428e1034",
+    "canonical_method": "StandardScaler.fit_transform",
+    "cohort": "variants",
+    "proposed_effects": [
+      "fit_state",
+      "row_preserving"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": true,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_709a9bea0169_wrap1"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: reviewed stateful API; upstream SSA/pointer propagation retained",
+    "candidate_id": "2feeec6c51c58580525fb88534388261a30a8facb3994426ee67efb1428e1034",
+    "canonical_method": "StandardScaler.fit_transform",
+    "cohort": "variants",
+    "proposed_effects": [
+      "fit_state",
+      "row_preserving"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": true,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_709a9bea0169_wrap2"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "307bebd9d60b5f8b675504fa8562355ba1824967c774b7cbe5d8e8703449a1ca",
+    "canonical_method": "pandas.DataFrame.quantile",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_7273981d4ca5_comments"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "d28bc7c1260e0854cc0555aa6eb1ad520cd49bb4fdd4ca54d1d0922ba5b32ec5",
+    "canonical_method": "pandas.DataFrame.quantile",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_7273981d4ca5_rename"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "842acedde51f7fea161b644ddc193ea0ad204d9909082ec4a2c2a78896b7fed0",
+    "canonical_method": "DataFrame.quantile",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_7273981d4ca5_wrap1"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "0e88fee30132968b8fbdcad25949f04d0d9e58d4430c67eb6cfe4a9e79a037ea",
+    "canonical_method": "DataFrame.quantile",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_7273981d4ca5_wrap2"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: reviewed stateful API; upstream SSA/pointer propagation retained",
+    "candidate_id": "1a9d81e0ba182f2b7b3fb7f49c9cf54618c51e3cd23055bfab473891890c3ac1",
+    "canonical_method": "SelectKBest.fit_transform",
+    "cohort": "variants",
+    "proposed_effects": [
+      "fit_state",
+      "row_preserving"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": true,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_8bd8f2786d4a_comments"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: reviewed stateful API; upstream SSA/pointer propagation retained",
+    "candidate_id": "ababcac87863726ad07f0859bc18d0b64f5b103e1230fe668cf0429d008cd5cb",
+    "canonical_method": "SelectKBest.fit_transform",
+    "cohort": "variants",
+    "proposed_effects": [
+      "fit_state",
+      "row_preserving"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": true,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_8bd8f2786d4a_rename"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: reviewed stateful API; upstream SSA/pointer propagation retained",
+    "candidate_id": "a8eb3bd14b30c8c28dfa238707fa7a9b704aaa240d3c384346a538358dc74dae",
+    "canonical_method": "SelectKBest.fit_transform",
+    "cohort": "variants",
+    "proposed_effects": [
+      "fit_state",
+      "row_preserving"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": true,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_8bd8f2786d4a_wrap1"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: reviewed stateful API; upstream SSA/pointer propagation retained",
+    "candidate_id": "a8eb3bd14b30c8c28dfa238707fa7a9b704aaa240d3c384346a538358dc74dae",
+    "canonical_method": "SelectKBest.fit_transform",
+    "cohort": "variants",
+    "proposed_effects": [
+      "fit_state",
+      "row_preserving"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": true,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_8bd8f2786d4a_wrap2"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "1ba07c3396e9c6584054412f9434839c0b9d3c86be6558b7ee3d3b878b1f37a8",
+    "canonical_method": "pandas.DataFrame.sum",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_92db697b2304_comments"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "5b2cabb1f1e029ed6ccf18d1bb0b30b4e51caaa17e4271d68c71f8a7ca4ac0cc",
+    "canonical_method": "pandas.DataFrame.sum",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_92db697b2304_rename"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "a8c9f52a51d6ae0577264dab29094955d1c8e1974fd5f125f34ad345d869afb0",
+    "canonical_method": "DataFrame.sum",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_92db697b2304_wrap1"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "bebe706883d24e7e093ccc85dba8cc01ddff4a87007fc69acdde78d8ba0cc290",
+    "canonical_method": "DataFrame.sum",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_92db697b2304_wrap2"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "8da69877090737022688d4a1b2a7b28977b5f61c4670fe24aeea6c735229f7b9",
+    "canonical_method": "pandas.DataFrame.quantile",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_93bfc19cb919_comments"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: reduction includes sample axis 0",
+    "candidate_id": "c88fc9bf1d2d1164f6146b6f400ede71d5712bcbd66310bc99a1efac64c4d622",
+    "canonical_method": "pandas.DataFrame.quantile",
+    "cohort": "variants",
+    "proposed_effects": [
+      "row_preserving"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": true,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_93bfc19cb919_rename"
+  },
+  {
+    "N0_accepted": false,
+    "N1_accepted": false,
+    "N1_reason": "'da732b132397b3b76c083b6c083b6c44821c6379978f0971b0e5bcd40eb22a20b27d3b' does not match '^[a-f0-9]{64}$'",
+    "candidate_id": "da732b132397b3b76c083b6c44821c6379978f0971b0e5bcd40eb22a20b27d3b",
+    "canonical_method": "DataFrame.quantile",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_93bfc19cb919_wrap1"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "bc660e1e81d62edc0a014ded9e47fda45d73f46a101bf3cee0c51bf950dab561",
+    "canonical_method": "DataFrame.quantile",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_93bfc19cb919_wrap2"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "80a45291f43f8b3e8c1ede988285bbb4256766224d1efef7b71a87d0326c876b",
+    "canonical_method": "pandas.DataFrame.mean",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_93d0a8d5662e_comments"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "6efd00a00e58bec9836d9a1653da347452fc64c0518923fcfce7a708ae912110",
+    "canonical_method": "pandas.DataFrame.mean",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_93d0a8d5662e_rename"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "feea6bc0223c8ce7753faeba588669b68f91da3286994cd6beabcea4be44442b",
+    "canonical_method": "DataFrame.mean",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_93d0a8d5662e_wrap1"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "f2e08c1b7ac8097d90802dc90f39e9cd8553ce04e3ea4c969f7fb449b04b1bea",
+    "canonical_method": "DataFrame.mean",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_93d0a8d5662e_wrap2"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "d8c61ce538dabee10b8e71c523c2bce2b45fa6621a0e047a67a9948dc61cb2cc",
+    "canonical_method": "pandas.DataFrame.sum",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_97addf1be1b9_comments"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "961f19ca5363f8efb203b76ad8c466d94e5a25abad908a45db0161c8b44741e5",
+    "canonical_method": "pandas.DataFrame.sum",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_97addf1be1b9_rename"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "8c877543ccde352b5c2fdeab44803eaf3726412bae9a6e9794d4ddf238304897",
+    "canonical_method": "DataFrame.sum",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_97addf1be1b9_wrap1"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "c772544d23469f9c66dc3ffac9bf6b4c9f418c9e3aad6b31d23f7d0478491a9b",
+    "canonical_method": "DataFrame.sum",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_97addf1be1b9_wrap2"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "ea91ccaba8890aa72467814090cc14342279fec3e77a3bdbcae875db23234e05",
+    "canonical_method": "pandas.DataFrame.min",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_9c795b58664d_comments"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "b6ef38387e3a5e9ab106120ac5a1c59cf7b9a193f6b242011d4e61695da48c3c",
+    "canonical_method": "pandas.DataFrame.min",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_9c795b58664d_rename"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "1faeed2008f21f671b72ca7612fe925e8da2577b5c43ae3e5be2e8fea48acf0a",
+    "canonical_method": "DataFrame.min",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_9c795b58664d_wrap1"
+  },
+  {
+    "N0_accepted": false,
+    "N1_accepted": false,
+    "N1_reason": "'5fca6600cecd767213a2d0b957b4273b28b8709090312c7eaa13531b04614ed6b2' does not match '^[a-f0-9]{64}$'",
+    "candidate_id": "5fca6600cecd767213a2d0b957b4273b28b87090312c7eaa13531b04614ed6b2",
+    "canonical_method": "DataFrame.min",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_9c795b58664d_wrap2"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "ac57481340908799168d1ca87c37f5bfe2ff5f4fdf407f29bdfce52a67aaf0d6",
+    "canonical_method": "pandas.DataFrame.max",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_a6fcbcdaecb1_comments"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "26d4a6fa41d04d7c0d30ec57b01ddf342dacf55562489c43246a2328927b616d",
+    "canonical_method": "pandas.DataFrame.max",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_a6fcbcdaecb1_rename"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "d9d6b3bf7d2de86236327ecab1333ba7d90da9143bfbde604aabd78a3e94ad9c",
+    "canonical_method": "DataFrame.max",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_a6fcbcdaecb1_wrap1"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "bc467a65b55a06040e03e841db7b0edca7a557445b401d2ba96578fbacbb7ca2",
+    "canonical_method": "DataFrame.max",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_a6fcbcdaecb1_wrap2"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "ebff09e218116bb15719d858305bc2011fd1e542c73f4027c580ec677d9d0642",
+    "canonical_method": "pandas.DataFrame.median",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_a9aeb5f966a1_comments"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: reduction includes sample axis 0",
+    "candidate_id": "2ee9e5a7f9d51849fbff258c2a1ff703e65ceb6edada5764f122667963a05c3e",
+    "canonical_method": "pandas.DataFrame.median",
+    "cohort": "variants",
+    "proposed_effects": [
+      "row_preserving"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": true,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_a9aeb5f966a1_rename"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: reduction includes sample axis 0",
+    "candidate_id": "4555a3383d9160b09934ebdc3bfe25e4b82bbe4380607c84a6b3b3a304b25ed3",
+    "canonical_method": "DataFrame.median",
+    "cohort": "variants",
+    "proposed_effects": [
+      "row_preserving"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": true,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_a9aeb5f966a1_wrap1"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "bcdd775cd20c4d1e2feecd5760108529929ace26f08c254e0ca6a2e984878057",
+    "canonical_method": "DataFrame.median",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_a9aeb5f966a1_wrap2"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "a83f4c46f8b53148992f0172d4a4e86b4d929b23f07e0d9c9adce0c677909860",
+    "canonical_method": "pandas.DataFrame.min",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_b03ecac40a6f_comments"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "15a2a8fd95a7855aa0e5665735a36bfaf5a95c5589dc6e6b6443329269132e0c",
+    "canonical_method": "pandas.DataFrame.min",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_b03ecac40a6f_rename"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "967e46b6f33860bee2de7923306a56b507604508370d883d90d2e3fe02e59dee",
+    "canonical_method": "DataFrame.min",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_b03ecac40a6f_wrap1"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "3b3f03de558ae34b98ab5a2f7e809ea67b964bf62148d35b2a8a557b5d9b6b1e",
+    "canonical_method": "DataFrame.min",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_b03ecac40a6f_wrap2"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "0bd083360d1fc5e09c42a2db8fc5a95410d941ff605d5d65d085debd453e6edc",
+    "canonical_method": "pandas.DataFrame.median",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_c103edfd32a9_comments"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "d992658d02a81d04162ee32125c4aefa12e712732fe9e91cb3f425b373f5df38",
+    "canonical_method": "pandas.DataFrame.median",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_c103edfd32a9_rename"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "d78198f3126ddaa6bf644d57a9abb822fba316620291910feadfd37d7799b1a7",
+    "canonical_method": "DataFrame.median",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_c103edfd32a9_wrap1"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "cde3c6fa5952c5904cd19348106e2ee315bbb840e873ec6dc8abc0be2c444d4e",
+    "canonical_method": "DataFrame.median",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_c103edfd32a9_wrap2"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: reviewed stateful API; upstream SSA/pointer propagation retained",
+    "candidate_id": "23fae897a382482a1543eff34e1fc7b68276c01522c1c0762f3bf0c2cf4e3199",
+    "canonical_method": "StandardScaler.fit_transform",
+    "cohort": "variants",
+    "proposed_effects": [
+      "apply_state",
+      "fit_state",
+      "row_preserving"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": true,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_cb94e4d70763_comments"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: reviewed stateful API; upstream SSA/pointer propagation retained",
+    "candidate_id": "061a35500eaba961f8586811cbccf6b51504901d6aeb28d4c6b55c46dd65b7fd",
+    "canonical_method": "StandardScaler.fit_transform",
+    "cohort": "variants",
+    "proposed_effects": [
+      "fit_state",
+      "row_preserving"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": true,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_cb94e4d70763_comments"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: reviewed stateful API; upstream SSA/pointer propagation retained",
+    "candidate_id": "5267b537ec9cd2a2b001252d58b4f6560a7627314d70a245ba6c9a69dfa80dc8",
+    "canonical_method": "StandardScaler.fit_transform",
+    "cohort": "variants",
+    "proposed_effects": [
+      "fit_state",
+      "row_preserving"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": true,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_cb94e4d70763_rename"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: reviewed stateful API; upstream SSA/pointer propagation retained",
+    "candidate_id": "e8713bfafb2cc31d92f9b6e58776fccf83053643f07e3a32e1d89b63a5bf68a8",
+    "canonical_method": "StandardScaler.fit_transform",
+    "cohort": "variants",
+    "proposed_effects": [
+      "fit_state",
+      "row_preserving"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": true,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_cb94e4d70763_rename"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: reviewed stateful API; upstream SSA/pointer propagation retained",
+    "candidate_id": "09daa6f816d6f2a5278051f8caee21bb8b7a5989a02c5be1e014c437f1c7d3aa",
+    "canonical_method": "StandardScaler.fit_transform",
+    "cohort": "variants",
+    "proposed_effects": [
+      "fit_state",
+      "row_preserving"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": true,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_cb94e4d70763_wrap1"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: reviewed stateful API; upstream SSA/pointer propagation retained",
+    "candidate_id": "b822b74abe76b5da174bfe3bc408518f0926b187b20d982f8b917dfb3e0c780f",
+    "canonical_method": "StandardScaler.fit_transform",
+    "cohort": "variants",
+    "proposed_effects": [
+      "fit_state",
+      "row_preserving"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": true,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_cb94e4d70763_wrap1"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: reviewed stateful API; upstream SSA/pointer propagation retained",
+    "candidate_id": "09daa6f816d6f2a5278051f8caee21bb8b7a5989a02c5be1e014c437f1c7d3aa",
+    "canonical_method": "StandardScaler.fit_transform",
+    "cohort": "variants",
+    "proposed_effects": [
+      "fit_state",
+      "row_preserving"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": true,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_cb94e4d70763_wrap2"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": false,
+    "N1_reason": "effect lacks deterministic proof: reviewed stateful API; upstream SSA/pointer propagation retained",
+    "candidate_id": "b822b74abe76b5da174bfe3bc408518f0926b187b20d982f8b917dfb3e0c780f",
+    "canonical_method": "StandardScaler.fit_transform",
+    "cohort": "variants",
+    "proposed_effects": [
+      "fit_state",
+      "row_preserving"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": true,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_cb94e4d70763_wrap2"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "c9464e5f01cb29c4a4629d21fe054accac07a804188c1b7df7ad1b780ac032ee",
+    "canonical_method": "sklearn.preprocessing.scale",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_da539182d1da_comments"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "51ec27644fee1718166bd52980ae99df77081743dba6ddbf57d50766d01e6d83",
+    "canonical_method": "sklearn.preprocessing.scale",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_da539182d1da_rename"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "8fe0066e36d30b7322926a08520605a0ec897e6e16e9ee463e798c1093180950",
+    "canonical_method": "StandardScaler.fit",
+    "cohort": "variants",
+    "proposed_effects": [
+      "fit_state"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_e9b92f547a24_comments"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "10519841ce48bc4d5e81b717bd8cdbfb5624ac7f246e78897e93b00d5e09f291",
+    "canonical_method": "StandardScaler.fit",
+    "cohort": "variants",
+    "proposed_effects": [
+      "fit_state"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_e9b92f547a24_rename"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "808810f556340f1cda3132224876bbc95c503d06711bd184c95dcfd27584454d",
+    "canonical_method": "StandardScaler.fit",
+    "cohort": "variants",
+    "proposed_effects": [
+      "fit_state"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_e9b92f547a24_wrap1"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "808810f556340f1cda3132224876bbc95c503d06711bd184c95dcfd27584454d",
+    "canonical_method": "StandardScaler.fit",
+    "cohort": "variants",
+    "proposed_effects": [
+      "fit_state"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "fit_state",
+    "rule_proof_reason": "reviewed stateful API; upstream SSA/pointer propagation retained",
+    "sample_id": "case_e9b92f547a24_wrap2"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "b9f0788ed54689984837f48f3dd4e699e3ded42be31aa46feae566d9ba8c83df",
+    "canonical_method": "pandas.DataFrame.std",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_ed7bb25ecde0_comments"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "0188092f5bd2b24a0aa6717a88c747dc414f38def0619126eb4f8edfc65406ac",
+    "canonical_method": "pandas.DataFrame.std",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_ed7bb25ecde0_rename"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "474234cda740987078f1b3b5428480d99eb06c3b13f0608ee1584a4b04885276",
+    "canonical_method": "DataFrame.std",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_ed7bb25ecde0_wrap1"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "b69455a6e00f344c09cc0dbdc127744c57f6f8076403b683a0a2b0d439454ab9",
+    "canonical_method": "DataFrame.std",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_ed7bb25ecde0_wrap2"
+  },
+  {
+    "N0_accepted": false,
+    "N1_accepted": false,
+    "N1_reason": "code evidence does not match candidate",
+    "candidate_id": "f0a14acf15d6b8f51c1ad47e8de0b42e52da65f6219c2c49367003107d671ff7",
+    "canonical_method": "sklearn.preprocessing.scale",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_f2326d87807f_comments"
+  },
+  {
+    "N0_accepted": false,
+    "N1_accepted": false,
+    "N1_reason": "code evidence does not match candidate",
+    "candidate_id": "0aebc252d07e00caf9b388f528e7c780c3d62aae07d33cc8ff821b7a51d386ed",
+    "canonical_method": "sklearn.preprocessing.scale",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "row_preserving",
+    "rule_proof_reason": "reduction excludes sample axis 0",
+    "sample_id": "case_f2326d87807f_comments"
+  },
+  {
+    "N0_accepted": false,
+    "N1_accepted": false,
+    "N1_reason": "code evidence does not match candidate",
+    "candidate_id": "881f389d9381cb17dd64260137f8d4cc14b856f3ffd3da6ff009ab129f73f047",
+    "canonical_method": "sklearn.preprocessing.scale",
+    "cohort": "variants",
+    "proposed_effects": [
+      "fit_state"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_f2326d87807f_rename"
+  },
+  {
+    "N0_accepted": false,
+    "N1_accepted": false,
+    "N1_reason": "code evidence does not match candidate",
+    "candidate_id": "cecdd49371f74e8eaeb3c52413c9f6a4520158009ebf60acb21986942483a59d",
+    "canonical_method": "sklearn.preprocessing.scale",
+    "cohort": "variants",
+    "proposed_effects": [
+      "row_preserving"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "row_preserving",
+    "rule_proof_reason": "reduction excludes sample axis 0",
+    "sample_id": "case_f2326d87807f_rename"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "238d655113c95813d0bd64fc4fe33ca8954ad7dd3ecd8e1ee9871ffac4029c76",
+    "canonical_method": "pandas.DataFrame.mean",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_fb954494afec_comments"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "b3076d6bc30730760b1c49cf01ee02d04b1470840d0af1190978086c50b7692b",
+    "canonical_method": "pandas.DataFrame.mean",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_fb954494afec_rename"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "a0c0f6a1ddbd183a1435bbdde26e1da8520531d7a6822cb8dda0daee5652dd19",
+    "canonical_method": "DataFrame.mean",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_fb954494afec_wrap1"
+  },
+  {
+    "N0_accepted": true,
+    "N1_accepted": true,
+    "N1_reason": "verified within declared primitive subset",
+    "candidate_id": "4fc1d83d1f306d0c264c9f0bfb65d96c7d634d95285d1be602f2cac7b8763351",
+    "canonical_method": "DataFrame.mean",
+    "cohort": "variants",
+    "proposed_effects": [
+      "cross_row_reduce"
+    ],
+    "review_status": "rule-relative audit; independent student semantic review pending",
+    "row_preserving_against_cross_row_rule": false,
+    "rule_effect": "cross_row_reduce",
+    "rule_proof_reason": "reduction includes sample axis 0",
+    "sample_id": "case_fb954494afec_wrap2"
+  }
+]

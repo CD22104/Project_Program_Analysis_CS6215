@@ -1,0 +1,88 @@
+{
+  "attempts": [
+    {
+      "attempt": 1,
+      "elapsed_seconds": 2.4788940604776144,
+      "model_returned": "qwen3-coder-next",
+      "reservation_tokens": 8188,
+      "response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "annotations": null,
+              "audio": null,
+              "content": "{\n  \"candidate_id\": \"d78198f3126ddaa6bf644d57a9abb822fba316620291910feadfd37d7799b1a7\",\n  \"context\": \"[, $invo7]\",\n  \"effects\": [\n    {\n      \"evidence_line\": 24,\n      \"input_index\": 0,\n      \"kind\": \"cross_row_reduce\",\n      \"output_index\": 0,\n      \"primitive\": \"DataFrame.median\",\n      \"receiver\": \"item_0_0\",\n      \"state_version\": null\n    }\n  ],\n  \"invocation\": \"$invo3\",\n  \"ir_sha256\": \"aca0ae7e1410ff0a6e0fb818efa98e5755ea906905e6f22c95a5058361198bac\",\n  \"primitive_spec_sha256\": \"235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497\",\n  \"source_sha256\": \"ffccc11da45ee838bc557b302efc69dac405cb4d429d86dbf3b85b5e9069b20d\",\n  \"unresolved\": []\n}",
+              "function_call": null,
+              "reasoning": null,
+              "refusal": null,
+              "role": "assistant"
+            },
+            "routed_experts": null,
+            "stop_reason": null,
+            "token_ids": null
+          }
+        ],
+        "created": 1792043969,
+        "ec_transfer_params": null,
+        "id": "chatcmpl-9c4109f180df5cc6",
+        "kv_transfer_params": null,
+        "metrics": null,
+        "model": "qwen3-coder-next",
+        "object": "chat.completion",
+        "prompt_logprobs": null,
+        "prompt_text": null,
+        "prompt_token_ids": null,
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.26.0-1cf708c9",
+        "usage": {
+          "completion_tokens": 362,
+          "prompt_tokens": 1739,
+          "prompt_tokens_details": null,
+          "total_tokens": 2101
+        }
+      },
+      "success": true,
+      "usage": {
+        "completion_tokens": 362,
+        "prompt_tokens": 1739,
+        "prompt_tokens_details": null,
+        "total_tokens": 2101
+      }
+    }
+  ],
+  "cache_hit": false,
+  "cache_key": "4d22f582f897be9ba71c629d160ecd066525b5d1485b30c4b40e167eae10e454",
+  "candidate_id": "d78198f3126ddaa6bf644d57a9abb822fba316620291910feadfd37d7799b1a7",
+  "messages_sha256": "99a5d76d775a05bf7d0dd452f0e0ba2b81663a666105d573cb6a2a3c77a82436",
+  "model_requested": "qwen3-coder-next",
+  "origin": "live_api",
+  "parameters": {
+    "max_tokens": 1200,
+    "temperature": 0
+  },
+  "replicate": 0,
+  "request_body_policy": "Private original retained; reconstruct from source/frontend and versioned prompt. No request code redistributed.",
+  "summary": {
+    "candidate_id": "d78198f3126ddaa6bf644d57a9abb822fba316620291910feadfd37d7799b1a7",
+    "context": "[, $invo7]",
+    "effects": [
+      {
+        "evidence_line": 24,
+        "input_index": 0,
+        "kind": "cross_row_reduce",
+        "output_index": 0,
+        "primitive": "DataFrame.median",
+        "receiver": "item_0_0",
+        "state_version": null
+      }
+    ],
+    "invocation": "$invo3",
+    "ir_sha256": "aca0ae7e1410ff0a6e0fb818efa98e5755ea906905e6f22c95a5058361198bac",
+    "primitive_spec_sha256": "235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497",
+    "source_sha256": "ffccc11da45ee838bc557b302efc69dac405cb4d429d86dbf3b85b5e9069b20d",
+    "unresolved": []
+  }
+}

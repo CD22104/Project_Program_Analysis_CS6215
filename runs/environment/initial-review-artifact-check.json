@@ -1,0 +1,8 @@
+{
+  "archive_sha256": "3be0c5975eec64b58d9957eb5ef59a56631ed991e66c0a35c9cc48f932dacea0",
+  "extracted_directory": "/tmp/cs6215-clean-repro-k1h36sf9/leakage-project",
+  "file_count": 1289,
+  "forbidden_file_matches": 0,
+  "manifest_hashes_verified": 1288,
+  "secret_value_matches": 0
+}

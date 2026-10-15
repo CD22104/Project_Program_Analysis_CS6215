@@ -1,0 +1,16 @@
+logreg_cv_0	X_train	$invo20	GridSearchCV.fit	[, ]	logreg_cv_0	X_test	$invo23	BaseSearchCV.score	[, ]	transform	X
+logreg_cv_0	X_train	$invo20	GridSearchCV.fit	[, ]	logreg_cv_0	X_test	$invo23	BaseSearchCV.score	[, ]	X_0	X
+logreg_cv_0	X_train	$invo20	GridSearchCV.fit	[, ]	logreg_cv_0	X_test	$invo24	BaseSearchCV.predict	[, ]	transform	X
+logreg_cv_0	X_train	$invo20	GridSearchCV.fit	[, ]	logreg_cv_0	X_test	$invo24	BaseSearchCV.predict	[, ]	X_0	X
+svm_cv_0	X_train	$invo30	GridSearchCV.fit	[, ]	svm_cv_0	X_test	$invo33	BaseSearchCV.score	[, ]	transform	X
+svm_cv_0	X_train	$invo30	GridSearchCV.fit	[, ]	svm_cv_0	X_test	$invo33	BaseSearchCV.score	[, ]	X_0	X
+svm_cv_0	X_train	$invo30	GridSearchCV.fit	[, ]	svm_cv_0	X_test	$invo34	BaseSearchCV.predict	[, ]	transform	X
+svm_cv_0	X_train	$invo30	GridSearchCV.fit	[, ]	svm_cv_0	X_test	$invo34	BaseSearchCV.predict	[, ]	X_0	X
+svm_cv_0	X_train	$invo30	GridSearchCV.fit	[, ]	svm_cv_0	X_test	$invo42	BaseSearchCV.predict	[, ]	transform	X
+svm_cv_0	X_train	$invo30	GridSearchCV.fit	[, ]	svm_cv_0	X_test	$invo42	BaseSearchCV.predict	[, ]	X_0	X
+tree_cv_0	X_train	$invo38	GridSearchCV.fit	[, ]	tree_cv_0	X_test	$invo41	BaseSearchCV.score	[, ]	transform	X
+tree_cv_0	X_train	$invo38	GridSearchCV.fit	[, ]	tree_cv_0	X_test	$invo41	BaseSearchCV.score	[, ]	X_0	X
+knn_cv_0	X_train	$invo46	GridSearchCV.fit	[, ]	knn_cv_0	X_test	$invo49	BaseSearchCV.score	[, ]	transform	X
+knn_cv_0	X_train	$invo46	GridSearchCV.fit	[, ]	knn_cv_0	X_test	$invo49	BaseSearchCV.score	[, ]	X_0	X
+knn_cv_0	X_train	$invo46	GridSearchCV.fit	[, ]	knn_cv_0	X_test	$invo50	BaseSearchCV.predict	[, ]	transform	X
+knn_cv_0	X_train	$invo46	GridSearchCV.fit	[, ]	knn_cv_0	X_test	$invo50	BaseSearchCV.predict	[, ]	X_0	X

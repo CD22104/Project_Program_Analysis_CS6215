@@ -1,0 +1,74 @@
+[
+  {
+    "actual_methods": [
+      "LogisticRegression.fit"
+    ],
+    "elapsed_seconds": 3.5387009736150503,
+    "expected_methods": [
+      "LogisticRegression.fit"
+    ],
+    "passed": true,
+    "sample": "test0.py",
+    "status": "leak"
+  },
+  {
+    "actual_methods": [
+      "LogisticRegression.fit"
+    ],
+    "elapsed_seconds": 3.6458227075636387,
+    "expected_methods": [
+      "LogisticRegression.fit"
+    ],
+    "passed": true,
+    "sample": "test1.py",
+    "status": "leak"
+  },
+  {
+    "actual_methods": [
+      "LogisticRegression.fit"
+    ],
+    "elapsed_seconds": 3.641878966242075,
+    "expected_methods": [
+      "LogisticRegression.fit"
+    ],
+    "passed": true,
+    "sample": "test2.py",
+    "status": "leak"
+  },
+  {
+    "actual_methods": [],
+    "elapsed_seconds": 3.486996365711093,
+    "expected_methods": [],
+    "passed": true,
+    "sample": "test3.py",
+    "status": "no_finding"
+  },
+  {
+    "actual_methods": [],
+    "elapsed_seconds": 4.136494252830744,
+    "expected_methods": [],
+    "passed": true,
+    "sample": "test4.py",
+    "status": "no_finding"
+  },
+  {
+    "actual_methods": [
+      "LogisticRegression.fit"
+    ],
+    "elapsed_seconds": 3.3852477818727493,
+    "expected_methods": [
+      "LogisticRegression.fit"
+    ],
+    "passed": true,
+    "sample": "wrapper_positive.py",
+    "status": "leak"
+  },
+  {
+    "actual_methods": [],
+    "elapsed_seconds": 3.6943894755095243,
+    "expected_methods": [],
+    "passed": true,
+    "sample": "wrapper_negative.py",
+    "status": "no_finding"
+  }
+]

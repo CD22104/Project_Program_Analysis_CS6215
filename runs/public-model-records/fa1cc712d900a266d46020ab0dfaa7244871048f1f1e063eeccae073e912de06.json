@@ -1,0 +1,106 @@
+{
+  "attempts": [
+    {
+      "attempt": 1,
+      "elapsed_seconds": 3.1639798041433096,
+      "model_returned": "qwen3-coder-next",
+      "reservation_tokens": 8086,
+      "response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "annotations": null,
+              "audio": null,
+              "content": "{\n  \"candidate_id\": \"46d1b44a5e50caa5852ca3dc6c593049f58309e2b10173fcd411c789caa92f18\",\n  \"context\": \"[, ]\",\n  \"effects\": [\n    {\n      \"evidence_line\": 61,\n      \"input_index\": 1,\n      \"kind\": \"fit_state\",\n      \"output_index\": 0,\n      \"primitive\": \"StandardScaler.fit_transform\",\n      \"receiver\": \"transform\",\n      \"state_version\": \"$invo16:[, ]\"\n    },\n    {\n      \"evidence_line\": 61,\n      \"input_index\": 1,\n      \"kind\": \"apply_state\",\n      \"output_index\": 0,\n      \"primitive\": \"StandardScaler.fit_transform\",\n      \"receiver\": \"transform\",\n      \"state_version\": \"$invo16:[, ]\"\n    },\n    {\n      \"evidence_line\": 61,\n      \"input_index\": 1,\n      \"kind\": \"row_preserving\",\n      \"output_index\": 0,\n      \"primitive\": \"StandardScaler.fit_transform\",\n      \"receiver\": \"transform\",\n      \"state_version\": \"$invo16:[, ]\"\n    }\n  ],\n  \"invocation\": \"$invo16\",\n  \"ir_sha256\": \"d741c55605b28157f2eef0ac28f21006659e11efb2355de76cb6249a519c4a17\",\n  \"primitive_spec_sha256\": \"235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497\",\n  \"source_sha256\": \"1efe230739e64b01a5907d20fe46dcbeacddae90107d058a7dabaffcabff3f2e\",\n  \"unresolved\": []\n}",
+              "function_call": null,
+              "reasoning": null,
+              "refusal": null,
+              "role": "assistant"
+            },
+            "routed_experts": null,
+            "stop_reason": null,
+            "token_ids": null
+          }
+        ],
+        "created": 1792043419,
+        "ec_transfer_params": null,
+        "id": "chatcmpl-806ecbde4781928c",
+        "kv_transfer_params": null,
+        "metrics": null,
+        "model": "qwen3-coder-next",
+        "object": "chat.completion",
+        "prompt_logprobs": null,
+        "prompt_text": null,
+        "prompt_token_ids": null,
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.26.0-1cf708c9",
+        "usage": {
+          "completion_tokens": 507,
+          "prompt_tokens": 1700,
+          "prompt_tokens_details": null,
+          "total_tokens": 2207
+        }
+      },
+      "success": true,
+      "usage": {
+        "completion_tokens": 507,
+        "prompt_tokens": 1700,
+        "prompt_tokens_details": null,
+        "total_tokens": 2207
+      }
+    }
+  ],
+  "cache_hit": false,
+  "cache_key": "fa1cc712d900a266d46020ab0dfaa7244871048f1f1e063eeccae073e912de06",
+  "candidate_id": "46d1b44a5e50caa5852ca3dc6c593049f58309e2b10173fcd411c789caa92f18",
+  "messages_sha256": "237c9139dde18a78646efb71e7e4879f3e53b524c38776a6a4d33ba26528e546",
+  "model_requested": "qwen3-coder-next",
+  "origin": "live_api",
+  "parameters": {
+    "max_tokens": 1200,
+    "temperature": 0
+  },
+  "replicate": 0,
+  "request_body_policy": "Private original retained; reconstruct from source/frontend and versioned prompt. No request code redistributed.",
+  "summary": {
+    "candidate_id": "46d1b44a5e50caa5852ca3dc6c593049f58309e2b10173fcd411c789caa92f18",
+    "context": "[, ]",
+    "effects": [
+      {
+        "evidence_line": 61,
+        "input_index": 1,
+        "kind": "fit_state",
+        "output_index": 0,
+        "primitive": "StandardScaler.fit_transform",
+        "receiver": "transform",
+        "state_version": "$invo16:[, ]"
+      },
+      {
+        "evidence_line": 61,
+        "input_index": 1,
+        "kind": "apply_state",
+        "output_index": 0,
+        "primitive": "StandardScaler.fit_transform",
+        "receiver": "transform",
+        "state_version": "$invo16:[, ]"
+      },
+      {
+        "evidence_line": 61,
+        "input_index": 1,
+        "kind": "row_preserving",
+        "output_index": 0,
+        "primitive": "StandardScaler.fit_transform",
+        "receiver": "transform",
+        "state_version": "$invo16:[, ]"
+      }
+    ],
+    "invocation": "$invo16",
+    "ir_sha256": "d741c55605b28157f2eef0ac28f21006659e11efb2355de76cb6249a519c4a17",
+    "primitive_spec_sha256": "235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497",
+    "source_sha256": "1efe230739e64b01a5907d20fe46dcbeacddae90107d058a7dabaffcabff3f2e",
+    "unresolved": []
+  }
+}

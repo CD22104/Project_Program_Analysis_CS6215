@@ -1,0 +1,63 @@
+{
+  "base_sample_id": null,
+  "command": [
+    "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+    "-m",
+    "src.main",
+    "/home/dchen/workplace/CS6215/leakage-project/runs/formal-real-v1/real_1859b28c0b0f/S0/work/input.py"
+  ],
+  "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+  "diagnostics": [],
+  "elapsed_seconds": 5.169661905616522,
+  "errors": [],
+  "family": null,
+  "location_available": false,
+  "method": "S0",
+  "partition": "test",
+  "raw_preprocessing_rows": [
+    [
+      "data_5",
+      "$invo42",
+      "LogisticRegressionCV.fit",
+      "[, ]"
+    ]
+  ],
+  "returncode": 0,
+  "sample_id": "real_1859b28c0b0f",
+  "scope_projection": "raw upstream; may include test-only effects",
+  "scope_status": "leak",
+  "source_kind": "real",
+  "source_sha256": "ffce19a49649ed904d1004954819d48d7e63e50a82e0b2504bdb5acf035ab390",
+  "status": "leak",
+  "train_affecting_projection": [
+    [
+      "model_0",
+      "xtrain",
+      "$invo42",
+      "LogisticRegressionCV.fit",
+      "[, ]",
+      "model_0",
+      "xtest",
+      "$invo43",
+      "LogisticRegressionCV.predict",
+      "[, ]",
+      "_var28",
+      "data_5"
+    ],
+    [
+      "model_0",
+      "xtrain",
+      "$invo42",
+      "LogisticRegressionCV.fit",
+      "[, ]",
+      "model_0",
+      "xtest",
+      "$invo45",
+      "LogisticRegressionCV.score",
+      "[, ]",
+      "_var28",
+      "data_5"
+    ]
+  ],
+  "variant": null
+}

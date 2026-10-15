@@ -1,0 +1,44 @@
+{
+  "base_sample_id": "case_0fbb10694559",
+  "checks": [
+    {
+      "accepted": true,
+      "candidate_id": "4068018a3d8bb45e61edbaa0b930c9b3dd5908e8297e408d78ac439da976e0a2",
+      "reason": "structure and references only",
+      "semantic_checked": false
+    },
+    {
+      "accepted": true,
+      "candidate_id": "91855c5a9a186d95ca1412bbf2f2c675dcf2f4a4e8c4d9ed8bf005609261e114",
+      "reason": "structure and references only",
+      "semantic_checked": false
+    },
+    {
+      "accepted": true,
+      "candidate_id": "9b86907111f31ad24e7c5c86f7e2c96117c3b9946eaf88b86f1591e38f056399",
+      "reason": "structure and references only",
+      "semantic_checked": false
+    }
+  ],
+  "config_sha256": "4a17f1742d1f8aaa0eb6ec4ee224e8eb865e9b20b037ecf59f8e8d6ffd3c667c",
+  "conservative_fallback_status": "no_finding",
+  "diagnostics": [],
+  "elapsed_seconds": 0.4742967337369919,
+  "errors": [],
+  "family": "F17",
+  "frontend_elapsed_seconds": 3.6551057882606983,
+  "location_available": false,
+  "method": "N0",
+  "partition": "test",
+  "raw_preprocessing_rows": [],
+  "sample_id": "case_0fbb10694559_comments",
+  "scope_projection_limit": "train dependence and evaluation overlap joined with the exact reduction contexts; no safe-program claim",
+  "scope_status": "no_finding",
+  "source_kind": "controlled",
+  "source_sha256": "e2180e3ef8f1f0fa9195e8e2a9ce1758c1d102cc40f1e1e9516eac7949d49028",
+  "status": "no_finding",
+  "summary_batch_sha256": "7c97467398a12642a0efc16e6bfa9776e5f526a0c33455d8e305891a34e9559b",
+  "train_affecting_projection": [],
+  "unknown_reasons": [],
+  "variant": "comments"
+}

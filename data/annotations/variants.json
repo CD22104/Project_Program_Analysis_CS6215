@@ -1,0 +1,1282 @@
+[
+  {
+    "base_sample_id": "case_ed7bb25ecde0",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F08",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_ed7bb25ecde0_rename"
+  },
+  {
+    "base_sample_id": "case_ed7bb25ecde0",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F08",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_ed7bb25ecde0_wrap1"
+  },
+  {
+    "base_sample_id": "case_ed7bb25ecde0",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F08",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_ed7bb25ecde0_wrap2"
+  },
+  {
+    "base_sample_id": "case_ed7bb25ecde0",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F08",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_ed7bb25ecde0_comments"
+  },
+  {
+    "base_sample_id": "case_0b5b895c8fa0",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F08",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_0b5b895c8fa0_rename"
+  },
+  {
+    "base_sample_id": "case_0b5b895c8fa0",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F08",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_0b5b895c8fa0_wrap1"
+  },
+  {
+    "base_sample_id": "case_0b5b895c8fa0",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F08",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_0b5b895c8fa0_wrap2"
+  },
+  {
+    "base_sample_id": "case_0b5b895c8fa0",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F08",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_0b5b895c8fa0_comments"
+  },
+  {
+    "base_sample_id": "case_445466d5177f",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F09",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_445466d5177f_rename"
+  },
+  {
+    "base_sample_id": "case_445466d5177f",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F09",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_445466d5177f_wrap1"
+  },
+  {
+    "base_sample_id": "case_445466d5177f",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F09",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_445466d5177f_wrap2"
+  },
+  {
+    "base_sample_id": "case_445466d5177f",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F09",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_445466d5177f_comments"
+  },
+  {
+    "base_sample_id": "case_33f17c1e6015",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F09",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_33f17c1e6015_rename"
+  },
+  {
+    "base_sample_id": "case_33f17c1e6015",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F09",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_33f17c1e6015_wrap1"
+  },
+  {
+    "base_sample_id": "case_33f17c1e6015",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F09",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_33f17c1e6015_wrap2"
+  },
+  {
+    "base_sample_id": "case_33f17c1e6015",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F09",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_33f17c1e6015_comments"
+  },
+  {
+    "base_sample_id": "case_9c795b58664d",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F10",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_9c795b58664d_rename"
+  },
+  {
+    "base_sample_id": "case_9c795b58664d",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F10",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_9c795b58664d_wrap1"
+  },
+  {
+    "base_sample_id": "case_9c795b58664d",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F10",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_9c795b58664d_wrap2"
+  },
+  {
+    "base_sample_id": "case_9c795b58664d",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F10",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_9c795b58664d_comments"
+  },
+  {
+    "base_sample_id": "case_b03ecac40a6f",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F10",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_b03ecac40a6f_rename"
+  },
+  {
+    "base_sample_id": "case_b03ecac40a6f",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F10",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_b03ecac40a6f_wrap1"
+  },
+  {
+    "base_sample_id": "case_b03ecac40a6f",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F10",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_b03ecac40a6f_wrap2"
+  },
+  {
+    "base_sample_id": "case_b03ecac40a6f",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F10",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_b03ecac40a6f_comments"
+  },
+  {
+    "base_sample_id": "case_a6fcbcdaecb1",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F11",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_a6fcbcdaecb1_rename"
+  },
+  {
+    "base_sample_id": "case_a6fcbcdaecb1",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F11",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_a6fcbcdaecb1_wrap1"
+  },
+  {
+    "base_sample_id": "case_a6fcbcdaecb1",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F11",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_a6fcbcdaecb1_wrap2"
+  },
+  {
+    "base_sample_id": "case_a6fcbcdaecb1",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F11",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_a6fcbcdaecb1_comments"
+  },
+  {
+    "base_sample_id": "case_5fb5a96c66c2",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F11",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_5fb5a96c66c2_rename"
+  },
+  {
+    "base_sample_id": "case_5fb5a96c66c2",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F11",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_5fb5a96c66c2_wrap1"
+  },
+  {
+    "base_sample_id": "case_5fb5a96c66c2",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F11",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_5fb5a96c66c2_wrap2"
+  },
+  {
+    "base_sample_id": "case_5fb5a96c66c2",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F11",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_5fb5a96c66c2_comments"
+  },
+  {
+    "base_sample_id": "case_a9aeb5f966a1",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F12",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_a9aeb5f966a1_rename"
+  },
+  {
+    "base_sample_id": "case_a9aeb5f966a1",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F12",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_a9aeb5f966a1_wrap1"
+  },
+  {
+    "base_sample_id": "case_a9aeb5f966a1",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F12",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_a9aeb5f966a1_wrap2"
+  },
+  {
+    "base_sample_id": "case_a9aeb5f966a1",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F12",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_a9aeb5f966a1_comments"
+  },
+  {
+    "base_sample_id": "case_64e55c941f68",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F12",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_64e55c941f68_rename"
+  },
+  {
+    "base_sample_id": "case_64e55c941f68",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F12",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_64e55c941f68_wrap1"
+  },
+  {
+    "base_sample_id": "case_64e55c941f68",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F12",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_64e55c941f68_wrap2"
+  },
+  {
+    "base_sample_id": "case_64e55c941f68",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F12",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_64e55c941f68_comments"
+  },
+  {
+    "base_sample_id": "case_97addf1be1b9",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F13",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_97addf1be1b9_rename"
+  },
+  {
+    "base_sample_id": "case_97addf1be1b9",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F13",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_97addf1be1b9_wrap1"
+  },
+  {
+    "base_sample_id": "case_97addf1be1b9",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F13",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_97addf1be1b9_wrap2"
+  },
+  {
+    "base_sample_id": "case_97addf1be1b9",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F13",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_97addf1be1b9_comments"
+  },
+  {
+    "base_sample_id": "case_92db697b2304",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F13",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_92db697b2304_rename"
+  },
+  {
+    "base_sample_id": "case_92db697b2304",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F13",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_92db697b2304_wrap1"
+  },
+  {
+    "base_sample_id": "case_92db697b2304",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F13",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_92db697b2304_wrap2"
+  },
+  {
+    "base_sample_id": "case_92db697b2304",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F13",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_92db697b2304_comments"
+  },
+  {
+    "base_sample_id": "case_4f079407f4ee",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F14",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_4f079407f4ee_rename"
+  },
+  {
+    "base_sample_id": "case_4f079407f4ee",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F14",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_4f079407f4ee_wrap1"
+  },
+  {
+    "base_sample_id": "case_4f079407f4ee",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F14",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_4f079407f4ee_wrap2"
+  },
+  {
+    "base_sample_id": "case_4f079407f4ee",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F14",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_4f079407f4ee_comments"
+  },
+  {
+    "base_sample_id": "case_27297e919d01",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F14",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_27297e919d01_rename"
+  },
+  {
+    "base_sample_id": "case_27297e919d01",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F14",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_27297e919d01_wrap1"
+  },
+  {
+    "base_sample_id": "case_27297e919d01",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F14",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_27297e919d01_wrap2"
+  },
+  {
+    "base_sample_id": "case_27297e919d01",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F14",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_27297e919d01_comments"
+  },
+  {
+    "base_sample_id": "case_93bfc19cb919",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F15",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_93bfc19cb919_rename"
+  },
+  {
+    "base_sample_id": "case_93bfc19cb919",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F15",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_93bfc19cb919_wrap1"
+  },
+  {
+    "base_sample_id": "case_93bfc19cb919",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F15",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_93bfc19cb919_wrap2"
+  },
+  {
+    "base_sample_id": "case_93bfc19cb919",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F15",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_93bfc19cb919_comments"
+  },
+  {
+    "base_sample_id": "case_7273981d4ca5",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F15",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_7273981d4ca5_rename"
+  },
+  {
+    "base_sample_id": "case_7273981d4ca5",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F15",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_7273981d4ca5_wrap1"
+  },
+  {
+    "base_sample_id": "case_7273981d4ca5",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F15",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_7273981d4ca5_wrap2"
+  },
+  {
+    "base_sample_id": "case_7273981d4ca5",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F15",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_7273981d4ca5_comments"
+  },
+  {
+    "base_sample_id": "case_1f1523f46002",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F16",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_1f1523f46002_rename"
+  },
+  {
+    "base_sample_id": "case_1f1523f46002",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F16",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_1f1523f46002_wrap1"
+  },
+  {
+    "base_sample_id": "case_1f1523f46002",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F16",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_1f1523f46002_wrap2"
+  },
+  {
+    "base_sample_id": "case_1f1523f46002",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F16",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_1f1523f46002_comments"
+  },
+  {
+    "base_sample_id": "case_745c80c4dd62",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F16",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_745c80c4dd62_rename"
+  },
+  {
+    "base_sample_id": "case_745c80c4dd62",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F16",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_745c80c4dd62_wrap1"
+  },
+  {
+    "base_sample_id": "case_745c80c4dd62",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F16",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_745c80c4dd62_wrap2"
+  },
+  {
+    "base_sample_id": "case_745c80c4dd62",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F16",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_745c80c4dd62_comments"
+  },
+  {
+    "base_sample_id": "case_8bd8f2786d4a",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F17",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_8bd8f2786d4a_rename"
+  },
+  {
+    "base_sample_id": "case_8bd8f2786d4a",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F17",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_8bd8f2786d4a_wrap1"
+  },
+  {
+    "base_sample_id": "case_8bd8f2786d4a",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F17",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_8bd8f2786d4a_wrap2"
+  },
+  {
+    "base_sample_id": "case_8bd8f2786d4a",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F17",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_8bd8f2786d4a_comments"
+  },
+  {
+    "base_sample_id": "case_0fbb10694559",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F17",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_0fbb10694559_rename"
+  },
+  {
+    "base_sample_id": "case_0fbb10694559",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F17",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_0fbb10694559_wrap1"
+  },
+  {
+    "base_sample_id": "case_0fbb10694559",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F17",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_0fbb10694559_wrap2"
+  },
+  {
+    "base_sample_id": "case_0fbb10694559",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F17",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_0fbb10694559_comments"
+  },
+  {
+    "base_sample_id": "case_da539182d1da",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F18",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_da539182d1da_rename"
+  },
+  {
+    "base_sample_id": "case_da539182d1da",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F18",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_da539182d1da_wrap1"
+  },
+  {
+    "base_sample_id": "case_da539182d1da",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F18",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_da539182d1da_wrap2"
+  },
+  {
+    "base_sample_id": "case_da539182d1da",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F18",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_da539182d1da_comments"
+  },
+  {
+    "base_sample_id": "case_64edd7f488bb",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F18",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_64edd7f488bb_rename"
+  },
+  {
+    "base_sample_id": "case_64edd7f488bb",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F18",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_64edd7f488bb_wrap1"
+  },
+  {
+    "base_sample_id": "case_64edd7f488bb",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F18",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_64edd7f488bb_wrap2"
+  },
+  {
+    "base_sample_id": "case_64edd7f488bb",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F18",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_64edd7f488bb_comments"
+  },
+  {
+    "base_sample_id": "case_c103edfd32a9",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F19",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_c103edfd32a9_rename"
+  },
+  {
+    "base_sample_id": "case_c103edfd32a9",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F19",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_c103edfd32a9_wrap1"
+  },
+  {
+    "base_sample_id": "case_c103edfd32a9",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F19",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_c103edfd32a9_wrap2"
+  },
+  {
+    "base_sample_id": "case_c103edfd32a9",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F19",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_c103edfd32a9_comments"
+  },
+  {
+    "base_sample_id": "case_d0c1ea236d94",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F19",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_d0c1ea236d94_rename"
+  },
+  {
+    "base_sample_id": "case_d0c1ea236d94",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F19",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_d0c1ea236d94_wrap1"
+  },
+  {
+    "base_sample_id": "case_d0c1ea236d94",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F19",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_d0c1ea236d94_wrap2"
+  },
+  {
+    "base_sample_id": "case_d0c1ea236d94",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F19",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_d0c1ea236d94_comments"
+  },
+  {
+    "base_sample_id": "case_f2326d87807f",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F20",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_f2326d87807f_rename"
+  },
+  {
+    "base_sample_id": "case_f2326d87807f",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F20",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_f2326d87807f_wrap1"
+  },
+  {
+    "base_sample_id": "case_f2326d87807f",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F20",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_f2326d87807f_wrap2"
+  },
+  {
+    "base_sample_id": "case_f2326d87807f",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F20",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_f2326d87807f_comments"
+  },
+  {
+    "base_sample_id": "case_69f8e9228ea8",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F20",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_69f8e9228ea8_rename"
+  },
+  {
+    "base_sample_id": "case_69f8e9228ea8",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F20",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_69f8e9228ea8_wrap1"
+  },
+  {
+    "base_sample_id": "case_69f8e9228ea8",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F20",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_69f8e9228ea8_wrap2"
+  },
+  {
+    "base_sample_id": "case_69f8e9228ea8",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F20",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_69f8e9228ea8_comments"
+  },
+  {
+    "base_sample_id": "case_fb954494afec",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F21",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_fb954494afec_rename"
+  },
+  {
+    "base_sample_id": "case_fb954494afec",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F21",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_fb954494afec_wrap1"
+  },
+  {
+    "base_sample_id": "case_fb954494afec",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F21",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_fb954494afec_wrap2"
+  },
+  {
+    "base_sample_id": "case_fb954494afec",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F21",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_fb954494afec_comments"
+  },
+  {
+    "base_sample_id": "case_93d0a8d5662e",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F21",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_93d0a8d5662e_rename"
+  },
+  {
+    "base_sample_id": "case_93d0a8d5662e",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F21",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_93d0a8d5662e_wrap1"
+  },
+  {
+    "base_sample_id": "case_93d0a8d5662e",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F21",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_93d0a8d5662e_wrap2"
+  },
+  {
+    "base_sample_id": "case_93d0a8d5662e",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F21",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_93d0a8d5662e_comments"
+  },
+  {
+    "base_sample_id": "case_e9b92f547a24",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F22",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_e9b92f547a24_rename"
+  },
+  {
+    "base_sample_id": "case_e9b92f547a24",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F22",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_e9b92f547a24_wrap1"
+  },
+  {
+    "base_sample_id": "case_e9b92f547a24",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F22",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_e9b92f547a24_wrap2"
+  },
+  {
+    "base_sample_id": "case_e9b92f547a24",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F22",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_e9b92f547a24_comments"
+  },
+  {
+    "base_sample_id": "case_555e8a6cbf1b",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F22",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_555e8a6cbf1b_rename"
+  },
+  {
+    "base_sample_id": "case_555e8a6cbf1b",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F22",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_555e8a6cbf1b_wrap1"
+  },
+  {
+    "base_sample_id": "case_555e8a6cbf1b",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F22",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_555e8a6cbf1b_wrap2"
+  },
+  {
+    "base_sample_id": "case_555e8a6cbf1b",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F22",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_555e8a6cbf1b_comments"
+  },
+  {
+    "base_sample_id": "case_709a9bea0169",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F23",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_709a9bea0169_rename"
+  },
+  {
+    "base_sample_id": "case_709a9bea0169",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F23",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_709a9bea0169_wrap1"
+  },
+  {
+    "base_sample_id": "case_709a9bea0169",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F23",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_709a9bea0169_wrap2"
+  },
+  {
+    "base_sample_id": "case_709a9bea0169",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F23",
+    "label": true,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_709a9bea0169_comments"
+  },
+  {
+    "base_sample_id": "case_cb94e4d70763",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F23",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_cb94e4d70763_rename"
+  },
+  {
+    "base_sample_id": "case_cb94e4d70763",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F23",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_cb94e4d70763_wrap1"
+  },
+  {
+    "base_sample_id": "case_cb94e4d70763",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F23",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_cb94e4d70763_wrap2"
+  },
+  {
+    "base_sample_id": "case_cb94e4d70763",
+    "basis": "Generator construction and documented dependency rationale; approved by the student in the final blanket confirmation on 2026-10-15.",
+    "family": "F23",
+    "label": false,
+    "review_date": "2026-10-15",
+    "review_status": "student_reviewed",
+    "reviewer": "Project author",
+    "sample_id": "case_cb94e4d70763_comments"
+  }
+]

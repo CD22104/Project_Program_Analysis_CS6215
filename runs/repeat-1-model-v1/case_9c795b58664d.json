@@ -1,0 +1,35 @@
+{
+  "cache_hits": {
+    "3d2151b846516968b2a023d006855a804115e7da21dfe88470c5bf0883088b32": false
+  },
+  "generation_elapsed_seconds": 2.322354616597295,
+  "model": "qwen3-coder-next",
+  "origin": "live_api",
+  "records": {
+    "3d2151b846516968b2a023d006855a804115e7da21dfe88470c5bf0883088b32": "8a6a4d62cea2dafee26647bad699caa47b6e28145f63f0470a5a92d336c42884"
+  },
+  "replicate": 1,
+  "source_sha256": "1f8c8cc0beeccc4ab8f7fbf9fed9fd86b4c4da60452ac1438775475995d5a362",
+  "summaries": {
+    "3d2151b846516968b2a023d006855a804115e7da21dfe88470c5bf0883088b32": {
+      "candidate_id": "3d2151b846516968b2a023d006855a804115e7da21dfe88470c5bf0883088b32",
+      "context": "[, ]",
+      "effects": [
+        {
+          "evidence_line": 31,
+          "input_index": 0,
+          "kind": "cross_row_reduce",
+          "output_index": 0,
+          "primitive": "pandas.DataFrame.min",
+          "receiver": "features",
+          "state_version": null
+        }
+      ],
+      "invocation": "$invo4",
+      "ir_sha256": "39e92281e1cb5d9baee688d5f0eeeb13bc30986db5dc40a6221f2b11d05274cb",
+      "primitive_spec_sha256": "235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497",
+      "source_sha256": "1f8c8cc0beeccc4ab8f7fbf9fed9fd86b4c4da60452ac1438775475995d5a362",
+      "unresolved": []
+    }
+  }
+}

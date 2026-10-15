@@ -1,0 +1,39 @@
+{
+  "archive": {
+    "author_html_count": 94,
+    "candidates": 21,
+    "confirmed_repository_count": 0,
+    "exclusions": {
+      "code-only export not Python-parseable: IndentationError": 2,
+      "code-only export not Python-parseable: JSONDecodeError": 1,
+      "code-only export not Python-parseable: SyntaxError": 46,
+      "code-only export not Python-parseable: TokenError": 1,
+      "no explicit fit and evaluation pair": 2,
+      "no statically explicit train_test_split; manual scope review needed": 27
+    },
+    "html_read": false,
+    "notebook_outputs_used": false,
+    "notebooks": 100,
+    "sha256": "b645e3efb3fb5dcaf5dadb0b33d441d6816aede4af8a17ce482a5116f9896ca1"
+  },
+  "ground-truth.csv": {
+    "blank_pre_count": 34,
+    "header_width": 6,
+    "parser": "positional first five documented fields; raw tail preserved",
+    "record_count": 100,
+    "record_widths": [
+      8
+    ],
+    "sha256": "bb6a349d3514f08e695815e98af02d1f794bfe4d1a48f98c9ff686673b6e4efc"
+  },
+  "manual-labels.csv": {
+    "blank_pre_count": 34,
+    "header_width": 6,
+    "parser": "positional first five documented fields; raw tail preserved",
+    "record_count": 100,
+    "record_widths": [
+      8
+    ],
+    "sha256": "075cde4f451354dff537ba1ae673d5dd6d631782892e34a525bdb20dd0ec200f"
+  }
+}

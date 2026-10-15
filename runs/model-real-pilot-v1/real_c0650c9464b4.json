@@ -1,0 +1,66 @@
+{
+  "cache_hits": {
+    "5b2ff8f6a8c4b6afed0d56c04cabfa8bc26af9f498e3266d4cac409d6648ce89": false,
+    "cafbafeb0d70ad01e9f8e8bc685d7c05708acae050245705d0bed62a511233d9": false
+  },
+  "generation_elapsed_seconds": 5.2251742742955685,
+  "model": "qwen3-coder-next",
+  "origin": "live_api",
+  "records": {
+    "5b2ff8f6a8c4b6afed0d56c04cabfa8bc26af9f498e3266d4cac409d6648ce89": "cb20fa176dc03dd5b810826dd76bb81672d2a7e3cc321b3141be15da81c72d12",
+    "cafbafeb0d70ad01e9f8e8bc685d7c05708acae050245705d0bed62a511233d9": "7bf491b5ffc4ee83446376bafb1c1b0d550c7df7437a97cdd009150efe4a5bf2"
+  },
+  "replicate": 0,
+  "source_sha256": "210ac476fdfcf75327d53d55fb5c07190ae74548d2cfc7f056d86c90e37da819",
+  "summaries": {
+    "5b2ff8f6a8c4b6afed0d56c04cabfa8bc26af9f498e3266d4cac409d6648ce89": {
+      "candidate_id": "5b2ff8f6a8c4b6afed0d56c04cabfa8bc26af9f498e3266d4cac409d6648ce89",
+      "context": "[, ]",
+      "effects": [
+        {
+          "evidence_line": 332,
+          "input_index": 1,
+          "kind": "fit_state",
+          "output_index": 0,
+          "primitive": "MinMaxScaler.fit_transform",
+          "receiver": "scaler",
+          "state_version": "$invo98:[, ]"
+        },
+        {
+          "evidence_line": 332,
+          "input_index": 1,
+          "kind": "row_preserving",
+          "output_index": 0,
+          "primitive": "MinMaxScaler.fit_transform",
+          "receiver": "scaler",
+          "state_version": "$invo98:[, ]"
+        }
+      ],
+      "invocation": "$invo98",
+      "ir_sha256": "ffb7b9beca0087d927a5da66c2ce524fc3e1719f34609851aa0462a86d65b6a2",
+      "primitive_spec_sha256": "235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497",
+      "source_sha256": "210ac476fdfcf75327d53d55fb5c07190ae74548d2cfc7f056d86c90e37da819",
+      "unresolved": []
+    },
+    "cafbafeb0d70ad01e9f8e8bc685d7c05708acae050245705d0bed62a511233d9": {
+      "candidate_id": "cafbafeb0d70ad01e9f8e8bc685d7c05708acae050245705d0bed62a511233d9",
+      "context": "[, ]",
+      "effects": [
+        {
+          "evidence_line": 345,
+          "input_index": 1,
+          "kind": "apply_state",
+          "output_index": 0,
+          "primitive": "MinMaxScaler.transform",
+          "receiver": "scaler",
+          "state_version": "$invo98:[, ]"
+        }
+      ],
+      "invocation": "$invo105",
+      "ir_sha256": "ffb7b9beca0087d927a5da66c2ce524fc3e1719f34609851aa0462a86d65b6a2",
+      "primitive_spec_sha256": "235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497",
+      "source_sha256": "210ac476fdfcf75327d53d55fb5c07190ae74548d2cfc7f056d86c90e37da819",
+      "unresolved": []
+    }
+  }
+}

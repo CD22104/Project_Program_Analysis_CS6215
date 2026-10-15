@@ -1,0 +1,436 @@
+{
+  "cache_hits": {
+    "13e293fb1e1ac7e7c56fbc30974d4f63e92a8b9394aef10de2b818628f92a1b4": false,
+    "1fc70c6279b613de90f87d7e6b97ef06db7abf87b9f07a4cf7b256f94887ed37": false,
+    "4dcb1a4ef086e13fbc3588b34eda55fbfcf47097a6991d4141aa3a9bda81a2a7": false,
+    "4f0b4a07bdbe8836c2e8d146456d3af402aa7afaf1a9ab2ee280f93ea799f3d3": false,
+    "4f0cec0e8e7a9d9229d0d6e3d7106a39ca97f462542af8e3f68d170c6e4c4bd2": false,
+    "660ea29ec7d7792ad4dd33a1d070611dbde07d49a3b370762a1f7e17d9355773": false,
+    "6cd478102ee99b5b1c77f20b1ba1e6609efad3e514e58867d40cf691686954db": false,
+    "79839611978ff7d1187d88eb64deb8af7fb403107d0a2dce084849651d3da0c8": false,
+    "a588b2a9937a61c502a471cc6e9a028851c4496b3de597ea209226366ba7ad8f": false,
+    "a68e99871279d848b61728e124d8ff9377355d2c21743da45addba9142c034e0": false,
+    "b22a903a0852ec6c720e59967a3ffca7feb134b23eacd88e1d307516030b8963": false,
+    "b5aa5d6a363a8d39818ba8eb9ca2ae8e82514d99fdef78bcce0b94ab65586bcb": false,
+    "c5ff1a67923b5c16c6a3119ee619e99b842f93184f40b51f5771589cc6a38019": false,
+    "df3026ba88d248ae80f0133ae274b10675aeb68e7c20c31224a1e0b49c2cbb4a": false,
+    "f43a27890fca96ab68c02b9ef7ec48b2acd3d451be879667a14c0b3b06d539b4": false,
+    "ffc6e148d9bbd1486564fdaab22e225149a2870dd53d5d26cc0f34498d454592": false
+  },
+  "generation_elapsed_seconds": 44.426240963861346,
+  "model": "qwen3-coder-next",
+  "origin": "live_api",
+  "records": {
+    "13e293fb1e1ac7e7c56fbc30974d4f63e92a8b9394aef10de2b818628f92a1b4": "3c54d53e4ab44648d60d41e9c660ad65e2bd4c5d087a0661b1727ada395684d8",
+    "1fc70c6279b613de90f87d7e6b97ef06db7abf87b9f07a4cf7b256f94887ed37": "5b9c7f636c9254cd013e22e913b07b047b16fe9a367f9a327947efbab1fd6185",
+    "4dcb1a4ef086e13fbc3588b34eda55fbfcf47097a6991d4141aa3a9bda81a2a7": "27c65a2c021a9d9ee783f54c8ae4174347462fe3d78d75965289f574bfdfc547",
+    "4f0b4a07bdbe8836c2e8d146456d3af402aa7afaf1a9ab2ee280f93ea799f3d3": "9611382b06f9db89117d307881671b815b7598bd472b8b465cec1e2c2c6507e8",
+    "4f0cec0e8e7a9d9229d0d6e3d7106a39ca97f462542af8e3f68d170c6e4c4bd2": "f7602149024fa0415562e5328c7df027314d3a0a5f7eb6e6835e454a84be01a3",
+    "660ea29ec7d7792ad4dd33a1d070611dbde07d49a3b370762a1f7e17d9355773": "a27444fe2e8f38bf77ab770801388508ab997bc775ab9a3e96a3b54b78b0c5f2",
+    "6cd478102ee99b5b1c77f20b1ba1e6609efad3e514e58867d40cf691686954db": "6a70d0773ce2265e047c550fea5924c6d69eb85d0c11ae040b60bc19b9c246f4",
+    "79839611978ff7d1187d88eb64deb8af7fb403107d0a2dce084849651d3da0c8": "795cac6a1c669d27831fd09ba8f385114d826e0a800eb611a6ca5ee6a3c25e5a",
+    "a588b2a9937a61c502a471cc6e9a028851c4496b3de597ea209226366ba7ad8f": "9dc151905490f92eb828ace49b4d39e8ac6ab7735c9a1966a4eac0dd3f1300c9",
+    "a68e99871279d848b61728e124d8ff9377355d2c21743da45addba9142c034e0": "f018a529de5ed9aa843a3535f6a08fe52e765a2db3ae22859cf6a5c08bdd4f63",
+    "b22a903a0852ec6c720e59967a3ffca7feb134b23eacd88e1d307516030b8963": "b472c19bdae45f6c3caf0a6c8cbab2e9c38cbd3c3a75ce363b1ec324acc093ac",
+    "b5aa5d6a363a8d39818ba8eb9ca2ae8e82514d99fdef78bcce0b94ab65586bcb": "23a0ab33f0ce43284fb40ddc8be8557cab3dc794cdbdb7d43dbb933a3f9c977f",
+    "c5ff1a67923b5c16c6a3119ee619e99b842f93184f40b51f5771589cc6a38019": "ba0c333ac33009c37c4eba6504adf78c530bef45a9d2c09d7ec2a7b763b4b2cb",
+    "df3026ba88d248ae80f0133ae274b10675aeb68e7c20c31224a1e0b49c2cbb4a": "cbb8742a9c808045e777d21bcee63359eced919ae1aedfbf134ffd35a28c005f",
+    "f43a27890fca96ab68c02b9ef7ec48b2acd3d451be879667a14c0b3b06d539b4": "1c486b599f38e478d7efa3a591807899f62914b28c2cb660760cd5485e352648",
+    "ffc6e148d9bbd1486564fdaab22e225149a2870dd53d5d26cc0f34498d454592": "dfc979d118da34d28ebbbaf68fe326aab667e8af6b5e3cab22a23247a8c7ede0"
+  },
+  "replicate": 0,
+  "source_sha256": "6afb94b664cd649afa95e7878065f8562066d0e73f83750b925380f93e31aef2",
+  "summaries": {
+    "13e293fb1e1ac7e7c56fbc30974d4f63e92a8b9394aef10de2b818628f92a1b4": {
+      "candidate_id": "13e293fb1e1ac7e7c56fbc30974d4f63e92a8b9394aef10de2b818628f92a1b4",
+      "context": "[, ]",
+      "effects": [
+        {
+          "evidence_line": 185,
+          "input_index": 0,
+          "kind": "cross_row_reduce",
+          "output_index": 0,
+          "primitive": "Unknown.mean",
+          "receiver": "_var129",
+          "state_version": null
+        }
+      ],
+      "invocation": "$invo50",
+      "ir_sha256": "ef99e2343d0dfc1923e79e53b68d1d36ac4d2e57b0f2ff5a70b04e9d1e67cac5",
+      "primitive_spec_sha256": "235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497",
+      "source_sha256": "6afb94b664cd649afa95e7878065f8562066d0e73f83750b925380f93e31aef2",
+      "unresolved": [
+        "axis is not resolved (resolved_axis=null); default behavior depends on type (NumPy: all axes, pandas: axis=0)",
+        "input_rank is null; cannot determine if axis is valid or whether reduction is row-local"
+      ]
+    },
+    "1fc70c6279b613de90f87d7e6b97ef06db7abf87b9f07a4cf7b256f94887ed37": {
+      "candidate_id": "1fc70c6279b613de90f87d7e6b97ef06db7abf87b9f07a4cf7b256f94887ed37",
+      "context": "[, ]",
+      "effects": [
+        {
+          "evidence_line": 149,
+          "input_index": 0,
+          "kind": "cross_row_reduce",
+          "output_index": 0,
+          "primitive": "Unknown.mean",
+          "receiver": "_var97",
+          "state_version": null
+        }
+      ],
+      "invocation": "$invo42",
+      "ir_sha256": "ef99e2343d0dfc1923e79e53b68d1d36ac4d2e57b0f2ff5a70b04e9d1e67cac5",
+      "primitive_spec_sha256": "235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497",
+      "source_sha256": "6afb94b664cd649afa95e7878065f8562066d0e73f83750b925380f93e31aef2",
+      "unresolved": [
+        "input_rank is null",
+        "resolved_axis is null",
+        "axis behavior unknown without rank or axis specification"
+      ]
+    },
+    "4dcb1a4ef086e13fbc3588b34eda55fbfcf47097a6991d4141aa3a9bda81a2a7": {
+      "candidate_id": "4dcb1a4ef086e13fbc3588b34eda55fbfcf47097a6991d4141aa3a9bda81a2a7",
+      "context": "[, ]",
+      "effects": [
+        {
+          "evidence_line": 732,
+          "input_index": 1,
+          "kind": "fit_state",
+          "output_index": 0,
+          "primitive": "StandardScaler.fit_transform",
+          "receiver": "scaler",
+          "state_version": "$invo177:[, ]"
+        },
+        {
+          "evidence_line": 732,
+          "input_index": 1,
+          "kind": "row_preserving",
+          "output_index": 0,
+          "primitive": "StandardScaler.fit_transform",
+          "receiver": "scaler",
+          "state_version": "$invo177:[, ]"
+        }
+      ],
+      "invocation": "$invo177",
+      "ir_sha256": "ef99e2343d0dfc1923e79e53b68d1d36ac4d2e57b0f2ff5a70b04e9d1e67cac5",
+      "primitive_spec_sha256": "235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497",
+      "source_sha256": "6afb94b664cd649afa95e7878065f8562066d0e73f83750b925380f93e31aef2",
+      "unresolved": []
+    },
+    "4f0b4a07bdbe8836c2e8d146456d3af402aa7afaf1a9ab2ee280f93ea799f3d3": {
+      "candidate_id": "4f0b4a07bdbe8836c2e8d146456d3af402aa7afaf1a9ab2ee280f93ea799f3d3",
+      "context": "[, ]",
+      "effects": [
+        {
+          "evidence_line": 230,
+          "input_index": 0,
+          "kind": "cross_row_reduce",
+          "output_index": 0,
+          "primitive": "Unknown.mean",
+          "receiver": "_var169",
+          "state_version": null
+        }
+      ],
+      "invocation": "$invo60",
+      "ir_sha256": "ef99e2343d0dfc1923e79e53b68d1d36ac4d2e57b0f2ff5a70b04e9d1e67cac5",
+      "primitive_spec_sha256": "235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497",
+      "source_sha256": "6afb94b664cd649afa95e7878065f8562066d0e73f83750b925380f93e31aef2",
+      "unresolved": [
+        "axis is not resolved (None or omitted)",
+        "input rank is unknown"
+      ]
+    },
+    "4f0cec0e8e7a9d9229d0d6e3d7106a39ca97f462542af8e3f68d170c6e4c4bd2": {
+      "candidate_id": "4f0cec0e8e7a9d9229d0d6e3d7106a39ca97f462542af8e3f68d170c6e4c4bd2",
+      "context": "[, ]",
+      "effects": [
+        {
+          "evidence_line": 221,
+          "input_index": 0,
+          "kind": "cross_row_reduce",
+          "output_index": 0,
+          "primitive": "Unknown.mean",
+          "receiver": "_var161",
+          "state_version": null
+        }
+      ],
+      "invocation": "$invo58",
+      "ir_sha256": "ef99e2343d0dfc1923e79e53b68d1d36ac4d2e57b0f2ff5a70b04e9d1e67cac5",
+      "primitive_spec_sha256": "235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497",
+      "source_sha256": "6afb94b664cd649afa95e7878065f8562066d0e73f83750b925380f93e31aef2",
+      "unresolved": [
+        "axis is not resolved (None or omitted); default behavior depends on type (NumPy: all axes, pandas: axis=0)",
+        "input rank is unknown; cannot determine if axis is valid or whether reduction is row-local"
+      ]
+    },
+    "660ea29ec7d7792ad4dd33a1d070611dbde07d49a3b370762a1f7e17d9355773": {
+      "candidate_id": "660ea29ec7d7792ad4dd33a1d070611dbde07d49a3b370762a1f7e17d9355773",
+      "context": "[, ]",
+      "effects": [
+        {
+          "evidence_line": 203,
+          "input_index": 0,
+          "kind": "cross_row_reduce",
+          "output_index": 0,
+          "primitive": "Unknown.mean",
+          "receiver": "_var145",
+          "state_version": null
+        }
+      ],
+      "invocation": "$invo54",
+      "ir_sha256": "ef99e2343d0dfc1923e79e53b68d1d36ac4d2e57b0f2ff5a70b04e9d1e67cac5",
+      "primitive_spec_sha256": "235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497",
+      "source_sha256": "6afb94b664cd649afa95e7878065f8562066d0e73f83750b925380f93e31aef2",
+      "unresolved": [
+        "axis is not resolved (resolved_axis is null)",
+        "input_rank is null; cannot determine if axis is valid or whether reduction is row-local",
+        "receiver type (_var145) is unknown; cannot confirm whether axis=0 is row axis"
+      ]
+    },
+    "6cd478102ee99b5b1c77f20b1ba1e6609efad3e514e58867d40cf691686954db": {
+      "candidate_id": "6cd478102ee99b5b1c77f20b1ba1e6609efad3e514e58867d40cf691686954db",
+      "context": "[, ]",
+      "effects": [
+        {
+          "evidence_line": 158,
+          "input_index": 0,
+          "kind": "cross_row_reduce",
+          "output_index": 0,
+          "primitive": "Unknown.mean",
+          "receiver": "_var105",
+          "state_version": null
+        }
+      ],
+      "invocation": "$invo44",
+      "ir_sha256": "ef99e2343d0dfc1923e79e53b68d1d36ac4d2e57b0f2ff5a70b04e9d1e67cac5",
+      "primitive_spec_sha256": "235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497",
+      "source_sha256": "6afb94b664cd649afa95e7878065f8562066d0e73f83750b925380f93e31aef2",
+      "unresolved": [
+        "axis is not resolved (resolved_axis=null); default behavior depends on type (NumPy: all axes, pandas: axis=0)",
+        "input_rank is null; cannot determine if axis is valid or whether reduction is row-local"
+      ]
+    },
+    "79839611978ff7d1187d88eb64deb8af7fb403107d0a2dce084849651d3da0c8": {
+      "candidate_id": "79839611978ff7d1187d88eb64deb8af7fb403107d0a2dce084849651d3da0c8",
+      "context": "[, ]",
+      "effects": [
+        {
+          "evidence_line": 194,
+          "input_index": 0,
+          "kind": "cross_row_reduce",
+          "output_index": 0,
+          "primitive": "Unknown.mean",
+          "receiver": "_var137",
+          "state_version": null
+        }
+      ],
+      "invocation": "$invo52",
+      "ir_sha256": "ef99e2343d0dfc1923e79e53b68d1d36ac4d2e57b0f2ff5a70b04e9d1e67cac5",
+      "primitive_spec_sha256": "235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497",
+      "source_sha256": "6afb94b664cd649afa95e7878065f8562066d0e73f83750b925380f93e31aef2",
+      "unresolved": [
+        "axis is not resolved (None or omitted)",
+        "input rank is unknown",
+        "receiver type (pandas/numpy) is unknown"
+      ]
+    },
+    "a588b2a9937a61c502a471cc6e9a028851c4496b3de597ea209226366ba7ad8f": {
+      "candidate_id": "a588b2a9937a61c502a471cc6e9a028851c4496b3de597ea209226366ba7ad8f",
+      "context": "[, ]",
+      "effects": [
+        {
+          "evidence_line": 212,
+          "input_index": 0,
+          "kind": "cross_row_reduce",
+          "output_index": 0,
+          "primitive": "Unknown.mean",
+          "receiver": "_var153",
+          "state_version": null
+        }
+      ],
+      "invocation": "$invo56",
+      "ir_sha256": "ef99e2343d0dfc1923e79e53b68d1d36ac4d2e57b0f2ff5a70b04e9d1e67cac5",
+      "primitive_spec_sha256": "235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497",
+      "source_sha256": "6afb94b664cd649afa95e7878065f8562066d0e73f83750b925380f93e31aef2",
+      "unresolved": [
+        "axis is not resolved (None or omitted); default behavior depends on library and rank",
+        "input rank is unknown; cannot determine if axis is valid or whether reduction is row-local"
+      ]
+    },
+    "a68e99871279d848b61728e124d8ff9377355d2c21743da45addba9142c034e0": {
+      "candidate_id": "a68e99871279d848b61728e124d8ff9377355d2c21743da45addba9142c034e0",
+      "context": "[, ]",
+      "effects": [
+        {
+          "evidence_line": 176,
+          "input_index": 0,
+          "kind": "cross_row_reduce",
+          "output_index": 0,
+          "primitive": "Unknown.mean",
+          "receiver": "_var121",
+          "state_version": null
+        }
+      ],
+      "invocation": "$invo48",
+      "ir_sha256": "ef99e2343d0dfc1923e79e53b68d1d36ac4d2e57b0f2ff5a70b04e9d1e67cac5",
+      "primitive_spec_sha256": "235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497",
+      "source_sha256": "6afb94b664cd649afa95e7878065f8562066d0e73f83750b925380f93e31aef2",
+      "unresolved": [
+        "axis is not resolved (resolved_axis is null); default behavior depends on type (NumPy: all axes, pandas: axis=0)",
+        "input_rank is null; cannot determine if axis is valid or whether reduction is row-local"
+      ]
+    },
+    "b22a903a0852ec6c720e59967a3ffca7feb134b23eacd88e1d307516030b8963": {
+      "candidate_id": "b22a903a0852ec6c720e59967a3ffca7feb134b23eacd88e1d307516030b8963",
+      "context": "[, ]",
+      "effects": [
+        {
+          "evidence_line": 131,
+          "input_index": 0,
+          "kind": "cross_row_reduce",
+          "output_index": 0,
+          "primitive": "Unknown.mean",
+          "receiver": "_var81",
+          "state_version": null
+        }
+      ],
+      "invocation": "$invo38",
+      "ir_sha256": "ef99e2343d0dfc1923e79e53b68d1d36ac4d2e57b0f2ff5a70b04e9d1e67cac5",
+      "primitive_spec_sha256": "235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497",
+      "source_sha256": "6afb94b664cd649afa95e7878065f8562066d0e73f83750b925380f93e31aef2",
+      "unresolved": [
+        "axis is not resolved (resolved_axis is null)",
+        "input_rank is null; cannot determine if axis is valid or row-local"
+      ]
+    },
+    "b5aa5d6a363a8d39818ba8eb9ca2ae8e82514d99fdef78bcce0b94ab65586bcb": {
+      "candidate_id": "b5aa5d6a363a8d39818ba8eb9ca2ae8e82514d99fdef78bcce0b94ab65586bcb",
+      "context": "[, ]",
+      "effects": [
+        {
+          "evidence_line": 140,
+          "input_index": 0,
+          "kind": "cross_row_reduce",
+          "output_index": 0,
+          "primitive": "Unknown.mean",
+          "receiver": "_var89",
+          "state_version": null
+        }
+      ],
+      "invocation": "$invo40",
+      "ir_sha256": "ef99e2343d0dfc1923e79e53b68d1d36ac4d2e57b0f2ff5a70b04e9d1e67cac5",
+      "primitive_spec_sha256": "235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497",
+      "source_sha256": "6afb94b664cd649afa95e7878065f8562066d0e73f83750b925380f93e31aef2",
+      "unresolved": [
+        "axis is not resolved (null); default behavior depends on type (NumPy: all axes, pandas: axis=0)",
+        "input_rank is null; cannot determine if axis is valid or whether reduction is row-local"
+      ]
+    },
+    "c5ff1a67923b5c16c6a3119ee619e99b842f93184f40b51f5771589cc6a38019": {
+      "candidate_id": "c5ff1a67923b5c16c6a3119ee619e99b842f93184f40b51f5771589cc6a38019",
+      "context": "[, ]",
+      "effects": [
+        {
+          "evidence_line": 167,
+          "input_index": 0,
+          "kind": "cross_row_reduce",
+          "output_index": 0,
+          "primitive": "Unknown.mean",
+          "receiver": "_var113",
+          "state_version": null
+        }
+      ],
+      "invocation": "$invo46",
+      "ir_sha256": "ef99e2343d0dfc1923e79e53b68d1d36ac4d2e57b0f2ff5a70b04e9d1e67cac5",
+      "primitive_spec_sha256": "235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497",
+      "source_sha256": "6afb94b664cd649afa95e7878065f8562066d0e73f83750b925380f93e31aef2",
+      "unresolved": [
+        "axis is not resolved (None or omitted)",
+        "input rank is unknown",
+        "receiver type (numpy/pandas) is unknown"
+      ]
+    },
+    "df3026ba88d248ae80f0133ae274b10675aeb68e7c20c31224a1e0b49c2cbb4a": {
+      "candidate_id": "df3026ba88d248ae80f0133ae274b10675aeb68e7c20c31224a1e0b49c2cbb4a",
+      "context": "[, ]",
+      "effects": [
+        {
+          "evidence_line": 285,
+          "input_index": 1,
+          "kind": "fit_state",
+          "output_index": 0,
+          "primitive": "StandardScaler.fit_transform",
+          "receiver": "scaler",
+          "state_version": "$invo77:[, ]"
+        },
+        {
+          "evidence_line": 285,
+          "input_index": 1,
+          "kind": "row_preserving",
+          "output_index": 0,
+          "primitive": "StandardScaler.fit_transform",
+          "receiver": "scaler",
+          "state_version": "$invo77:[, ]"
+        }
+      ],
+      "invocation": "$invo77",
+      "ir_sha256": "ef99e2343d0dfc1923e79e53b68d1d36ac4d2e57b0f2ff5a70b04e9d1e67cac5",
+      "primitive_spec_sha256": "235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497",
+      "source_sha256": "6afb94b664cd649afa95e7878065f8562066d0e73f83750b925380f93e31aef2",
+      "unresolved": []
+    },
+    "f43a27890fca96ab68c02b9ef7ec48b2acd3d451be879667a14c0b3b06d539b4": {
+      "candidate_id": "f43a27890fca96ab68c02b9ef7ec48b2acd3d451be879667a14c0b3b06d539b4",
+      "context": "[, ]",
+      "effects": [
+        {
+          "evidence_line": 836,
+          "input_index": 1,
+          "kind": "fit_state",
+          "output_index": 0,
+          "primitive": "StandardScaler.fit_transform",
+          "receiver": "scaler",
+          "state_version": "$invo201:[, ]"
+        },
+        {
+          "evidence_line": 836,
+          "input_index": 1,
+          "kind": "row_preserving",
+          "output_index": 0,
+          "primitive": "StandardScaler.fit_transform",
+          "receiver": "scaler",
+          "state_version": "$invo201:[, ]"
+        }
+      ],
+      "invocation": "$invo201",
+      "ir_sha256": "ef99e2343d0dfc1923e79e53b68d1d36ac4d2e57b0f2ff5a70b04e9d1e67cac5",
+      "primitive_spec_sha256": "235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497",
+      "source_sha256": "6afb94b664cd649afa95e7878065f8562066d0e73f83750b925380f93e31aef2",
+      "unresolved": []
+    },
+    "ffc6e148d9bbd1486564fdaab22e225149a2870dd53d5d26cc0f34498d454592": {
+      "candidate_id": "ffc6e148d9bbd1486564fdaab22e225149a2870dd53d5d26cc0f34498d454592",
+      "context": "[, ]",
+      "effects": [
+        {
+          "evidence_line": 122,
+          "input_index": 0,
+          "kind": "cross_row_reduce",
+          "output_index": 0,
+          "primitive": "Unknown.mean",
+          "receiver": "_var73",
+          "state_version": null
+        }
+      ],
+      "invocation": "$invo36",
+      "ir_sha256": "ef99e2343d0dfc1923e79e53b68d1d36ac4d2e57b0f2ff5a70b04e9d1e67cac5",
+      "primitive_spec_sha256": "235994899f5f76e23b2b64933380de7c3766a40bbaeae6123d353c0e2ae11497",
+      "source_sha256": "6afb94b664cd649afa95e7878065f8562066d0e73f83750b925380f93e31aef2",
+      "unresolved": [
+        "axis is not resolved (resolved_axis is null)",
+        "input_rank is null, so axis semantics cannot be confirmed",
+        "receiver type (_var73) is unknown, so axis default behavior is uncertain"
+      ]
+    }
+  }
+}

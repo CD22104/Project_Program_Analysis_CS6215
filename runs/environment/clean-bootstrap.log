@@ -1,0 +1,689 @@
+
+Downloading and Extracting Packages: ...working... done
+
+## Package Plan ##
+
+  environment location: /tmp/cs6215-clean-repro-k1h36sf9/leakage-project/.env-baseline
+
+  added / updated specs:
+    - conda-forge/linux-64::_openmp_mutex==4.5=20_gnu
+    - conda-forge/linux-64::bzip2==1.0.8=hda65f42_10
+    - conda-forge/linux-64::icu==75.1=he02047a_0
+    - conda-forge/linux-64::ld_impl_linux-64==2.46.1=default_hbd61a6d_103
+    - conda-forge/linux-64::libffi==3.7.0=h81df57d_1
+    - conda-forge/linux-64::libgcc-ng==16.2.0=h69a702a_7
+    - conda-forge/linux-64::libgcc==16.2.0=ha9f2e26_7
+    - conda-forge/linux-64::libgomp==16.2.0=he0feb66_7
+    - conda-forge/linux-64::liblzma-devel==5.8.3=hb03c661_1
+    - conda-forge/linux-64::liblzma==5.8.3=hb03c661_1
+    - conda-forge/linux-64::libnsl==2.0.1=hb9d3cd8_1
+    - conda-forge/linux-64::libsqlite==3.53.4=h0737f62_102
+    - conda-forge/linux-64::libstdcxx-ng==16.2.0=hdf11a46_7
+    - conda-forge/linux-64::libstdcxx==16.2.0=h934c35e_7
+    - conda-forge/linux-64::libuuid==2.42.4=hcfc3c73_0
+    - conda-forge/linux-64::libuv==1.52.1=h280c20c_1
+    - conda-forge/linux-64::libxcrypt==4.4.38=h280c20c_0
+    - conda-forge/linux-64::libzlib==1.3.2=h25fd6f3_3
+    - conda-forge/linux-64::ncurses==6.6=hdb14827_1
+    - conda-forge/linux-64::nodejs==16.20.2=hc19f0b3_3
+    - conda-forge/linux-64::openssl==3.6.5=h781a0a9_0
+    - conda-forge/linux-64::python==3.8.20=h4a871b0_2_cpython
+    - conda-forge/linux-64::readline==8.3=hd6e31c0_1
+    - conda-forge/linux-64::tk==8.6.13=noxft_h1df4ec4_4
+    - conda-forge/linux-64::xz-gpl-tools==5.8.3=ha02ee65_1
+    - conda-forge/linux-64::xz-tools==5.8.3=hb03c661_1
+    - conda-forge/linux-64::xz==5.8.3=ha02ee65_1
+    - conda-forge/linux-64::zlib==1.3.2=h25fd6f3_3
+    - conda-forge/linux-64::zstd==1.5.7=hb78ec9c_7
+    - conda-forge/noarch::ca-certificates==2026.7.22=hbd8a1cb_0
+    - conda-forge/noarch::pip==24.3.1=pyh8b19718_0
+    - conda-forge/noarch::setuptools==75.3.0=pyhd8ed1ab_0
+    - conda-forge/noarch::wheel==0.45.1=pyhd8ed1ab_0
+
+
+The following NEW packages will be INSTALLED:
+
+  _openmp_mutex      conda-forge/linux-64::_openmp_mutex-4.5-20_gnu 
+  bzip2              conda-forge/linux-64::bzip2-1.0.8-hda65f42_10 
+  ca-certificates    conda-forge/noarch::ca-certificates-2026.7.22-hbd8a1cb_0 
+  icu                conda-forge/linux-64::icu-75.1-he02047a_0 
+  ld_impl_linux-64   conda-forge/linux-64::ld_impl_linux-64-2.46.1-default_hbd61a6d_103 
+  libffi             conda-forge/linux-64::libffi-3.7.0-h81df57d_1 
+  libgcc             conda-forge/linux-64::libgcc-16.2.0-ha9f2e26_7 
+  libgcc-ng          conda-forge/linux-64::libgcc-ng-16.2.0-h69a702a_7 
+  libgomp            conda-forge/linux-64::libgomp-16.2.0-he0feb66_7 
+  liblzma            conda-forge/linux-64::liblzma-5.8.3-hb03c661_1 
+  liblzma-devel      conda-forge/linux-64::liblzma-devel-5.8.3-hb03c661_1 
+  libnsl             conda-forge/linux-64::libnsl-2.0.1-hb9d3cd8_1 
+  libsqlite          conda-forge/linux-64::libsqlite-3.53.4-h0737f62_102 
+  libstdcxx          conda-forge/linux-64::libstdcxx-16.2.0-h934c35e_7 
+  libstdcxx-ng       conda-forge/linux-64::libstdcxx-ng-16.2.0-hdf11a46_7 
+  libuuid            conda-forge/linux-64::libuuid-2.42.4-hcfc3c73_0 
+  libuv              conda-forge/linux-64::libuv-1.52.1-h280c20c_1 
+  libxcrypt          conda-forge/linux-64::libxcrypt-4.4.38-h280c20c_0 
+  libzlib            conda-forge/linux-64::libzlib-1.3.2-h25fd6f3_3 
+  ncurses            conda-forge/linux-64::ncurses-6.6-hdb14827_1 
+  nodejs             conda-forge/linux-64::nodejs-16.20.2-hc19f0b3_3 
+  openssl            conda-forge/linux-64::openssl-3.6.5-h781a0a9_0 
+  pip                conda-forge/noarch::pip-24.3.1-pyh8b19718_0 
+  python             conda-forge/linux-64::python-3.8.20-h4a871b0_2_cpython 
+  readline           conda-forge/linux-64::readline-8.3-hd6e31c0_1 
+  setuptools         conda-forge/noarch::setuptools-75.3.0-pyhd8ed1ab_0 
+  tk                 conda-forge/linux-64::tk-8.6.13-noxft_h1df4ec4_4 
+  wheel              conda-forge/noarch::wheel-0.45.1-pyhd8ed1ab_0 
+  xz                 conda-forge/linux-64::xz-5.8.3-ha02ee65_1 
+  xz-gpl-tools       conda-forge/linux-64::xz-gpl-tools-5.8.3-ha02ee65_1 
+  xz-tools           conda-forge/linux-64::xz-tools-5.8.3-hb03c661_1 
+  zlib               conda-forge/linux-64::zlib-1.3.2-h25fd6f3_3 
+  zstd               conda-forge/linux-64::zstd-1.5.7-hb78ec9c_7 
+
+
+
+Downloading and Extracting Packages: ...working... done
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+WARNING conda.conda_pypi.main:notify_externally_managed_future(156): 
+  Did you know? You can install many PyPI packages with conda
+  using the conda-pypi beta. Get started:
+    https://docs.conda.io/projects/conda/en/stable/new-features.html
+
+#
+# To activate this environment, use
+#
+#     $ conda activate /tmp/cs6215-clean-repro-k1h36sf9/leakage-project/.env-baseline
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+
+Downloading and Extracting Packages: ...working... done
+
+## Package Plan ##
+
+  environment location: /tmp/cs6215-clean-repro-k1h36sf9/leakage-project/.env-ffi
+
+  added / updated specs:
+    - conda-forge/linux-64::_openmp_mutex==4.5=20_gnu
+    - conda-forge/linux-64::libffi==3.3=h58526e2_2
+    - conda-forge/linux-64::libgcc-ng==16.2.0=h69a702a_7
+    - conda-forge/linux-64::libgcc==16.2.0=ha9f2e26_7
+    - conda-forge/linux-64::libgomp==16.2.0=he0feb66_7
+    - conda-forge/linux-64::libstdcxx-ng==16.2.0=hdf11a46_7
+    - conda-forge/linux-64::libstdcxx==16.2.0=h934c35e_7
+
+
+The following NEW packages will be INSTALLED:
+
+  _openmp_mutex      conda-forge/linux-64::_openmp_mutex-4.5-20_gnu 
+  libffi             conda-forge/linux-64::libffi-3.3-h58526e2_2 
+  libgcc             conda-forge/linux-64::libgcc-16.2.0-ha9f2e26_7 
+  libgcc-ng          conda-forge/linux-64::libgcc-ng-16.2.0-h69a702a_7 
+  libgomp            conda-forge/linux-64::libgomp-16.2.0-he0feb66_7 
+  libstdcxx          conda-forge/linux-64::libstdcxx-16.2.0-h934c35e_7 
+  libstdcxx-ng       conda-forge/linux-64::libstdcxx-ng-16.2.0-hdf11a46_7 
+
+
+
+Downloading and Extracting Packages: ...working... done
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+#
+# To activate this environment, use
+#
+#     $ conda activate /tmp/cs6215-clean-repro-k1h36sf9/leakage-project/.env-ffi
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+Looking in indexes: http://pypi.lab.internal:30080/root/lab/+simple/
+Collecting asttokens==3.0.2 (from -r configs/requirements-baseline.lock (line 1))
+  Using cached http://pypi.lab.internal:30080/root/pypi/%2Bf/9da/13157f5b28bec/asttokens-3.0.2-py3-none-any.whl (28 kB)
+Collecting astunparse==1.6.3 (from -r configs/requirements-baseline.lock (line 2))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/c26/52417f2c8b5bb/astunparse-1.6.3-py2.py3-none-any.whl (12 kB)
+Collecting attrs==25.3.0 (from -r configs/requirements-baseline.lock (line 3))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/427/318ce031701fe/attrs-25.3.0-py3-none-any.whl (63 kB)
+Collecting backcall==0.2.0 (from -r configs/requirements-baseline.lock (line 4))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/fbb/ce6a29f263178/backcall-0.2.0-py2.py3-none-any.whl (11 kB)
+Collecting click==8.1.8 (from -r configs/requirements-baseline.lock (line 5))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/63c/132bbbed01578/click-8.1.8-py3-none-any.whl (98 kB)
+Collecting contourpy==1.1.1 (from -r configs/requirements-baseline.lock (line 6))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/413/39b24471c58dc/contourpy-1.1.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (301 kB)
+Collecting cycler==0.12.1 (from -r configs/requirements-baseline.lock (line 7))
+  Using cached http://pypi.lab.internal:30080/root/pypi/%2Bf/85c/ef7cff222d864/cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Collecting decorator==5.3.1 (from -r configs/requirements-baseline.lock (line 8))
+  Using cached http://pypi.lab.internal:30080/root/pypi/%2Bf/f47/fe6fdbd2edd62/decorator-5.3.1-py3-none-any.whl (10 kB)
+Collecting exceptiongroup==1.3.1 (from -r configs/requirements-baseline.lock (line 9))
+  Using cached http://pypi.lab.internal:30080/root/pypi/%2Bf/a7a/39a3bd276781e/exceptiongroup-1.3.1-py3-none-any.whl (16 kB)
+Collecting executing==2.3.0 (from -r configs/requirements-baseline.lock (line 10))
+  Using cached http://pypi.lab.internal:30080/root/pypi/%2Bf/736/e859c9f8701f1/executing-2.3.0-py3-none-any.whl (29 kB)
+Collecting fonttools==4.57.0 (from -r configs/requirements-baseline.lock (line 11))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/a19/68f2a2003c97c/fonttools-4.57.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.7/4.7 MB 2.8 MB/s eta 0:00:00
+Collecting graphviz==0.20.3 (from -r configs/requirements-baseline.lock (line 12))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/81f/848f2904515d8/graphviz-0.20.3-py3-none-any.whl (47 kB)
+Collecting imbalanced-learn==0.11.0 (from -r configs/requirements-baseline.lock (line 13))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/20d/c7dee3c838b4d/imbalanced_learn-0.11.0-py3-none-any.whl (235 kB)
+Collecting imblearn==0.0 (from -r configs/requirements-baseline.lock (line 14))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/d42/c2d709d22c00d/imblearn-0.0-py2.py3-none-any.whl (1.9 kB)
+Collecting importlib_resources==6.4.5 (from -r configs/requirements-baseline.lock (line 15))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/ac2/9d5f956f01d5e/importlib_resources-6.4.5-py3-none-any.whl (36 kB)
+Collecting iniconfig==2.1.0 (from -r configs/requirements-baseline.lock (line 16))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/9de/ba5723312380e/iniconfig-2.1.0-py3-none-any.whl (6.0 kB)
+Collecting ipython==8.12.3 (from -r configs/requirements-baseline.lock (line 17))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/b03/40d46a933d27c/ipython-8.12.3-py3-none-any.whl (798 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 798.3/798.3 kB 2.8 MB/s eta 0:00:00
+Collecting jedi==0.19.2 (from -r configs/requirements-baseline.lock (line 18))
+  Using cached http://pypi.lab.internal:30080/root/pypi/%2Bf/a8e/f22bde8490f57/jedi-0.19.2-py2.py3-none-any.whl (1.6 MB)
+Collecting joblib==1.4.2 (from -r configs/requirements-baseline.lock (line 19))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/06d/478d5674cbc26/joblib-1.4.2-py3-none-any.whl (301 kB)
+Collecting jsonschema==4.23.0 (from -r configs/requirements-baseline.lock (line 20))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/fba/db6f8b144a8f8/jsonschema-4.23.0-py3-none-any.whl (88 kB)
+Collecting jsonschema-specifications==2023.12.1 (from -r configs/requirements-baseline.lock (line 21))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/87e/4fdf3a94858b8/jsonschema_specifications-2023.12.1-py3-none-any.whl (18 kB)
+Collecting kaleido==0.2.1 (from -r configs/requirements-baseline.lock (line 22))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/aa2/1cf1bf1c78f8f/kaleido-0.2.1-py2.py3-none-manylinux1_x86_64.whl (79.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 79.9/79.9 MB 2.8 MB/s eta 0:00:00
+Collecting kiwisolver==1.4.7 (from -r configs/requirements-baseline.lock (line 23))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/a0f/64a48bb81af74/kiwisolver-1.4.7-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 2.8 MB/s eta 0:00:00
+Collecting matplotlib==3.7.5 (from -r configs/requirements-baseline.lock (line 24))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/53e/64522934df6e1/matplotlib-3.7.5-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (9.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.2/9.2 MB 2.8 MB/s eta 0:00:00
+Collecting matplotlib-inline==0.1.7 (from -r configs/requirements-baseline.lock (line 25))
+  Using cached http://pypi.lab.internal:30080/root/pypi/%2Bf/df1/92d39a4ff8f21/matplotlib_inline-0.1.7-py3-none-any.whl (9.9 kB)
+Collecting nltk==3.8.1 (from -r configs/requirements-baseline.lock (line 26))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/fd5/c9109f976fa86/nltk-3.8.1-py3-none-any.whl (1.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.5/1.5 MB 2.8 MB/s eta 0:00:00
+Collecting numpy==1.24.4 (from -r configs/requirements-baseline.lock (line 27))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/dd8/0e219fd4c71fc/numpy-1.24.4-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (17.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 17.3/17.3 MB 2.8 MB/s eta 0:00:00
+Collecting packaging==26.2 (from -r configs/requirements-baseline.lock (line 28))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/5fc/45236b9446107/packaging-26.2-py3-none-any.whl (100 kB)
+Collecting pandas==1.5.3 (from -r configs/requirements-baseline.lock (line 29))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/565/fa34a5434d38e/pandas-1.5.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.2/12.2 MB 2.8 MB/s eta 0:00:00
+Collecting parso==0.8.7 (from -r configs/requirements-baseline.lock (line 30))
+  Using cached http://pypi.lab.internal:30080/root/pypi/%2Bf/a89/26eb2a1b91548/parso-0.8.7-py2.py3-none-any.whl (107 kB)
+Collecting patsy==1.0.3 (from -r configs/requirements-baseline.lock (line 31))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/d3d/bebe8fd5f46e2/patsy-1.0.3-py2.py3-none-any.whl (233 kB)
+Collecting pexpect==4.9.0 (from -r configs/requirements-baseline.lock (line 32))
+  Using cached http://pypi.lab.internal:30080/root/pypi/%2Bf/723/6d1e080e4936b/pexpect-4.9.0-py2.py3-none-any.whl (63 kB)
+Collecting pickleshare==0.7.5 (from -r configs/requirements-baseline.lock (line 33))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/964/9af414d74d4df/pickleshare-0.7.5-py2.py3-none-any.whl (6.9 kB)
+Collecting pillow==10.4.0 (from -r configs/requirements-baseline.lock (line 34))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/950/be4d8ba92aca4/pillow-10.4.0-cp38-cp38-manylinux_2_28_x86_64.whl (4.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.5/4.5 MB 2.8 MB/s eta 0:00:00
+Collecting pkgutil_resolve_name==1.3.10 (from -r configs/requirements-baseline.lock (line 35))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/ca2/7cc078d25c5ad/pkgutil_resolve_name-1.3.10-py3-none-any.whl (4.7 kB)
+Collecting plotly==5.24.1 (from -r configs/requirements-baseline.lock (line 36))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/f67/073a1e637eb0d/plotly-5.24.1-py3-none-any.whl (19.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 19.1/19.1 MB 2.8 MB/s eta 0:00:00
+Collecting pluggy==1.5.0 (from -r configs/requirements-baseline.lock (line 37))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/44e/1ad92c8ca002d/pluggy-1.5.0-py3-none-any.whl (20 kB)
+Collecting prompt_toolkit==3.0.52 (from -r configs/requirements-baseline.lock (line 38))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/9aa/c639a3bbd3328/prompt_toolkit-3.0.52-py3-none-any.whl (391 kB)
+Collecting ptyprocess==0.7.0 (from -r configs/requirements-baseline.lock (line 39))
+  Using cached http://pypi.lab.internal:30080/root/pypi/%2Bf/4b4/1f3967fce3af5/ptyprocess-0.7.0-py2.py3-none-any.whl (13 kB)
+Collecting pure_eval==0.2.4 (from -r configs/requirements-baseline.lock (line 40))
+  Using cached http://pypi.lab.internal:30080/root/pypi/%2Bf/96c/ae060a313cfaa/pure_eval-0.2.4-py3-none-any.whl (11 kB)
+Collecting pydotplus==2.0.2 (from -r configs/requirements-baseline.lock (line 41))
+  Using cached pydotplus-2.0.2-py3-none-any.whl
+Collecting Pygments==2.10.0 (from -r configs/requirements-baseline.lock (line 42))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/b8e/67fe6af78f492/Pygments-2.10.0-py3-none-any.whl (1.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.0/1.0 MB 2.8 MB/s eta 0:00:00
+Collecting pyparsing==3.1.4 (from -r configs/requirements-baseline.lock (line 43))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/a6a/7ee4235a3f944/pyparsing-3.1.4-py3-none-any.whl (104 kB)
+Collecting pytest==8.3.5 (from -r configs/requirements-baseline.lock (line 44))
+  Using cached http://pypi.lab.internal:30080/root/pypi/%2Bf/c69/214aa47deac29/pytest-8.3.5-py3-none-any.whl (343 kB)
+Collecting python-dateutil==2.9.0.post0 (from -r configs/requirements-baseline.lock (line 45))
+  Using cached http://pypi.lab.internal:30080/root/pypi/%2Bf/a8b/2bc7bffae2822/python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Collecting pytz==2026.5 (from -r configs/requirements-baseline.lock (line 46))
+  Using cached http://pypi.lab.internal:30080/root/pypi/%2Bf/e65/8af3757f9e26a/pytz-2026.5-py2.py3-none-any.whl (506 kB)
+Collecting referencing==0.35.1 (from -r configs/requirements-baseline.lock (line 47))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/eda/6d3234d62814d/referencing-0.35.1-py3-none-any.whl (26 kB)
+Collecting regex==2024.11.6 (from -r configs/requirements-baseline.lock (line 48))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/d1c/ee317bfc014c2/regex-2024.11.6-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (785 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 785.1/785.1 kB 2.8 MB/s eta 0:00:00
+Collecting rpds-py==0.20.1 (from -r configs/requirements-baseline.lock (line 49))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/02a/0629ec053fc01/rpds_py-0.20.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (360 kB)
+Collecting scikit-learn==1.3.2 (from -r configs/requirements-baseline.lock (line 50))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/785/a2213086b7b1a/scikit_learn-1.3.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (11.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.1/11.1 MB 2.8 MB/s eta 0:00:00
+Collecting scipy==1.10.1 (from -r configs/requirements-baseline.lock (line 51))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/07c/3457ce0b3ad51/scipy-1.10.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (34.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 34.5/34.5 MB 2.8 MB/s eta 0:00:00
+Collecting seaborn==0.12.2 (from -r configs/requirements-baseline.lock (line 52))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/ebf/15355a4dba460/seaborn-0.12.2-py3-none-any.whl (293 kB)
+Collecting six==1.17.0 (from -r configs/requirements-baseline.lock (line 53))
+  Using cached http://pypi.lab.internal:30080/root/pypi/%2Bf/472/1f391ed90541f/six-1.17.0-py2.py3-none-any.whl (11 kB)
+Collecting stack-data==0.6.3 (from -r configs/requirements-baseline.lock (line 54))
+  Using cached http://pypi.lab.internal:30080/root/pypi/%2Bf/d55/58e0c25a4cb08/stack_data-0.6.3-py3-none-any.whl (24 kB)
+Collecting statsmodels==0.14.1 (from -r configs/requirements-baseline.lock (line 55))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/a53/2dfe899f8b663/statsmodels-0.14.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (10.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.9/10.9 MB 2.8 MB/s eta 0:00:00
+Collecting tenacity==9.0.0 (from -r configs/requirements-baseline.lock (line 56))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/93d/e0c98785b27fc/tenacity-9.0.0-py3-none-any.whl (28 kB)
+Collecting threadpoolctl==3.5.0 (from -r configs/requirements-baseline.lock (line 57))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/56c/1e26c150397e5/threadpoolctl-3.5.0-py3-none-any.whl (18 kB)
+Collecting tomli==2.5.0 (from -r configs/requirements-baseline.lock (line 58))
+  Using cached http://pypi.lab.internal:30080/root/pypi/%2Bf/32a/7b79ac57a2e83/tomli-2.5.0-py3-none-any.whl (14 kB)
+Collecting tqdm==4.70.1 (from -r configs/requirements-baseline.lock (line 59))
+  Using cached http://pypi.lab.internal:30080/root/pypi/%2Bf/c29/3e525e6fef9c2/tqdm-4.70.1-py3-none-any.whl (80 kB)
+Collecting traitlets==5.14.3 (from -r configs/requirements-baseline.lock (line 60))
+  Using cached http://pypi.lab.internal:30080/root/pypi/%2Bf/b74/e89e397b1ed28/traitlets-5.14.3-py3-none-any.whl (85 kB)
+Collecting typing_extensions==4.13.2 (from -r configs/requirements-baseline.lock (line 61))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/a43/9e7c04b49fec3/typing_extensions-4.13.2-py3-none-any.whl (45 kB)
+Collecting wcwidth==0.8.5 (from -r configs/requirements-baseline.lock (line 62))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/04c/88cff9dc3766f/wcwidth-0.8.5-py3-none-any.whl (299 kB)
+Collecting wordcloud==1.9.3 (from -r configs/requirements-baseline.lock (line 63))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/05a/a3269c5af573c/wordcloud-1.9.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (520 kB)
+Collecting xgboost==1.7.6 (from -r configs/requirements-baseline.lock (line 64))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/b1d/5db49b199152d/xgboost-1.7.6-py3-none-manylinux2014_x86_64.whl (200.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 200.3/200.3 MB 2.8 MB/s eta 0:00:00
+Collecting zipp==3.20.2 (from -r configs/requirements-baseline.lock (line 65))
+  Downloading http://pypi.lab.internal:30080/root/pypi/%2Bf/a81/7ac80d6cf4b23/zipp-3.20.2-py3-none-any.whl (9.2 kB)
+Requirement already satisfied: wheel<1.0,>=0.23.0 in ./.env-baseline/lib/python3.8/site-packages (from astunparse==1.6.3->-r configs/requirements-baseline.lock (line 2)) (0.45.1)
+Installing collected packages: pytz, pure_eval, ptyprocess, pickleshare, kaleido, backcall, zipp, wcwidth, typing_extensions, traitlets, tqdm, tomli, threadpoolctl, tenacity, six, rpds-py, regex, pyparsing, Pygments, pluggy, pkgutil_resolve_name, pillow, pexpect, parso, packaging, numpy, kiwisolver, joblib, iniconfig, graphviz, fonttools, executing, decorator, cycler, click, attrs, asttokens, stack-data, scipy, referencing, python-dateutil, pydotplus, prompt_toolkit, plotly, patsy, nltk, matplotlib-inline, jedi, importlib_resources, exceptiongroup, contourpy, astunparse, xgboost, scikit-learn, pytest, pandas, matplotlib, jsonschema-specifications, ipython, wordcloud, statsmodels, seaborn, jsonschema, imbalanced-learn, imblearn
+Successfully installed Pygments-2.10.0 asttokens-3.0.2 astunparse-1.6.3 attrs-25.3.0 backcall-0.2.0 click-8.1.8 contourpy-1.1.1 cycler-0.12.1 decorator-5.3.1 exceptiongroup-1.3.1 executing-2.3.0 fonttools-4.57.0 graphviz-0.20.3 imbalanced-learn-0.11.0 imblearn-0.0 importlib_resources-6.4.5 iniconfig-2.1.0 ipython-8.12.3 jedi-0.19.2 joblib-1.4.2 jsonschema-4.23.0 jsonschema-specifications-2023.12.1 kaleido-0.2.1 kiwisolver-1.4.7 matplotlib-3.7.5 matplotlib-inline-0.1.7 nltk-3.8.1 numpy-1.24.4 packaging-26.2 pandas-1.5.3 parso-0.8.7 patsy-1.0.3 pexpect-4.9.0 pickleshare-0.7.5 pillow-10.4.0 pkgutil_resolve_name-1.3.10 plotly-5.24.1 pluggy-1.5.0 prompt_toolkit-3.0.52 ptyprocess-0.7.0 pure_eval-0.2.4 pydotplus-2.0.2 pyparsing-3.1.4 pytest-8.3.5 python-dateutil-2.9.0.post0 pytz-2026.5 referencing-0.35.1 regex-2024.11.6 rpds-py-0.20.1 scikit-learn-1.3.2 scipy-1.10.1 seaborn-0.12.2 six-1.17.0 stack-data-0.6.3 statsmodels-0.14.1 tenacity-9.0.0 threadpoolctl-3.5.0 tomli-2.5.0 tqdm-4.70.1 traitlets-5.14.3 typing_extensions-4.13.2 wcwidth-0.8.5 wordcloud-1.9.3 xgboost-1.7.6 zipp-3.20.2
+Cloning into 'third_party/leakage-analysis'...
+HEAD is now at a7d038b fix rendering bug
+Submodule 'pyright' (https://github.com/malusamayo/pyright) registered for path 'pyright'
+Cloning into '/tmp/cs6215-clean-repro-k1h36sf9/leakage-project/third_party/leakage-analysis/pyright'...
+Submodule path 'pyright': checked out 'e3d7d9c44ac69fa6bc66bb8a47377fcec034e503'
+npm WARN old lockfile 
+npm WARN old lockfile The package-lock.json file was created with an old version of npm,
+npm WARN old lockfile so supplemental metadata must be fetched from the registry.
+npm WARN old lockfile 
+npm WARN old lockfile This is a one-time fix-up, please be patient...
+npm WARN old lockfile 
+npm WARN deprecated readdir-scoped-modules@1.1.0: This functionality has been moved to @npmcli/fs
+npm WARN deprecated osenv@0.1.5: This package is no longer supported.
+npm WARN deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm WARN deprecated debuglog@1.0.1: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @npmcli/move-file@1.1.2: This functionality has been moved to @npmcli/fs
+npm WARN deprecated @npmcli/ci-detect@1.4.0: this package has been deprecated, use `ci-info` instead
+npm WARN deprecated read-package-json@4.1.1: This package is no longer supported. Please use @npmcli/package-json instead.
+npm WARN deprecated uid-number@0.0.6: This package is no longer supported.
+npm WARN deprecated read-package-json@2.1.2: This package is no longer supported. Please use @npmcli/package-json instead.
+npm WARN deprecated @lerna/write-log-file@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/validation-error@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/timer@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/symlink-dependencies@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/symlink-binary@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/run-topologically@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/run-lifecycle@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/resolve-symlink@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/rimraf-dir@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/query-graph@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/pulse-till-done@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/prompt@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/profiler@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/output@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/npm-run-script@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/otplease@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/npm-dist-tag@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/npm-install@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/global-options@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/get-npm-exec-opts@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/filter-packages@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/create-symlink@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated read-package-json@3.0.1: This package is no longer supported. Please use @npmcli/package-json instead.
+npm WARN deprecated read-package-tree@5.3.1: The functionality that this package provided is now in @npmcli/arborist
+npm WARN deprecated git-semver-tags@4.1.1: Deprecated and no longer maintained. Use @conventional-changelog/git-client instead.
+npm WARN deprecated git-raw-commits@2.0.10: Deprecated and no longer maintained. Use @conventional-changelog/git-client instead.
+npm WARN deprecated figgy-pudding@3.5.2: This module is no longer supported.
+npm WARN deprecated @lerna/prerelease-id-from-version@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/pack-directory@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/log-packed@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/info@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/has-npm-version@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/import@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/get-packed@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/github-client@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/describe-ref@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/check-working-tree@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/collect-uncommitted@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated rimraf@2.7.1: Rimraf versions prior to v4 are no longer supported
+npm WARN deprecated npmlog@4.1.2: This package is no longer supported.
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated @lerna/package@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/npm-publish@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/gitlab-client@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/cli@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+npm WARN deprecated lodash.template@4.5.0: This package is deprecated. Use https://socket.dev/npm/package/eta instead.
+npm WARN deprecated @lerna/run@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/link@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/list@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/init@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/exec@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/clean@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/changed@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @humanwhocodes/config-array@0.6.0: Use @eslint/config-array instead
+npm WARN deprecated @lerna/filter-options@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated libnpmconfig@1.2.1: This module is not used anymore. npm config is parsed by npm itself and by @npmcli/config
+npm WARN deprecated are-we-there-yet@1.1.7: This package is no longer supported.
+npm WARN deprecated @lerna/listable@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/add@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated glob@7.2.0: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+npm WARN deprecated @lerna/package-graph@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/diff@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/command@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated glob@7.1.7: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+npm WARN deprecated @lerna/collect-updates@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/bootstrap@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated q@1.5.1: You or someone you depend on is using Q, the JavaScript Promise library that gave JavaScript developers strong feelings about promises. They can almost certainly migrate to the native JavaScript promise now. Thank you literally everyone for joining me in this bet against the odds. Be excellent to each other.
+npm WARN deprecated 
+npm WARN deprecated (For a CapTP with native promises, see @endo/eventual-send and @endo/captp)
+npm WARN deprecated npm-lifecycle@3.1.5: The lifecycle script runner used in npm is now @npmcli/run-script. Please use that module moving forward
+npm WARN deprecated conventional-changelog-core@4.2.4: Deprecated and no longer maintained. Please use conventional-changelog instead.
+npm WARN deprecated @lerna/project@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/create@4.0.0: This package is an implementation detail of Lerna and is no longer published separately.
+npm WARN deprecated @lerna/npm-conf@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/conventional-commits@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @humanwhocodes/object-schema@1.2.1: Use @eslint/object-schema instead
+npm WARN deprecated uuid@3.4.0: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
+npm WARN deprecated gauge@2.7.4: This package is no longer supported.
+npm WARN deprecated @lerna/version@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @lerna/publish@4.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated tar@4.4.19: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+npm WARN deprecated tar@6.1.11: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+npm WARN deprecated tar@6.1.11: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+npm WARN deprecated tar@6.1.11: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+npm WARN deprecated tar@6.1.11: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+npm WARN deprecated tar@6.1.11: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+npm WARN deprecated eslint@8.1.0: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+
+> postinstall
+> npm run bootstrap
+
+
+> bootstrap
+> node ./build/skipBootstrap.js || lerna bootstrap
+
+lerna notice cli v4.0.0
+lerna info Bootstrapping 3 packages
+lerna info Installing external dependencies
+lerna info Symlinking packages and binaries
+lerna success Bootstrapped 3 packages
+
+added 846 packages, and audited 847 packages in 13s
+
+98 packages are looking for funding
+  run `npm fund` for details
+
+79 vulnerabilities (8 low, 20 moderate, 40 high, 11 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+> pyright@1.1.188 build
+> webpack --mode production --progress
+
+<s> [webpack.Progress] 0% 
+
+<s> [webpack.Progress] 1% setup initialize
+<s> [webpack.Progress] 1% setup initialize
+<s> [webpack.Progress] 2% setup before run
+<s> [webpack.Progress] 2% setup before run NodeEnvironmentPlugin
+<s> [webpack.Progress] 2% setup before run
+<s> [webpack.Progress] 3% setup run
+<s> [webpack.Progress] 3% setup run webpack-cli
+<s> [webpack.Progress] 3% setup run
+<s> [webpack.Progress] 4% setup normal module factory
+<s> [webpack.Progress] 4% setup normal module factory
+<s> [webpack.Progress] 5% setup context module factory
+<s> [webpack.Progress] 5% setup context module factory
+<s> [webpack.Progress] 6% setup before compile
+<s> [webpack.Progress] 6% setup before compile ProgressPlugin
+<s> [webpack.Progress] 6% setup before compile
+<s> [webpack.Progress] 7% setup compile
+<s> [webpack.Progress] 7% setup compile ExternalsPlugin
+<s> [webpack.Progress] 7% setup compile ExternalsPlugin
+<s> [webpack.Progress] 7% setup compile
+<s> [webpack.Progress] 8% setup compilation
+<s> [webpack.Progress] 8% setup compilation CopyPlugin
+<s> [webpack.Progress] 8% setup compilation CommonJsChunkFormatPlugin
+<s> [webpack.Progress] 8% setup compilation StartupChunkDependenciesPlugin
+<s> [webpack.Progress] 8% setup compilation CommonJsChunkLoadingPlugin
+<s> [webpack.Progress] 8% setup compilation ReadFileCompileWasmPlugin
+<s> [webpack.Progress] 8% setup compilation ReadFileCompileAsyncWasmPlugin
+<s> [webpack.Progress] 8% setup compilation WorkerPlugin
+<s> [webpack.Progress] 8% setup compilation SplitChunksPlugin
+<s> [webpack.Progress] 8% setup compilation ResolverCachePlugin
+<s> [webpack.Progress] 8% setup compilation
+<s> [webpack.Progress] 9% setup compilation
+<s> [webpack.Progress] 9% setup compilation ProgressPlugin
+<s> [webpack.Progress] 9% setup compilation ChunkPrefetchPreloadPlugin
+<s> [webpack.Progress] 9% setup compilation SourceMapDevToolPlugin
+<s> [webpack.Progress] 9% setup compilation JavascriptModulesPlugin
+<s> [webpack.Progress] 9% setup compilation JsonModulesPlugin
+<s> [webpack.Progress] 9% setup compilation AssetModulesPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation EntryPlugin
+<s> [webpack.Progress] 9% setup compilation RuntimePlugin
+<s> [webpack.Progress] 9% setup compilation InferAsyncModulesPlugin
+<s> [webpack.Progress] 9% setup compilation DataUriPlugin
+<s> [webpack.Progress] 9% setup compilation FileUriPlugin
+<s> [webpack.Progress] 9% setup compilation CompatibilityPlugin
+<s> [webpack.Progress] 9% setup compilation HarmonyModulesPlugin
+<s> [webpack.Progress] 9% setup compilation AMDPlugin
+<s> [webpack.Progress] 9% setup compilation RequireJsStuffPlugin
+<s> [webpack.Progress] 9% setup compilation CommonJsPlugin
+<s> [webpack.Progress] 9% setup compilation LoaderPlugin
+<s> [webpack.Progress] 9% setup compilation LoaderPlugin
+<s> [webpack.Progress] 9% setup compilation NodeStuffPlugin
+<s> [webpack.Progress] 9% setup compilation APIPlugin
+<s> [webpack.Progress] 9% setup compilation ExportsInfoApiPlugin
+<s> [webpack.Progress] 9% setup compilation WebpackIsIncludedPlugin
+<s> [webpack.Progress] 9% setup compilation ConstPlugin
+<s> [webpack.Progress] 9% setup compilation UseStrictPlugin
+<s> [webpack.Progress] 9% setup compilation RequireIncludePlugin
+<s> [webpack.Progress] 9% setup compilation RequireEnsurePlugin
+<s> [webpack.Progress] 9% setup compilation RequireContextPlugin
+<s> [webpack.Progress] 9% setup compilation ImportPlugin
+<s> [webpack.Progress] 9% setup compilation SystemPlugin
+<s> [webpack.Progress] 9% setup compilation ImportMetaPlugin
+<s> [webpack.Progress] 9% setup compilation URLPlugin
+<s> [webpack.Progress] 9% setup compilation DefaultStatsFactoryPlugin
+<s> [webpack.Progress] 9% setup compilation DefaultStatsPresetPlugin
+<s> [webpack.Progress] 9% setup compilation DefaultStatsPrinterPlugin
+<s> [webpack.Progress] 9% setup compilation JavascriptMetaInfoPlugin
+<s> [webpack.Progress] 9% setup compilation EnsureChunkConditionsPlugin
+<s> [webpack.Progress] 9% setup compilation RemoveEmptyChunksPlugin
+<s> [webpack.Progress] 9% setup compilation MergeDuplicateChunksPlugin
+<s> [webpack.Progress] 9% setup compilation FlagIncludedChunksPlugin
+<s> [webpack.Progress] 9% setup compilation SideEffectsFlagPlugin
+<s> [webpack.Progress] 9% setup compilation FlagDependencyExportsPlugin
+<s> [webpack.Progress] 9% setup compilation FlagDependencyUsagePlugin
+<s> [webpack.Progress] 9% setup compilation InnerGraphPlugin
+<s> [webpack.Progress] 9% setup compilation MangleExportsPlugin
+<s> [webpack.Progress] 9% setup compilation ModuleConcatenationPlugin
+<s> [webpack.Progress] 9% setup compilation NoEmitOnErrorsPlugin
+<s> [webpack.Progress] 9% setup compilation RealContentHashPlugin
+<s> [webpack.Progress] 9% setup compilation WasmFinalizeExportsPlugin
+<s> [webpack.Progress] 9% setup compilation DeterministicModuleIdsPlugin
+<s> [webpack.Progress] 9% setup compilation DeterministicChunkIdsPlugin
+<s> [webpack.Progress] 9% setup compilation DefinePlugin
+<s> [webpack.Progress] 9% setup compilation TerserPlugin
+<s> [webpack.Progress] 9% setup compilation TemplatedPathPlugin
+<s> [webpack.Progress] 9% setup compilation RecordIdsPlugin
+<s> [webpack.Progress] 9% setup compilation WarnCaseSensitiveModulesPlugin
+<s> [webpack.Progress] 9% setup compilation
+<s> [webpack.Progress] 10% building
+<s> [webpack.Progress] 10% building 0/1 entries 0/0 dependencies 0/0 modules
+<s> [webpack.Progress] 10% building import loader ./node_modules/ts-loader/index.js
+<s> [webpack.Progress] 10% building 0/2 entries 2/2 dependencies 0/2 modules
+<s> [webpack.Progress] 10% building 0/2 entries 2/3 dependencies 0/2 modules
+<s> [webpack.Progress] 10% building 0/2 entries 11/25 dependencies 0/9 modules
+<s> [webpack.Progress] 10% building 0/2 entries 22/25 dependencies 1/21 modules
+<s> [webpack.Progress] 10% building 0/2 entries 65/81 dependencies 9/38 modules
+<s> [webpack.Progress] 10% building 0/2 entries 119/128 dependencies 23/60 modules
+<s> [webpack.Progress] 10% building 0/2 entries 220/228 dependencies 32/85 modules
+<s> [webpack.Progress] 10% building 0/2 entries 275/321 dependencies 43/98 modules
+<s> [webpack.Progress] 10% building 0/2 entries 351/379 dependencies 44/144 modules
+<s> [webpack.Progress] 10% building 0/2 entries 500/524 dependencies 71/175 modules
+<s> [webpack.Progress] 11% building 0/2 entries 700/721 dependencies 121/218 modules
+<s> [webpack.Progress] 11% building 0/2 entries 900/930 dependencies 164/246 modules
+<s> [webpack.Progress] 37% building 1/2 entries 1162/1172 dependencies 281/317 modules
+<s> [webpack.Progress] 65% building 2/2 entries 1185/1185 dependencies 324/324 modules
+<s> [webpack.Progress] 65% building
+<s> [webpack.Progress] 69% building finish
+<s> [webpack.Progress] 69% building finish
+<s> [webpack.Progress] 70% sealing finish module graph
+<s> [webpack.Progress] 70% sealing finish module graph ResolverCachePlugin
+<s> [webpack.Progress] 70% sealing finish module graph InferAsyncModulesPlugin
+<s> [webpack.Progress] 70% sealing finish module graph FlagDependencyExportsPlugin
+<s> [webpack.Progress] 70% sealing finish module graph InnerGraphPlugin
+<s> [webpack.Progress] 70% sealing finish module graph WasmFinalizeExportsPlugin
+<s> [webpack.Progress] 70% sealing finish module graph
+<s> [webpack.Progress] 70% sealing plugins
+<s> [webpack.Progress] 70% sealing plugins WarnCaseSensitiveModulesPlugin
+<s> [webpack.Progress] 70% sealing plugins
+<s> [webpack.Progress] 71% sealing dependencies optimization
+<s> [webpack.Progress] 71% sealing dependencies optimization SideEffectsFlagPlugin
+<s> [webpack.Progress] 71% sealing dependencies optimization FlagDependencyUsagePlugin
+<s> [webpack.Progress] 71% sealing dependencies optimization
+<s> [webpack.Progress] 71% sealing after dependencies optimization
+<s> [webpack.Progress] 71% sealing after dependencies optimization
+<s> [webpack.Progress] 72% sealing chunk graph
+<s> [webpack.Progress] 72% sealing chunk graph
+<s> [webpack.Progress] 73% sealing after chunk graph
+<s> [webpack.Progress] 73% sealing after chunk graph
+<s> [webpack.Progress] 73% sealing optimizing
+<s> [webpack.Progress] 73% sealing optimizing
+<s> [webpack.Progress] 74% sealing module optimization
+<s> [webpack.Progress] 74% sealing module optimization
+<s> [webpack.Progress] 75% sealing after module optimization
+<s> [webpack.Progress] 75% sealing after module optimization
+<s> [webpack.Progress] 75% sealing chunk optimization
+<s> [webpack.Progress] 75% sealing chunk optimization EnsureChunkConditionsPlugin
+<s> [webpack.Progress] 75% sealing chunk optimization RemoveEmptyChunksPlugin
+<s> [webpack.Progress] 75% sealing chunk optimization MergeDuplicateChunksPlugin
+<s> [webpack.Progress] 75% sealing chunk optimization SplitChunksPlugin
+<s> [webpack.Progress] 75% sealing chunk optimization RemoveEmptyChunksPlugin
+<s> [webpack.Progress] 75% sealing chunk optimization
+<s> [webpack.Progress] 76% sealing after chunk optimization
+<s> [webpack.Progress] 76% sealing after chunk optimization
+<s> [webpack.Progress] 77% sealing module and chunk tree optimization
+<s> [webpack.Progress] 77% sealing module and chunk tree optimization
+<s> [webpack.Progress] 77% sealing after module and chunk tree optimization
+<s> [webpack.Progress] 77% sealing after module and chunk tree optimization
+<s> [webpack.Progress] 78% sealing chunk modules optimization
+<s> [webpack.Progress] 78% sealing chunk modules optimization ModuleConcatenationPlugin
+<s> [webpack.Progress] 78% sealing chunk modules optimization
+<s> [webpack.Progress] 78% sealing after chunk modules optimization
+<s> [webpack.Progress] 78% sealing after chunk modules optimization
+<s> [webpack.Progress] 79% sealing module reviving
+<s> [webpack.Progress] 79% sealing module reviving RecordIdsPlugin
+<s> [webpack.Progress] 79% sealing module reviving
+<s> [webpack.Progress] 80% sealing before module ids
+<s> [webpack.Progress] 80% sealing before module ids
+<s> [webpack.Progress] 80% sealing module ids
+<s> [webpack.Progress] 80% sealing module ids DeterministicModuleIdsPlugin
+<s> [webpack.Progress] 80% sealing module ids
+<s> [webpack.Progress] 81% sealing module id optimization
+<s> [webpack.Progress] 81% sealing module id optimization
+<s> [webpack.Progress] 82% sealing module id optimization
+<s> [webpack.Progress] 82% sealing module id optimization
+<s> [webpack.Progress] 82% sealing chunk reviving
+<s> [webpack.Progress] 82% sealing chunk reviving RecordIdsPlugin
+<s> [webpack.Progress] 82% sealing chunk reviving
+<s> [webpack.Progress] 83% sealing before chunk ids
+<s> [webpack.Progress] 83% sealing before chunk ids
+<s> [webpack.Progress] 84% sealing chunk ids
+<s> [webpack.Progress] 84% sealing chunk ids DeterministicChunkIdsPlugin
+<s> [webpack.Progress] 84% sealing chunk ids
+<s> [webpack.Progress] 84% sealing chunk id optimization
+<s> [webpack.Progress] 84% sealing chunk id optimization FlagIncludedChunksPlugin
+<s> [webpack.Progress] 84% sealing chunk id optimization
+<s> [webpack.Progress] 85% sealing after chunk id optimization
+<s> [webpack.Progress] 85% sealing after chunk id optimization
+<s> [webpack.Progress] 86% sealing record modules
+<s> [webpack.Progress] 86% sealing record modules RecordIdsPlugin
+<s> [webpack.Progress] 86% sealing record modules
+<s> [webpack.Progress] 86% sealing record chunks
+<s> [webpack.Progress] 86% sealing record chunks RecordIdsPlugin
+<s> [webpack.Progress] 86% sealing record chunks
+<s> [webpack.Progress] 87% sealing module hashing
+<s> [webpack.Progress] 87% sealing module hashing
+<s> [webpack.Progress] 87% sealing code generation
+<s> [webpack.Progress] 87% sealing code generation
+<s> [webpack.Progress] 88% sealing runtime requirements
+<s> [webpack.Progress] 88% sealing runtime requirements
+<s> [webpack.Progress] 89% sealing hashing
+<s> [webpack.Progress] 89% sealing hashing
+<s> [webpack.Progress] 89% sealing after hashing
+<s> [webpack.Progress] 89% sealing after hashing
+<s> [webpack.Progress] 90% sealing record hash
+<s> [webpack.Progress] 90% sealing record hash
+<s> [webpack.Progress] 91% sealing module assets processing
+<s> [webpack.Progress] 91% sealing module assets processing
+<s> [webpack.Progress] 91% sealing chunk assets processing
+<s> [webpack.Progress] 91% sealing chunk assets processing
+<s> [webpack.Progress] 92% sealing asset processing
+<s> [webpack.Progress] 92% sealing asset processing copy-webpack-plugin
+<s> [webpack.Progress] 92% sealing asset processing ts-loader
+<s> [webpack.Progress] 92% sealing asset processing TerserPlugin
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin pyright.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin pyright.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin pyright-langserver.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin pyright-langserver.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin vendor.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin vendor.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin pyright-internal.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin pyright-internal.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin resolve sources
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin pyright.js attach SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin pyright.js attached SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin pyright-langserver.js attach SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin pyright-langserver.js attached SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin vendor.js attach SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin vendor.js attached SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin pyright-internal.js attach SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin pyright-internal.js attached SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin resolve sources
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin
+<s> [webpack.Progress] 92% sealing asset processing
+<s> [webpack.Progress] 93% sealing after asset optimization
+<s> [webpack.Progress] 93% sealing after asset optimization
+<s> [webpack.Progress] 93% sealing recording
+<s> [webpack.Progress] 93% sealing recording
+<s> [webpack.Progress] 94% sealing after seal
+<s> [webpack.Progress] 94% sealing after seal
+<s> [webpack.Progress] 95% emitting emit
+<s> [webpack.Progress] 95% emitting emit CleanPlugin
+<s> [webpack.Progress] 95% emitting emit
+<s> [webpack.Progress] 98% emitting after emit
+<s> [webpack.Progress] 98% emitting after emit
+<s> [webpack.Progress] 99% done plugins
+<s> [webpack.Progress] 99% done plugins
+<s> [webpack.Progress] 99% 
+
+<s> [webpack.Progress] 99% cache store build dependencies
+<s> [webpack.Progress] 99% cache store build dependencies
+<s> [webpack.Progress] 99% cache begin idle
+<s> [webpack.Progress] 99% cache begin idle
+<s> [webpack.Progress] 100% 
+
+<s> [webpack.Progress] 99% cache shutdown
+<s> [webpack.Progress] 99% cache shutdown
+<s> [webpack.Progress] 100% 
+
+runs/environment/audit.json
+Environment ready. Run baseline_smoke.py in a fresh output directory.

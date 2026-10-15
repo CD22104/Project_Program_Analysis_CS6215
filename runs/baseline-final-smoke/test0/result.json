@@ -1,0 +1,44 @@
+{
+  "command": [
+    "/home/dchen/workplace/CS6215/leakage-project/.env-baseline/bin/python",
+    "-m",
+    "src.main",
+    "/home/dchen/workplace/CS6215/leakage-project/runs/baseline-final-smoke/test0/work/input.py"
+  ],
+  "config_sha256": "42b5e51ee5ce1f149eb1ac01b940f34b77e9307c6b373499b4256f1f76e98f3f",
+  "diagnostics": [],
+  "elapsed_seconds": 3.5387009736150503,
+  "errors": [],
+  "location_available": false,
+  "method": "S0",
+  "raw_preprocessing_rows": [
+    [
+      "_var8",
+      "$invo9",
+      "LogisticRegression.fit",
+      "[, ]"
+    ]
+  ],
+  "returncode": 0,
+  "sample_id": "test0",
+  "scope_projection": "raw upstream; may include test-only effects",
+  "scope_status": "leak",
+  "source_sha256": "be8e9bd1cb31648beffd0ba599660f57292acc892cbb1d7cdcc042cb04ccb9d9",
+  "status": "leak",
+  "train_affecting_projection": [
+    [
+      "clf_0",
+      "X_train",
+      "$invo9",
+      "LogisticRegression.fit",
+      "[, ]",
+      "clf_0",
+      "X_test",
+      "$invo10",
+      "LogisticRegression.predict",
+      "[, ]",
+      "_var9",
+      "_var8"
+    ]
+  ]
+}
